@@ -4,6 +4,12 @@
 
   (paper "B")
 
+  (title_block
+    (title "1-DIN Control Panel")
+    (date "2024-01-02")
+    (company "KX0STL")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM324A" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
@@ -2545,6 +2551,9 @@
   (junction (at 96.52 127) (diameter 0) (color 0 0 0 0)
     (uuid 1296515f-97ae-42a8-8999-902da3cf8fa2)
   )
+  (junction (at 194.31 237.49) (diameter 0) (color 0 0 0 0)
+    (uuid 19a17826-065e-486e-8263-6e8f62df03b4)
+  )
   (junction (at 133.35 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 1b7b253c-d939-46e3-9a3c-34646bef60e8)
   )
@@ -2583,6 +2592,9 @@
   )
   (junction (at 289.56 168.91) (diameter 0) (color 0 0 0 0)
     (uuid 4fa0db9b-67f7-474f-80fa-669de821baf7)
+  )
+  (junction (at 194.31 308.61) (diameter 0) (color 0 0 0 0)
+    (uuid 57721d5c-3edd-4e24-9595-bd5d05906ad5)
   )
   (junction (at 247.65 144.78) (diameter 0) (color 0 0 0 0)
     (uuid 61e2a2e9-012d-42c2-9574-360c0a4c7f24)
@@ -3184,7 +3196,7 @@
     (stroke (width 0) (type default))
     (uuid 0c03afef-3d1b-48d6-83c9-9f86eaa85786)
   )
-  (bus (pts (xy 213.36 227.33) (xy 213.36 224.79))
+  (bus (pts (xy 213.36 224.79) (xy 213.36 227.33))
     (stroke (width 0) (type default))
     (uuid 0eee89cb-3c2e-41d7-8955-fac7a9b39433)
   )
@@ -3497,6 +3509,10 @@
     (stroke (width 0) (type default))
     (uuid 39da6bef-dac8-49a5-9dc5-382cb05091c6)
   )
+  (wire (pts (xy 194.31 308.61) (xy 219.71 308.61))
+    (stroke (width 0) (type default))
+    (uuid 3a22cae5-f910-4950-b1e8-67519e734889)
+  )
   (bus (pts (xy 149.86 222.25) (xy 149.86 224.79))
     (stroke (width 0) (type default))
     (uuid 3a813368-67ba-4b7e-a2ba-7da55880dd25)
@@ -3525,6 +3541,10 @@
   (wire (pts (xy 334.01 35.56) (xy 335.28 35.56))
     (stroke (width 0) (type default))
     (uuid 3de281fe-545e-47d2-b443-7383d8ae27e9)
+  )
+  (wire (pts (xy 219.71 237.49) (xy 194.31 237.49))
+    (stroke (width 0) (type default))
+    (uuid 3e30c641-ba29-4608-950a-88942a4cbba7)
   )
   (wire (pts (xy 302.26 157.48) (xy 319.405 157.48))
     (stroke (width 0) (type default))
@@ -3694,7 +3714,7 @@
     (uuid 52819fba-cb10-4963-8c4e-5544f841b70a)
   )
 
-  (wire (pts (xy 208.28 240.03) (xy 194.31 240.03))
+  (wire (pts (xy 204.47 240.03) (xy 194.31 240.03))
     (stroke (width 0) (type default))
     (uuid 533b44f3-7d7f-4442-ace1-9497d8c6d0fe)
   )
@@ -3743,6 +3763,10 @@
   (wire (pts (xy 93.98 73.66) (xy 114.3 73.66))
     (stroke (width 0) (type default))
     (uuid 58bfaa1e-87f7-4763-b23a-cf86662393f4)
+  )
+  (wire (pts (xy 219.71 308.61) (xy 219.71 237.49))
+    (stroke (width 0) (type default))
+    (uuid 58e595f1-bb1b-4c06-9439-7915557a0df0)
   )
   (wire (pts (xy 55.88 119.38) (xy 78.74 119.38))
     (stroke (width 0) (type default))
@@ -3881,6 +3905,10 @@
     (stroke (width 0) (type default))
     (uuid 6adae80e-746a-4d61-abcd-5261d8b3036a)
   )
+  (wire (pts (xy 204.47 311.15) (xy 194.31 311.15))
+    (stroke (width 0) (type default))
+    (uuid 6b6685e4-d6bd-43c4-8648-1970f261dd3b)
+  )
   (wire (pts (xy 96.52 143.51) (xy 102.87 143.51))
     (stroke (width 0) (type default))
     (uuid 6ba943d4-858a-4023-a6c5-ac37b3893e44)
@@ -3970,7 +3998,7 @@
     (uuid 770c97af-beff-4aeb-ae4f-8cd059f361a6)
   )
 
-  (wire (pts (xy 201.93 246.38) (xy 201.93 245.11))
+  (wire (pts (xy 194.31 246.38) (xy 194.31 245.11))
     (stroke (width 0) (type default))
     (uuid 7834ab5a-ee21-4bad-af5b-9f0a2621faed)
   )
@@ -4001,10 +4029,6 @@
   (wire (pts (xy 93.98 78.74) (xy 96.52 78.74))
     (stroke (width 0) (type default))
     (uuid 7d85383a-3657-436c-8212-acc02ab07e70)
-  )
-  (wire (pts (xy 208.28 317.5) (xy 208.28 311.15))
-    (stroke (width 0) (type default))
-    (uuid 7dd31e7c-86d1-482c-b2b7-195fbed66f8e)
   )
   (bus (pts (xy 149.86 288.29) (xy 149.86 290.83))
     (stroke (width 0) (type default))
@@ -4132,6 +4156,10 @@
   (wire (pts (xy 40.64 232.41) (xy 20.32 232.41))
     (stroke (width 0) (type default))
     (uuid 91655415-17b6-49f9-99e2-e3d443945815)
+  )
+  (wire (pts (xy 194.31 317.5) (xy 194.31 316.23))
+    (stroke (width 0) (type default))
+    (uuid 9186ba1e-3d7a-4b35-b3d2-f84c03c22d06)
   )
   (wire (pts (xy 52.07 96.52) (xy 52.07 129.54))
     (stroke (width 0) (type default))
@@ -4404,6 +4432,10 @@
     (uuid b6c6ddbe-0b29-4250-8f02-40b7c8df19d7)
   )
 
+  (wire (pts (xy 204.47 317.5) (xy 204.47 311.15))
+    (stroke (width 0) (type default))
+    (uuid b6d49806-14df-4c46-992a-eb824600fd10)
+  )
   (wire (pts (xy 386.08 162.56) (xy 386.08 135.89))
     (stroke (width 0) (type default))
     (uuid b6dc9745-3ee2-4027-8d99-baea566753bd)
@@ -4428,10 +4460,6 @@
   (wire (pts (xy 325.12 33.02) (xy 327.66 33.02))
     (stroke (width 0) (type default))
     (uuid b9619a13-aa71-4536-a680-22925026158c)
-  )
-  (wire (pts (xy 201.93 245.11) (xy 194.31 245.11))
-    (stroke (width 0) (type default))
-    (uuid ba390b03-d6e7-4a1d-b5c0-b6a071a9ba91)
   )
   (bus (pts (xy 149.86 278.13) (xy 149.86 280.67))
     (stroke (width 0) (type default))
@@ -4460,6 +4488,11 @@
     (stroke (width 0) (type default))
     (uuid bc344c54-eec4-42f4-a6cd-270a1f32c52b)
   )
+  (bus (pts (xy 213.36 227.33) (xy 213.36 290.83))
+    (stroke (width 0) (type default))
+    (uuid bccc7063-a6e3-46a2-8349-55fb29b72a10)
+  )
+
   (wire (pts (xy 247.65 144.78) (xy 266.7 144.78))
     (stroke (width 0) (type default))
     (uuid bd979830-9b13-463c-b902-d72b14ae1393)
@@ -4473,10 +4506,6 @@
     (uuid be91955f-50d4-4f35-81d5-08d62eab51dc)
   )
 
-  (wire (pts (xy 201.93 316.23) (xy 194.31 316.23))
-    (stroke (width 0) (type default))
-    (uuid beda072e-6d77-4ab9-bc89-ee8e105f597b)
-  )
   (wire (pts (xy 40.64 229.87) (xy 20.32 229.87))
     (stroke (width 0) (type default))
     (uuid c08d1a32-5c96-4770-a96f-3386de23b560)
@@ -4647,10 +4676,6 @@
     (stroke (width 0) (type default))
     (uuid dad40d63-f7ab-498f-91f9-36b3b531e2ea)
   )
-  (wire (pts (xy 208.28 311.15) (xy 194.31 311.15))
-    (stroke (width 0) (type default))
-    (uuid db0acf2a-a0ac-4bb2-84ac-e5ee9d13339a)
-  )
   (bus (pts (xy 149.86 283.21) (xy 149.86 285.75))
     (stroke (width 0) (type default))
     (uuid db292a42-cacb-4b7a-b479-bb7979cf9963)
@@ -4771,7 +4796,7 @@
     (stroke (width 0) (type default))
     (uuid ef0b6911-f107-43e1-877b-96c481a64017)
   )
-  (wire (pts (xy 208.28 246.38) (xy 208.28 240.03))
+  (wire (pts (xy 204.47 246.38) (xy 204.47 240.03))
     (stroke (width 0) (type default))
     (uuid efff4193-e0ac-45f5-bf06-7928a156b373)
   )
@@ -4791,10 +4816,6 @@
   (wire (pts (xy 344.17 170.18) (xy 353.06 170.18))
     (stroke (width 0) (type default))
     (uuid f376c98a-1c33-4f06-9853-32668909d575)
-  )
-  (wire (pts (xy 201.93 317.5) (xy 201.93 316.23))
-    (stroke (width 0) (type default))
-    (uuid f474a14c-ee36-4f29-9771-ea2446731793)
   )
   (wire (pts (xy 181.61 269.24) (xy 184.15 269.24))
     (stroke (width 0) (type default))
@@ -6946,6 +6967,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c990310d-d022-48ca-b923-3848bcfca1a7)
   )
+  (text "Mode\nSelector\nKnob" (at 20.32 133.35 0)
+    (effects (font (size 3.81 3.81) (thickness 0.762) bold) (justify left bottom))
+    (uuid ef8e7518-2217-4cb9-94eb-88a3aee1d990)
+  )
   (text "Mode Selector LED PWM Brightness Control" (at 134.62 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f56bdce4-f9f4-4f33-9955-9afb32b49a19)
@@ -7479,13 +7504,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 114.3 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00317614-e339-4f4b-a12b-5222fe6c79cd)
-    (property "Reference" "D9" (at 116.5225 107.9967 0)
+    (property "Reference" "D6" (at 116.5225 107.9967 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 110.4209 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 114.3 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 114.3 0)
@@ -7496,7 +7521,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D9") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -7505,7 +7530,7 @@
   (symbol (lib_id "power:GND") (at 226.06 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 055eacbd-c73d-4b75-8e94-0967ab31df39)
-    (property "Reference" "#PWR01" (at 226.06 101.6 0)
+    (property "Reference" "#PWR019" (at 226.06 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 99.8125 0)
@@ -7521,7 +7546,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -7530,7 +7555,7 @@
   (symbol (lib_id "power:GND") (at 327.66 41.91 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 059c451f-ac4a-467a-8a94-26c1c142fabf)
-    (property "Reference" "#PWR05" (at 327.66 48.26 0)
+    (property "Reference" "#PWR031" (at 327.66 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 327.66 46.4725 0)
@@ -7546,7 +7571,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -7555,7 +7580,7 @@
   (symbol (lib_id "power:GND") (at 181.61 327.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 071410c3-16c6-42f7-b2ed-7d347d8e9ba6)
-    (property "Reference" "#PWR038" (at 181.61 334.01 0)
+    (property "Reference" "#PWR012" (at 181.61 334.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 331.7931 0)
@@ -7571,32 +7596,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 208.28 325.12 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 07c9c96d-6947-4806-a34a-979157586aaf)
-    (property "Reference" "#PWR040" (at 208.28 331.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 208.28 329.2531 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 208.28 325.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 208.28 325.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 38576e50-9937-48d3-9fbb-bf1aedac2346))
-    (instances
-      (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -7605,7 +7605,7 @@
   (symbol (lib_id "power:GND") (at 143.51 207.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0813888d-e4cc-4909-82a2-783ddaaeaab2)
-    (property "Reference" "#PWR023" (at 143.51 213.36 0)
+    (property "Reference" "#PWR09" (at 143.51 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 211.1431 0)
@@ -7621,33 +7621,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_US") (at 201.93 321.31 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 096b3fb0-ab5c-4b0b-9799-13d9b1617a26)
-    (property "Reference" "R20" (at 200.279 320.0979 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "56kΩ" (at 200.279 322.5221 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 202.946 321.056 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 201.93 321.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid e6301649-9c35-44b6-bcac-fe9bade3af33))
-    (pin "1" (uuid a8bcf7fd-a5a7-4421-98f1-ad36cc7c0423))
-    (instances
-      (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R20") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -7656,7 +7630,7 @@
   (symbol (lib_id "Amplifier_Operational:LM324A") (at 361.95 167.64 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a48ce44-ceb7-4cf2-b8d4-b9dfa244b8fd)
-    (property "Reference" "U8" (at 361.95 159.385 0)
+    (property "Reference" "U7" (at 361.95 159.385 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM324DR" (at 361.95 161.29 0)
@@ -7685,7 +7659,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -7694,7 +7668,7 @@
   (symbol (lib_id "Device:C") (at 344.17 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0bca8e50-7895-4c4b-9ed3-d049f688a6a1)
-    (property "Reference" "C6" (at 346.71 173.99 0)
+    (property "Reference" "C17" (at 346.71 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 346.71 176.4142 0)
@@ -7711,7 +7685,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C6") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -7720,13 +7694,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 121.92 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d03db27-2db6-46b8-b8dc-0c6805e24ba7)
-    (property "Reference" "D10" (at 116.5225 115.6167 0)
+    (property "Reference" "D7" (at 116.5225 115.6167 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 118.0409 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 121.92 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 121.92 0)
@@ -7737,7 +7711,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D10") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -7746,7 +7720,7 @@
   (symbol (lib_id "Device:C") (at 143.51 274.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d09dfca-3830-4e36-9f45-1308f76672b5)
-    (property "Reference" "C17" (at 140.589 273.1079 0)
+    (property "Reference" "C6" (at 140.589 273.1079 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 140.589 275.5321 0)
@@ -7763,7 +7737,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C17") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -7772,7 +7746,7 @@
   (symbol (lib_id "power:VCC") (at 325.12 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1011de83-0366-406d-990b-40572817dddf)
-    (property "Reference" "#PWR04" (at 325.12 33.02 0)
+    (property "Reference" "#PWR030" (at 325.12 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 325.12 25.0769 0)
@@ -7788,7 +7762,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -7797,7 +7771,7 @@
   (symbol (lib_id "Device:R_US") (at 319.405 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 111c1255-fd23-4ca7-861e-0c47ac3d9e79)
-    (property "Reference" "R6" (at 321.056 151.1879 0)
+    (property "Reference" "R14" (at 321.056 151.1879 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100kΩ" (at 321.056 153.6121 0)
@@ -7814,7 +7788,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R6") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -7823,7 +7797,7 @@
   (symbol (lib_id "power:GND") (at 130.81 207.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 146f364b-8389-4c01-9a53-d9be5804fc43)
-    (property "Reference" "#PWR022" (at 130.81 213.36 0)
+    (property "Reference" "#PWR07" (at 130.81 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 211.1431 0)
@@ -7839,7 +7813,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -7854,7 +7828,7 @@
     (property "Value" "MAX 6954 - SSOP" (at 186.3441 271.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 182.88 299.72 0)
+    (property "Footprint" "Package_SO:SSOP-44_5.3x12.8mm_P0.5mm" (at 182.88 299.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6954.pdf" (at 182.88 299.72 0)
@@ -7908,7 +7882,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 367.03 189.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16c9e017-54bc-4b0a-bda8-eaf44f67eaa4)
-    (property "Reference" "#PWR018" (at 367.03 195.58 0)
+    (property "Reference" "#PWR036" (at 367.03 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 367.03 193.3631 0)
@@ -7924,7 +7898,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -7933,7 +7907,7 @@
   (symbol (lib_id "power:+5V") (at 231.14 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 184225ee-daf9-4ae6-92d8-ccc557ca9e40)
-    (property "Reference" "#PWR033" (at 231.14 86.36 0)
+    (property "Reference" "#PWR020" (at 231.14 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 231.14 78.9455 0)
@@ -7949,7 +7923,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -7958,7 +7932,7 @@
   (symbol (lib_id "Device:C") (at 143.51 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1894b4d0-c464-493a-8ab5-5c1381eb7a1f)
-    (property "Reference" "C11" (at 140.589 201.9879 0)
+    (property "Reference" "C5" (at 140.589 201.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 140.589 204.4121 0)
@@ -7975,7 +7949,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C11") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -7984,7 +7958,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 118.11 33.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19878a54-c6b5-4449-9508-4f121e9dd713)
-    (property "Reference" "J1" (at 118.11 19.05 0)
+    (property "Reference" "J3" (at 118.11 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2x05 Molex Micro-Fit 3.0 43045" (at 129.54 19.05 0)
@@ -8012,7 +7986,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -8021,7 +7995,7 @@
   (symbol (lib_id "Amplifier_Operational:LM324A") (at 309.88 147.32 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bdb4bf5-8e1b-4d1d-9e03-7c70584b3b98)
-    (property "Reference" "U8" (at 309.88 138.0957 0)
+    (property "Reference" "U7" (at 309.88 138.0957 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM324DR" (at 309.88 140.5199 0)
@@ -8050,7 +8024,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U8") (unit 2)
+          (reference "U7") (unit 2)
         )
       )
     )
@@ -8059,7 +8033,7 @@
   (symbol (lib_id "Device:D") (at 166.37 19.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d5a6d74-388a-43fb-9828-77c176488bc5)
-    (property "Reference" "D1" (at 164.338 20.2621 90)
+    (property "Reference" "D8" (at 164.338 20.2621 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 164.338 17.8379 90)
@@ -8082,32 +8056,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 201.93 325.12 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 21cf0a66-f9a1-4410-a790-d0e266f4f6c2)
-    (property "Reference" "#PWR039" (at 201.93 331.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 201.93 329.2531 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 201.93 325.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 201.93 325.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d0bb4165-1d5b-4c6d-92d4-0dc790cc4b64))
-    (instances
-      (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR039") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -8116,13 +8065,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 288.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2871bfb9-4edc-4c55-b693-a338e34d187a)
-    (property "Reference" "TP12" (at 195.931 286.5317 0)
+    (property "Reference" "TP12" (at 195.2191 286.5804 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 286.4275 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 288.29 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 288.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 288.29 0)
@@ -8141,7 +8090,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 331.47 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28b8ce53-fd52-41f8-87d3-0cf642bb78ee)
-    (property "Reference" "#PWR014" (at 331.47 185.42 0)
+    (property "Reference" "#PWR032" (at 331.47 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 331.47 183.2031 0)
@@ -8157,7 +8106,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -8166,7 +8115,7 @@
   (symbol (lib_id "Device:D") (at 180.34 27.94 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cedf766-41f0-4761-884d-03f5c6911bc5)
-    (property "Reference" "D2" (at 184.15 29.21 0)
+    (property "Reference" "D9" (at 184.15 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 176.53 29.21 0)
@@ -8189,7 +8138,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D2") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -8198,7 +8147,7 @@
   (symbol (lib_id "power:GND") (at 143.51 278.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cf8ea90-6699-49ce-99f3-f1eb577cf62a)
-    (property "Reference" "#PWR037" (at 143.51 284.48 0)
+    (property "Reference" "#PWR010" (at 143.51 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 282.2631 0)
@@ -8214,7 +8163,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -8223,7 +8172,7 @@
   (symbol (lib_id "library_symbols:12V Variable Boost Buck Converter") (at 347.345 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3229de29-2f90-4ac1-be77-836f469c340c)
-    (property "Reference" "U4" (at 347.345 26.3865 0)
+    (property "Reference" "U8" (at 347.345 26.3865 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12V->5V Variable Boost Buck Converter" (at 347.345 28.8107 0)
@@ -8242,7 +8191,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U4") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -8251,7 +8200,7 @@
   (symbol (lib_id "power:GND") (at 241.3 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34a9cf4a-b908-4b11-a777-c9fd3640953e)
-    (property "Reference" "#PWR034" (at 241.3 109.22 0)
+    (property "Reference" "#PWR023" (at 241.3 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 107.4325 0)
@@ -8267,7 +8216,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -8276,7 +8225,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 247.65 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34ea31cf-cf12-43cc-821d-94b5893fbe47)
-    (property "Reference" "#PWR032" (at 247.65 161.29 0)
+    (property "Reference" "#PWR024" (at 247.65 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 159.0731 0)
@@ -8292,7 +8241,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -8301,7 +8250,7 @@
   (symbol (lib_id "power:GND") (at 360.68 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35ca0834-111b-46b3-9d6a-ae4ab15aba6f)
-    (property "Reference" "#PWR026" (at 360.68 43.18 0)
+    (property "Reference" "#PWR035" (at 360.68 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 360.68 41.3925 0)
@@ -8317,7 +8266,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -8326,7 +8275,7 @@
   (symbol (lib_id "power:+5V") (at 109.22 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38fc3584-8ca2-40db-addd-bd9e84df417d)
-    (property "Reference" "#PWR017" (at 109.22 132.08 0)
+    (property "Reference" "#PWR03" (at 109.22 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 109.22 124.6655 0)
@@ -8342,7 +8291,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -8405,7 +8354,7 @@
   (symbol (lib_id "power:+5V") (at 375.92 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3979deb7-b66e-45bb-bec4-c0f1867fab2f)
-    (property "Reference" "#PWR020" (at 375.92 147.32 0)
+    (property "Reference" "#PWR039" (at 375.92 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 375.92 139.9055 0)
@@ -8421,7 +8370,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -8430,7 +8379,7 @@
   (symbol (lib_id "power:GND") (at 266.7 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 397c0103-1bca-4355-a781-deca1fde96e5)
-    (property "Reference" "#PWR013" (at 266.7 133.35 0)
+    (property "Reference" "#PWR027" (at 266.7 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 131.5625 0)
@@ -8446,7 +8395,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -8455,13 +8404,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 306.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a4c1432-03e7-4ff9-9852-7009d03f8a69)
-    (property "Reference" "TP13" (at 195.931 304.2979 0)
+    (property "Reference" "TP13" (at 195.2503 304.3287 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.195 304.0894 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 306.07 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 306.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 306.07 0)
@@ -8480,7 +8429,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 190.5 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a7b26f9-3795-48c6-bf16-218f9a390489)
-    (property "Reference" "J4" (at 192.532 33.3815 0)
+    (property "Reference" "J6" (at 192.532 33.3815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW - Battery Bypass" (at 192.532 36.1566 0)
@@ -8500,7 +8449,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J4") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -8509,7 +8458,7 @@
   (symbol (lib_id "power:GND") (at 118.11 207.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ee5be9c-7578-4dbb-97bc-b77c31b96ce4)
-    (property "Reference" "#PWR019" (at 118.11 213.36 0)
+    (property "Reference" "#PWR04" (at 118.11 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 211.1431 0)
@@ -8525,33 +8474,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR019") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 208.28 321.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3f7a0f03-d1d6-4e77-990f-84d40b6a5a9f)
-    (property "Reference" "C18" (at 211.201 320.0979 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "22pF" (at 211.201 322.5221 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 209.2452 325.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 208.28 321.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 708783a4-0c00-45e5-ae56-2fae8c19137d))
-    (pin "2" (uuid e6aec800-4652-47b7-9caa-1fe16d3fe782))
-    (instances
-      (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C18") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -8560,7 +8483,7 @@
   (symbol (lib_id "Device:D") (at 306.07 50.8 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fbb86ef-1e92-4793-8426-1081bf467d97)
-    (property "Reference" "D3" (at 302.26 53.34 0)
+    (property "Reference" "D10" (at 302.26 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "D" (at 307.34 53.34 0)
@@ -8583,7 +8506,33 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D3") (unit 1)
+          (reference "D10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 194.31 321.31 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4435144b-885c-4229-b0d7-58c9ed1f9262)
+    (property "Reference" "R10" (at 195.961 320.0979 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "56kΩ" (at 195.961 322.5221 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 193.294 321.056 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 321.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 7f615072-b2b6-4bcc-82df-0a14802518e4))
+    (pin "1" (uuid 1581c20f-de0d-4fbc-9a0b-2fa3d272a27d))
+    (instances
+      (project "1-DIN_Control_Panel"
+        (path "/9d6c5460-8470-44bf-9076-df961456f999"
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -8592,13 +8541,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 209.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45ad2554-0658-4408-bd43-2dced3587a6b)
-    (property "Reference" "TP4" (at 195.931 207.7917 0)
+    (property "Reference" "TP2" (at 195.931 207.7917 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 207.6875 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 209.55 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 209.55 0)
@@ -8608,7 +8557,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP4") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -8643,13 +8592,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d8c5a6b-6823-4d1d-941f-a3aef48616b1)
-    (property "Reference" "TP7" (at 195.931 215.4117 0)
+    (property "Reference" "TP5" (at 195.931 215.4117 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 215.3075 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 217.17 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 217.17 0)
@@ -8659,7 +8608,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP7") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -8668,7 +8617,7 @@
   (symbol (lib_id "power:GND") (at 96.52 144.78 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51a7dd9e-61a5-4d8d-8559-f3a5eaf4f2a1)
-    (property "Reference" "#PWR016" (at 96.52 151.13 0)
+    (property "Reference" "#PWR02" (at 96.52 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 148.9131 0)
@@ -8684,6 +8633,31 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 204.47 325.12 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5331f713-bf69-4b9f-ab5b-526db1bbab1c)
+    (property "Reference" "#PWR016" (at 204.47 331.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 204.47 329.2531 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 204.47 325.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 204.47 325.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cb9d76fd-1a78-465b-aa02-185ecb2a5821))
+    (instances
+      (project "1-DIN_Control_Panel"
+        (path "/9d6c5460-8470-44bf-9076-df961456f999"
           (reference "#PWR016") (unit 1)
         )
       )
@@ -8693,7 +8667,7 @@
   (symbol (lib_id "Device:C") (at 331.47 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 534e3034-c291-48c1-a4c9-e29c0e5e094d)
-    (property "Reference" "C5" (at 334.391 174.0479 0)
+    (property "Reference" "C16" (at 334.391 174.0479 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 334.391 176.4721 0)
@@ -8710,7 +8684,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C5") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -8719,7 +8693,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 190.5 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 562a83a1-e4c0-40ec-8dfc-c6fb263ac835)
-    (property "Reference" "J3" (at 192.532 25.7615 0)
+    (property "Reference" "J5" (at 192.532 25.7615 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW - Aux Jump-Start" (at 192.532 28.5366 0)
@@ -8739,7 +8713,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J3") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -8774,7 +8748,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 118.11 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b4dc01d-06a6-4024-8ce6-e336e28a1008)
-    (property "Reference" "C7" (at 115.189 201.0989 0)
+    (property "Reference" "C1" (at 115.189 201.0989 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47µF" (at 115.189 203.5231 0)
@@ -8791,7 +8765,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C7") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -8800,7 +8774,7 @@
   (symbol (lib_id "Panel_Parts:COM-21212") (at 83.82 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d50fcba-039e-4cef-af0a-8928d5aaa88a)
-    (property "Reference" "U10" (at 85.1456 206.6757 0)
+    (property "Reference" "U1" (at 85.1456 206.6757 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CA56-12SEKWA" (at 85.1456 209.0999 0)
@@ -8831,7 +8805,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U10") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -8840,7 +8814,7 @@
   (symbol (lib_id "power:VCC") (at 261.62 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 622767f1-328a-4830-a92b-69d1a61fab9d)
-    (property "Reference" "#PWR011" (at 261.62 111.76 0)
+    (property "Reference" "#PWR025" (at 261.62 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 261.62 103.505 0)
@@ -8856,7 +8830,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -8865,7 +8839,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 177.8 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 636c767d-b4a1-4afa-a75b-e5c5476e60f4)
-    (property "Reference" "J7" (at 175.768 119.7415 0)
+    (property "Reference" "J4" (at 175.768 119.7415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "UART Expansion" (at 175.768 122.5166 0)
@@ -8885,32 +8859,32 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J7") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 201.93 254 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 194.31 254 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69b5ccd9-45b1-4fa5-bc62-920cbc422766)
-    (property "Reference" "#PWR030" (at 201.93 260.35 0)
+    (property "Reference" "#PWR013" (at 194.31 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 201.93 258.1331 0)
+    (property "Value" "GND" (at 194.31 258.1331 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 201.93 254 0)
+    (property "Footprint" "" (at 194.31 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 201.93 254 0)
+    (property "Datasheet" "" (at 194.31 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0c423da7-6c29-47a7-a4d4-4504f8b851eb))
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -8919,13 +8893,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 73.66 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6af5a95b-bb94-443b-9db9-1787416a56fe)
-    (property "Reference" "D4" (at 116.5225 67.3567 0)
+    (property "Reference" "D1" (at 116.5225 67.3567 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 69.7809 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 73.66 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 73.66 0)
@@ -8936,7 +8910,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -8945,7 +8919,7 @@
   (symbol (lib_id "power:+5V") (at 369.57 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b674a0a-9742-42b6-8eff-412b209b2659)
-    (property "Reference" "#PWR028" (at 369.57 34.29 0)
+    (property "Reference" "#PWR037" (at 369.57 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 369.57 26.8755 0)
@@ -8961,7 +8935,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -8970,7 +8944,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b7c497e-9a79-4b77-9760-9000c581ec18)
-    (property "Reference" "R17" (at 127.0579 105.029 0)
+    (property "Reference" "R6" (at 127.0579 105.029 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 105.029 0)
@@ -8987,7 +8961,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R17") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -9025,7 +8999,7 @@
   (symbol (lib_id "power:GND") (at 124.46 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f1adc13-72e2-4c47-98d4-1808d637e3ee)
-    (property "Reference" "#PWR025" (at 124.46 53.34 0)
+    (property "Reference" "#PWR06" (at 124.46 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 51.5525 0)
@@ -9041,7 +9015,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -9050,7 +9024,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fc7b207-f468-4b67-9b7d-d94f7ec79d31)
-    (property "Reference" "U1" (at 86.36 106.68 0)
+    (property "Reference" "U4" (at 86.36 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 104.14 0)
@@ -9081,7 +9055,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -9090,7 +9064,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 344.17 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 743c4618-3a3a-4c2d-9730-0b95a2efb4a6)
-    (property "Reference" "#PWR015" (at 344.17 185.42 0)
+    (property "Reference" "#PWR034" (at 344.17 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 344.17 183.2031 0)
@@ -9106,7 +9080,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -9115,7 +9089,7 @@
   (symbol (lib_id "Device:C") (at 289.56 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75d3e66a-e1db-4428-86b3-cb9d0c94222d)
-    (property "Reference" "C3" (at 292.481 175.3179 0)
+    (property "Reference" "C14" (at 292.481 175.3179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 292.1 177.8 0)
@@ -9132,7 +9106,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C3") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -9141,7 +9115,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 91.44 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7685d521-d105-41c0-97a4-4dbd2d1b251d)
-    (property "Reference" "U2" (at 86.36 88.9 0)
+    (property "Reference" "U3" (at 86.36 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 85.9099 0)
@@ -9172,7 +9146,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U2") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -9181,13 +9155,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76e9f6a0-b631-498f-b833-a3aac23a6f32)
-    (property "Reference" "TP2" (at 195.931 235.7317 0)
+    (property "Reference" "TP7" (at 195.931 235.7317 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 235.6275 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 237.49 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 237.49 0)
@@ -9197,7 +9171,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP2") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -9206,7 +9180,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a09c888-709a-4625-aa51-750def6e079a)
-    (property "Reference" "R16" (at 127.0579 94.869 0)
+    (property "Reference" "R5" (at 127.0579 94.869 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 94.869 0)
@@ -9223,7 +9197,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R16") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -9232,7 +9206,7 @@
   (symbol (lib_id "Device:R_US") (at 231.14 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bb3bc23-1912-40d9-ad1d-c5d51e13874b)
-    (property "Reference" "R3" (at 232.791 97.8479 0)
+    (property "Reference" "R11" (at 232.791 97.8479 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10kΩ" (at 232.791 100.2721 0)
@@ -9249,7 +9223,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R3") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -9264,7 +9238,7 @@
     (property "Value" "TestPoint_Flag" (at 201.195 276.1494 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 278.13 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 278.13 0)
@@ -9283,7 +9257,7 @@
   (symbol (lib_id "Device:C") (at 284.48 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 898e662c-05b6-48e2-950f-009b91616f63)
-    (property "Reference" "C2" (at 281.559 175.3179 0)
+    (property "Reference" "C13" (at 281.559 175.3179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 281.559 177.7421 0)
@@ -9300,7 +9274,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C2") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -9309,13 +9283,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d8cd9e8-0565-45bd-813b-a0f74d12f431)
-    (property "Reference" "TP5" (at 195.931 210.3179 0)
+    (property "Reference" "TP3" (at 195.931 210.3179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.195 210.1094 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 212.09 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 212.09 0)
@@ -9325,7 +9299,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP5") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -9334,13 +9308,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 88.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ea0f38c-041b-4552-96d1-a3d8ab582d19)
-    (property "Reference" "D6" (at 116.5225 82.5967 0)
+    (property "Reference" "D3" (at 116.5225 82.5967 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 85.0209 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 88.9 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 88.9 0)
@@ -9351,7 +9325,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D6") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -9360,7 +9334,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 83.82 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9102b34d-6e0a-48e7-a7d8-2431985b5e92)
-    (property "Reference" "U2" (at 86.36 81.28 0)
+    (property "Reference" "U3" (at 86.36 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 78.2899 0)
@@ -9391,7 +9365,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U2") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -9400,7 +9374,7 @@
   (symbol (lib_id "Amplifier_Operational:LM324A") (at 311.15 187.96 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 912d1f7a-08d8-473a-8bfa-04dad35aeb93)
-    (property "Reference" "U8" (at 311.15 197.1843 0)
+    (property "Reference" "U7" (at 311.15 197.1843 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM324DR" (at 311.15 194.7601 0)
@@ -9429,7 +9403,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U8") (unit 3)
+          (reference "U7") (unit 3)
         )
       )
     )
@@ -9438,7 +9412,7 @@
   (symbol (lib_id "power:GND") (at 231.14 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91b3d841-3606-48e8-84b1-2da1ceeeca5a)
-    (property "Reference" "#PWR03" (at 231.14 109.22 0)
+    (property "Reference" "#PWR021" (at 231.14 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 107.4325 0)
@@ -9454,7 +9428,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -9463,7 +9437,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 99.06 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9235e3e3-4c8c-41a4-9d7c-9786349009d7)
-    (property "Reference" "U2" (at 86.36 96.52 0)
+    (property "Reference" "U3" (at 86.36 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 93.5299 0)
@@ -9494,7 +9468,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U2") (unit 4)
+          (reference "U3") (unit 4)
         )
       )
     )
@@ -9503,7 +9477,7 @@
   (symbol (lib_id "power:GND") (at 213.36 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94c96b66-2cfa-4f61-bc7e-5af60a19370d)
-    (property "Reference" "#PWR08" (at 213.36 173.99 0)
+    (property "Reference" "#PWR017" (at 213.36 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 172.2025 0)
@@ -9519,7 +9493,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -9528,13 +9502,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 955e24e6-d79a-4777-a4ab-80b01bf576c9)
-    (property "Reference" "TP6" (at 195.931 212.8717 0)
+    (property "Reference" "TP4" (at 195.931 212.8717 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 212.7675 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 214.63 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 214.63 0)
@@ -9544,7 +9518,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP6") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -9553,13 +9527,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 283.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9847e5a4-9656-4ea3-af6e-c2531bc9f0f9)
-    (property "Reference" "TP10" (at 195.931 281.4379 0)
+    (property "Reference" "TP10" (at 195.2491 281.4793 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.195 281.2294 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 283.21 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 283.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 283.21 0)
@@ -9578,7 +9552,7 @@
   (symbol (lib_id "Device:R_US") (at 261.62 123.19 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9894fd7b-d2d9-418c-9d78-0645e982e49d)
-    (property "Reference" "R5" (at 259.969 121.9779 0)
+    (property "Reference" "R13" (at 259.969 121.9779 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10kΩ" (at 259.969 124.4021 0)
@@ -9595,32 +9569,32 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R5") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 208.28 254 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 204.47 254 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98c9720d-3f6e-4f89-90a2-11a0dc704c00)
-    (property "Reference" "#PWR031" (at 208.28 260.35 0)
+    (property "Reference" "#PWR015" (at 204.47 260.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 208.28 258.1331 0)
+    (property "Value" "GND" (at 204.47 258.1331 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 208.28 254 0)
+    (property "Footprint" "" (at 204.47 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 208.28 254 0)
+    (property "Datasheet" "" (at 204.47 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e5533716-a967-4734-9da9-92721e4f9a05))
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -9629,7 +9603,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 71.12 59.69 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99ab4f32-bb38-4518-a598-cf11e1ac4d84)
-    (property "Reference" "J?" (at 85.09 60.96 0)
+    (property "Reference" "J2" (at 85.09 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Rotary Switch 1x7" (at 82.55 68.58 0)
@@ -9652,7 +9626,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -9661,7 +9635,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 327.66 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a76778d-5fcd-43b6-a731-a5887ab88b0d)
-    (property "Reference" "C1" (at 324.739 35.9989 0)
+    (property "Reference" "C15" (at 324.739 35.9989 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10µF" (at 324.739 38.4231 0)
@@ -9678,7 +9652,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C1") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -9687,7 +9661,7 @@
   (symbol (lib_id "power:GND") (at 369.57 43.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a9b4df9-46b3-4f91-9c97-57e99022a6fa)
-    (property "Reference" "#PWR027" (at 369.57 49.53 0)
+    (property "Reference" "#PWR038" (at 369.57 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 369.57 47.7425 0)
@@ -9703,7 +9677,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -9712,7 +9686,7 @@
   (symbol (lib_id "Device:C") (at 130.81 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9be55b57-2ba3-4519-b01a-9fad59cbb0da)
-    (property "Reference" "C8" (at 127.889 201.9879 0)
+    (property "Reference" "C3" (at 127.889 201.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 127.889 204.4121 0)
@@ -9729,25 +9703,25 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C8") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 201.93 250.19 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 194.31 250.19 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c28793f-422f-4100-96fd-eecd15c60d9e)
-    (property "Reference" "R2" (at 200.279 248.9779 0)
+    (property "Reference" "R9" (at 195.961 248.9779 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "56kΩ" (at 200.279 251.4021 0)
+    (property "Value" "56kΩ" (at 195.961 251.4021 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 202.946 249.936 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 193.294 249.936 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 201.93 250.19 0)
+    (property "Datasheet" "~" (at 194.31 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 852d4234-7821-49f8-9868-43082c599734))
@@ -9755,7 +9729,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R2") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -9764,7 +9738,7 @@
   (symbol (lib_id "power:GND") (at 261.62 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d55f183-8a7c-420b-864e-3b583590d854)
-    (property "Reference" "#PWR012" (at 261.62 133.35 0)
+    (property "Reference" "#PWR026" (at 261.62 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 131.5625 0)
@@ -9780,7 +9754,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -9789,7 +9763,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 284.48 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a162d6b6-c71a-497b-a5c5-149f459e2e10)
-    (property "Reference" "#PWR09" (at 284.48 186.69 0)
+    (property "Reference" "#PWR028" (at 284.48 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 284.48 184.4731 0)
@@ -9805,7 +9779,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -9814,7 +9788,7 @@
   (symbol (lib_id "Amplifier_Operational:LM324A") (at 408.94 175.26 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3f6e44a-863d-4450-954c-774006822b77)
-    (property "Reference" "U8" (at 408.94 166.0357 0)
+    (property "Reference" "U7" (at 408.94 166.0357 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM324DR" (at 408.94 168.4599 0)
@@ -9843,7 +9817,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U8") (unit 4)
+          (reference "U7") (unit 4)
         )
       )
     )
@@ -9852,7 +9826,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5472ee2-2d87-4e4f-ad61-b476c18d13e8)
-    (property "Reference" "U2" (at 86.36 73.66 0)
+    (property "Reference" "U3" (at 86.36 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 71.12 0)
@@ -9883,7 +9857,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -9892,7 +9866,7 @@
   (symbol (lib_id "power:GND") (at 375.92 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a809a6f6-39f3-4f76-859b-1d5e3b917d88)
-    (property "Reference" "#PWR021" (at 375.92 165.1 0)
+    (property "Reference" "#PWR040" (at 375.92 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 375.92 163.3125 0)
@@ -9908,7 +9882,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -9917,13 +9891,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 234.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a969c555-d1ef-4d6e-83cf-b6b9765f52a5)
-    (property "Reference" "TP1" (at 195.931 233.1779 0)
+    (property "Reference" "TP6" (at 195.931 233.1779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.195 232.9694 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 234.95 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 234.95 0)
@@ -9933,7 +9907,33 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP1") (unit 1)
+          (reference "TP6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 204.47 321.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aa114488-f2ce-46de-b08f-39c92dd98c66)
+    (property "Reference" "C8" (at 207.391 320.0979 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22pF" (at 207.391 322.5221 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 205.4352 325.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 204.47 321.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ef2cda7-1238-44fe-a5a3-8e7e04f51a48))
+    (pin "2" (uuid 45d80c4a-3957-4a98-bdd8-6349c1afc227))
+    (instances
+      (project "1-DIN_Control_Panel"
+        (path "/9d6c5460-8470-44bf-9076-df961456f999"
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -9942,13 +9942,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 106.68 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab96c6e7-2448-434b-9944-9428ae4f1cce)
-    (property "Reference" "D8" (at 116.5225 100.3767 0)
+    (property "Reference" "D5" (at 116.5225 100.3767 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 102.8009 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 106.68 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 106.68 0)
@@ -9959,7 +9959,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D8") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -9968,7 +9968,7 @@
   (symbol (lib_id "power:GND") (at 181.61 256.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abf05908-4f4a-4fb8-9fa9-427cceda3c9f)
-    (property "Reference" "#PWR029" (at 181.61 262.89 0)
+    (property "Reference" "#PWR011" (at 181.61 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 260.6731 0)
@@ -9984,7 +9984,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -9993,7 +9993,7 @@
   (symbol (lib_id "power:GND") (at 24.13 101.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acdae8e7-4f3a-4122-ac49-995ab21fee2a)
-    (property "Reference" "#PWR02" (at 24.13 107.95 0)
+    (property "Reference" "#PWR01" (at 24.13 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 105.7331 0)
@@ -10009,7 +10009,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -10018,7 +10018,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ada07327-98f4-421b-a77e-4c1c4b79adc9)
-    (property "Reference" "R14" (at 127.0579 79.629 0)
+    (property "Reference" "R3" (at 127.0579 79.629 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 79.629 0)
@@ -10035,7 +10035,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R14") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -10044,7 +10044,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 132.08 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b13512da-aa96-463f-a930-c237a89c2726)
-    (property "Reference" "U1" (at 86.36 129.54 0)
+    (property "Reference" "U4" (at 86.36 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 126.5499 0)
@@ -10075,7 +10075,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U1") (unit 4)
+          (reference "U4") (unit 4)
         )
       )
     )
@@ -10084,7 +10084,7 @@
   (symbol (lib_id "Device:C") (at 247.65 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2a9c8df-c0c3-4c84-826d-4409f975497e)
-    (property "Reference" "C13" (at 250.571 149.9179 0)
+    (property "Reference" "C11" (at 250.571 149.9179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 250.571 152.3421 0)
@@ -10101,7 +10101,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C13") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -10110,7 +10110,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 369.57 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3ebf232-b653-4ed1-ac31-b233652c8a39)
-    (property "Reference" "C10" (at 372.491 37.2689 0)
+    (property "Reference" "C18" (at 372.491 37.2689 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22µF" (at 372.491 39.6931 0)
@@ -10127,7 +10127,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C10") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -10136,7 +10136,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 124.46 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4eb3487-5f0e-460b-8fa6-d1d264d17900)
-    (property "Reference" "U1" (at 86.36 121.92 0)
+    (property "Reference" "U4" (at 86.36 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 118.9299 0)
@@ -10167,7 +10167,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U1") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -10202,7 +10202,7 @@
   (symbol (lib_id "power:GND") (at 130.81 278.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b679f326-493f-4ce7-9025-395e6258d796)
-    (property "Reference" "#PWR036" (at 130.81 284.48 0)
+    (property "Reference" "#PWR08" (at 130.81 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 282.2631 0)
@@ -10218,7 +10218,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -10227,13 +10227,13 @@
   (symbol (lib_id "Panel_Parts:MAX_6954-SSOP") (at 182.88 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b77c2dbf-c956-4e49-8f26-80647bba9b73)
-    (property "Reference" "U3" (at 186.3441 197.7857 0)
+    (property "Reference" "U5" (at 186.3441 197.7857 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MAX 6954 - SSOP" (at 186.3441 200.2099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 182.88 228.6 0)
+    (property "Footprint" "Package_SO:SSOP-44_5.3x12.8mm_P0.5mm" (at 182.88 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6954.pdf" (at 182.88 228.6 0)
@@ -10278,7 +10278,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -10287,7 +10287,7 @@
   (symbol (lib_id "Connector:RJ32_Shielded") (at 24.13 86.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7e0d488-d34a-4474-935c-b632f1eb80bf)
-    (property "Reference" "J6" (at 15.748 86.7215 0)
+    (property "Reference" "J1" (at 15.748 86.7215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Selector Knob Connector" (at 39.37 73.66 0)
@@ -10311,7 +10311,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J6") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -10320,7 +10320,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b828f31e-1693-4fdf-83f0-91f1ed597dd2)
-    (property "Reference" "R15" (at 127.0579 87.249 0)
+    (property "Reference" "R4" (at 127.0579 87.249 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 87.249 0)
@@ -10337,7 +10337,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R15") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -10346,7 +10346,7 @@
   (symbol (lib_id "Device:C") (at 266.7 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b90a85b5-300c-4dfb-9aaf-635a297dd394)
-    (property "Reference" "C4" (at 269.621 121.9779 0)
+    (property "Reference" "C12" (at 269.621 121.9779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 269.621 124.4021 0)
@@ -10363,7 +10363,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C4") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -10372,7 +10372,7 @@
   (symbol (lib_id "Device:R_US") (at 325.12 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bab599a1-7e04-4af6-90f5-24b7639c7a32)
-    (property "Reference" "R9" (at 325.12 142.2867 90)
+    (property "Reference" "R17" (at 325.12 142.2867 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100kΩ" (at 325.12 144.7109 90)
@@ -10389,7 +10389,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R9") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -10398,7 +10398,7 @@
   (symbol (lib_id "Panel_Parts:COM-21212") (at 83.82 294.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bda6352e-429d-48c1-a87c-604ad647dbbb)
-    (property "Reference" "U5" (at 85.1456 277.7957 0)
+    (property "Reference" "U2" (at 85.1456 277.7957 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CA56-12SEKWA" (at 85.1456 280.2199 0)
@@ -10429,7 +10429,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -10438,13 +10438,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 81.28 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf13d03d-2c2c-4ad9-b203-60463347f03b)
-    (property "Reference" "D5" (at 116.5225 74.9767 0)
+    (property "Reference" "D2" (at 116.5225 74.9767 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 77.4009 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 81.28 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 81.28 0)
@@ -10455,7 +10455,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -10491,7 +10491,7 @@
   (symbol (lib_id "Device:R_US") (at 361.95 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c10dabf2-b17b-4368-8e4e-40b2fb8f53a9)
-    (property "Reference" "R11" (at 361.95 142.2867 90)
+    (property "Reference" "R19" (at 361.95 142.2867 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100kΩ" (at 361.95 144.7109 90)
@@ -10508,25 +10508,25 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R11") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 208.28 250.19 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 204.47 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1d3dc62-13f3-448a-b7a7-337943c35899)
-    (property "Reference" "C12" (at 211.201 248.9779 0)
+    (property "Reference" "C7" (at 207.391 248.9779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22pF" (at 211.201 251.4021 0)
+    (property "Value" "22pF" (at 207.391 251.4021 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 209.2452 254 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 205.4352 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 208.28 250.19 0)
+    (property "Datasheet" "~" (at 204.47 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 50d392d9-781c-43cd-af62-3f4402696e01))
@@ -10534,7 +10534,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C12") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -10543,7 +10543,7 @@
   (symbol (lib_id "power:GND") (at 334.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5770768-7f8c-4256-ab95-562528940a17)
-    (property "Reference" "#PWR06" (at 334.01 43.18 0)
+    (property "Reference" "#PWR033" (at 334.01 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 334.01 41.3925 0)
@@ -10559,7 +10559,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -10568,7 +10568,7 @@
   (symbol (lib_id "Amplifier_Operational:LM324A") (at 378.46 151.13 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c89b3f12-d059-4344-b5a6-7a9401f5bf8d)
-    (property "Reference" "U8" (at 376.555 149.9179 0)
+    (property "Reference" "U7" (at 376.555 149.9179 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM324DR" (at 376.555 152.3421 0)
@@ -10597,7 +10597,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U8") (unit 5)
+          (reference "U7") (unit 5)
         )
       )
     )
@@ -10606,7 +10606,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 118.11 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c978cfaf-7703-4944-92f2-fd87f3367d1b)
-    (property "Reference" "C15" (at 115.189 272.2189 0)
+    (property "Reference" "C2" (at 115.189 272.2189 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47µF" (at 115.189 274.6431 0)
@@ -10623,7 +10623,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C15") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -10632,13 +10632,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdd1f125-1cdc-4431-b324-d19ba7258526)
-    (property "Reference" "TP11" (at 195.931 283.9917 0)
+    (property "Reference" "TP11" (at 195.2791 284.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 283.8875 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 285.75 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 285.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 285.75 0)
@@ -10657,13 +10657,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 308.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf5df291-743b-45ef-9fc5-e67ba0636ea1)
-    (property "Reference" "TP14" (at 195.931 306.8517 0)
+    (property "Reference" "TP14" (at 195.2799 306.8433 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.1428 306.7475 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 308.61 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 308.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 308.61 0)
@@ -10682,7 +10682,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 289.56 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf633e2c-5df4-4c16-a254-4f19c452bc95)
-    (property "Reference" "#PWR010" (at 289.56 186.69 0)
+    (property "Reference" "#PWR029" (at 289.56 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 184.4731 0)
@@ -10698,7 +10698,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -10707,7 +10707,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 190.5 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d15bda31-5f0a-4e45-8a80-e397afa48d11)
-    (property "Reference" "J5" (at 192.532 41.0015 0)
+    (property "Reference" "J7" (at 192.532 41.0015 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW - Master Power" (at 192.532 43.7766 0)
@@ -10727,7 +10727,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -10736,13 +10736,13 @@
   (symbol (lib_id "Device:LED_Filled") (at 118.11 96.52 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6b4c55d-283c-438a-ae31-daa7268348b4)
-    (property "Reference" "D7" (at 116.5225 90.2167 0)
+    (property "Reference" "D4" (at 116.5225 90.2167 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_Filled" (at 116.5225 92.6409 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 118.11 96.52 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 118.11 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 96.52 0)
@@ -10753,7 +10753,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D7") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -10762,7 +10762,7 @@
   (symbol (lib_id "power:+5V") (at 218.44 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6d80b93-e82e-4ae5-a52a-63bfc423c778)
-    (property "Reference" "#PWR07" (at 218.44 116.84 0)
+    (property "Reference" "#PWR018" (at 218.44 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 218.44 109.4255 0)
@@ -10778,7 +10778,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -10787,7 +10787,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d756a59d-5cdf-4050-a9ba-41835ae6e625)
-    (property "Reference" "R19" (at 127.0579 120.269 0)
+    (property "Reference" "R8" (at 127.0579 120.269 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 120.269 0)
@@ -10804,7 +10804,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R19") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -10813,7 +10813,7 @@
   (symbol (lib_id "Device:C") (at 130.81 274.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7597158-6948-4f0f-ad64-afd329cd3d5c)
-    (property "Reference" "C16" (at 127.889 273.1079 0)
+    (property "Reference" "C4" (at 127.889 273.1079 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 127.889 275.5321 0)
@@ -10830,7 +10830,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C16") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -10845,7 +10845,7 @@
     (property "Value" "TestPoint_Flag" (at 201.1428 278.8075 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 280.67 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 280.67 0)
@@ -10864,7 +10864,7 @@
   (symbol (lib_id "Isolator:LTV-847S") (at 86.36 116.84 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3571681-6939-49ea-ba5a-5800fe33057a)
-    (property "Reference" "U1" (at 86.36 114.3 0)
+    (property "Reference" "U4" (at 86.36 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTV-847S" (at 86.36 111.3099 0)
@@ -10895,7 +10895,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U1") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -10904,7 +10904,7 @@
   (symbol (lib_id "Device:R_US") (at 319.405 161.925 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4883178-f6ab-4aaf-91e9-9190c043cf92)
-    (property "Reference" "R7" (at 321.056 160.7129 0)
+    (property "Reference" "R15" (at 321.056 160.7129 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.7kΩ" (at 321.056 163.1371 0)
@@ -10921,7 +10921,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R7") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -10930,7 +10930,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 217.17 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e519a237-5d21-4fde-b7dc-bd45984f6a3a)
-    (property "Reference" "J2" (at 210.82 90.17 0)
+    (property "Reference" "J8" (at 210.82 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pot/SW - Brightness" (at 222.25 80.01 0)
@@ -10953,7 +10953,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J2") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -10962,13 +10962,13 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 194.31 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e81548cd-1e0c-4539-bdd1-a36179d5d2d3)
-    (property "Reference" "TP3" (at 195.931 205.2379 0)
+    (property "Reference" "TP1" (at 195.931 205.2379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 201.195 205.0294 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 199.39 207.01 0)
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" (at 199.39 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 199.39 207.01 0)
@@ -10978,7 +10978,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP3") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -10987,7 +10987,7 @@
   (symbol (lib_id "Device:R_US") (at 325.12 187.96 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e841bf96-42fb-4881-a17f-105759171970)
-    (property "Reference" "R10" (at 325.12 192.9933 90)
+    (property "Reference" "R18" (at 325.12 192.9933 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100kΩ" (at 325.12 190.5691 90)
@@ -11004,7 +11004,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R10") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -11013,7 +11013,7 @@
   (symbol (lib_id "power:GND") (at 118.11 278.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebaa4aeb-d74b-470a-9e4b-7976a0501215)
-    (property "Reference" "#PWR035" (at 118.11 284.48 0)
+    (property "Reference" "#PWR05" (at 118.11 284.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 282.2631 0)
@@ -11029,7 +11029,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -11038,7 +11038,7 @@
   (symbol (lib_id "Device:R_US") (at 261.62 111.76 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed53ba2d-a85f-427f-8fea-8a0265e3594a)
-    (property "Reference" "R4" (at 259.969 110.5479 0)
+    (property "Reference" "R12" (at 259.969 110.5479 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22kΩ" (at 259.969 112.9721 0)
@@ -11055,7 +11055,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R4") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -11064,7 +11064,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0fcd1d9-c5ad-4103-b8b6-2a6aaa905dba)
-    (property "Reference" "R13" (at 127.0579 72.009 0)
+    (property "Reference" "R2" (at 127.0579 72.009 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 72.009 0)
@@ -11081,7 +11081,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R13") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -11090,7 +11090,7 @@
   (symbol (lib_id "Device:R_US") (at 319.405 182.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1880f5d-41ee-40db-a53f-be1bf5b99eb1)
-    (property "Reference" "R8" (at 321.056 181.6679 0)
+    (property "Reference" "R16" (at 321.056 181.6679 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100kΩ" (at 321.056 184.0921 0)
@@ -11107,7 +11107,32 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R8") (unit 1)
+          (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 194.31 325.12 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f2a2ae97-952a-4e8f-9f83-b77646779634)
+    (property "Reference" "#PWR014" (at 194.31 331.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 194.31 329.2531 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 194.31 325.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 194.31 325.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 762b56f4-04d9-45d7-a449-b710f52af93b))
+    (instances
+      (project "1-DIN_Control_Panel"
+        (path "/9d6c5460-8470-44bf-9076-df961456f999"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -11116,7 +11141,7 @@
   (symbol (lib_id "Device:C") (at 241.3 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f678481b-086c-4e34-91ec-c58153f497e4)
-    (property "Reference" "C14" (at 244.221 97.8479 0)
+    (property "Reference" "C10" (at 244.221 97.8479 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 244.221 100.2721 0)
@@ -11133,7 +11158,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C14") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -11142,7 +11167,7 @@
   (symbol (lib_id "Device:R_US") (at 361.95 187.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fad6a389-c1d6-4e66-89d3-6208a4651d38)
-    (property "Reference" "R12" (at 361.95 182.9267 90)
+    (property "Reference" "R20" (at 361.95 182.9267 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100kΩ" (at 361.95 185.3509 90)
@@ -11159,7 +11184,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R12") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -11168,7 +11193,7 @@
   (symbol (lib_id "Device:R_US") (at 128.27 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid faec3c60-2bda-4cbd-8f15-50b259be2ed6)
-    (property "Reference" "R18" (at 127.0579 112.649 0)
+    (property "Reference" "R7" (at 127.0579 112.649 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "680Ω" (at 129.4821 112.649 0)
@@ -11185,7 +11210,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R18") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -11194,7 +11219,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 234.95 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff7060a8-f2dc-4ae1-9a82-f8b54dabfb05)
-    (property "Reference" "#PWR024" (at 234.95 161.29 0)
+    (property "Reference" "#PWR022" (at 234.95 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 159.0731 0)
@@ -11210,7 +11235,7 @@
     (instances
       (project "1-DIN_Control_Panel"
         (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
