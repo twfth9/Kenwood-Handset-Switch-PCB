@@ -3965,7 +3965,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 215.9 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0284d5aa-c53a-4316-ba3d-8280f8f5c65a)
-    (property "Reference" "J3" (at 215.9 67.31 0)
+    (property "Reference" "J11" (at 215.9 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2x05 Molex Micro-Fit 3.0 43045" (at 204.47 60.96 0)
@@ -3988,12 +3988,6 @@
     (pin "6" (uuid a0aecf9a-235f-4853-ae6e-ce341fd0c4d9))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J3") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "J3") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "J11") (unit 1)
         )
@@ -4020,12 +4014,6 @@
     (pin "2" (uuid f21ced5d-4cd8-4bac-a285-ffbaa782b2aa))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D5") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D5") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D5") (unit 1)
         )
@@ -4036,7 +4024,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 199.39 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19d5bda0-d850-4e0e-a811-d34e21d6fab3)
-    (property "Reference" "TP6" (at 201.011 98.5579 0)
+    (property "Reference" "TP1" (at 201.011 98.5579 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 206.275 98.3494 0)
@@ -4051,9 +4039,6 @@
     (pin "1" (uuid 65a3ba09-c3dd-46ce-9d88-4039bdc3e59d))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP6") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "TP1") (unit 1)
         )
@@ -4080,12 +4065,6 @@
     (pin "2" (uuid ef2554fc-31e9-4a83-8aba-ae00c126169e))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R3") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R3") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R3") (unit 1)
         )
@@ -4112,12 +4091,6 @@
     (pin "2" (uuid 79b5ab2f-43c3-4b6c-8b35-7b40d6fafa31))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D4") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D4") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D4") (unit 1)
         )
@@ -4134,7 +4107,7 @@
     (property "Value" "47µF" (at 226.441 68.9031 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 222.5548 72.39 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" (at 222.5548 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 223.52 68.58 0)
@@ -4144,9 +4117,6 @@
     (pin "2" (uuid 52fa6b67-af38-495d-8178-8c36befb99ac))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C2") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "C2") (unit 1)
         )
@@ -4157,7 +4127,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 199.39 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b6e2680-146d-4f54-a89c-d041746ddfcf)
-    (property "Reference" "TP7" (at 201.011 101.1117 0)
+    (property "Reference" "TP2" (at 201.011 101.1117 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint_Flag" (at 206.2228 101.0075 0)
@@ -4172,9 +4142,6 @@
     (pin "1" (uuid 60d2830f-23b9-47fd-a50a-b6e467f203a3))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "TP7") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "TP2") (unit 1)
         )
@@ -4201,12 +4168,6 @@
     (pin "2" (uuid 3d1ee35e-1c80-4aac-97c8-d75b3ce5e069))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R4") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R4") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R4") (unit 1)
         )
@@ -4233,12 +4194,6 @@
     (pin "2" (uuid 449680d1-92cd-49b4-903d-54cb6fb2b682))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D6") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D6") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D6") (unit 1)
         )
@@ -4249,7 +4204,7 @@
   (symbol (lib_id "power:+5V") (at 241.3 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a7eee2a-7139-422a-a6b1-0411bea22419)
-    (property "Reference" "#PWR013" (at 241.3 88.9 0)
+    (property "Reference" "#PWR037" (at 241.3 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 241.3 81.4855 0)
@@ -4264,12 +4219,6 @@
     (pin "1" (uuid 12a6204a-ed63-4ee3-a2df-cd90d872aa80))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR037") (unit 1)
         )
@@ -4295,9 +4244,6 @@
     (pin "1" (uuid 0251a82c-4730-489a-843d-bb8baed2dbec))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR05") (unit 1)
         )
@@ -4323,9 +4269,6 @@
     (pin "1" (uuid 28936f68-612f-4053-ae8f-addfdcc6f6d8))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR06") (unit 1)
         )
@@ -4351,9 +4294,6 @@
     (pin "1" (uuid 0ab88503-8635-4db8-a769-957cacc8d879))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR017") (unit 1)
         )
@@ -4394,9 +4334,6 @@
     (pin "9" (uuid d7ad9dfc-90c1-4756-a2ee-e61ea5d009b9))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U7") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U7") (unit 1)
         )
@@ -4437,9 +4374,6 @@
     (pin "9" (uuid 450f71fb-c121-4d98-afeb-dbe83dc99bbc))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U1") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U1") (unit 1)
         )
@@ -4500,9 +4434,6 @@
     (pin "9" (uuid cdcdb0c7-84bf-448d-8f84-25ee71d77d65))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U11") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U11") (unit 1)
         )
@@ -4529,12 +4460,6 @@
     (pin "2" (uuid b17e2613-5d30-4201-bc62-06c00eee6896))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R7") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R7") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R7") (unit 1)
         )
@@ -4545,7 +4470,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 246.38 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 724a7a09-0aac-4d7d-a1fc-ef596c058c8c)
-    (property "Reference" "J3" (at 246.38 82.55 0)
+    (property "Reference" "J9" (at 246.38 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2x05 Molex Micro-Fit 3.0 43045" (at 234.95 76.2 0)
@@ -4568,12 +4493,6 @@
     (pin "6" (uuid d2c3457e-3156-4705-a444-0dbee2857d5b))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J3") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "J3") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "J9") (unit 1)
         )
@@ -4584,7 +4503,7 @@
   (symbol (lib_id "power:GND") (at 210.82 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78581b8a-3ddf-4ef0-8528-562c6a5499fe)
-    (property "Reference" "#PWR09" (at 210.82 88.9 0)
+    (property "Reference" "#PWR01" (at 210.82 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 86.6831 0)
@@ -4599,9 +4518,6 @@
     (pin "1" (uuid 1464f0f7-5e16-42a8-8343-5ad3add329bc))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR01") (unit 1)
         )
@@ -4642,9 +4558,6 @@
     (pin "9" (uuid 6d58b360-3fff-45a8-afff-e240dee5974d))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U4") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U4") (unit 1)
         )
@@ -4671,12 +4584,6 @@
     (pin "2" (uuid ddfdcc45-0be4-458c-9582-066cc27d2b35))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D2") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D2") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D2") (unit 1)
         )
@@ -4717,9 +4624,6 @@
     (pin "9" (uuid 1f9201cf-f65b-433a-80f7-ef9a6d5f266b))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U9") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U9") (unit 1)
         )
@@ -4745,9 +4649,6 @@
     (pin "1" (uuid 9147d8f4-0446-4a62-8046-73cbe3fb87f7))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR012") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR012") (unit 1)
         )
@@ -4758,7 +4659,7 @@
   (symbol (lib_id "power:+5V") (at 248.92 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94296945-1600-4ec2-a617-35f1afc0b011)
-    (property "Reference" "#PWR013" (at 248.92 64.77 0)
+    (property "Reference" "#PWR035" (at 248.92 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 248.92 57.3555 0)
@@ -4773,12 +4674,6 @@
     (pin "1" (uuid 3986b8ee-e85f-44e9-ad1a-0cd700be05f5))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR013") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR035") (unit 1)
         )
@@ -4805,9 +4700,6 @@
     (pin "2" (uuid 89be287d-8c67-4677-b2d3-2976555ba626))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C3") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "C3") (unit 1)
         )
@@ -4818,7 +4710,7 @@
   (symbol (lib_id "power:GND") (at 241.3 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2951f4b-cabb-4d54-94dc-ca847ae2c451)
-    (property "Reference" "#PWR09" (at 241.3 104.14 0)
+    (property "Reference" "#PWR036" (at 241.3 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 101.9231 0)
@@ -4833,9 +4725,6 @@
     (pin "1" (uuid a5bd9841-7b37-4633-9237-f9fdecc6c83f))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR036") (unit 1)
         )
@@ -4861,9 +4750,6 @@
     (pin "1" (uuid bcba8c8a-cbb5-43fa-abc9-8edbf9cda81c))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR09") (unit 1)
         )
@@ -4889,9 +4775,6 @@
     (pin "1" (uuid e7ef86b2-8802-453d-af4d-8ce31fed8444))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "#PWR07") (unit 1)
         )
@@ -4918,12 +4801,6 @@
     (pin "2" (uuid 7ffdcd7a-a24d-4862-a18c-812db4c05674))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D7") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D7") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D7") (unit 1)
         )
@@ -4950,12 +4827,6 @@
     (pin "2" (uuid 5857eb21-5f09-4a01-9d13-2795df67be1a))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R6") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R6") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R6") (unit 1)
         )
@@ -4982,9 +4853,6 @@
     (pin "2" (uuid cdb779c3-86ee-4803-94de-0fcf6698f18f))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C1") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "C1") (unit 1)
         )
@@ -5011,12 +4879,6 @@
     (pin "2" (uuid acaf1540-8b30-4039-a810-e923145bc3e1))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D1") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D1") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D1") (unit 1)
         )
@@ -5057,9 +4919,6 @@
     (pin "9" (uuid 372babb4-5ed8-42df-a627-86174a14c113))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U2") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U2") (unit 1)
         )
@@ -5086,12 +4945,6 @@
     (pin "2" (uuid 244cfc0e-cc4f-4c8f-a02d-b933798ce1c5))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R2") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R2") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R2") (unit 1)
         )
@@ -5132,9 +4985,6 @@
     (pin "9" (uuid 8864a83b-f284-431a-af66-f9dd9e12c3c7))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U10") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U10") (unit 1)
         )
@@ -5161,9 +5011,6 @@
     (pin "2" (uuid ab941255-23f0-452c-968b-218b03296036))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R10") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R10") (unit 1)
         )
@@ -5190,9 +5037,6 @@
     (pin "2" (uuid 0e8ba5bb-e341-4ec6-aeeb-ca001cdca525))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "C6") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "C6") (unit 1)
         )
@@ -5233,9 +5077,6 @@
     (pin "9" (uuid 29499554-a66f-43f1-b05d-85c63c739ec6))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U3") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U3") (unit 1)
         )
@@ -5262,12 +5103,6 @@
     (pin "2" (uuid 06a8fd20-3ffa-423c-8f9d-114fc10d3d01))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "D3") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "D3") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "D3") (unit 1)
         )
@@ -5294,12 +5129,6 @@
     (pin "2" (uuid 627c2a9c-9b0e-4e97-b781-326c0246fa81))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R8") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R8") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R8") (unit 1)
         )
@@ -5340,9 +5169,6 @@
     (pin "9" (uuid 87ee472d-c23a-4ca8-8905-6ff0bc4bfe67))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "U8") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "U8") (unit 1)
         )
@@ -5353,7 +5179,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 372.11 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8cab03b-986e-4101-88db-2237745dbb55)
-    (property "Reference" "J1" (at 363.728 149.4985 0)
+    (property "Reference" "J12" (at 363.728 149.4985 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Display LEDs" (at 387.35 162.56 0)
@@ -5375,12 +5201,6 @@
     (pin "8" (uuid 1b96fc0f-8882-40a9-a674-384e4b2eeded))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "J1") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "J1") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "J12") (unit 1)
         )
@@ -5407,12 +5227,6 @@
     (pin "2" (uuid c0baff9c-efcb-4312-8944-85a336097026))
     (instances
       (project "1-DIN_Control_Panel"
-        (path "/9d6c5460-8470-44bf-9076-df961456f999"
-          (reference "R5") (unit 1)
-        )
-        (path "/9d6c5460-8470-44bf-9076-df961456f999/79705e83-d37e-491a-a216-1b060693c97a"
-          (reference "R5") (unit 1)
-        )
         (path "/9d6c5460-8470-44bf-9076-df961456f999/50ca84ad-78fc-4261-9df0-2c692476d638"
           (reference "R5") (unit 1)
         )
