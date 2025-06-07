@@ -764,6 +764,12 @@
 		)
 	)
 	(junction
+		(at 149.86 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea43b10-82b6-4c36-bbd3-f0c9db7dcd58")
+	)
+	(junction
 		(at 161.29 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -778,6 +784,26 @@
 			(type default)
 		)
 		(uuid "1f2dadc7-6fc6-4335-8641-4d3d83b1c1b0")
+	)
+	(wire
+		(pts
+			(xy 166.37 77.47) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4927d25e-0c21-401d-b285-465101e607fb")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e57eca6-0256-444d-969e-d088b2d59d45")
 	)
 	(wire
 		(pts
@@ -809,6 +835,16 @@
 		)
 		(uuid "c738536c-d7fb-4e24-91c0-9e329174e391")
 	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 149.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8ed26c-a287-4042-aade-d4fd3113583f")
+	)
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 170.18 99.06 0)
@@ -832,6 +868,17 @@
 			(justify left)
 		)
 		(uuid "45cf8303-ed6d-430f-bf65-4ec9f50df3a3")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 148.59 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "606d575f-9902-4447-aa7b-30f27c2137e9")
 	)
 	(hierarchical_label "D{slash}~{C}"
 		(shape input)
@@ -958,6 +1005,73 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/8cd98acd-8181-4de8-8643-8b9e6d1d3a2e"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2496a419-8ac1-4a15-9789-afebbec247c1")
+		(property "Reference" "#PWR0175"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 87.9531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d2ec17-20ba-4141-98e7-d9f1ecab9c5e")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/8cd98acd-8181-4de8-8643-8b9e6d1d3a2e"
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -1263,6 +1377,75 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/8cd98acd-8181-4de8-8643-8b9e6d1d3a2e"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f79d9264-f1e8-45c2-81a4-c68c9879c518")
+		(property "Reference" "C65"
+			(at 168.6941 80.0741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 168.6941 82.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a3d051a-42c7-4d35-898e-4102d78cd46e")
+		)
+		(pin "2"
+			(uuid "7c6892e2-d0a1-4937-b583-ee80e192eecd")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/8cd98acd-8181-4de8-8643-8b9e6d1d3a2e"
+					(reference "C65")
 					(unit 1)
 				)
 			)
