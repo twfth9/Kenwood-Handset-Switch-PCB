@@ -3557,6 +3557,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 161.29) (xy 144.78 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728ad6ef-573f-4695-aa83-6b69dbd3db99")
+	)
+	(wire
+		(pts
 			(xy 408.94 91.44) (xy 392.43 91.44)
 		)
 		(stroke
@@ -10072,6 +10082,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 132.08 161.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5c1c0b-e85e-424f-8462-9435334148f2")
+		(property "Reference" "J1"
+			(at 130.048 161.3478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR IN"
+			(at 130.048 163.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b6b7777-fb13-4460-8a06-2b61e96e3156")
+		)
+		(pin "1"
+			(uuid "00373904-e351-43d0-b9ca-fd9a7c8fd30b")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 304.8 57.15 0)
 		(mirror y)
@@ -10314,6 +10395,73 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b8ed1c7-ecef-4e4f-8074-f06fd29ac299")
+		(property "Reference" "#PWR0272"
+			(at 137.16 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 167.9631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec36679c-b6af-49e4-ab3d-ea5584a8fb38")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -11798,16 +11946,6 @@
 				(hide yes)
 			)
 		)
-		(pin "+12V" input
-			(at 74.93 110.49 90)
-			(uuid "1f48ab52-b49b-4eb0-bc8c-e1efe84a062d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+8_IN_FROM_RADIO" input
 			(at 52.07 116.84 180)
 			(uuid "93116069-b892-4bd4-b1d6-1072b74f467f")
@@ -11921,6 +12059,16 @@
 		(pin "UP_TO_RADIO_OUT" output
 			(at 97.79 115.57 0)
 			(uuid "55e19880-9e3a-4bd4-9760-ee3946f8606d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 74.93 110.49 90)
+			(uuid "0ed94ab0-bc7d-47de-9110-93cea6944211")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12943,16 +13091,6 @@
 				(hide yes)
 			)
 		)
-		(pin "+12V" input
-			(at 74.93 78.74 90)
-			(uuid "59d0c5e1-cdeb-4b89-b91a-9ec1a5c09b7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+8_IN_FROM_RADIO" input
 			(at 52.07 85.09 180)
 			(uuid "62e485e2-0995-47fc-86e7-44fa518cb0cc")
@@ -13066,6 +13204,16 @@
 		(pin "UP_TO_RADIO_OUT" output
 			(at 97.79 83.82 0)
 			(uuid "f6730034-467f-41ec-9468-e6178a34603d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 74.93 78.74 90)
+			(uuid "f4910e9c-31cb-45ca-9805-82e2f5f3cedd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,16 +13349,6 @@
 				(hide yes)
 			)
 		)
-		(pin "+12V" input
-			(at 74.93 15.24 90)
-			(uuid "af7fa534-e371-428c-a75b-80b0fc02908c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+8_IN_FROM_RADIO" input
 			(at 52.07 21.59 180)
 			(uuid "46f6c938-f023-41ac-99cf-bea24750e886")
@@ -13331,6 +13469,16 @@
 				(justify right)
 			)
 		)
+		(pin "+5V" input
+			(at 74.93 15.24 90)
+			(uuid "a4ce62f3-bf45-48c6-b503-544ba6803934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
@@ -13372,16 +13520,6 @@
 				)
 				(justify left top)
 				(hide yes)
-			)
-		)
-		(pin "+12V" input
-			(at 74.93 46.99 90)
-			(uuid "9c30babc-076a-485e-8f96-7eddeeb395ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "+8_IN_FROM_RADIO" input
@@ -13497,6 +13635,16 @@
 		(pin "UP_TO_RADIO_OUT" output
 			(at 97.79 52.07 0)
 			(uuid "2a55b652-5f85-4f55-8566-50b18eed71bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 74.93 46.99 90)
+			(uuid "f9f343cc-572c-434f-aa17-d65874a07815")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13864,6 +14012,71 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
 					(page "60")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 154.94)
+		(size 43.18 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "e4879bed-972b-4457-ad4c-1ab80644a1b9")
+		(property "Sheetname" "PSU"
+			(at 144.78 154.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_IN.kicad_sch"
+			(at 144.78 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VIN" input
+			(at 144.78 161.29 180)
+			(uuid "a90ca477-1226-4008-8f3c-eb2d49d4870a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_OUT" output
+			(at 187.96 161.29 0)
+			(uuid "00568752-6c83-4645-84d9-9192f0046bfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
+					(page "71")
 				)
 			)
 		)
