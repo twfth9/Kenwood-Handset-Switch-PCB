@@ -8478,7 +8478,7 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "29682c3d-75b8-4a55-be23-3e5ce44d9afa")
-		(property "Sheetname" "DSP - ADAU1703"
+		(property "Sheetname" "DSP - ADAU1701"
 			(at 280.162 226.568 90)
 			(effects
 				(font
@@ -9193,7 +9193,7 @@
 		)
 	)
 	(sheet
-		(at 255.27 81.28)
+		(at 353.06 184.15)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9209,7 +9209,7 @@
 		)
 		(uuid "a5cce8a2-fa1f-45df-8605-c295d18be7f1")
 		(property "Sheetname" "Front IO Panel"
-			(at 255.27 80.5684 0)
+			(at 353.06 183.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9220,7 @@
 			)
 		)
 		(property "Sheetfile" "FrontPanel.kicad_sch"
-			(at 255.27 89.4846 0)
+			(at 353.06 192.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +10780,7 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef")
-		(property "Sheetname" "DSP - ADAU1702"
+		(property "Sheetname" "DSP - ADAU1701"
 			(at 280.162 179.578 90)
 			(effects
 				(font
@@ -11347,6 +11347,279 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 262.89 60.96)
+		(size 35.56 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "fe79ae8d-1778-410e-ab25-738866b66f87")
+		(property "Sheetname" "DSP - ADAU1701"
+			(at 280.162 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "DSP_ADAU1701.kicad_sch"
+			(at 262.89 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "AIN0" input
+			(at 262.89 63.5 180)
+			(uuid "7ff410d6-48ed-4ba5-9cde-873ff14f5681")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN1" input
+			(at 262.89 66.04 180)
+			(uuid "70008aa4-0f23-437d-bd56-d1e77f182239")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AVDD" input
+			(at 279.4 60.96 90)
+			(uuid "ad555c42-ef47-4c33-ac72-147c4699662a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC0_OUT" output
+			(at 298.45 63.5 0)
+			(uuid "14debcb2-e446-4e2e-a1a0-7bdb3b8bd7c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC1_OUT" output
+			(at 298.45 66.04 0)
+			(uuid "f6c02b4c-e878-4b39-9820-cf7bbccb5ba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC2_OUT" output
+			(at 298.45 68.58 0)
+			(uuid "a1766789-2326-4914-a6a5-b5a93f36a4ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC3_OUT" output
+			(at 298.45 71.12 0)
+			(uuid "b6e66ccc-1461-4cb2-837f-4b4b1be9799b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 281.94 60.96 90)
+			(uuid "de789a00-572e-431b-93a5-9c73bf3adcfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO0" input
+			(at 298.45 76.2 0)
+			(uuid "b52cb14c-ecc7-4edb-be6b-fa6f777d3eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1" input
+			(at 298.45 78.74 0)
+			(uuid "aaadbc5c-1fcd-4162-b20f-523e2ad40c75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2" input
+			(at 298.45 81.28 0)
+			(uuid "9d1c2848-f5bb-4a6f-96b0-41cc8b94a710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3" input
+			(at 298.45 83.82 0)
+			(uuid "ba400f86-1513-4aa4-b6e8-d5ad62ea7ac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO4" input
+			(at 298.45 86.36 0)
+			(uuid "77460e1a-2c5f-4664-9ade-fc23d17a2a4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO5" input
+			(at 298.45 88.9 0)
+			(uuid "143b1086-b084-46b6-b510-c76b8c299459")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO6" input
+			(at 298.45 91.44 0)
+			(uuid "c2da35c0-c974-48e0-a90e-0ff02821b949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO7" input
+			(at 298.45 93.98 0)
+			(uuid "d338d920-1d41-4665-8fe8-92dfe2457946")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO8" input
+			(at 298.45 96.52 0)
+			(uuid "d7f0980c-145d-4a61-8f38-23f7fb01971e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO9" input
+			(at 298.45 99.06 0)
+			(uuid "aabcce5a-906b-44fa-8cfa-bf791eab7a23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO10" input
+			(at 298.45 101.6 0)
+			(uuid "f4d194d0-6666-4669-b444-ff4b6817d505")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO11" input
+			(at 298.45 104.14 0)
+			(uuid "1adc7e0f-c948-4ed1-b56b-f0b298332493")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 262.89 73.66 180)
+			(uuid "6b66f39d-cb58-4a58-93ee-60e1b0dec63d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 262.89 76.2 180)
+			(uuid "d2516dc0-540b-4235-97f9-20ed4ee717aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 262.89 78.74 180)
+			(uuid "b4fce49d-a8e8-450c-befa-29bf9e9984e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
+					(page "39")
 				)
 			)
 		)
