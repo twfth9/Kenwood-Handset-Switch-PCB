@@ -1076,18 +1076,6 @@
 		)
 		(uuid "1e3feebb-e762-40bc-b7c1-1f30a0e6237a")
 	)
-	(text "0x##"
-		(exclude_from_sim no)
-		(at 169.926 93.218 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "3a8a48de-70b2-4c33-aa15-c91012766a62")
-	)
 	(text "0x36"
 		(exclude_from_sim no)
 		(at 438.404 126.492 0)
@@ -1284,7 +1272,7 @@
 	)
 	(bus
 		(pts
-			(xy 245.11 45.72) (xy 243.84 45.72)
+			(xy 255.27 40.64) (xy 254 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 35.56) (xy 229.87 36.83)
+			(xy 229.87 30.48) (xy 229.87 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +1422,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 45.72) (xy 214.63 57.15)
+			(xy 214.63 40.64) (xy 214.63 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 35.56) (xy 234.95 35.56)
+			(xy 229.87 30.48) (xy 234.95 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1531,6 +1519,16 @@
 			(type default)
 		)
 		(uuid "5dcb8274-5c57-413b-af42-934b83dacca8")
+	)
+	(wire
+		(pts
+			(xy 168.91 109.22) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68346cc5-885d-40ab-85a1-a3a696f12834")
 	)
 	(wire
 		(pts
@@ -1654,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 35.56) (xy 259.08 36.83)
+			(xy 269.24 30.48) (xy 269.24 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1691,6 +1689,26 @@
 			(type default)
 		)
 		(uuid "8e93c123-b667-4cfc-b3c9-0dd70d1a671e")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebfad52-2618-4c7b-a71d-739c59c5f0e7")
+	)
+	(wire
+		(pts
+			(xy 167.64 132.08) (xy 149.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec7fa8a-a8fe-40c9-bd2d-ca24a0010821")
 	)
 	(wire
 		(pts
@@ -1774,7 +1792,7 @@
 	)
 	(bus
 		(pts
-			(xy 243.84 45.72) (xy 243.84 59.69)
+			(xy 254 40.64) (xy 254 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +1862,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 45.72) (xy 214.63 45.72)
+			(xy 215.9 40.64) (xy 214.63 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1952,9 +1970,19 @@
 		)
 		(uuid "e96e79ff-253b-42fc-b0a2-8f716fb502fe")
 	)
+	(wire
+		(pts
+			(xy 168.91 111.76) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1edd0a-c1f6-40b3-8d99-76f02bb53888")
+	)
 	(bus
 		(pts
-			(xy 243.84 59.69) (xy 175.26 59.69)
+			(xy 254 59.69) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1964,7 +1992,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 35.56) (xy 264.16 35.56)
+			(xy 269.24 30.48) (xy 274.32 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6332,8 +6360,18 @@
 			"AFUATw=="
 		)
 	)
+	(label "FT4232_USB-"
+		(at 168.91 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "094a94c9-b02a-4932-b48c-c77ff74e33da")
+	)
 	(label "CODRIVER_MIC"
-		(at 243.84 59.69 180)
+		(at 254 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6361,6 +6399,16 @@
 			(justify right bottom)
 		)
 		(uuid "2a046b35-cc2d-4e2d-8b39-b0e48c36924c")
+	)
+	(label "FT4232_USB+"
+		(at 168.91 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31bfae17-bd5d-4470-96d1-fe5556837a1b")
 	)
 	(label "MUSIC_INPUT_SL"
 		(at 48.26 187.96 0)
@@ -6412,8 +6460,18 @@
 		)
 		(uuid "75f30fd7-5d0b-4dbd-b872-3729884d231d")
 	)
+	(label "SIGMALINK_USB+"
+		(at 167.64 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bda0f99-5bf2-48d3-8fcb-38a90b0fee79")
+	)
 	(label "+12V"
-		(at 234.95 35.56 180)
+		(at 234.95 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6443,7 +6501,7 @@
 		(uuid "a95209c8-f3b8-4953-b783-3008a89087a7")
 	)
 	(label "+12V"
-		(at 264.16 35.56 180)
+		(at 274.32 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6451,6 +6509,16 @@
 			(justify right bottom)
 		)
 		(uuid "aab8ce82-84c6-40ec-a9fb-cbb85dd66c72")
+	)
+	(label "SIGMALINK_USB-"
+		(at 167.64 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b184cc7a-9634-4591-8943-12a512da583d")
 	)
 	(label "MUSIC_INPUT_SR"
 		(at 48.26 190.5 0)
@@ -7609,7 +7677,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -7619,12 +7686,13 @@
 		)
 		(uuid "00c33178-d9c3-4012-9c6d-b3f9d5ca2d56")
 		(property "Sheetname" "MIC Switching"
-			(at 127 36.1184 0)
+			(at 147.066 50.546 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
+					(thickness 0.508)
+					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "MIC_SWITCHING.kicad_sch"
@@ -7742,7 +7810,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -7752,12 +7819,14 @@
 		)
 		(uuid "083e159e-07f8-41ac-9819-bbf059b2d597")
 		(property "Sheetname" "SigmaLink Programmer"
-			(at 127 128.8284 0)
+			(at 127.508 129.794 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(property "Sheetfile" "SigmaLink-USBi.kicad_sch"
@@ -8312,8 +8381,8 @@
 		)
 	)
 	(sheet
-		(at 245.11 36.83)
-		(size 24.13 17.78)
+		(at 255.27 31.75)
+		(size 29.21 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8326,18 +8395,18 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "0de55675-4c0f-4faa-9d16-ac65760d65a3")
-		(property "Sheetname" "Driver Hookup"
-			(at 257.556 56.134 0)
+		(property "Sheetname" "Codriver Hookup"
+			(at 270.002 51.054 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 2.032 2.032)
+					(thickness 0.4064)
 					(bold yes)
 				)
 			)
 		)
 		(property "Sheetfile" "Headset.kicad_sch"
-			(at 245.11 47.5746 0)
+			(at 255.27 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8416,7 @@
 			)
 		)
 		(pin "+12V" input
-			(at 259.08 36.83 90)
+			(at 269.24 31.75 90)
 			(uuid "f15ecaa9-ec42-4a77-b2b7-7473b38ad7b3")
 			(effects
 				(font
@@ -8357,7 +8426,7 @@
 			)
 		)
 		(pin "AUDIO_LEFT" input
-			(at 269.24 48.26 0)
+			(at 284.48 43.18 0)
 			(uuid "f0b8e08d-3520-445e-81de-11adcf37c1ab")
 			(effects
 				(font
@@ -8367,7 +8436,7 @@
 			)
 		)
 		(pin "AUDIO_RIGHT" input
-			(at 269.24 50.8 0)
+			(at 284.48 45.72 0)
 			(uuid "1435cd83-66e8-48ec-ba62-1dc213401da0")
 			(effects
 				(font
@@ -8377,7 +8446,7 @@
 			)
 		)
 		(pin "SPK_SENSE" output
-			(at 269.24 53.34 0)
+			(at 284.48 48.26 0)
 			(uuid "49eaadf2-57c6-4c10-a743-55b8be6969a4")
 			(effects
 				(font
@@ -8387,7 +8456,7 @@
 			)
 		)
 		(pin "DRIVER_MIC{MIC}" input
-			(at 245.11 45.72 180)
+			(at 255.27 40.64 180)
 			(uuid "a051ee8c-f1fa-41d4-98bb-10bdc9816238")
 			(effects
 				(font
@@ -9122,7 +9191,7 @@
 	)
 	(sheet
 		(at 204.47 137.16)
-		(size 38.1 45.72)
+		(size 58.42 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9136,11 +9205,11 @@
 		)
 		(uuid "312897ad-57f7-421d-b8b3-b16405d8a833")
 		(property "Sheetname" "DSP - ADAV400"
-			(at 223.266 152.908 90)
+			(at 223.012 173.736 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 2.032 2.032)
+					(thickness 0.4064)
 					(bold yes)
 				)
 			)
@@ -9246,7 +9315,7 @@
 			)
 		)
 		(pin "AVDD" input
-			(at 220.98 137.16 90)
+			(at 231.14 137.16 90)
 			(uuid "f2d711bc-05ed-4411-82e6-ffafc8d87e26")
 			(effects
 				(font
@@ -9256,7 +9325,7 @@
 			)
 		)
 		(pin "DAC1_OUT" output
-			(at 242.57 139.7 0)
+			(at 262.89 139.7 0)
 			(uuid "76b5c022-c518-4b02-a36a-75b330c4b86b")
 			(effects
 				(font
@@ -9266,7 +9335,7 @@
 			)
 		)
 		(pin "DAC2_OUT" output
-			(at 242.57 142.24 0)
+			(at 262.89 142.24 0)
 			(uuid "1758f6f5-1e32-401b-bc5b-852bb56f1cb0")
 			(effects
 				(font
@@ -9276,7 +9345,7 @@
 			)
 		)
 		(pin "DAC3_OUT" output
-			(at 242.57 144.78 0)
+			(at 262.89 144.78 0)
 			(uuid "feea8f81-291a-406a-9710-e2018e08ab99")
 			(effects
 				(font
@@ -9286,7 +9355,7 @@
 			)
 		)
 		(pin "DAC4_OUT" output
-			(at 242.57 147.32 0)
+			(at 262.89 147.32 0)
 			(uuid "cc829c26-1df8-45ed-9b8f-67c4f77ccc0d")
 			(effects
 				(font
@@ -9296,7 +9365,7 @@
 			)
 		)
 		(pin "DAC5_OUT" output
-			(at 242.57 149.86 0)
+			(at 262.89 149.86 0)
 			(uuid "76a69012-113f-44c0-bb19-ec0e705317fb")
 			(effects
 				(font
@@ -9306,7 +9375,7 @@
 			)
 		)
 		(pin "DAC6_OUT" output
-			(at 242.57 152.4 0)
+			(at 262.89 152.4 0)
 			(uuid "115952e1-d2e5-45ec-b5b6-fb7181a6a200")
 			(effects
 				(font
@@ -9316,7 +9385,7 @@
 			)
 		)
 		(pin "DAC7_OUT" output
-			(at 242.57 154.94 0)
+			(at 262.89 154.94 0)
 			(uuid "7d3c88ce-4f36-4055-91cf-cde83bde8376")
 			(effects
 				(font
@@ -9326,7 +9395,7 @@
 			)
 		)
 		(pin "DAC8_OUT" output
-			(at 242.57 157.48 0)
+			(at 262.89 157.48 0)
 			(uuid "39407e02-de01-4c8a-80b3-8b125a391383")
 			(effects
 				(font
@@ -9336,7 +9405,7 @@
 			)
 		)
 		(pin "DVDD" input
-			(at 226.06 137.16 90)
+			(at 236.22 137.16 90)
 			(uuid "e13b6652-7a20-49e5-a91a-5bf06a2e42f7")
 			(effects
 				(font
@@ -9346,7 +9415,7 @@
 			)
 		)
 		(pin "HEADPHONE_OUTL" output
-			(at 242.57 162.56 0)
+			(at 262.89 162.56 0)
 			(uuid "cb0fa3aa-befc-4597-adb6-b5bd5aa2d745")
 			(effects
 				(font
@@ -9356,7 +9425,7 @@
 			)
 		)
 		(pin "HEADPHONE_OUTR" output
-			(at 242.57 165.1 0)
+			(at 262.89 165.1 0)
 			(uuid "2e175ac4-a894-4767-9ec4-6af2cddbed71")
 			(effects
 				(font
@@ -9394,8 +9463,8 @@
 		)
 	)
 	(sheet
-		(at 215.9 36.83)
-		(size 24.13 17.78)
+		(at 215.9 31.75)
+		(size 29.21 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9408,18 +9477,18 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "377b2b53-fd33-4984-9cc9-259194e28afa")
-		(property "Sheetname" "CoDriver Hookup"
-			(at 228.092 56.134 0)
+		(property "Sheetname" "Driver Hookup"
+			(at 230.124 51.054 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 2.032 2.032)
+					(thickness 0.4064)
 					(bold yes)
 				)
 			)
 		)
 		(property "Sheetfile" "Headset.kicad_sch"
-			(at 215.9 57.7346 0)
+			(at 215.9 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +9498,7 @@
 			)
 		)
 		(pin "+12V" input
-			(at 229.87 36.83 90)
+			(at 229.87 31.75 90)
 			(uuid "ca160837-3860-4407-989b-d7594d015a80")
 			(effects
 				(font
@@ -9439,7 +9508,7 @@
 			)
 		)
 		(pin "AUDIO_LEFT" input
-			(at 240.03 48.26 0)
+			(at 245.11 43.18 0)
 			(uuid "05659e2b-584b-4d42-beeb-561da209428b")
 			(effects
 				(font
@@ -9449,7 +9518,7 @@
 			)
 		)
 		(pin "AUDIO_RIGHT" input
-			(at 240.03 50.8 0)
+			(at 245.11 45.72 0)
 			(uuid "96de5f1c-930a-4b39-a6f1-d44349b345ee")
 			(effects
 				(font
@@ -9459,7 +9528,7 @@
 			)
 		)
 		(pin "SPK_SENSE" output
-			(at 240.03 53.34 0)
+			(at 245.11 48.26 0)
 			(uuid "6d080ffc-3871-43fa-a57d-17e16381dced")
 			(effects
 				(font
@@ -9469,7 +9538,7 @@
 			)
 		)
 		(pin "DRIVER_MIC{MIC}" input
-			(at 215.9 45.72 180)
+			(at 215.9 40.64 180)
 			(uuid "bddb7cee-6be0-4ba3-af33-d0d01834ae60")
 			(effects
 				(font
@@ -9856,7 +9925,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -9866,14 +9934,14 @@
 		)
 		(uuid "851f2487-a12d-4cfb-ad5a-aea342ff1ae9")
 		(property "Sheetname" "USB Hub"
-			(at 204.47 95.8084 0)
+			(at 231.394 131.318 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 2.032 2.032)
+					(thickness 0.4064)
 					(bold yes)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Sheetfile" "USB_Hub.kicad_sch"
@@ -10419,7 +10487,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -10429,12 +10496,13 @@
 		)
 		(uuid "c1ee6588-ede0-4856-ae1d-36ded9da6bf7")
 		(property "Sheetname" "COM Switching"
-			(at 127 72.9484 0)
+			(at 150.368 85.09 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "MUX_COM_74LVC4066.kicad_sch"
@@ -11378,7 +11446,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -11387,11 +11454,13 @@
 			(color 128 255 128 1.0000)
 		)
 		(uuid "d61597ae-3032-48ec-a4f9-cd327a56022f")
-		(property "Sheetname" "FT4232"
-			(at 127 100.8884 0)
+		(property "Sheetname" "FT4232H"
+			(at 127 121.412 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -11857,7 +11926,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -11867,12 +11935,13 @@
 		)
 		(uuid "f62958c9-d11c-4e53-b6fe-8fb24d1ad04a")
 		(property "Sheetname" "Rear Panel"
-			(at 12.7 17.0684 0)
+			(at 30.734 105.156 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.048 3.048)
+					(thickness 0.6096)
+					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "RearPanel.kicad_sch"
