@@ -2182,12 +2182,6 @@
 		(uuid "35828146-0c8a-48f5-9506-b17a204fe04b")
 	)
 	(junction
-		(at 121.92 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40097d1e-b9da-45c0-adf9-8f33646e7240")
-	)
-	(junction
 		(at 90.17 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2294,12 +2288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec890ef0-dc32-4f3c-90e6-0114ad969674")
-	)
-	(junction
-		(at 121.92 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2ffa108-78ea-4be1-9bfe-b81744690363")
 	)
 	(junction
 		(at 139.7 102.87)
@@ -2476,16 +2464,6 @@
 			(type default)
 		)
 		(uuid "1b11b6de-56b1-4ce9-912e-13e68dfe45ce")
-	)
-	(wire
-		(pts
-			(xy 121.92 160.02) (xy 127 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d329114-067a-4e7c-a555-3d66dbd7fc7a")
 	)
 	(wire
 		(pts
@@ -3189,16 +3167,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 157.48) (xy 121.92 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbed30c8-5304-4622-9ef6-de909f20d2e9")
-	)
-	(wire
-		(pts
 			(xy 120.65 127) (xy 127 127)
 		)
 		(stroke
@@ -3206,16 +3174,6 @@
 			(type default)
 		)
 		(uuid "cf5b6bbb-e135-4bd8-894b-7ff12ffa502b")
-	)
-	(wire
-		(pts
-			(xy 121.92 157.48) (xy 127 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d10b79af-be30-4680-b96a-6ea9fd2f2924")
 	)
 	(wire
 		(pts
@@ -3319,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 157.48) (xy 121.92 160.02)
+			(xy 121.92 149.86) (xy 121.92 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3532,6 +3490,17 @@
 		)
 		(uuid "11d7d17c-96ff-4d5b-8875-13b7546fe53f")
 	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 127 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d077754-2e65-400c-b7f2-66458630e49f")
+	)
 	(hierarchical_label "DAC2_OUT"
 		(shape output)
 		(at 269.24 139.7 0)
@@ -3741,6 +3710,17 @@
 		)
 		(uuid "c967185d-c6b8-4f66-907d-7057173fc527")
 	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 127 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf529800-4f00-40f4-8dc4-36a8104f9205")
+	)
 	(hierarchical_label "GPIO10"
 		(shape input)
 		(at 162.56 172.72 0)
@@ -3873,10 +3853,6 @@
 					(reference "JP1")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "JP3")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "JP2")
 					(unit 1)
@@ -3956,10 +3932,6 @@
 					(reference "C446")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C531")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C489")
 					(unit 1)
@@ -4033,10 +4005,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0608")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0705")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -4114,10 +4082,6 @@
 					(reference "#PWR0602")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0702")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0660")
 					(unit 1)
@@ -4191,10 +4155,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0611")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0708")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -4273,10 +4233,6 @@
 					(reference "#PWR0613")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0692")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0650")
 					(unit 1)
@@ -4350,10 +4306,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0607")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0696")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -4431,10 +4383,6 @@
 					(reference "#PWR0623")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0704")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0662")
 					(unit 1)
@@ -4508,10 +4456,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "C459")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C528")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -4593,10 +4537,6 @@
 					(reference "C452")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C530")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C488")
 					(unit 1)
@@ -4673,10 +4613,6 @@
 					(reference "#PWR0617")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0691")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0649")
 					(unit 1)
@@ -4750,10 +4686,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0609")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0707")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -4835,10 +4767,6 @@
 					(reference "C450")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C534")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C492")
 					(unit 1)
@@ -4917,10 +4845,6 @@
 					(reference "C443")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C542")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C500")
 					(unit 1)
@@ -4994,10 +4918,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0604")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0686")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -5076,10 +4996,6 @@
 					(reference "#PWR0621")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0697")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0655")
 					(unit 1)
@@ -5153,10 +5069,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0603")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0687")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -5237,10 +5149,6 @@
 					(reference "C439")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C522")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C460")
 					(unit 1)
@@ -5314,10 +5222,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0610")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0706")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -5398,10 +5302,6 @@
 					(reference "C441")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C541")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C499")
 					(unit 1)
@@ -5480,10 +5380,6 @@
 					(reference "C457")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C543")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C501")
 					(unit 1)
@@ -5557,10 +5453,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0625")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0709")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -5638,10 +5530,6 @@
 					(reference "#PWR0632")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0710")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0668")
 					(unit 1)
@@ -5655,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 160.02 0)
+		(at 121.92 153.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5665,7 +5553,7 @@
 		(fields_autoplaced yes)
 		(uuid "57760291-d2d1-4581-a57f-f055c1cb1621")
 		(property "Reference" "#PWR0347"
-			(at 121.92 166.37 0)
+			(at 121.92 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5562,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 164.1531 0)
+			(at 121.92 157.8031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 160.02 0)
+			(at 121.92 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 160.02 0)
+			(at 121.92 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5589,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 160.02 0)
+			(at 121.92 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,10 +5604,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0614")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0699")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -5796,10 +5680,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0616")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0694")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -5880,10 +5760,6 @@
 					(reference "R295")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R338")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "R315")
 					(unit 1)
@@ -5960,10 +5836,6 @@
 					(reference "#PWR0620")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0693")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0651")
 					(unit 1)
@@ -6037,10 +5909,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "R293")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R341")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -6120,10 +5988,6 @@
 					(reference "C448")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C524")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C462")
 					(unit 1)
@@ -6197,10 +6061,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0639")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0711")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -6279,10 +6139,6 @@
 					(reference "#PWR0612")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0695")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "#PWR0653")
 					(unit 1)
@@ -6356,10 +6212,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0605")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0688")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -6437,10 +6289,6 @@
 					(reference "C458")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C526")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C464")
 					(unit 1)
@@ -6515,10 +6363,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0619")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0701")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -6598,10 +6442,6 @@
 					(reference "C440")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C523")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C461")
 					(unit 1)
@@ -6675,10 +6515,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0624")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0703")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -6759,10 +6595,6 @@
 					(reference "C438")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C539")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C497")
 					(unit 1)
@@ -6841,10 +6673,6 @@
 					(reference "C456")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C537")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C495")
 					(unit 1)
@@ -6919,10 +6747,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0618")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0698")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -7003,10 +6827,6 @@
 					(reference "C442")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C540")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C498")
 					(unit 1)
@@ -7081,10 +6901,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0622")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0700")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -7166,10 +6982,6 @@
 					(reference "C453")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C533")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C491")
 					(unit 1)
@@ -7246,10 +7058,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "R297")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R343")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -7329,10 +7137,6 @@
 					(reference "C444")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C532")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C490")
 					(unit 1)
@@ -7407,10 +7211,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "R291")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R337")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -7492,10 +7292,6 @@
 					(reference "C454")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C535")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C493")
 					(unit 1)
@@ -7575,10 +7371,6 @@
 					(reference "C445")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C529")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C487")
 					(unit 1)
@@ -7656,10 +7448,6 @@
 					(reference "C447")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C525")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C463")
 					(unit 1)
@@ -7733,10 +7521,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "R294")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R340")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -7955,10 +7739,6 @@
 					(reference "U104")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "U114")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "U105")
 					(unit 1)
@@ -8037,10 +7817,6 @@
 					(reference "R296")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R339")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "R316")
 					(unit 1)
@@ -8115,10 +7891,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0615")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0690")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -8202,10 +7974,6 @@
 					(reference "Y2")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "Y4")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "Y3")
 					(unit 1)
@@ -8283,10 +8051,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "C451")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C536")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -8367,10 +8131,6 @@
 					(reference "C455")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C538")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "C496")
 					(unit 1)
@@ -8444,10 +8204,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "R292")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "R342")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -8527,10 +8283,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "C449")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "C527")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -8639,10 +8391,6 @@
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "Q3")
-					(unit 1)
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(reference "Q2")
 					(unit 1)
@@ -8716,10 +8464,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/1c8c94b3-9bd0-4d0c-8264-5b94f39f7e04"
 					(reference "#PWR0606")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(reference "#PWR0689")
 					(unit 1)
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
@@ -8836,9 +8580,6 @@
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(page "62")
 				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(page "65")
-				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/fe79ae8d-1778-410e-ab25-738866b66f87"
 					(page "68")
 				)
@@ -8947,9 +8688,6 @@
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/ed0c925a-dbe5-407c-a4f4-acd3dcd7cdef"
 					(page "63")
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/29682c3d-75b8-4a55-be23-3e5ce44d9afa"
-					(page "66")
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/fe79ae8d-1778-410e-ab25-738866b66f87"
 					(page "43")
