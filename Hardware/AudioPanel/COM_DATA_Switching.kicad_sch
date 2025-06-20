@@ -3567,7 +3567,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 207.01) (xy 132.08 207.01)
+			(xy 109.22 200.66) (xy 132.08 200.66)
 		)
 		(stroke
 			(width 0)
@@ -4047,7 +4047,7 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 207.01) (xy 132.08 209.55)
+			(xy 132.08 200.66) (xy 132.08 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4284,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "a3253165-26b9-4a93-ae05-7a7df7fc665a")
+	)
+	(bus
+		(pts
+			(xy 132.08 207.01) (xy 132.08 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f0a37f-e10f-4027-9049-6e0441b67b16")
 	)
 	(wire
 		(pts
@@ -10020,8 +10030,18 @@
 			)
 		)
 		(pin "{4x4_CROSS}" input
-			(at 109.22 207.01 0)
+			(at 109.22 200.66 0)
 			(uuid "71c1f150-19bd-48e1-a8a1-4f8135eefad7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSS" input
+			(at 105.41 191.77 90)
+			(uuid "717b96ce-b28e-4b16-9fdd-7fa1748057cf")
 			(effects
 				(font
 					(size 1.27 1.27)

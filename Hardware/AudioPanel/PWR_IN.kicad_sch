@@ -2215,6 +2215,16 @@
 		)
 		(uuid "0e17a295-0806-4546-85ac-7968508fc7fb")
 	)
+	(text "Consider raising this threshold, maybe 18V?"
+		(exclude_from_sim no)
+		(at 245.872 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad9b6911-b82e-48cf-9545-b4d473bb2e44")
+	)
 	(junction
 		(at 120.65 76.2)
 		(diameter 0)
@@ -2282,6 +2292,12 @@
 		(uuid "6e1262c4-eb27-4547-9707-46a7c330c073")
 	)
 	(junction
+		(at 241.3 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e916c92-9701-44e0-b8b3-b3315765515c")
+	)
+	(junction
 		(at 163.83 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2300,6 +2316,12 @@
 		(uuid "9db868c8-2102-44b2-b7ef-36527c5462fa")
 	)
 	(junction
+		(at 76.2 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c7f8c5-d91e-4005-bfe4-c9fabb4a2a42")
+	)
+	(junction
 		(at 231.14 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2310,12 +2332,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c341bdd6-17a5-4b54-89a4-a1fa96b80149")
-	)
-	(junction
-		(at 241.3 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea3693e5-5187-414c-81d8-176501a4efb6")
 	)
 	(no_connect
 		(at 200.66 132.08)
@@ -2391,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 104.14) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5f3974-5ffc-476a-8aa6-aa2f6ad49667")
+	)
+	(wire
+		(pts
 			(xy 91.44 83.82) (xy 91.44 86.36)
 		)
 		(stroke
@@ -2418,16 +2444,6 @@
 			(type default)
 		)
 		(uuid "2cb8fb72-81eb-4bfa-bf83-fb190fac21e8")
-	)
-	(wire
-		(pts
-			(xy 241.3 119.38) (xy 243.84 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ce56998-ae08-43d8-8f81-0c9f63de5cd7")
 	)
 	(wire
 		(pts
@@ -2481,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 86.36 76.2)
+			(xy 68.58 76.2) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2518,6 +2534,16 @@
 			(type default)
 		)
 		(uuid "47372208-b748-4a3a-8365-6cea3f55832f")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51401908-ed68-4ce7-9cbf-332c46afb77c")
 	)
 	(wire
 		(pts
@@ -2571,13 +2597,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 229.87 119.38)
+			(xy 257.81 119.38) (xy 241.3 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65c5da5d-7d4c-404a-b2d5-32e6a546e1f5")
+		(uuid "655f48de-7441-402b-b853-388981af06f1")
 	)
 	(wire
 		(pts
@@ -2641,13 +2667,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 76.2) (xy 153.67 76.2)
+			(xy 143.51 76.2) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76e2bc65-3677-4107-9d8a-8dbac7af9e34")
+	)
+	(wire
+		(pts
+			(xy 229.87 119.38) (xy 241.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fd0ede-edc4-42b4-a8f5-6868258954cc")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78afa989-5846-4f3b-b576-532110c2a0d5")
 	)
 	(wire
 		(pts
@@ -2721,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 184.15 76.2)
+			(xy 171.45 76.2) (xy 184.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2919,16 +2965,25 @@
 		)
 		(uuid "ff3e637a-d71a-4606-a674-9959c89ebf1d")
 	)
-	(hierarchical_label "+5V_IN"
-		(shape input)
-		(at 243.84 119.38 0)
+	(label "VIN_PROTECTED"
+		(at 146.05 76.2 0)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "104d0f2b-ffa6-4b86-a087-224a2db40e42")
+		(uuid "ad46922e-a832-4890-ae57-81037e39c739")
+	)
+	(label "VIN_PROTECTED"
+		(at 257.81 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2af392c-fc49-4035-97ad-225429f60f19")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
@@ -4209,7 +4264,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 156.21 76.2 90)
+		(at 168.91 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4218,7 +4273,7 @@
 		(fields_autoplaced yes)
 		(uuid "526e355e-ffca-4f81-9d83-8e7ea2a94be9")
 		(property "Reference" "F1"
-			(at 156.21 69.85 90)
+			(at 168.91 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4281,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 156.21 72.39 90)
+			(at 168.91 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 74.93 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 76.2 0)
+			(at 168.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4308,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 156.21 76.2 0)
+			(at 168.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
