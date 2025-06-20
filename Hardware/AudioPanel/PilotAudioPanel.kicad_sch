@@ -615,6 +615,9 @@
 	(bus_alias "DSP_USBi"
 		(members "TSCL" "TSDA" "~{RESET}")
 	)
+	(bus_alias "MUSIC_NETWORK_SE"
+		(members "HL" "HR" "ML" "MR" "LL" "LR")
+	)
 	(text "0x34"
 		(exclude_from_sim no)
 		(at 235.966 192.532 0)
@@ -626,18 +629,6 @@
 			)
 		)
 		(uuid "1e3feebb-e762-40bc-b7c1-1f30a0e6237a")
-	)
-	(text "0x36"
-		(exclude_from_sim no)
-		(at 236.474 256.032 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "78ac4eb1-bf87-4aeb-ad7a-e8bf0bb840b9")
 	)
 	(text "0x35"
 		(exclude_from_sim no)
@@ -662,12 +653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73ea7eb2-bacf-403c-92d7-b586e240ab18")
-	)
-	(junction
-		(at 189.23 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cb63d09-1fe1-4b60-b328-2ed799a1086f")
 	)
 	(junction
 		(at 289.56 260.35)
@@ -712,7 +697,7 @@
 		(uuid "eeb3743d-c381-49ab-aad5-f70e5ef62c46")
 	)
 	(bus_entry
-		(at 204.47 185.42)
+		(at 199.39 185.42)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -757,15 +742,6 @@
 		(uuid "261bc5ae-815f-4044-8e79-412d75e27ab2")
 	)
 	(bus_entry
-		(at 207.01 243.84)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "282272b6-e8ee-43d0-9ebb-25b1528bfb93")
-	)
-	(bus_entry
 		(at 110.49 223.52)
 		(size -2.54 2.54)
 		(stroke
@@ -784,22 +760,13 @@
 		(uuid "48d92466-96b6-4827-bb4c-40ebfc91026b")
 	)
 	(bus_entry
-		(at 201.93 204.47)
+		(at 196.85 204.47)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "560f7894-21ae-48c9-b887-bd5cda8b58e4")
-	)
-	(bus_entry
-		(at 199.39 219.71)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f22a6fa-2d8e-4c64-afb4-f445ba44d99b")
 	)
 	(bus_entry
 		(at 101.6 171.45)
@@ -820,15 +787,6 @@
 		(uuid "833cfc91-0254-4a3c-ba64-05177cf3dfaa")
 	)
 	(bus_entry
-		(at 204.47 246.38)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c1a5d8-2dcd-4a21-834c-189b9b596c64")
-	)
-	(bus_entry
 		(at 110.49 218.44)
 		(size -2.54 2.54)
 		(stroke
@@ -847,15 +805,6 @@
 		(uuid "982ffe84-51bf-4287-9874-fe636d744f3b")
 	)
 	(bus_entry
-		(at 201.93 217.17)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "993a3303-6ad4-4a5d-b5d6-e8adcd71e06b")
-	)
-	(bus_entry
 		(at 110.49 228.6)
 		(size -2.54 2.54)
 		(stroke
@@ -865,7 +814,7 @@
 		(uuid "a9b775fa-4cfc-42c1-9e32-4d19fe83d76f")
 	)
 	(bus_entry
-		(at 201.93 182.88)
+		(at 196.85 182.88)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -892,7 +841,7 @@
 		(uuid "d3b0c0a4-1297-4bf9-9d13-f73a7beb3ae4")
 	)
 	(bus_entry
-		(at 204.47 207.01)
+		(at 199.39 207.01)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -908,16 +857,6 @@
 			(type default)
 		)
 		(uuid "f28aae91-5594-4250-ada9-8e6876a03d48")
-	)
-	(bus
-		(pts
-			(xy 189.23 201.93) (xy 189.23 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00736ed6-8aed-40e6-8311-97892656e008")
 	)
 	(bus
 		(pts
@@ -1171,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 180.34) (xy 231.14 180.34)
+			(xy 199.39 180.34) (xy 231.14 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1228,16 +1167,6 @@
 			(type default)
 		)
 		(uuid "3436fa6e-ad46-47ad-8745-8bc296a35325")
-	)
-	(wire
-		(pts
-			(xy 207.01 243.84) (xy 231.14 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3439750f-ec31-4d90-ae5e-a86f645a16ca")
 	)
 	(wire
 		(pts
@@ -1309,16 +1238,6 @@
 		)
 		(uuid "41199147-6fc3-491f-9136-e6c837d3a4a2")
 	)
-	(bus
-		(pts
-			(xy 231.14 233.68) (xy 189.23 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4648fa5b-426c-4e88-9b08-76f89e3e80f9")
-	)
 	(wire
 		(pts
 			(xy 228.6 189.23) (xy 231.14 189.23)
@@ -1378,26 +1297,6 @@
 			(type default)
 		)
 		(uuid "4932624a-14db-4a68-8a9a-977734efa471")
-	)
-	(wire
-		(pts
-			(xy 157.48 217.17) (xy 201.93 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "499b37da-3cf8-4b60-8a8f-8d2983bd8c9f")
-	)
-	(wire
-		(pts
-			(xy 157.48 219.71) (xy 199.39 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dbc416a-7812-4d6c-9fa6-9db73ee57786")
 	)
 	(wire
 		(pts
@@ -1481,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 182.88) (xy 231.14 182.88)
+			(xy 201.93 182.88) (xy 231.14 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 207.01) (xy 204.47 185.42)
+			(xy 199.39 207.01) (xy 199.39 185.42)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 207.01) (xy 199.39 207.01)
+			(xy 157.48 207.01) (xy 194.31 207.01)
 		)
 		(stroke
 			(width 0)
@@ -1839,16 +1738,6 @@
 		)
 		(uuid "a280374d-e8f4-415b-bfb3-d7996e8c2162")
 	)
-	(wire
-		(pts
-			(xy 204.47 219.71) (xy 204.47 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c6464a-daae-44a3-88b9-bab32295eabe")
-	)
 	(bus
 		(pts
 			(xy 254 25.4) (xy 254 40.64)
@@ -1891,23 +1780,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 204.47) (xy 201.93 182.88)
+			(xy 196.85 204.47) (xy 196.85 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7f838a1-f15a-435b-aba7-c596d2721188")
-	)
-	(wire
-		(pts
-			(xy 228.6 250.19) (xy 228.6 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b832888c-e9b9-4b1d-a390-f898c4974a66")
 	)
 	(wire
 		(pts
@@ -1928,16 +1807,6 @@
 			(type default)
 		)
 		(uuid "ba9ed2a4-8560-4903-bc29-65d03addb790")
-	)
-	(wire
-		(pts
-			(xy 222.25 252.73) (xy 231.14 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd19c443-c66f-4feb-a56b-09417dc5aa6f")
 	)
 	(wire
 		(pts
@@ -2001,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 209.55) (xy 201.93 209.55)
+			(xy 157.48 209.55) (xy 196.85 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2028,16 +1897,6 @@
 			(type default)
 		)
 		(uuid "cc8080a2-0cba-4ee6-9d53-c869542ab8a0")
-	)
-	(wire
-		(pts
-			(xy 231.14 250.19) (xy 228.6 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb1e76e-c476-42c2-8044-07544ce9d524")
 	)
 	(wire
 		(pts
@@ -2089,16 +1948,6 @@
 		)
 		(uuid "d974e897-3752-4b15-9f85-9eeab6fffab3")
 	)
-	(wire
-		(pts
-			(xy 204.47 246.38) (xy 231.14 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db03882d-a88f-4961-ad46-835a29a97122")
-	)
 	(bus
 		(pts
 			(xy 48.26 73.66) (xy 127 73.66)
@@ -2148,16 +1997,6 @@
 			(type default)
 		)
 		(uuid "ecc4a5c0-1a78-4bb6-8876-3b1f97375f3f")
-	)
-	(wire
-		(pts
-			(xy 201.93 222.25) (xy 201.93 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc5179f-7567-4e9a-b624-30d60d244506")
 	)
 	(bus
 		(pts
@@ -6641,7 +6480,7 @@
 			"ADEAYw=="
 		)
 	)
-	(label "AUDIO_OUT_TODSP_HR"
+	(label "AUDIO_OUT_TODSP_RIGHT"
 		(at 229.87 182.88 180)
 		(effects
 			(font
@@ -6650,16 +6489,6 @@
 			(justify right bottom)
 		)
 		(uuid "0306517f-67ae-4dca-ab3d-8fe5c9754e42")
-	)
-	(label "MUSIC_IN.HL"
-		(at 127 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "054c4c27-0f60-46fe-9289-8e1c50df7eed")
 	)
 	(label "700_SPKR2"
 		(at 127 195.58 180)
@@ -6721,6 +6550,16 @@
 		)
 		(uuid "21816350-6b46-4350-be7b-4e76e1fee0fc")
 	)
+	(label "AUDIO_OUT_TODSP_CENTER"
+		(at 229.87 212.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21e01373-8e9d-4c3c-aab1-907a62a23181")
+	)
 	(label "CROSSMIC_A"
 		(at 125.73 33.02 180)
 		(effects
@@ -6741,16 +6580,6 @@
 		)
 		(uuid "22afce0e-aab7-4df2-9d5c-7426a98a5335")
 	)
-	(label "MUSIC_IN.LR"
-		(at 127 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "240f8e43-eec7-4297-a0a5-16fa49486633")
-	)
 	(label "+5V"
 		(at 156.21 16.51 180)
 		(effects
@@ -6760,6 +6589,16 @@
 			(justify right bottom)
 		)
 		(uuid "2a046b35-cc2d-4e2d-8b39-b0e48c36924c")
+	)
+	(label "MUSIC_IN.RIGHT"
+		(at 127 218.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2acc18af-e19f-480c-a8c9-5bc7e96830c0")
 	)
 	(label "480_SPK_IN"
 		(at 127 190.5 180)
@@ -6780,46 +6619,6 @@
 			(justify left bottom)
 		)
 		(uuid "33f24e20-3b41-464d-bc24-35ccdc441444")
-	)
-	(label "+5V"
-		(at 222.25 252.73 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4db2080b-652e-4420-abe6-b461e4e6b56d")
-	)
-	(label "AUDIO_OUT_TODSP_MR"
-		(at 229.87 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f99f094-4c02-4e74-91ce-008f986061cf")
-	)
-	(label "AUDIO_OUT_TODSP_LR"
-		(at 229.87 246.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "681b65c5-3f88-41fa-a452-853ebbbddc5a")
-	)
-	(label "MUSIC_IN.ML"
-		(at 127 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69ace717-6cc9-47f0-8e29-08a9d2804869")
 	)
 	(label "+5V"
 		(at 151.13 92.71 180)
@@ -6871,16 +6670,6 @@
 		)
 		(uuid "83e04c04-1143-44f5-bdf4-db9773176682")
 	)
-	(label "MUSIC_IN.MR"
-		(at 127 223.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "889ff4be-0654-432a-a695-e1ea23276ba8")
-	)
 	(label "+12V"
 		(at 234.95 15.24 180)
 		(effects
@@ -6891,7 +6680,7 @@
 		)
 		(uuid "933bb2f5-b58c-4211-a8aa-767ae8613ec2")
 	)
-	(label "AUDIO_OUT_TODSP_HL"
+	(label "AUDIO_OUT_TODSP_LEFT"
 		(at 229.87 180.34 180)
 		(effects
 			(font
@@ -6900,26 +6689,6 @@
 			(justify right bottom)
 		)
 		(uuid "96dafbfb-34e4-4865-8909-90d848d0c27f")
-	)
-	(label "AUDIO_OUT_TODSP_ML"
-		(at 229.87 212.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9cf96dc2-b552-4a98-8a97-bb1c3f0c67ce")
-	)
-	(label "MUSIC_IN.LL"
-		(at 127 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a321edae-d2c1-4719-aad5-5d6d64a8cc4a")
 	)
 	(label "+12V"
 		(at 274.32 15.24 180)
@@ -6930,6 +6699,16 @@
 			(justify right bottom)
 		)
 		(uuid "aab8ce82-84c6-40ec-a9fb-cbb85dd66c72")
+	)
+	(label "AUDIO_OUT_TODSP_SUB"
+		(at 229.87 214.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab31b9fa-d167-4b64-bf63-f87add653213")
 	)
 	(label "+12V"
 		(at 86.36 251.46 180)
@@ -6961,16 +6740,6 @@
 		)
 		(uuid "d8192305-a50a-4232-975c-159223904c61")
 	)
-	(label "MUSIC_IN.HR"
-		(at 127 218.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8b5f969-9e8c-4ba2-abbf-7e86f3b8104a")
-	)
 	(label "710_SPKR2"
 		(at 127 200.66 180)
 		(effects
@@ -6980,6 +6749,16 @@
 			(justify right bottom)
 		)
 		(uuid "da67d5e4-807e-4cb3-8b1e-def9c84400b9")
+	)
+	(label "MUSIC_IN.LEFT"
+		(at 127 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e060bd22-9ff7-407d-b15f-3f487331e72a")
 	)
 	(label "EXTRA_SPKR1"
 		(at 127 203.2 180)
@@ -7010,16 +6789,6 @@
 			(justify right bottom)
 		)
 		(uuid "e40a3e08-afd2-4e1b-852c-002d52d729fb")
-	)
-	(label "AUDIO_OUT_TODSP_LL"
-		(at 229.87 243.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e50c1883-8368-4b99-95da-72a5e36ccca7")
 	)
 	(label "-12V"
 		(at 148.59 185.42 180)
@@ -7102,74 +6871,6 @@
 			(project ""
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
 					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 255.27 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d5333c0-440d-4e85-9473-85b39f05c915")
-		(property "Reference" "#PWR0828"
-			(at 228.6 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 259.4031 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6ec4b9d-c0df-4e1b-b3f6-f7f311990e0e")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
-					(reference "#PWR0828")
 					(unit 1)
 				)
 			)
@@ -8373,179 +8074,6 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
 					(page "71")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 231.14 232.41)
-		(size 35.56 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 128 255 128 1.0000)
-		)
-		(uuid "8c970b0c-1f12-4878-ae5c-24feae90ddf4")
-		(property "Sheetname" "DSP - ADAU1401"
-			(at 252.73 249.682 0)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(thickness 0.4064)
-					(bold yes)
-				)
-			)
-		)
-		(property "Sheetfile" "DSP_ADAU1701.kicad_sch"
-			(at 231.14 278.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "AIN0" input
-			(at 231.14 243.84 180)
-			(uuid "3055527a-0ab0-4608-9bc7-1166551cafc7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AIN1" input
-			(at 231.14 246.38 180)
-			(uuid "01992059-984f-4934-8fd1-df2a96cb577e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "AVDD" input
-			(at 247.65 232.41 90)
-			(uuid "ab3bb1f1-7e6f-453c-b93f-d2f11c425d11")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAC0_OUT" output
-			(at 266.7 234.95 0)
-			(uuid "90bf573a-fb43-41c5-8507-dc427dfdbba3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAC1_OUT" output
-			(at 266.7 237.49 0)
-			(uuid "994c9915-2502-4bb0-b6fb-d73332709501")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAC2_OUT" output
-			(at 266.7 240.03 0)
-			(uuid "65338adf-fc27-4807-bf37-4605d286cc65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DAC3_OUT" output
-			(at 266.7 242.57 0)
-			(uuid "fee4f4e4-86b0-4a14-9a1b-5660a9633ae3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DVDD" input
-			(at 250.19 232.41 90)
-			(uuid "33df4637-b89f-4587-a8a7-f90c553c7dfb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{RESET}" input
-			(at 231.14 240.03 180)
-			(uuid "8c5a79d9-16c3-4a23-a047-cef36d615884")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A0" input
-			(at 231.14 250.19 180)
-			(uuid "12dbc8a4-c7a8-40b8-815a-7e917ab0ab14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "A1" input
-			(at 231.14 252.73 180)
-			(uuid "79e803de-7829-499f-a5d3-0524413ae35e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLATCH" input
-			(at 231.14 236.22 180)
-			(uuid "58335f9a-c83f-403d-a793-ecb674a1b46c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{DSP_USBi}" output
-			(at 231.14 233.68 180)
-			(uuid "ac07bbc6-593e-4618-8c9b-0c964c90dee8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
-					(page "56")
 				)
 			)
 		)
@@ -10080,16 +9608,6 @@
 				(justify left)
 			)
 		)
-		(pin "MUSIC_IN{MUSIC_SE}" output
-			(at 48.26 231.14 0)
-			(uuid "6c7f392d-33cc-4124-ac8f-5374555149ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "480_SPKR" output
 			(at 48.26 190.5 0)
 			(uuid "de61d260-9d4a-4642-a8e8-30c5b73f3a1e")
@@ -10263,6 +9781,16 @@
 		(pin "VIN_PROTECTED" input
 			(at 48.26 240.03 0)
 			(uuid "d5ebddd1-76a3-4ad0-95fd-323a600aa9bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUSIC_IN{MUSIC_NETWORK_SE}" output
+			(at 48.26 231.14 0)
+			(uuid "a0f4aba9-f3cf-4f56-a56d-3a8ff18d15c1")
 			(effects
 				(font
 					(size 1.27 1.27)

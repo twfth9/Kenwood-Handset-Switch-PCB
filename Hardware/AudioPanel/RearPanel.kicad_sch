@@ -3070,16 +3070,23 @@
 	(bus_alias "MIC"
 		(members "UP" "DOWN" "PTT" "+")
 	)
-	(bus_alias "MUSIC_LVDS"
+	(bus_alias "MUSIC_NETWORK_LVDS"
 		(members "HL+" "HL-" "HR+" "HR-" "ML+" "ML-" "MR+" "MR-" "LL+" "LL-" "LR+"
 			"LR-"
 		)
 	)
-	(bus_alias "MUSIC_SE"
-		(members "TSCL" "TSDA" "~{RESET}")
+	(bus_alias "MUSIC_STANDARD_LVDS"
+		(members "FR+" "FR-" "FL+" "FL-" "RR+" "RR-" "RL+" "RL-" "SR+" "SR-" "SL+"
+			"SL-"
+		)
+	)
+	(bus_alias "MUSIC_STANDARD_SE"
+		(members "FL" "FR" "RL" "RR" "SL" "SR")
 	)
 	(bus_alias "USB"
-		(members "D+" "D-")
+		(members "HL+" "HL-" "HR+" "HR-" "ML+" "ML-" "MR+" "MR-" "LL+" "LL-" "LR+"
+			"LR-"
+		)
 	)
 	(text "MIC +- Signaling:\n4mVp-p"
 		(exclude_from_sim no)
@@ -3153,6 +3160,16 @@
 			)
 		)
 		(uuid "b847cf72-eb11-4428-ac51-353465d2b9e9")
+	)
+	(text "To Do:\n\nCombine Left Channels\n\nCombine Right Channels\n\nOutput Left and Right audio to DSP chips because music out of stereo is...uh...stereo anyway.\nRemote DSPs in each audio zone will handle active crossover-ing and time delay and things."
+		(exclude_from_sim no)
+		(at 243.84 231.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eab9b718-f9f6-4ae1-a8b2-cca6a4fbd637")
 	)
 	(text "2Vp-p"
 		(exclude_from_sim no)
@@ -8835,7 +8852,7 @@
 		)
 		(uuid "d91b70bb-34c2-4649-9454-bedf73e9c0e4")
 	)
-	(hierarchical_label "MUSIC_IN{MUSIC_SE}"
+	(hierarchical_label "MUSIC_IN{MUSIC_NETWORK_SE}"
 		(shape output)
 		(at 247.65 219.71 0)
 		(effects
