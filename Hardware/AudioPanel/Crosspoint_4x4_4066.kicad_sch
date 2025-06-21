@@ -747,6 +747,16 @@
 	(bus_alias "4x4_CROSS"
 		(members "A1" "A2" "A3" "B0" "B2" "B3" "C0" "C1" "C3" "D0" "D1" "D2")
 	)
+	(text "Need to verify switching logic levels"
+		(exclude_from_sim no)
+		(at 226.314 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a318d10d-a19a-4ee3-b393-bb8b32d63c7b")
+	)
 	(junction
 		(at 255.27 228.6)
 		(diameter 0)
@@ -2734,115 +2744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 247.65 199.39 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "078d9cbe-e48d-4ebe-845a-306efb0edf91")
-		(property "Reference" "U108"
-			(at 250.19 200.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4066"
-			(at 250.19 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 247.65 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 247.65 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "9040d178-d91c-42e8-89db-47c66661d3d8")
-		)
-		(pin "11"
-			(uuid "a0e0b550-9066-4df7-92be-f2b3834d29d7")
-		)
-		(pin "12"
-			(uuid "58dcbd8c-e524-423a-b158-8047c286f57f")
-		)
-		(pin "10"
-			(uuid "bdc6ce4d-14bc-4ada-b700-f79b40548c57")
-		)
-		(pin "7"
-			(uuid "db5193ee-e8b7-4608-9a8b-0baa9379b77a")
-		)
-		(pin "5"
-			(uuid "755412a6-0583-4547-a55d-82430a16d29b")
-		)
-		(pin "6"
-			(uuid "9d688eef-dba7-48cb-a9e4-230240c5b602")
-		)
-		(pin "2"
-			(uuid "5a6c8454-40f7-416a-b6a1-5b7dc7bc37e8")
-		)
-		(pin "13"
-			(uuid "fbdb4791-2be5-43b3-8180-596d051e6105")
-		)
-		(pin "3"
-			(uuid "3f185983-a77f-41c8-bed4-121be5698082")
-		)
-		(pin "9"
-			(uuid "4f19176f-5c85-4376-ae8c-0edd34a74f36")
-		)
-		(pin "1"
-			(uuid "136538d1-fcea-46a1-b390-2e8f3209a235")
-		)
-		(pin "4"
-			(uuid "cec0ab57-bcde-410b-aa60-f30c1add30d7")
-		)
-		(pin "8"
-			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aecb")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U108")
-					(unit 5)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 255.27 234.95 0)
 		(unit 1)
@@ -3491,6 +3392,115 @@
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
 					(reference "#PWR0945")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 224.79 199.39 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "585726b2-abd8-43b5-8e21-48b1240f7f2b")
+		(property "Reference" "U51"
+			(at 221.996 198.2357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4066"
+			(at 221.996 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 224.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 224.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b28df37b-5ffd-487a-8ba3-7a7722e60306")
+		)
+		(pin "6"
+			(uuid "b41647df-4c01-465d-9c06-42e99672c7f0")
+		)
+		(pin "9"
+			(uuid "fb49b7ce-4fc8-41fa-9f7d-c93b618bcfe7")
+		)
+		(pin "5"
+			(uuid "e8cb48db-4ee6-4d8c-9fd2-c17d11521cd3")
+		)
+		(pin "10"
+			(uuid "7c5ce42b-0e37-40e3-a10b-bdc424ed6cf6")
+		)
+		(pin "13"
+			(uuid "700b74df-342b-47d9-89a7-6e5a5a60775e")
+		)
+		(pin "8"
+			(uuid "d8eb1204-90a3-404b-ba44-08eafb26bc7a")
+		)
+		(pin "12"
+			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd94")
+		)
+		(pin "14"
+			(uuid "2b5dedec-155a-4bc5-9a56-4a364ce064fb")
+		)
+		(pin "2"
+			(uuid "6e26c495-fe4f-4099-b5b4-65189188547f")
+		)
+		(pin "4"
+			(uuid "2ea4d4d8-9853-4306-82c8-5ed3e10afac5")
+		)
+		(pin "1"
+			(uuid "d4b42c2d-1b46-4c6d-afc7-d452c3a75d04")
+		)
+		(pin "11"
+			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce5")
+		)
+		(pin "7"
+			(uuid "b6d9259e-5e97-43a8-a71f-e10627571cdc")
+		)
+		(instances
+			(project ""
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
+					(reference "U51")
+					(unit 5)
+				)
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
+					(reference "U52")
+					(unit 5)
 				)
 			)
 		)
@@ -4658,6 +4668,115 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4066")
+		(at 247.65 199.39 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c206f72b-bae4-45ee-9ddb-60c32dcdb516")
+		(property "Reference" "U55"
+			(at 244.856 198.2357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4066"
+			(at 244.856 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 247.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 247.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b28df37b-5ffd-487a-8ba3-7a7722e60306")
+		)
+		(pin "6"
+			(uuid "b41647df-4c01-465d-9c06-42e99672c7f0")
+		)
+		(pin "9"
+			(uuid "fb49b7ce-4fc8-41fa-9f7d-c93b618bcfe7")
+		)
+		(pin "5"
+			(uuid "e8cb48db-4ee6-4d8c-9fd2-c17d11521cd3")
+		)
+		(pin "10"
+			(uuid "7c5ce42b-0e37-40e3-a10b-bdc424ed6cf6")
+		)
+		(pin "13"
+			(uuid "700b74df-342b-47d9-89a7-6e5a5a60775e")
+		)
+		(pin "8"
+			(uuid "d8eb1204-90a3-404b-ba44-08eafb26bc7a")
+		)
+		(pin "12"
+			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd94")
+		)
+		(pin "14"
+			(uuid "e8a78c60-7f85-4873-bd74-f06728aa140f")
+		)
+		(pin "2"
+			(uuid "6e26c495-fe4f-4099-b5b4-65189188547f")
+		)
+		(pin "4"
+			(uuid "2ea4d4d8-9853-4306-82c8-5ed3e10afac5")
+		)
+		(pin "1"
+			(uuid "d4b42c2d-1b46-4c6d-afc7-d452c3a75d04")
+		)
+		(pin "11"
+			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce5")
+		)
+		(pin "7"
+			(uuid "1eb21040-bf33-4fae-bcfd-57d2bbeb43f0")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
+					(reference "U55")
+					(unit 5)
+				)
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
+					(reference "U56")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 280.67 234.95 0)
 		(unit 1)
@@ -4725,115 +4844,6 @@
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
 					(reference "C789")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4066")
-		(at 224.79 199.39 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c653f827-887a-4c11-a34c-ba27d0e497c2")
-		(property "Reference" "U106"
-			(at 227.33 200.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4066"
-			(at 227.33 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 224.79 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 224.79 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "b1215be5-0889-4ad5-b77d-29003c0e2fe7")
-		)
-		(pin "11"
-			(uuid "14038237-89aa-4a43-bd1b-48169d4eb424")
-		)
-		(pin "10"
-			(uuid "38a6c7d9-d360-47e6-a5c1-e365be796d9c")
-		)
-		(pin "4"
-			(uuid "59f55f4c-f7e8-47dd-a055-da71aab82959")
-		)
-		(pin "3"
-			(uuid "64af9633-ae68-4e81-b2cd-1fd2591a00a4")
-		)
-		(pin "2"
-			(uuid "53bf4f93-2008-4403-a09b-b84e429bca7a")
-		)
-		(pin "8"
-			(uuid "d1bbddf7-3af3-4d59-a912-bfb4f82ef1c2")
-		)
-		(pin "14"
-			(uuid "137075c4-5ff5-4279-b74a-f7b8e3b7f7a9")
-		)
-		(pin "12"
-			(uuid "b9a3b43a-4730-43da-ae09-0926fd3229b9")
-		)
-		(pin "6"
-			(uuid "28418c18-786f-4cfa-95e3-c12f3e0a0b34")
-		)
-		(pin "1"
-			(uuid "d178bee6-41d7-453e-9295-35c2b74c342b")
-		)
-		(pin "13"
-			(uuid "c24fc02f-1656-4d58-9ba4-7298e31d34d7")
-		)
-		(pin "5"
-			(uuid "7610d3c4-b9c6-44ad-a617-43a410599d4f")
-		)
-		(pin "7"
-			(uuid "ff0aa7c3-f5fb-4295-b776-4ca4a6ead43c")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U106")
-					(unit 5)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -5167,6 +5177,115 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4066")
+		(at 236.22 199.39 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dff49c6a-4e74-4405-acfa-71717fb66cf7")
+		(property "Reference" "U53"
+			(at 233.426 198.2357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4066"
+			(at 233.426 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 236.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 236.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b28df37b-5ffd-487a-8ba3-7a7722e60306")
+		)
+		(pin "6"
+			(uuid "b41647df-4c01-465d-9c06-42e99672c7f0")
+		)
+		(pin "9"
+			(uuid "fb49b7ce-4fc8-41fa-9f7d-c93b618bcfe7")
+		)
+		(pin "5"
+			(uuid "e8cb48db-4ee6-4d8c-9fd2-c17d11521cd3")
+		)
+		(pin "10"
+			(uuid "7c5ce42b-0e37-40e3-a10b-bdc424ed6cf6")
+		)
+		(pin "13"
+			(uuid "700b74df-342b-47d9-89a7-6e5a5a60775e")
+		)
+		(pin "8"
+			(uuid "d8eb1204-90a3-404b-ba44-08eafb26bc7a")
+		)
+		(pin "12"
+			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd94")
+		)
+		(pin "14"
+			(uuid "91b82489-c91b-438f-a045-e72288587084")
+		)
+		(pin "2"
+			(uuid "6e26c495-fe4f-4099-b5b4-65189188547f")
+		)
+		(pin "4"
+			(uuid "2ea4d4d8-9853-4306-82c8-5ed3e10afac5")
+		)
+		(pin "1"
+			(uuid "d4b42c2d-1b46-4c6d-afc7-d452c3a75d04")
+		)
+		(pin "11"
+			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce5")
+		)
+		(pin "7"
+			(uuid "48b3f9e5-c78f-477a-9c4a-3c834a286960")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
+					(reference "U53")
+					(unit 5)
+				)
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
+					(reference "U54")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 179.07 0)
 		(mirror y)
@@ -5233,115 +5352,6 @@
 				)
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
 					(reference "#PWR0940")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4066")
-		(at 236.22 199.39 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f05afc2d-9bf8-46b9-b74f-5d35457446cd")
-		(property "Reference" "U107"
-			(at 238.76 200.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4066"
-			(at 238.76 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 236.22 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 236.22 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "00f08061-721a-4c0c-8255-052aff50e8f9")
-		)
-		(pin "1"
-			(uuid "301111c4-ec27-4590-8cd3-e40408f605fd")
-		)
-		(pin "13"
-			(uuid "e88b3e86-902c-439a-9976-fa0896f86b2f")
-		)
-		(pin "11"
-			(uuid "162cf2f8-873d-4eef-9c05-7d1155fb3413")
-		)
-		(pin "12"
-			(uuid "e69c3b37-3c6d-4959-83f5-b2d2e8182e4a")
-		)
-		(pin "14"
-			(uuid "b8853ecc-0c22-4757-ad2e-f0567ee71bd2")
-		)
-		(pin "2"
-			(uuid "d108454f-efa0-4771-9cae-208219ce183f")
-		)
-		(pin "6"
-			(uuid "82b3821f-82e1-4d80-8926-756fbb9a42f5")
-		)
-		(pin "10"
-			(uuid "92cc5529-4afc-4192-afe7-eed74e85a93a")
-		)
-		(pin "9"
-			(uuid "0668bf2c-4dd5-4ae0-afd3-5e03525e4730")
-		)
-		(pin "7"
-			(uuid "b0f896cb-1cf5-440d-95bb-fcc6dbb2d69e")
-		)
-		(pin "5"
-			(uuid "f75b7f19-6c31-434c-809e-b83dab68f0b9")
-		)
-		(pin "3"
-			(uuid "469ccd29-69e1-4d5f-84b5-683e76f58e1d")
-		)
-		(pin "8"
-			(uuid "6311e160-c4ba-4295-b9e8-5791cf319adb")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U107")
-					(unit 5)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
 					(unit 1)
 				)
 			)

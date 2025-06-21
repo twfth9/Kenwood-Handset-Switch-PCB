@@ -1,0 +1,783 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "51043415-7662-4d33-a0aa-4d94d47c4282")
+	(paper "B")
+	(lib_symbols
+		(symbol "Amplifier_Operational:OPA1656ID"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "OPA1656ID"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OPA1656ID_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1656ID_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA1656ID_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 134.62 180.34 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d88ceef-4057-45d7-893b-f4861b60ea66")
+		(property "Reference" "U68"
+			(at 132.842 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1662AIDR"
+			(at 134.62 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 134.62 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750397590108&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa1662"
+			(at 134.62 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 134.62 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cc21ff8d-b0ac-42e9-bc84-86fcf776252c")
+		)
+		(pin "7"
+			(uuid "699baa87-7681-46cb-b909-c35bebc35dfe")
+		)
+		(pin "2"
+			(uuid "42e20ddc-71db-427c-9148-153958bf5ba7")
+		)
+		(pin "6"
+			(uuid "33ce6fe4-c0d3-4ed2-a871-2f43fbc27c3b")
+		)
+		(pin "1"
+			(uuid "2ad23c6a-a047-485c-8d66-abea0ac70333")
+		)
+		(pin "4"
+			(uuid "bf75b97f-1522-4196-886a-29824ffc177b")
+		)
+		(pin "3"
+			(uuid "40fb4792-4d4c-4a1b-a8f3-6cc9fd20aed4")
+		)
+		(pin "5"
+			(uuid "9dd8d27d-a28a-4dd2-87ac-663b08ca14ae")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a48a768e-71c1-4f23-8c54-93effe53e5cd"
+					(reference "U68")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 307.34 170.18 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6837cc88-7067-4d6d-92d7-bf39acff7a37")
+		(property "Reference" "U68"
+			(at 306.07 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1662AIDR"
+			(at 306.07 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 307.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750397590108&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa1662"
+			(at 307.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 307.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5faff7e6-532d-4a32-876d-87692fcf057d")
+		)
+		(pin "7"
+			(uuid "23565c29-09a2-4a6e-99a1-886ca1ed07d4")
+		)
+		(pin "2"
+			(uuid "42e20ddc-71db-427c-9148-153958bf5ba6")
+		)
+		(pin "6"
+			(uuid "407d7993-19d4-4b5b-805d-9371de3764ec")
+		)
+		(pin "1"
+			(uuid "2ad23c6a-a047-485c-8d66-abea0ac70332")
+		)
+		(pin "4"
+			(uuid "33c5655d-e4c9-4b67-a60c-8956a234b2e9")
+		)
+		(pin "3"
+			(uuid "40fb4792-4d4c-4a1b-a8f3-6cc9fd20aed3")
+		)
+		(pin "5"
+			(uuid "41c9828f-1c50-4065-bb30-c43cbe92597c")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a48a768e-71c1-4f23-8c54-93effe53e5cd"
+					(reference "U68")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 287.02 170.18 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3f9820-958d-4a4a-a9ac-c32e5cbf35fb")
+		(property "Reference" "U62"
+			(at 285.75 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1662AIDR"
+			(at 285.75 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 287.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750397590108&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa1662"
+			(at 287.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 287.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a198e017-b7ef-4043-a5be-a1e9f1716874")
+		)
+		(pin "7"
+			(uuid "23565c29-09a2-4a6e-99a1-886ca1ed07d4")
+		)
+		(pin "2"
+			(uuid "42e20ddc-71db-427c-9148-153958bf5ba6")
+		)
+		(pin "6"
+			(uuid "407d7993-19d4-4b5b-805d-9371de3764ec")
+		)
+		(pin "1"
+			(uuid "2ad23c6a-a047-485c-8d66-abea0ac70332")
+		)
+		(pin "4"
+			(uuid "d5a945d8-8dbd-472a-b194-0716f5fcb901")
+		)
+		(pin "3"
+			(uuid "40fb4792-4d4c-4a1b-a8f3-6cc9fd20aed3")
+		)
+		(pin "5"
+			(uuid "41c9828f-1c50-4065-bb30-c43cbe92597c")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a48a768e-71c1-4f23-8c54-93effe53e5cd"
+					(reference "U62")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 134.62 104.14 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83540114-f270-45f1-a191-fb780444188f")
+		(property "Reference" "U62"
+			(at 132.842 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1662AIDR"
+			(at 134.62 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750397590108&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa1662"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cc21ff8d-b0ac-42e9-bc84-86fcf776252c")
+		)
+		(pin "7"
+			(uuid "32a4552d-3812-4648-9674-2ab8e106197f")
+		)
+		(pin "2"
+			(uuid "42e20ddc-71db-427c-9148-153958bf5ba7")
+		)
+		(pin "6"
+			(uuid "0fd0fada-40c7-4239-96ea-4cfcb09cda07")
+		)
+		(pin "1"
+			(uuid "2ad23c6a-a047-485c-8d66-abea0ac70333")
+		)
+		(pin "4"
+			(uuid "bf75b97f-1522-4196-886a-29824ffc177b")
+		)
+		(pin "3"
+			(uuid "40fb4792-4d4c-4a1b-a8f3-6cc9fd20aed4")
+		)
+		(pin "5"
+			(uuid "fd42aff0-52c5-447e-8dae-fc6b60237854")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a48a768e-71c1-4f23-8c54-93effe53e5cd"
+					(reference "U62")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 134.62 142.24 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2500709-e211-42b4-bb74-2935565bfb54")
+		(property "Reference" "U68"
+			(at 133.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1662AIDR"
+			(at 134.62 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750397590108&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa1662"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cc21ff8d-b0ac-42e9-bc84-86fcf7762527")
+		)
+		(pin "7"
+			(uuid "23565c29-09a2-4a6e-99a1-886ca1ed07ce")
+		)
+		(pin "2"
+			(uuid "ac071304-748d-47a2-94a3-51f1b1fd98ab")
+		)
+		(pin "6"
+			(uuid "407d7993-19d4-4b5b-805d-9371de3764e6")
+		)
+		(pin "1"
+			(uuid "4d0bd59b-3e8c-4109-8d50-ded8e8e81cc0")
+		)
+		(pin "4"
+			(uuid "bf75b97f-1522-4196-886a-29824ffc1776")
+		)
+		(pin "3"
+			(uuid "880fd016-1119-4892-a65b-c687ea23a9b8")
+		)
+		(pin "5"
+			(uuid "41c9828f-1c50-4065-bb30-c43cbe925976")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a48a768e-71c1-4f23-8c54-93effe53e5cd"
+					(reference "U68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1656ID")
+		(at 134.62 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd82ba10-4cc7-472f-9e8e-2b5a78a48651")
+		(property "Reference" "U62"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1662AIDR"
+			(at 134.62 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1662.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750397590108&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fopa1662"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "cc21ff8d-b0ac-42e9-bc84-86fcf7762527")
+		)
+		(pin "7"
+			(uuid "23565c29-09a2-4a6e-99a1-886ca1ed07ce")
+		)
+		(pin "2"
+			(uuid "d5ea1c0a-75d0-4243-825d-e8deefc3230a")
+		)
+		(pin "6"
+			(uuid "407d7993-19d4-4b5b-805d-9371de3764e6")
+		)
+		(pin "1"
+			(uuid "159f6e67-369b-42e8-83ac-ee00182d8d2b")
+		)
+		(pin "4"
+			(uuid "bf75b97f-1522-4196-886a-29824ffc1776")
+		)
+		(pin "3"
+			(uuid "e5a3c2c8-8586-40d3-9070-12c62d932db1")
+		)
+		(pin "5"
+			(uuid "41c9828f-1c50-4065-bb30-c43cbe925976")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a48a768e-71c1-4f23-8c54-93effe53e5cd"
+					(reference "U62")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
