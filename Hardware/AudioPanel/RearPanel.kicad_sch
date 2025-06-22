@@ -6819,6 +6819,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 162.56) (xy 30.48 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48afb32-8ae6-4eaa-8277-60913a30cb60")
+	)
+	(wire
+		(pts
+			(xy 31.75 163.83) (xy 31.75 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e591b6-a0fb-49ce-8136-314094fd9291")
+	)
+	(wire
+		(pts
 			(xy 243.84 196.85) (xy 227.33 196.85)
 		)
 		(stroke
@@ -11233,6 +11253,73 @@
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8e2c08a-638a-475f-85b9-5b4e1c46a496")
+		(property "Reference" "#PWR0326"
+			(at 31.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 167.9631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18088cf6-290f-4a90-9728-24f11eb9b3ae")
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/f62958c9-d11c-4e53-b6fe-8fb24d1ad04a"
+					(reference "#PWR0326")
 					(unit 1)
 				)
 			)

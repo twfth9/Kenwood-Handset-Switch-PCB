@@ -630,6 +630,16 @@
 		)
 		(uuid "1e3feebb-e762-40bc-b7c1-1f30a0e6237a")
 	)
+	(text "Crossmic A/B connects TS480 and D700 \nfor Kenwood Skycommand Operation"
+		(exclude_from_sim no)
+		(at 172.974 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fb5b7e0-70f2-46e1-bbd3-7a1038eeb80d")
+	)
 	(text "0x35"
 		(exclude_from_sim no)
 		(at 317.246 306.578 0)
@@ -1386,6 +1396,16 @@
 		)
 		(uuid "47bf60ae-3841-4aa5-b8d5-f4d7eba75567")
 	)
+	(bus
+		(pts
+			(xy 326.39 95.25) (xy 326.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481e796d-65e8-4104-a2a5-f993a04f1b53")
+	)
 	(wire
 		(pts
 			(xy 177.8 170.18) (xy 182.88 170.18)
@@ -1566,6 +1586,16 @@
 		)
 		(uuid "5b6b18a4-b002-4a13-8290-7a096b864b63")
 	)
+	(bus
+		(pts
+			(xy 209.55 73.66) (xy 332.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf14b61-f9bf-4013-b1c5-52b0caa10af7")
+	)
 	(wire
 		(pts
 			(xy 228.6 294.64) (xy 312.42 294.64)
@@ -1745,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "71dc6e02-97fa-40f0-9005-1e478c01b422")
+	)
+	(bus
+		(pts
+			(xy 332.74 73.66) (xy 332.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730a305d-14d5-4611-a869-fae46ef422ce")
 	)
 	(wire
 		(pts
@@ -2256,6 +2296,16 @@
 		)
 		(uuid "b0ca9af4-b269-4a85-8e96-9dd4c01b8fd0")
 	)
+	(bus
+		(pts
+			(xy 326.39 71.12) (xy 209.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a37097-5449-42ea-afa9-a37052672a12")
+	)
 	(wire
 		(pts
 			(xy 331.47 281.94) (xy 328.93 281.94)
@@ -2305,6 +2355,16 @@
 			(type default)
 		)
 		(uuid "b8a020be-f190-475f-8796-829607c0c15a")
+	)
+	(bus
+		(pts
+			(xy 322.58 95.25) (xy 326.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e00027-2724-4112-b663-13795aa807e6")
 	)
 	(wire
 		(pts
@@ -2415,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "c903a8c0-a385-4941-9522-9e210150ccd3")
+	)
+	(bus
+		(pts
+			(xy 332.74 109.22) (xy 322.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9477e09-268d-42e7-819f-b6de745e4870")
 	)
 	(bus
 		(pts
@@ -9009,29 +9079,9 @@
 				(justify left)
 			)
 		)
-		(pin "PTT_OUT" output
-			(at 322.58 114.3 0)
-			(uuid "e40ff1d7-8d76-4cd0-8240-3e5ea1c74452")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RX_AUDIO_IN" input
-			(at 322.58 111.76 0)
-			(uuid "41d3c836-8273-479a-af02-5d3c6fb6d6a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX_AUDIO_OUT" output
+		(pin "USB_RIGCTRL{DATA}" output
 			(at 322.58 109.22 0)
-			(uuid "ef1a5bdc-c734-4dea-b212-e8c2bdfd9da9")
+			(uuid "1af932c1-1bba-4037-9ce5-bed387456b56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,8 +9695,8 @@
 		)
 	)
 	(sheet
-		(at 353.06 184.15)
-		(size 12.7 7.62)
+		(at 372.11 171.45)
+		(size 34.29 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9661,7 +9711,7 @@
 		)
 		(uuid "a5cce8a2-fa1f-45df-8605-c295d18be7f1")
 		(property "Sheetname" "Front IO Panel"
-			(at 353.06 183.4384 0)
+			(at 372.11 170.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9722,7 @@
 			)
 		)
 		(property "Sheetfile" "FrontPanel.kicad_sch"
-			(at 353.06 192.3546 0)
+			(at 372.11 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,66 +10244,6 @@
 				(justify right)
 			)
 		)
-		(pin "SCL" input
-			(at 209.55 57.15 0)
-			(uuid "3bcb7ef4-5e81-41e2-9a86-e545fd6c19db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 209.55 59.69 0)
-			(uuid "a910f002-97e5-4b8b-8274-0b73dc49763b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "INTA0" output
-			(at 209.55 62.23 0)
-			(uuid "f3e97919-8ca1-40c9-a46c-d600da67c826")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "INTA1" output
-			(at 209.55 67.31 0)
-			(uuid "dad41403-365e-4226-8b6c-32207fce29e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "INTB0" output
-			(at 209.55 64.77 0)
-			(uuid "ee7de705-030d-4f68-a5fa-02a21fffc77d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "INTB1" output
-			(at 209.55 69.85 0)
-			(uuid "c85eae7d-b4e4-4153-a4fb-f754caf7204a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "480_COM{COM}" output
 			(at 161.29 57.15 180)
 			(uuid "b342e055-a0b2-418d-b4da-9cd335d3ef3b")
@@ -10374,10 +10364,113 @@
 				(justify left)
 			)
 		)
+		(pin "MISO" input
+			(at 209.55 57.15 0)
+			(uuid "4cfb2500-7b19-4024-8ace-cf6f7f6c4952")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 209.55 59.69 0)
+			(uuid "9ee8a16a-4f42-4cb3-aa6b-7ccbe6d26b8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 209.55 62.23 0)
+			(uuid "b946f044-86da-4e94-9cf9-e047ecf5c932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SS}" input
+			(at 209.55 64.77 0)
+			(uuid "8a650b50-d5d9-4833-bb8e-52d90f5c979e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB1_RIGCTRL{DATA}" input
+			(at 209.55 71.12 0)
+			(uuid "c3e63160-dc91-4b67-a0ea-e8a93976f4cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_RIGCTRL{DATA}" input
+			(at 209.55 73.66 0)
+			(uuid "3cf7b49c-d5c9-4c77-b0d6-42d8be903ee2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PilotAudioPanel"
 				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
 					(page "59")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 248.92 137.16)
+		(size 34.29 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "d145d7cb-a497-4715-9413-13619ddc99e7")
+		(property "Sheetname" "Processor"
+			(at 248.92 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Processor.kicad_sch"
+			(at 248.92 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PilotAudioPanel"
+				(path "/2de36a1b-eee5-458c-8325-256a7162eff5"
+					(page "97")
 				)
 			)
 		)
@@ -11014,8 +11107,8 @@
 		)
 	)
 	(sheet
-		(at 326.39 140.97)
-		(size 35.56 19.05)
+		(at 330.2 140.97)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11029,18 +11122,18 @@
 		)
 		(uuid "e520cb7e-29de-4e95-a4be-f4b7b8c9a126")
 		(property "Sheetname" "256kb DSP EEPROM"
-			(at 361.95 159.512 0)
+			(at 330.2 159.766 0)
 			(effects
 				(font
 					(size 1.778 1.778)
 					(thickness 0.3556)
 					(bold yes)
 				)
-				(justify right bottom)
+				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "EEPROM_DSP.kicad_sch"
-			(at 326.39 160.6046 0)
+			(at 330.2 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,29 +11255,9 @@
 				(justify left)
 			)
 		)
-		(pin "PTT_OUT" output
-			(at 322.58 100.33 0)
-			(uuid "22bb6a7b-c8f7-4242-85ae-00f8dfe25dc4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RX_AUDIO_IN" input
-			(at 322.58 97.79 0)
-			(uuid "520540d6-ad18-4b8b-a4ba-ffa6d72aad98")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX_AUDIO_OUT" output
+		(pin "USB_RIGCTRL{DATA}" output
 			(at 322.58 95.25 0)
-			(uuid "b4e3de9f-e7fd-4a68-a97d-03b48b943b64")
+			(uuid "a0c3be1a-3572-4f6b-a112-8485bc9ba454")
 			(effects
 				(font
 					(size 1.27 1.27)
