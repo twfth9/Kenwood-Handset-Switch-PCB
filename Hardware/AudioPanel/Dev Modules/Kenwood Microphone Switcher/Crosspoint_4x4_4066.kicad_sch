@@ -642,6 +642,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Network04_Split"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Network04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP5"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -744,183 +926,245 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Need to verify switching logic levels"
-		(exclude_from_sim no)
-		(at 155.194 46.736 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2cb2a8d6-8d66-4358-8e6e-197a15c5481a")
-	)
 	(junction
-		(at 52.07 151.13)
+		(at 85.09 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c91b5f-3836-44d8-964f-f233267035b1")
 	)
 	(junction
-		(at 49.53 85.09)
+		(at 64.77 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0de85370-efd8-49d2-b909-3a19a077af7c")
 	)
 	(junction
-		(at 80.01 46.99)
+		(at 95.25 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "151b3e06-30c3-4e94-a8d5-5f6d576f57f4")
 	)
 	(junction
-		(at 33.02 184.15)
+		(at 140.97 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "158678ce-66e9-4ed8-a158-bbcaae7f7c36")
+		(uuid "2415756e-65e0-4bc2-9588-62b92d5c3c83")
 	)
 	(junction
-		(at 33.02 151.13)
+		(at 95.25 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16ac5bf5-2a6f-4111-9e86-385a748c15d2")
+		(uuid "2c4abc30-078a-4664-8793-540eec58bc05")
 	)
 	(junction
-		(at 44.45 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29a72b58-3b89-4575-b2a9-64a26a6fa583")
-	)
-	(junction
-		(at 54.61 46.99)
+		(at 69.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fbe5704-3e22-4e89-b933-56716af10282")
 	)
 	(junction
-		(at 90.17 184.15)
+		(at 123.19 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a9a5951-48dc-4576-9dc4-e190066cc02b")
 	)
 	(junction
-		(at 74.93 34.29)
+		(at 90.17 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4870e925-cbc4-4979-8e73-8e159ca2b05d")
 	)
 	(junction
-		(at 49.53 59.69)
+		(at 64.77 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eeaf36c-99b1-4ffb-8c99-6638d30d1889")
 	)
 	(junction
-		(at 74.93 85.09)
+		(at 50.8 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "596bb36a-79c8-44f7-bde8-49e2febf4c2e")
+	)
+	(junction
+		(at 90.17 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c1a5949-f5a7-43cf-98ad-8c8124cf195a")
 	)
 	(junction
-		(at 77.47 151.13)
+		(at 110.49 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c98e174-0077-4e54-9d73-af9014acc980")
 	)
 	(junction
-		(at 29.21 97.79)
+		(at 44.45 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d9ad8e1-2e1f-49e7-b44f-260613cbd4ef")
 	)
 	(junction
-		(at 29.21 123.19)
+		(at 62.23 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64cfd615-0d24-40ce-a8bb-2bb551d38613")
+	)
+	(junction
+		(at 44.45 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be6137b-faec-4390-9188-3dd215b8ab7b")
 	)
 	(junction
-		(at 125.73 59.69)
+		(at 140.97 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75b7c597-dd5c-4cd1-9309-ef57e1e4f324")
 	)
 	(junction
-		(at 100.33 34.29)
+		(at 39.37 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c74b298-c835-4a92-9b63-dcc88773a7dd")
+	)
+	(junction
+		(at 115.57 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ca9ded3-0d9b-44de-bfcb-34dd052fb0e1")
 	)
 	(junction
-		(at 52.07 184.15)
+		(at 64.77 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8176599c-f162-43c0-9c97-c1d87895bb35")
+	)
+	(junction
+		(at 85.09 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "831c8097-a9d2-4c3c-acf3-11cb7aa2e6e2")
 	)
 	(junction
-		(at 54.61 123.19)
+		(at 95.25 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88fcf577-f456-49ee-bbb5-abbcd95aa657")
+	)
+	(junction
+		(at 69.85 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b5447e5-8afa-4f64-9084-510e92bed57f")
 	)
 	(junction
-		(at 64.77 184.15)
+		(at 97.79 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96289830-e02c-43d2-b1a9-bcd14d3370b9")
 	)
 	(junction
-		(at 54.61 97.79)
+		(at 69.85 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aff8c698-c53d-47f4-86a6-7cf5dc9396ba")
 	)
 	(junction
-		(at 90.17 151.13)
+		(at 123.19 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6f520b1-e75e-451d-b4ee-2edc9fdcc369")
 	)
 	(junction
-		(at 80.01 72.39)
+		(at 95.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf24178d-8a0d-4b56-97dc-3ea24f6aa3a8")
 	)
 	(junction
-		(at 77.47 184.15)
+		(at 90.17 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c9feb2-fd7f-42f3-8460-4e2f3d1d4546")
+	)
+	(junction
+		(at 110.49 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2e859bb-c4ee-41d4-9a1e-33f9a04a8b88")
 	)
 	(junction
-		(at 100.33 59.69)
+		(at 115.57 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5a2a607-a29d-4fdb-b0d3-7b3639d026bb")
+	)
+	(junction
+		(at 115.57 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb4f7dd2-91bb-411d-869e-1dd9af428787")
 	)
 	(junction
-		(at 44.45 151.13)
+		(at 39.37 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbbf0d75-52e6-4f10-862d-7a6fcc0c3bdc")
+		(uuid "ce74fe8d-f543-4b3b-9fb1-32defad066b4")
 	)
 	(junction
-		(at 64.77 151.13)
+		(at 62.23 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d07796f5-5d37-430e-b37d-41719dccb8a1")
+	)
+	(junction
+		(at 44.45 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d120116f-4803-4be9-8eb7-e39386dc51e4")
+	)
+	(junction
+		(at 50.8 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd14f4ec-10ce-4284-9b0b-c7985c6291f4")
+	)
+	(junction
+		(at 97.79 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e34931cd-a1bf-4603-af57-1fd45a6dd325")
 	)
 	(junction
-		(at 125.73 34.29)
+		(at 73.66 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e54a9ca7-9573-4f83-b9fc-90510a56acee")
+	)
+	(junction
+		(at 140.97 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec776691-99dd-4b97-ac3e-eed93e8d39a9")
 	)
 	(junction
-		(at 29.21 72.39)
+		(at 73.66 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f68663e7-a027-48ad-a225-cde11f9004fa")
+	)
+	(junction
+		(at 44.45 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7ac868c-6dc4-4e99-82ae-efd090da2f17")
+	)
+	(junction
+		(at 69.85 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffcf5ec-ac0e-4223-ad71-2543f0c14b5c")
 	)
 	(bus_entry
 		(at 233.68 72.39)
@@ -957,6 +1201,15 @@
 			(type default)
 		)
 		(uuid "4d44120e-1cae-4602-989b-a8818ff183a2")
+	)
+	(bus_entry
+		(at 233.68 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc97d32-b668-4c03-bc2d-088d9c888c4e")
 	)
 	(bus_entry
 		(at 233.68 57.15)
@@ -1004,6 +1257,15 @@
 		(uuid "9377a2b8-ed16-414c-86a9-3c9c257e6916")
 	)
 	(bus_entry
+		(at 233.68 90.17)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9844aca3-5f4a-42d1-a27d-037821993697")
+	)
+	(bus_entry
 		(at 233.68 74.93)
 		(size -2.54 2.54)
 		(stroke
@@ -1011,6 +1273,24 @@
 			(type default)
 		)
 		(uuid "a92f973b-8c16-499c-b452-8d0dbf850a22")
+	)
+	(bus_entry
+		(at 233.68 87.63)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe1d373-edb4-42ee-9df4-b4c9e682e137")
+	)
+	(bus_entry
+		(at 233.68 92.71)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1779ef6-dbc2-4195-96bc-7eeba9152d0c")
 	)
 	(bus_entry
 		(at 233.68 69.85)
@@ -1032,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 72.39) (xy 80.01 72.39)
+			(xy 44.45 81.28) (xy 69.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 80.01 72.39)
+			(xy 95.25 68.58) (xy 95.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 184.15) (xy 52.07 187.96)
+			(xy 85.09 184.15) (xy 85.09 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1072,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 59.69) (xy 105.41 72.39)
+			(xy 120.65 68.58) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1082,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 184.15) (xy 21.59 180.34)
+			(xy 27.94 184.15) (xy 27.94 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 184.15) (xy 77.47 187.96)
+			(xy 110.49 184.15) (xy 110.49 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 59.69) (xy 29.21 72.39)
+			(xy 44.45 68.58) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1112,7 +1392,47 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 43.18) (xy 66.04 43.18)
+			(xy 215.9 87.63) (xy 231.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a4ac9b-c47f-4dce-a47a-2ad68dde2480")
+	)
+	(wire
+		(pts
+			(xy 215.9 90.17) (xy 231.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab0a187-586e-4eee-ba66-71a9271752b4")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbe2c32-38cd-47d5-8960-6e66d62b4f7f")
+	)
+	(wire
+		(pts
+			(xy 196.85 85.09) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd965af-0109-4d1d-b45d-f12e6877d9f4")
+	)
+	(wire
+		(pts
+			(xy 77.47 52.07) (xy 81.28 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1442,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 113.03 67.31)
+			(xy 128.27 77.47) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1132,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 91.44 119.38)
+			(xy 102.87 128.27) (xy 106.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 34.29) (xy 74.93 34.29)
+			(xy 85.09 43.18) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 123.19) (xy 54.61 123.19)
+			(xy 44.45 132.08) (xy 69.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1162,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 54.61 123.19)
+			(xy 69.85 119.38) (xy 69.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1172,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 34.29) (xy 100.33 34.29)
+			(xy 110.49 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 151.13) (xy 44.45 154.94)
+			(xy 50.8 151.13) (xy 50.8 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1192,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 68.58) (xy 40.64 68.58)
+			(xy 52.07 77.47) (xy 55.88 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1522,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 87.63 41.91)
+			(xy 196.85 92.71) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b4fde4-5882-48ce-aa36-4cab83e1d416")
+	)
+	(wire
+		(pts
+			(xy 102.87 52.07) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1212,7 +1542,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 34.29) (xy 80.01 46.99)
+			(xy 69.85 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e468087-b90c-4481-89ca-d6a88e8514f5")
+	)
+	(wire
+		(pts
+			(xy 95.25 43.18) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1222,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 151.13) (xy 33.02 154.94)
+			(xy 39.37 151.13) (xy 39.37 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 68.58) (xy 36.83 67.31)
+			(xy 52.07 77.47) (xy 52.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1582,87 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 21.59) (xy 125.73 34.29)
+			(xy 77.47 77.47) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8ffdd7-49d8-41e0-8aaa-1e01d36d3da8")
+	)
+	(wire
+		(pts
+			(xy 196.85 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa26cb4-946c-40ee-abfa-deaa385b6690")
+	)
+	(wire
+		(pts
+			(xy 196.85 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2017df4d-918c-4434-88b5-f1c84508bf61")
+	)
+	(bus
+		(pts
+			(xy 233.68 87.63) (xy 233.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207616b5-7e4e-4981-954c-5ed749967575")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.71) (xy 231.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218adba2-090d-4d8e-86c4-90f3e0c2da91")
+	)
+	(wire
+		(pts
+			(xy 59.69 43.18) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f61c21-eb44-4cb0-90c4-8012cdc599ec")
+	)
+	(wire
+		(pts
+			(xy 196.85 64.77) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2391b718-ba14-4f7d-8bb9-5595f83e0c2f")
+	)
+	(bus
+		(pts
+			(xy 233.68 90.17) (xy 233.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25087e05-99f6-44fa-87d5-53034337d06c")
+	)
+	(wire
+		(pts
+			(xy 140.97 30.48) (xy 140.97 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1672,37 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 110.49) (xy 29.21 123.19)
+			(xy 196.85 90.17) (xy 208.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290d00c6-1e0e-479e-9f6c-f42bcef24cc0")
+	)
+	(wire
+		(pts
+			(xy 69.85 68.58) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddb6228-b880-48d5-a09d-8cefba6b9817")
+	)
+	(wire
+		(pts
+			(xy 52.07 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eda3d66-3437-40fe-8d2d-23c137de19aa")
+	)
+	(wire
+		(pts
+			(xy 44.45 119.38) (xy 44.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 97.79) (xy 54.61 97.79)
+			(xy 44.45 106.68) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1272,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 97.79)
+			(xy 69.85 93.98) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 151.13) (xy 21.59 154.94)
+			(xy 27.94 151.13) (xy 27.94 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 119.38) (xy 36.83 118.11)
+			(xy 52.07 128.27) (xy 52.07 127)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 85.09) (xy 49.53 110.49)
+			(xy 64.77 93.98) (xy 64.77 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 151.13) (xy 21.59 151.13)
+			(xy 39.37 151.13) (xy 50.8 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1322,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 59.69) (xy 231.14 59.69)
+			(xy 215.9 59.69) (xy 231.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1782,27 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 46.99) (xy 80.01 46.99)
+			(xy 102.87 102.87) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414a959e-61b8-43e8-8d73-891a4649283d")
+	)
+	(wire
+		(pts
+			(xy 95.25 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4193a1c1-4f0c-4112-aa3b-7a63a206c70f")
+	)
+	(wire
+		(pts
+			(xy 69.85 55.88) (xy 95.25 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1352,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 74.93 110.49)
+			(xy 90.17 93.98) (xy 90.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1382,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 74.93) (xy 231.14 74.93)
+			(xy 215.9 74.93) (xy 231.14 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1390,9 +1860,19 @@
 		)
 		(uuid "4bd17d69-58c8-42d3-b642-a7b6fed2b43d")
 	)
+	(bus
+		(pts
+			(xy 233.68 82.55) (xy 233.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb24c2f-0ab1-4526-9656-81982e0f65a9")
+	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 100.33 59.69)
+			(xy 110.49 68.58) (xy 115.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1402,7 +1882,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 110.49) (xy 74.93 110.49)
+			(xy 90.17 68.58) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54deae8b-bb73-4685-ac4b-3126a1d449c6")
+	)
+	(wire
+		(pts
+			(xy 85.09 119.38) (xy 90.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1412,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 184.15) (xy 64.77 187.96)
+			(xy 97.79 184.15) (xy 97.79 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1422,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 59.69) (xy 125.73 85.09)
+			(xy 140.97 68.58) (xy 140.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 49.53 85.09)
+			(xy 59.69 93.98) (xy 64.77 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1442,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 113.03 92.71)
+			(xy 128.27 102.87) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1452,17 +1942,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 151.13) (xy 33.02 151.13)
+			(xy 50.8 184.15) (xy 62.23 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "626f31fb-d866-4787-bce9-b1e4925c6150")
+		(uuid "60752480-b521-42ad-8d42-184cadf5fc7b")
 	)
 	(wire
 		(pts
-			(xy 77.47 151.13) (xy 77.47 154.94)
+			(xy 39.37 184.15) (xy 50.8 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6406bf85-d66a-4a15-98be-572bbab75646")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13) (xy 110.49 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1972,47 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 46.99) (xy 54.61 46.99)
+			(xy 62.23 151.13) (xy 62.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c4cc10-2a91-4bc8-aaa4-7c160be62d5e")
+	)
+	(wire
+		(pts
+			(xy 62.23 184.15) (xy 73.66 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cf5697-e303-4286-9089-27433d9517c9")
+	)
+	(wire
+		(pts
+			(xy 44.45 55.88) (xy 69.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0da4a7-bad1-4802-99b1-e0158942a9b5")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1836d8-dc33-4724-ae45-945881b1796a")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 44.45 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 93.98) (xy 36.83 92.71)
+			(xy 52.07 102.87) (xy 52.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1492,7 +2032,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 125.73 85.09)
+			(xy 196.85 87.63) (xy 208.28 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3bcb6d-b62f-4612-b731-e52703f44d7d")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 140.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1512,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 119.38) (xy 66.04 119.38)
+			(xy 77.47 128.27) (xy 81.28 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1522,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 97.79) (xy 105.41 97.79)
+			(xy 69.85 106.68) (xy 95.25 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 67.31) (xy 231.14 67.31)
+			(xy 215.9 67.31) (xy 231.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1542,17 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 184.15) (xy 52.07 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a409d5c-6a87-4013-b0d9-a3ef0a18eafb")
-	)
-	(wire
-		(pts
-			(xy 87.63 68.58) (xy 87.63 67.31)
+			(xy 102.87 77.47) (xy 102.87 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +2102,27 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 87.63 118.11)
+			(xy 196.85 82.55) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c02caab-8bb5-4138-82f6-97d1d4a1da23")
+	)
+	(wire
+		(pts
+			(xy 196.85 95.25) (xy 208.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d10b14b-f69d-4dd2-8177-965153281395")
+	)
+	(wire
+		(pts
+			(xy 102.87 128.27) (xy 102.87 127)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +2132,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 151.13) (xy 90.17 154.94)
+			(xy 52.07 52.07) (xy 52.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0a0e99-cfef-4d55-bed8-49635f04ab08")
+	)
+	(wire
+		(pts
+			(xy 123.19 151.13) (xy 123.19 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 52.07 154.94)
+			(xy 85.09 151.13) (xy 85.09 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 34.29) (xy 74.93 85.09)
+			(xy 90.17 43.18) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 119.38) (xy 40.64 119.38)
+			(xy 52.07 128.27) (xy 55.88 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1612,13 +2182,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 34.29) (xy 125.73 59.69)
+			(xy 102.87 102.87) (xy 106.68 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a9c6cc-9eda-4776-a71c-2602cd44ad8d")
+	)
+	(wire
+		(pts
+			(xy 140.97 43.18) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86cf4a16-f98b-47e6-8c7f-013ef4732e7f")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873d94b3-e762-43c6-9569-77545e3e7e54")
 	)
 	(bus
 		(pts
@@ -1632,7 +2222,17 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 123.19) (xy 29.21 123.19)
+			(xy 62.23 151.13) (xy 73.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8897be16-70df-4dc8-a160-2322f50064af")
+	)
+	(wire
+		(pts
+			(xy 39.37 132.08) (xy 44.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +2242,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 119.38) (xy 62.23 118.11)
+			(xy 215.9 95.25) (xy 231.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89efd38e-96f6-4aef-9b2f-48a7bff56fe9")
+	)
+	(wire
+		(pts
+			(xy 85.09 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc3a279-0b87-4825-9fbe-1695451b58f1")
+	)
+	(wire
+		(pts
+			(xy 77.47 128.27) (xy 77.47 127)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +2272,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 184.15) (xy 90.17 187.96)
+			(xy 196.85 72.39) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e859540-2ff3-43da-b8d6-656120d23c9a")
+	)
+	(wire
+		(pts
+			(xy 123.19 184.15) (xy 123.19 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +2292,27 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 72.39) (xy 29.21 72.39)
+			(xy 50.8 151.13) (xy 62.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903b979e-c260-4181-969b-e533609ee4c6")
+	)
+	(wire
+		(pts
+			(xy 196.85 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9161f0be-98be-4a77-b8a0-9de392a01b09")
+	)
+	(wire
+		(pts
+			(xy 39.37 81.28) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 231.14 62.23)
+			(xy 215.9 62.23) (xy 231.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +2332,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 64.77 151.13)
+			(xy 140.97 93.98) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b18525-a862-4f32-af82-727369b2038c")
+	)
+	(wire
+		(pts
+			(xy 85.09 151.13) (xy 97.79 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 123.19) (xy 80.01 123.19)
+			(xy 69.85 132.08) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 34.29) (xy 54.61 46.99)
+			(xy 69.85 43.18) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +2372,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 34.29) (xy 105.41 46.99)
+			(xy 115.57 93.98) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc67749-ba37-4833-9925-a7a52f9470fa")
+	)
+	(wire
+		(pts
+			(xy 120.65 43.18) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1722,17 +2392,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 184.15) (xy 33.02 184.15)
+			(xy 39.37 184.15) (xy 27.94 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a125937c-06ec-4f10-b9ab-4298d4b29ddd")
+		(uuid "a24dd205-aebf-4a22-9add-c4486ea09b29")
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 49.53 59.69)
+			(xy 64.77 30.48) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +2412,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 151.13) (xy 90.17 151.13)
+			(xy 64.77 43.18) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a404c8-9fcd-4e5a-ae63-104c151072a3")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13) (xy 123.19 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1752,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 49.53 85.09)
+			(xy 64.77 68.58) (xy 64.77 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +2442,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 43.18) (xy 113.03 41.91)
+			(xy 73.66 151.13) (xy 73.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55dace7-6188-4747-9766-ba664185ea3f")
+	)
+	(wire
+		(pts
+			(xy 128.27 52.07) (xy 128.27 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 44.45 151.13)
+			(xy 85.09 151.13) (xy 73.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 93.98) (xy 116.84 93.98)
+			(xy 128.27 102.87) (xy 132.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 93.98) (xy 40.64 93.98)
+			(xy 52.07 102.87) (xy 55.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 105.41 97.79)
+			(xy 120.65 93.98) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +2502,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 85.09) (xy 29.21 97.79)
+			(xy 95.25 132.08) (xy 120.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f496ca-030e-4b67-b0d3-d61b26c73188")
+	)
+	(wire
+		(pts
+			(xy 44.45 93.98) (xy 44.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1822,13 +2522,43 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 184.15) (xy 77.47 184.15)
+			(xy 196.85 80.01) (xy 208.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5817288-8d46-49c0-924c-b0296b0dc6c0")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9151e49-6c96-4c1d-a2ad-89ddaa4a312d")
+	)
+	(wire
+		(pts
+			(xy 97.79 184.15) (xy 110.49 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb6da40a-fca3-49a6-a8aa-2ca6eb0c4128")
+	)
+	(wire
+		(pts
+			(xy 62.23 180.34) (xy 62.23 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd7d549-e950-4334-b7a1-31b3ae2b45c0")
 	)
 	(bus
 		(pts
@@ -1842,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 80.01) (xy 231.14 80.01)
+			(xy 215.9 80.01) (xy 231.14 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 231.14 64.77)
+			(xy 215.9 64.77) (xy 231.14 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 184.15) (xy 44.45 180.34)
+			(xy 50.8 184.15) (xy 50.8 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1872,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 72.39) (xy 105.41 72.39)
+			(xy 95.25 81.28) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1882,13 +2612,33 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 105.41 46.99)
+			(xy 73.66 184.15) (xy 85.09 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a10ba7-0e3c-466e-88f3-5ab18264bff0")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3cf4204-1b5f-4e00-af8a-e1b0a9a08046")
+	)
+	(wire
+		(pts
+			(xy 39.37 151.13) (xy 27.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57ec34c-76b5-4512-833c-d72a8b4172fe")
 	)
 	(bus
 		(pts
@@ -1902,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 43.18) (xy 116.84 43.18)
+			(xy 128.27 52.07) (xy 132.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 59.69) (xy 100.33 110.49)
+			(xy 115.57 68.58) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 184.15) (xy 33.02 180.34)
+			(xy 39.37 184.15) (xy 39.37 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 69.85) (xy 231.14 69.85)
+			(xy 215.9 69.85) (xy 231.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 97.79) (xy 29.21 97.79)
+			(xy 39.37 106.68) (xy 44.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +2702,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 85.09) (xy 231.14 85.09)
+			(xy 95.25 93.98) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3eaadc-87d5-4635-96b7-ca79104d7e3f")
+	)
+	(wire
+		(pts
+			(xy 215.9 85.09) (xy 231.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 184.15) (xy 64.77 184.15)
+			(xy 85.09 184.15) (xy 97.79 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +2732,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 72.39) (xy 231.14 72.39)
+			(xy 135.89 119.38) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd24de8e-cd23-455a-af93-eb025e1b37af")
+	)
+	(wire
+		(pts
+			(xy 215.9 72.39) (xy 231.14 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 151.13) (xy 64.77 154.94)
+			(xy 97.79 151.13) (xy 97.79 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 57.15) (xy 231.14 57.15)
+			(xy 215.9 57.15) (xy 231.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 74.93 85.09)
+			(xy 85.09 93.98) (xy 90.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +2782,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 59.69) (xy 125.73 59.69)
+			(xy 196.85 57.15) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e0a814-959e-41c9-9b8f-0507e9b46bd0")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 140.97 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 91.44 43.18)
+			(xy 102.87 52.07) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 80.01 123.19)
+			(xy 95.25 119.38) (xy 95.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2042,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 34.29) (xy 100.33 59.69)
+			(xy 115.57 43.18) (xy 115.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2052,17 +2832,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 184.15) (xy 21.59 184.15)
+			(xy 128.27 128.27) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1bd2482-49cb-4c9f-aa75-82779b821b23")
+		(uuid "e3c99d45-23f1-46fa-950b-91f882221d27")
 	)
 	(wire
 		(pts
-			(xy 64.77 151.13) (xy 77.47 151.13)
+			(xy 97.79 151.13) (xy 110.49 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 21.59) (xy 100.33 34.29)
+			(xy 115.57 30.48) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 110.49) (xy 49.53 110.49)
+			(xy 59.69 119.38) (xy 64.77 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 77.47) (xy 231.14 77.47)
+			(xy 215.9 77.47) (xy 231.14 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2102,13 +2882,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 116.84 68.58)
+			(xy 128.27 77.47) (xy 132.08 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e85ac5c4-ee86-4916-bb7a-fdae390276dc")
+	)
+	(wire
+		(pts
+			(xy 196.85 74.93) (xy 208.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabdde97-ff13-4fa4-84fe-038a594ddbc3")
 	)
 	(bus
 		(pts
@@ -2122,7 +2912,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 184.15) (xy 127 184.15)
+			(xy 77.47 77.47) (xy 81.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec68d858-551a-4e62-848a-68a15ebcfc16")
+	)
+	(wire
+		(pts
+			(xy 123.19 184.15) (xy 140.97 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2132,13 +2932,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 59.69) (xy 49.53 59.69)
+			(xy 59.69 68.58) (xy 64.77 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eea3bd8f-aa55-4e76-b112-8504b61d3691")
+	)
+	(wire
+		(pts
+			(xy 73.66 184.15) (xy 73.66 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3322ab-aa47-4515-870f-6232380903ca")
 	)
 	(bus
 		(pts
@@ -2152,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 110.49) (xy 100.33 110.49)
+			(xy 110.49 119.38) (xy 115.57 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2160,9 +2970,19 @@
 		)
 		(uuid "f0960b7b-a64a-495c-a443-cd91297dccaa")
 	)
+	(bus
+		(pts
+			(xy 233.68 85.09) (xy 233.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1870e6f-ab4f-4c79-8eb7-9d506e14adfb")
+	)
 	(wire
 		(pts
-			(xy 77.47 184.15) (xy 90.17 184.15)
+			(xy 110.49 184.15) (xy 123.19 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 43.18) (xy 62.23 41.91)
+			(xy 77.47 52.07) (xy 77.47 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 66.04 93.98)
+			(xy 77.47 102.87) (xy 81.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 93.98) (xy 62.23 92.71)
+			(xy 77.47 102.87) (xy 77.47 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +3042,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 34.29) (xy 125.73 34.29)
+			(xy 135.89 43.18) (xy 140.97 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +3052,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 151.13) (xy 127 151.13)
+			(xy 128.27 128.27) (xy 128.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d38f5a-3ba6-486f-8f42-18e3b174c48a")
+	)
+	(wire
+		(pts
+			(xy 123.19 151.13) (xy 140.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +3072,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 82.55) (xy 231.14 82.55)
+			(xy 120.65 119.38) (xy 120.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88694c3-03c9-4325-8b99-3fb293df7402")
+	)
+	(wire
+		(pts
+			(xy 215.9 82.55) (xy 231.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 21.59) (xy 74.93 34.29)
+			(xy 90.17 30.48) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 91.44 68.58)
+			(xy 102.87 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2270,8 +3110,18 @@
 		)
 		(uuid "fee827cb-b493-465f-9f0c-3bc1572008a7")
 	)
+	(label "B1_T"
+		(at 196.85 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "011afdad-df35-463c-bccc-81398e68fffd")
+	)
 	(label "B3"
-		(at 220.98 69.85 0)
+		(at 220.98 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2280,8 +3130,18 @@
 		)
 		(uuid "015a69cc-705e-4226-99b3-ab1b5dbd6d29")
 	)
-	(label "B3"
-		(at 116.84 68.58 180)
+	(label "D3_T"
+		(at 132.08 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "028e8f40-befb-45d0-b5ef-d36b1aea6c5d")
+	)
+	(label "B3_T"
+		(at 132.08 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2291,7 +3151,7 @@
 		(uuid "06e37066-f7b0-4dc9-bb59-30369010c492")
 	)
 	(label "C1"
-		(at 220.98 74.93 0)
+		(at 220.98 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2300,8 +3160,18 @@
 		)
 		(uuid "09693c17-34f0-4993-981e-3e7afccd8c9d")
 	)
-	(label "D0"
-		(at 40.64 119.38 180)
+	(label "A0"
+		(at 220.98 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a257de6-5b12-442d-98b6-aeb8c7d098de")
+	)
+	(label "D0_T"
+		(at 55.88 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,8 +3180,28 @@
 		)
 		(uuid "0e950fbf-4fe7-407c-8891-a89abc8ef335")
 	)
+	(label "D0_T"
+		(at 196.85 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "117531ab-6d1e-4510-b8b5-f072b6a55ed9")
+	)
+	(label "C2_T"
+		(at 196.85 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11cf4d74-7813-4fc1-ad64-84f458a18ada")
+	)
 	(label "A3"
-		(at 220.98 62.23 0)
+		(at 220.98 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2320,8 +3210,18 @@
 		)
 		(uuid "140e7dcb-72b7-4a25-b2f6-78b69051d7bf")
 	)
+	(label "C1_T"
+		(at 196.85 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15a7ff57-fd9c-43f8-82e8-bafe4602e04b")
+	)
 	(label "B2"
-		(at 220.98 67.31 0)
+		(at 220.98 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2330,8 +3230,18 @@
 		)
 		(uuid "180a1803-f23b-4541-a894-08d6216f97c8")
 	)
-	(label "D2"
-		(at 91.44 119.38 180)
+	(label "B3_T"
+		(at 196.85 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8934b5-601b-42fe-b00f-e8335903d29b")
+	)
+	(label "D2_T"
+		(at 106.68 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2340,8 +3250,8 @@
 		)
 		(uuid "228c8bf7-b0a5-4934-bc1d-d9b8bbc6583a")
 	)
-	(label "C3"
-		(at 116.84 93.98 180)
+	(label "C3_T"
+		(at 132.08 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2350,8 +3260,18 @@
 		)
 		(uuid "22c95a46-78c6-405a-a6a9-2eb6e723de84")
 	)
+	(label "D2_T"
+		(at 196.85 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28c913db-74a6-440f-9e5e-78e6b500d161")
+	)
 	(label "C3"
-		(at 220.98 77.47 0)
+		(at 220.98 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,8 +3280,18 @@
 		)
 		(uuid "3013cc50-3358-4241-a9b7-cb762527d8e7")
 	)
+	(label "B1_T"
+		(at 81.28 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30f79b4a-8e62-4791-b099-e08faee80790")
+	)
 	(label "C0"
-		(at 220.98 72.39 0)
+		(at 220.98 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2370,8 +3300,8 @@
 		)
 		(uuid "3b9c546b-ec6b-4cb5-9db4-ff78fe1ac12f")
 	)
-	(label "A1"
-		(at 66.04 43.18 180)
+	(label "A1_T"
+		(at 81.28 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2380,8 +3310,8 @@
 		)
 		(uuid "3c853167-805a-4d27-a2f0-d48b8d0a36ac")
 	)
-	(label "D1"
-		(at 66.04 119.38 180)
+	(label "D1_T"
+		(at 81.28 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2390,8 +3320,38 @@
 		)
 		(uuid "4070d116-b380-4e45-b8e5-6427d7a60e2b")
 	)
-	(label "A3"
-		(at 116.84 43.18 180)
+	(label "B0_T"
+		(at 196.85 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4989902f-816c-4862-a112-526243e587ec")
+	)
+	(label "B1"
+		(at 220.98 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be6bfff-52d7-49eb-9815-99e860cfc99c")
+	)
+	(label "C2"
+		(at 220.98 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ec2fbf9-4113-463c-af13-2c8876b4d665")
+	)
+	(label "A3_T"
+		(at 132.08 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2400,8 +3360,8 @@
 		)
 		(uuid "4ed6ac9f-a8a0-4af2-bbfa-654933a776af")
 	)
-	(label "C1"
-		(at 66.04 93.98 180)
+	(label "C1_T"
+		(at 81.28 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2410,8 +3370,18 @@
 		)
 		(uuid "4ef73e2a-0e15-4bef-8947-0fd991875df5")
 	)
+	(label "A1_T"
+		(at 196.85 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "537d9396-f3db-47f4-94b9-4ff4db31e9f8")
+	)
 	(label "A2"
-		(at 220.98 59.69 0)
+		(at 220.98 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2420,8 +3390,18 @@
 		)
 		(uuid "609fc392-c07a-4ef7-a572-d4ef50a035a2")
 	)
-	(label "B2"
-		(at 91.44 68.58 180)
+	(label "A0_T"
+		(at 196.85 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65de4cbc-94d3-41be-8965-c0a02e562148")
+	)
+	(label "B2_T"
+		(at 106.68 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2431,7 +3411,7 @@
 		(uuid "673b1702-4a64-4e22-b9d4-e702dbdb3849")
 	)
 	(label "A1"
-		(at 220.98 57.15 0)
+		(at 220.98 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,8 +3420,38 @@
 		)
 		(uuid "6e0700e9-8386-4cb3-aae9-c7cfc19296e7")
 	)
-	(label "C0"
-		(at 40.64 93.98 180)
+	(label "A3_T"
+		(at 196.85 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72212063-e797-48d1-9f1d-f076595f6c3e")
+	)
+	(label "B2_T"
+		(at 196.85 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75a909b7-aa15-429a-9dfc-313f99497583")
+	)
+	(label "C3_T"
+		(at 196.85 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "826d7218-716c-493c-a172-c198ca5dcdba")
+	)
+	(label "C0_T"
+		(at 55.88 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2450,8 +3460,8 @@
 		)
 		(uuid "8476be4c-957b-4c1a-a502-fbddb49708bc")
 	)
-	(label "A2"
-		(at 91.44 43.18 180)
+	(label "A2_T"
+		(at 106.68 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2460,8 +3470,18 @@
 		)
 		(uuid "866d895f-94df-4006-9526-b9642a13bda0")
 	)
+	(label "C2_T"
+		(at 106.68 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89c91741-3cea-4d79-a677-d517abbad82e")
+	)
 	(label "D0"
-		(at 220.98 80.01 0)
+		(at 220.98 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2471,7 +3491,7 @@
 		(uuid "8f8b75e4-59c6-4525-be8d-c0005334dae6")
 	)
 	(label "D2"
-		(at 220.98 85.09 0)
+		(at 220.98 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,8 +3500,48 @@
 		)
 		(uuid "9ee1502c-d2fc-41b9-85b0-1749f9c1d1e8")
 	)
+	(label "D3"
+		(at 220.98 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b79c2705-b5cd-40e1-8398-f9de48db3e32")
+	)
+	(label "A2_T"
+		(at 196.85 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c010ef77-2b59-4baf-abf9-d1e4c5fb2dd8")
+	)
+	(label "C0_T"
+		(at 196.85 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae22044-d099-4017-9868-5aad14d14a79")
+	)
+	(label "D1_T"
+		(at 196.85 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da1e5263-d6ac-4d7b-b269-0a4201093a87")
+	)
 	(label "B0"
-		(at 220.98 64.77 0)
+		(at 220.98 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2490,8 +3550,8 @@
 		)
 		(uuid "e85df2a1-97c5-4814-b9d4-36c9bc2e0b88")
 	)
-	(label "B0"
-		(at 40.64 68.58 180)
+	(label "B0_T"
+		(at 55.88 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2500,8 +3560,18 @@
 		)
 		(uuid "f068559b-442a-4ad5-ae40-8852fa7e2a90")
 	)
+	(label "A0_T"
+		(at 55.88 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f48adee0-709d-424f-9cdb-e6e1488f82fe")
+	)
 	(label "D1"
-		(at 220.98 82.55 0)
+		(at 220.98 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2509,6 +3579,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa62c913-ac22-4e75-812c-b0303fe1f876")
+	)
+	(label "D3_T"
+		(at 196.85 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe5f1598-65d0-4f2f-95d5-64fa86f79d3d")
 	)
 	(hierarchical_label "{4x4_CROSS}"
 		(shape input)
@@ -2523,7 +3603,7 @@
 	)
 	(hierarchical_label "Y2"
 		(shape bidirectional)
-		(at 100.33 21.59 90)
+		(at 115.57 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2534,7 +3614,7 @@
 	)
 	(hierarchical_label "Y3"
 		(shape bidirectional)
-		(at 125.73 21.59 90)
+		(at 140.97 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2545,7 +3625,7 @@
 	)
 	(hierarchical_label "X1"
 		(shape bidirectional)
-		(at 24.13 72.39 180)
+		(at 39.37 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,7 +3636,7 @@
 	)
 	(hierarchical_label "VSS"
 		(shape input)
-		(at 127 184.15 0)
+		(at 140.97 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2567,7 +3647,7 @@
 	)
 	(hierarchical_label "Y1"
 		(shape bidirectional)
-		(at 74.93 21.59 90)
+		(at 90.17 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,7 +3658,7 @@
 	)
 	(hierarchical_label "X2"
 		(shape bidirectional)
-		(at 24.13 97.79 180)
+		(at 39.37 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2589,7 +3669,7 @@
 	)
 	(hierarchical_label "Y0"
 		(shape bidirectional)
-		(at 49.53 21.59 90)
+		(at 64.77 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +3680,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 127 151.13 0)
+		(at 140.97 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,7 +3691,7 @@
 	)
 	(hierarchical_label "X0"
 		(shape bidirectional)
-		(at 24.13 46.99 180)
+		(at 39.37 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,7 +3702,7 @@
 	)
 	(hierarchical_label "X3"
 		(shape bidirectional)
-		(at 24.13 123.19 180)
+		(at 39.37 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2633,7 +3713,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 36.83 85.09 0)
+		(at 102.87 68.58 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -2641,9 +3721,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "034b91f2-295e-47a5-949a-f4b01e4ed3cb")
-		(property "Reference" "U107"
-			(at 36.83 78.5325 0)
+		(uuid "001644df-82ea-4c1c-b52a-7f9083fc24e9")
+		(property "Reference" "U12"
+			(at 102.87 62.0225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +3731,7 @@
 			)
 		)
 		(property "Value" "4066"
-			(at 36.83 80.9568 0)
+			(at 102.87 64.4468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +3739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 85.09 0)
+			(at 102.87 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +3748,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 36.83 85.09 0)
+			(at 102.87 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +3757,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 36.83 85.09 0)
+			(at 102.87 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,52 +3765,302 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "00f08061-721a-4c0c-8255-052aff50e8f6")
-		)
-		(pin "1"
-			(uuid "301111c4-ec27-4590-8cd3-e40408f605fa")
-		)
 		(pin "13"
-			(uuid "e88b3e86-902c-439a-9976-fa0896f86b2c")
-		)
-		(pin "11"
-			(uuid "162cf2f8-873d-4eef-9c05-7d1155fb3410")
-		)
-		(pin "12"
-			(uuid "e69c3b37-3c6d-4959-83f5-b2d2e8182e47")
-		)
-		(pin "14"
-			(uuid "48ab3cf0-b1e1-4a29-901f-9b6a291edb6a")
-		)
-		(pin "2"
-			(uuid "d108454f-efa0-4771-9cae-208219ce183c")
-		)
-		(pin "6"
-			(uuid "84c45dd8-58c0-459e-a9e4-e3c2d1511d44")
-		)
-		(pin "10"
-			(uuid "92cc5529-4afc-4192-afe7-eed74e85a937")
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8f")
 		)
 		(pin "9"
-			(uuid "b68ee883-1bf7-44f3-8b61-3b543449acea")
-		)
-		(pin "7"
-			(uuid "851a3c2b-c4a5-4638-afe1-a9ddefbf3961")
+			(uuid "ba50ef2b-cc8c-4aa0-ae1f-81ed8775944d")
 		)
 		(pin "5"
-			(uuid "f75b7f19-6c31-434c-809e-b83dab68f0b6")
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3626")
 		)
-		(pin "3"
-			(uuid "469ccd29-69e1-4d5f-84b5-683e76f58e1a")
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574c")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76286")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201b")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990db")
 		)
 		(pin "8"
-			(uuid "a2b72fa6-bbf8-492e-9281-921cca1ecab7")
+			(uuid "846f09f0-de5d-498c-88a4-15a007032f96")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202f")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78d")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2de")
+		)
+		(pin "6"
+			(uuid "522d7839-f501-40a9-b440-40fc40d1d99d")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786b")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237ca")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U107")
+					(reference "U12")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 39.37 167.64 0)
+		(mirror x)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0634d0d5-4ad1-4165-acfa-ccee89fb3d3f")
+		(property "Reference" "U12"
+			(at 41.91 166.2317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4066"
+			(at 41.91 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 39.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec90")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df24")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3627")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574d")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76287")
+		)
+		(pin "14"
+			(uuid "5c98777f-ef56-48eb-919e-ace4ab02b22a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990dc")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9d")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f2030")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78e")
+		)
+		(pin "7"
+			(uuid "fbabd949-c83f-4352-bcca-b6e0aa3b4a0c")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb2")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786c")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237cb")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U12")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b888d5-b1b4-44ad-b3c8-8d92a2503be1")
+		(property "Reference" "#PWR0964"
+			(at 73.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 197.1731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a1b10c-8396-4545-ab6a-94f3ac1fa462")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "#PWR0964")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 82.55 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c6500f-1b03-49ab-b743-7db91245b707")
+		(property "Reference" "RN3"
+			(at 218.186 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3791")
+		)
+		(pin "1"
+			(uuid "aeac0982-b6fd-4156-b2b6-2c3f5febcb75")
+		)
+		(pin "4"
+			(uuid "6ba92d52-8040-4615-952c-482dcd9ccd33")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1578")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd428")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN3")
 					(unit 3)
 				)
 			)
@@ -2738,7 +4068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 52.07 190.5 0)
+		(at 85.09 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2746,7 +4076,7 @@
 		(dnp no)
 		(uuid "09ec7b7f-897b-433d-8823-8aabe4eea160")
 		(property "Reference" "C802"
-			(at 54.3941 189.2941 0)
+			(at 87.4141 189.2941 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +4085,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 54.3941 191.7184 0)
+			(at 87.4141 191.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +4094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +4103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +4112,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 52.07 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,8 +4136,189 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4066")
+		(at 102.87 93.98 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a85e5cf-8f1f-40c4-bde7-227f70ea094d")
+		(property "Reference" "U13"
+			(at 102.87 87.4225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 102.87 89.8468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8f")
+		)
+		(pin "9"
+			(uuid "be5f91e5-f443-4251-9c0c-de43fdcdb4ba")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3626")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574c")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76286")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201b")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990db")
+		)
+		(pin "8"
+			(uuid "79221107-90fe-4a92-9bcd-e3e68aec1371")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202f")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78d")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2de")
+		)
+		(pin "6"
+			(uuid "c368b4de-a13e-42b0-a5b3-8dc61a825f7c")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786b")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237ca")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U13")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c6848f6-ee81-4960-8523-029cf909b90f")
+		(property "Reference" "RN3"
+			(at 218.186 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3792")
+		)
+		(pin "1"
+			(uuid "52d87442-cb6d-4ba7-b456-a4f47ad61cc3")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a4")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1579")
+		)
+		(pin "2"
+			(uuid "d2c40683-5c75-4a30-b737-ade140ec5286")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 77.47 193.04 0)
+		(at 110.49 193.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2817,7 +4328,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d54b53d-b3a5-471a-98ce-ebb0bd5d2b0a")
 		(property "Reference" "#PWR0960"
-			(at 77.47 199.39 0)
+			(at 110.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +4337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 197.1731 0)
+			(at 110.49 197.1731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 193.04 0)
+			(at 110.49 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +4355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 193.04 0)
+			(at 110.49 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +4364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 193.04 0)
+			(at 110.49 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +4386,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 52.07 157.48 0)
+		(at 85.09 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2883,7 +4394,7 @@
 		(dnp no)
 		(uuid "126ebb12-ee3e-4f7c-b74a-2edd68e64d3f")
 		(property "Reference" "C801"
-			(at 54.3941 156.2741 0)
+			(at 87.4141 156.2741 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +4403,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 54.3941 158.6984 0)
+			(at 87.4141 158.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +4412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 157.48 0)
+			(at 85.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +4421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 157.48 0)
+			(at 85.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +4430,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 52.07 157.48 0)
+			(at 85.09 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,43 +4454,32 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 62.23 34.29 0)
-		(mirror x)
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1805731c-73c5-4fd5-b804-85675e7d7f9f")
-		(property "Reference" "U106"
-			(at 62.23 27.7325 0)
+		(uuid "2801fd3d-36ca-4dd1-b10e-c8b7a24d9d19")
+		(property "Reference" "RN1"
+			(at 205.994 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4066"
-			(at 62.23 30.1568 0)
+		(property "Value" "270"
+			(at 212.09 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 62.23 34.29 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,8 +4487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Analog Switches"
-			(at 62.23 34.29 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,95 +4496,66 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "b1215be5-0889-4ad5-b77d-29003c0e2fe5")
-		)
-		(pin "11"
-			(uuid "14038237-89aa-4a43-bd1b-48169d4eb422")
-		)
-		(pin "10"
-			(uuid "38a6c7d9-d360-47e6-a5c1-e365be796d9a")
-		)
-		(pin "4"
-			(uuid "59f55f4c-f7e8-47dd-a055-da71aab82956")
-		)
-		(pin "3"
-			(uuid "64af9633-ae68-4e81-b2cd-1fd2591a00a1")
-		)
-		(pin "2"
-			(uuid "8b6965a6-6a75-4c7d-bf45-2ecd0fba65a8")
-		)
-		(pin "8"
-			(uuid "d1bbddf7-3af3-4d59-a912-bfb4f82ef1c0")
-		)
-		(pin "14"
-			(uuid "64455bee-3d1e-4d1f-8c78-68630fd3d0e1")
-		)
-		(pin "12"
-			(uuid "b9a3b43a-4730-43da-ae09-0926fd3229b7")
-		)
-		(pin "6"
-			(uuid "28418c18-786f-4cfa-95e3-c12f3e0a0b32")
-		)
-		(pin "1"
-			(uuid "6c997d26-4db6-414c-9215-98f76facfc51")
-		)
-		(pin "13"
-			(uuid "8d3e4b42-7b53-4185-a923-21718b0d238f")
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "7610d3c4-b9c6-44ad-a617-43a410599d4c")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
 		)
-		(pin "7"
-			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5ea")
+		(pin "1"
+			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b20")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1576")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
 		)
 		(instances
-			(project "Kenwood Microphone Switcher"
+			(project ""
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U106")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 113.03 85.09 0)
-		(mirror x)
-		(unit 1)
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 62.23 90)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "295b409f-2b14-4880-988f-6d48ac293908")
-		(property "Reference" "U108"
-			(at 113.03 78.5325 0)
+		(uuid "2c9c9270-3193-4b40-bdc6-7661150d79dd")
+		(property "Reference" "RN1"
+			(at 205.994 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4066"
-			(at 113.03 80.9568 0)
+		(property "Value" "270"
+			(at 212.09 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 113.03 85.09 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,8 +4563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Analog Switches"
-			(at 113.03 85.09 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,60 +4572,42 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
-			(uuid "83358a92-28f8-47ec-8fc5-40d68dd9ae9c")
-		)
-		(pin "11"
-			(uuid "a0e0b550-9066-4df7-92be-f2b3834d29d8")
-		)
-		(pin "12"
-			(uuid "58dcbd8c-e524-423a-b158-8047c286f580")
-		)
-		(pin "10"
-			(uuid "bdc6ce4d-14bc-4ada-b700-f79b40548c58")
-		)
-		(pin "7"
-			(uuid "ed3ce1e9-9e00-4991-abab-ae956f7ec65b")
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "755412a6-0583-4547-a55d-82430a16d29c")
-		)
-		(pin "6"
-			(uuid "9d688eef-dba7-48cb-a9e4-230240c5b603")
-		)
-		(pin "2"
-			(uuid "400ab3e7-fc62-4ca7-aa9b-7bcb024a6cc8")
-		)
-		(pin "13"
-			(uuid "a9dd409d-e8b5-45eb-8adc-ac9fa0d4b7cc")
-		)
-		(pin "3"
-			(uuid "3f185983-a77f-41c8-bed4-121be5698083")
-		)
-		(pin "9"
-			(uuid "4f19176f-5c85-4376-ae8c-0edd34a74f37")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
 		)
 		(pin "1"
-			(uuid "25db9170-9547-4564-be69-2d16aabb557c")
+			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b20")
 		)
 		(pin "4"
-			(uuid "cec0ab57-bcde-410b-aa60-f30c1add30d8")
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
 		)
-		(pin "8"
-			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aecc")
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1576")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
 		)
 		(instances
-			(project "Kenwood Microphone Switcher"
+			(project ""
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U108")
-					(unit 1)
+					(reference "RN1")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 193.04 0)
+		(at 97.79 193.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3164,7 +4617,7 @@
 		(fields_autoplaced yes)
 		(uuid "32c2b7b1-c9f4-48f5-8aee-e91eb701ec92")
 		(property "Reference" "#PWR0958"
-			(at 64.77 199.39 0)
+			(at 97.79 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +4626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 197.1731 0)
+			(at 97.79 197.1731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +4635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 193.04 0)
+			(at 97.79 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +4644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 193.04 0)
+			(at 97.79 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +4653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 193.04 0)
+			(at 97.79 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,8 +4674,551 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 69.85 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ffa415-f618-4b26-bfd7-4e6d43148ce0")
+		(property "Reference" "RN2"
+			(at 212.09 49.1377 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
+		)
+		(pin "1"
+			(uuid "d56251b0-53e8-4f21-84f1-f4dec20676a2")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
+		)
+		(pin "3"
+			(uuid "6e91602e-1a8e-46d3-9a56-bd7df02eb050")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 95.25 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "346c170f-8dfb-4bb8-ab7f-fabde012a7aa")
+		(property "Reference" "RN4"
+			(at 224.282 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "61bbd1f2-a9fe-42d5-9db7-27a52cdeb9a4")
+		)
+		(pin "1"
+			(uuid "9d110263-b475-4e80-83cd-662a321957e0")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a2")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1577")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd427")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 52.07 119.38 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e6b16b0-f7d4-434b-91c4-238839770aa4")
+		(property "Reference" "U14"
+			(at 52.07 112.8225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 52.07 115.2468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "022a6cb0-8fe0-41ba-b7e9-346381aa402a")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df26")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3629")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574f")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76289")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201e")
+		)
+		(pin "1"
+			(uuid "de25b4c6-9b38-495d-b5ca-25c8837f309f")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9f")
+		)
+		(pin "2"
+			(uuid "f399633d-ae19-4bd5-975c-70c45459e2e2")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c790")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2e1")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb4")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786e")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237cd")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 52.07 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42830d9d-7583-4a76-9517-d72fb6205ff0")
+		(property "Reference" "U13"
+			(at 52.07 87.4225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 52.07 89.8468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 52.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "61d87811-3947-4741-88c1-9bd16baefebe")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df26")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3629")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574f")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76289")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201e")
+		)
+		(pin "1"
+			(uuid "4a72aa98-966c-41ad-9d89-259afa98f297")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9f")
+		)
+		(pin "2"
+			(uuid "6e83cdd3-7d1d-40e2-a48d-43e30e1c4223")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c790")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2e1")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb4")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786e")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237cd")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 128.27 93.98 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "433254af-c5e7-4011-a071-0c80eedd95b4")
+		(property "Reference" "U13"
+			(at 128.27 87.4225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 128.27 89.8468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "b20c0e0b-23ac-48dc-b13e-29c941d73bbb")
+		)
+		(pin "12"
+			(uuid "cfccde86-63b9-4904-ae7f-6b31e366385a")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "e49c80dc-0704-4baa-b795-08d99a12ad5d")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U13")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5219d7e6-7446-466e-b88a-4169dd9e033c")
+		(property "Reference" "RN2"
+			(at 212.09 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3792")
+		)
+		(pin "1"
+			(uuid "6dfad7c2-8ec4-48ca-8e70-5c60de4e273c")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a4")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1579")
+		)
+		(pin "2"
+			(uuid "fd918b1f-5078-440b-8f51-7ab304b06142")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 77.47 157.48 0)
+		(at 110.49 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3230,7 +5226,7 @@
 		(dnp no)
 		(uuid "5240424a-08d5-4add-83c3-ca2f2590d2bd")
 		(property "Reference" "C805"
-			(at 79.7941 156.2741 0)
+			(at 112.8141 156.2741 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +5235,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 79.7941 158.6984 0)
+			(at 112.8141 158.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +5244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 157.48 0)
+			(at 110.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +5253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 157.48 0)
+			(at 110.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +5262,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 157.48 0)
+			(at 110.49 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +5287,75 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 160.02 0)
+		(at 73.66 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54888a48-cfb7-4161-a67b-12df58d5c477")
+		(property "Reference" "#PWR0963"
+			(at 73.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 164.1531 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82001496-90de-487f-9384-efa5f87ae655")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "#PWR0963")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3301,7 +5365,7 @@
 		(fields_autoplaced yes)
 		(uuid "57b5087a-9a5a-40a3-a250-ace12604f7e6")
 		(property "Reference" "#PWR0957"
-			(at 64.77 166.37 0)
+			(at 97.79 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +5374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 164.1531 0)
+			(at 97.79 164.1531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +5383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 160.02 0)
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +5392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 160.02 0)
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +5401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 160.02 0)
+			(at 97.79 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,34 +5422,110 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 21.59 167.64 0)
-		(unit 5)
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 92.71 90)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "585726b2-abd8-43b5-8e21-48b1240f7f2b")
-		(property "Reference" "U51"
-			(at 18.796 166.4857 0)
+		(uuid "5b19d8a1-94c1-41bc-b4f7-1d1396ed612b")
+		(property "Reference" "RN4"
+			(at 224.282 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3791")
+		)
+		(pin "1"
+			(uuid "fba51997-5308-436d-89e5-1f356b685c48")
+		)
+		(pin "4"
+			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae0725")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1578")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd428")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 52.07 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63b0fb34-70c2-483a-a412-b11424e217e3")
+		(property "Reference" "U12"
+			(at 52.07 62.0225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Value" "4066"
-			(at 18.796 168.91 0)
+			(at 52.07 64.4468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 167.64 0)
+			(at 52.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +5534,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 21.59 167.64 0)
+			(at 52.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +5543,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 21.59 167.64 0)
+			(at 52.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,60 +5551,60 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b28df37b-5ffd-487a-8ba3-7a7722e60306")
-		)
-		(pin "6"
-			(uuid "b41647df-4c01-465d-9c06-42e99672c7f0")
+		(pin "13"
+			(uuid "ed630c41-1939-4ab1-9790-a13f6dd0d184")
 		)
 		(pin "9"
-			(uuid "fb49b7ce-4fc8-41fa-9f7d-c93b618bcfe7")
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df26")
 		)
 		(pin "5"
-			(uuid "e8cb48db-4ee6-4d8c-9fd2-c17d11521cd3")
-		)
-		(pin "10"
-			(uuid "7c5ce42b-0e37-40e3-a10b-bdc424ed6cf6")
-		)
-		(pin "13"
-			(uuid "700b74df-342b-47d9-89a7-6e5a5a60775e")
-		)
-		(pin "8"
-			(uuid "d8eb1204-90a3-404b-ba44-08eafb26bc7a")
-		)
-		(pin "12"
-			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd94")
-		)
-		(pin "14"
-			(uuid "2b5dedec-155a-4bc5-9a56-4a364ce064fb")
-		)
-		(pin "2"
-			(uuid "6e26c495-fe4f-4099-b5b4-65189188547f")
-		)
-		(pin "4"
-			(uuid "2ea4d4d8-9853-4306-82c8-5ed3e10afac5")
-		)
-		(pin "1"
-			(uuid "d4b42c2d-1b46-4c6d-afc7-d452c3a75d04")
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3629")
 		)
 		(pin "11"
-			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce5")
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574f")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76289")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201e")
+		)
+		(pin "1"
+			(uuid "8b65b547-f528-4413-9679-1088b0960b6c")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9f")
+		)
+		(pin "2"
+			(uuid "4943513a-d798-4965-9ba6-a421b3116123")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c790")
 		)
 		(pin "7"
-			(uuid "b6d9259e-5e97-43a8-a71f-e10627571cdc")
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2e1")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb4")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786e")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237cd")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U51")
-					(unit 5)
+					(reference "U12")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 64.77 157.48 0)
+		(at 97.79 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3472,7 +5612,7 @@
 		(dnp no)
 		(uuid "66d86b27-1425-4b01-92bc-458f70b92b26")
 		(property "Reference" "C803"
-			(at 67.0941 156.2741 0)
+			(at 100.1141 156.2741 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +5621,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 67.0941 158.6984 0)
+			(at 100.1141 158.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +5630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 157.48 0)
+			(at 97.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +5639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 157.48 0)
+			(at 97.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +5648,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 157.48 0)
+			(at 97.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,8 +5672,189 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4066")
+		(at 52.07 43.18 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "696f8c9d-bfd6-46cd-ab8b-c497fc5489a6")
+		(property "Reference" "U11"
+			(at 52.07 36.6225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 52.07 39.0468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574b")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76285")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78c")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 74.93 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ef34b92-c02c-4584-a769-082ce56041e7")
+		(property "Reference" "RN2"
+			(at 212.09 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8802ba5f-ad76-44e6-835e-9a33119e48e8")
+		)
+		(pin "1"
+			(uuid "c756f54f-e4ec-42e4-865c-efda1c10124d")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a2")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1577")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd427")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 52.07 193.04 0)
+		(at 85.09 193.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3543,7 +5864,7 @@
 		(fields_autoplaced yes)
 		(uuid "759f4b0a-db34-433f-8e3b-eca1c124f470")
 		(property "Reference" "#PWR0956"
-			(at 52.07 199.39 0)
+			(at 85.09 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +5873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 197.1731 0)
+			(at 85.09 197.1731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +5882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 193.04 0)
+			(at 85.09 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3570,7 +5891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 193.04 0)
+			(at 85.09 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +5900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 193.04 0)
+			(at 85.09 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,226 +5921,16 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 36.83 110.49 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bbe3052-2e55-4735-af78-3f109ae609c1")
-		(property "Reference" "U108"
-			(at 36.83 103.9325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4066"
-			(at 36.83 106.3568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "83358a92-28f8-47ec-8fc5-40d68dd9ae9d")
-		)
-		(pin "11"
-			(uuid "a0e0b550-9066-4df7-92be-f2b3834d29d9")
-		)
-		(pin "12"
-			(uuid "58dcbd8c-e524-423a-b158-8047c286f581")
-		)
-		(pin "10"
-			(uuid "bdc6ce4d-14bc-4ada-b700-f79b40548c59")
-		)
-		(pin "7"
-			(uuid "ed3ce1e9-9e00-4991-abab-ae956f7ec65c")
-		)
-		(pin "5"
-			(uuid "f24fa5ca-109a-436b-bb61-49055dc542be")
-		)
-		(pin "6"
-			(uuid "9d688eef-dba7-48cb-a9e4-230240c5b604")
-		)
-		(pin "2"
-			(uuid "5a6c8454-40f7-416a-b6a1-5b7dc7bc37e9")
-		)
-		(pin "13"
-			(uuid "fbdb4791-2be5-43b3-8180-596d051e6106")
-		)
-		(pin "3"
-			(uuid "426ed8f7-cde4-4d9c-a31e-a8c7bfb3faac")
-		)
-		(pin "9"
-			(uuid "4f19176f-5c85-4376-ae8c-0edd34a74f38")
-		)
-		(pin "1"
-			(uuid "136538d1-fcea-46a1-b390-2e8f3209a236")
-		)
-		(pin "4"
-			(uuid "08f7bbe4-c3a2-4bf5-8ffd-c013ce3840bb")
-		)
-		(pin "8"
-			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aecd")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U108")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4066")
-		(at 36.83 59.69 0)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cd26b16-e161-4af6-9db6-2ca070b2ca10")
-		(property "Reference" "U106"
-			(at 36.83 53.1325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4066"
-			(at 36.83 55.5568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 36.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "b1215be5-0889-4ad5-b77d-29003c0e2fe6")
-		)
-		(pin "11"
-			(uuid "5aec217a-92bc-464f-a9a7-964fea0464d8")
-		)
-		(pin "10"
-			(uuid "546ce3da-27da-4021-86e9-a8bc05784044")
-		)
-		(pin "4"
-			(uuid "59f55f4c-f7e8-47dd-a055-da71aab82957")
-		)
-		(pin "3"
-			(uuid "64af9633-ae68-4e81-b2cd-1fd2591a00a2")
-		)
-		(pin "2"
-			(uuid "53bf4f93-2008-4403-a09b-b84e429bca78")
-		)
-		(pin "8"
-			(uuid "d1bbddf7-3af3-4d59-a912-bfb4f82ef1c1")
-		)
-		(pin "14"
-			(uuid "64455bee-3d1e-4d1f-8c78-68630fd3d0e2")
-		)
-		(pin "12"
-			(uuid "6890bc72-6b79-4790-b31b-9fc1c69ba24c")
-		)
-		(pin "6"
-			(uuid "28418c18-786f-4cfa-95e3-c12f3e0a0b33")
-		)
-		(pin "1"
-			(uuid "d178bee6-41d7-453e-9295-35c2b74c3429")
-		)
-		(pin "13"
-			(uuid "c24fc02f-1656-4d58-9ba4-7298e31d34d5")
-		)
-		(pin "5"
-			(uuid "7610d3c4-b9c6-44ad-a617-43a410599d4d")
-		)
-		(pin "7"
-			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5eb")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U106")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 90.17 190.5 0)
+		(at 73.66 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9248b519-0f38-4cd8-b483-8ed47db4406c")
-		(property "Reference" "C808"
-			(at 92.4941 189.2941 0)
+		(uuid "75cc1140-e02f-46b7-8727-16ce0369d9ea")
+		(property "Reference" "C809"
+			(at 75.9841 156.2741 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,8 +5938,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 92.4941 191.7184 0)
+		(property "Value" "100nF"
+			(at 75.9841 158.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +5948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 190.5 0)
+			(at 73.66 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +5957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 190.5 0)
+			(at 73.66 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +5966,469 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.17 190.5 0)
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b13764fc-82b1-40a4-8876-3396c9c973a9")
+		)
+		(pin "2"
+			(uuid "ebe83897-2d7f-429a-96ba-2f8f7c26c150")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "C809")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 77.47 93.98 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78098a2d-b7e6-4934-be70-63f5419a2a66")
+		(property "Reference" "U13"
+			(at 77.47 87.4225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 77.47 89.8468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 77.47 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec91")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df25")
+		)
+		(pin "5"
+			(uuid "f31b9330-5d72-4334-8451-f42b35f44c90")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574e")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76288")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201d")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990dd")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9e")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f2031")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78f")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2e0")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb3")
+		)
+		(pin "4"
+			(uuid "dd64de36-d9b9-4033-9f80-b30316540269")
+		)
+		(pin "3"
+			(uuid "f2ac4999-6df3-4eac-a706-8d91e1c65b4e")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U13")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 59.69 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ac7698e-a718-451c-bc5c-a809c1b5b5a1")
+		(property "Reference" "RN1"
+			(at 205.994 49.1377 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
+		)
+		(pin "1"
+			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b20")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1576")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 27.94 167.64 0)
+		(mirror x)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87e5fe7e-269a-4e08-8764-b438c0f1a479")
+		(property "Reference" "U11"
+			(at 30.48 166.2317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4066"
+			(at 30.48 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 27.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 27.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574b")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76285")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78c")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U11")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 50.8 167.64 0)
+		(mirror x)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "913da89f-1c28-4b24-91b8-3cc5ed190911")
+		(property "Reference" "U13"
+			(at 53.34 166.2317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4066"
+			(at 53.34 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec90")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df24")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3627")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574d")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76287")
+		)
+		(pin "14"
+			(uuid "93b063e3-fe7e-4541-806d-eb5f2d1ef7aa")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990dc")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9d")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f2030")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78e")
+		)
+		(pin "7"
+			(uuid "9e824b7e-6da2-4e49-88cf-851f92955da7")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb2")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786c")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237cb")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U13")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9248b519-0f38-4cd8-b483-8ed47db4406c")
+		(property "Reference" "C808"
+			(at 125.5141 189.2941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 125.5141 191.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +6453,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 90.17 157.48 0)
+		(at 123.19 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3888,7 +6461,7 @@
 		(dnp no)
 		(uuid "99496cdb-0acc-4902-a717-ea29c6fe0c51")
 		(property "Reference" "C807"
-			(at 92.4941 156.2741 0)
+			(at 125.5141 156.2741 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,8 +6469,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 92.4941 158.6984 0)
+		(property "Value" "22uF"
+			(at 125.5141 158.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +6479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 157.48 0)
+			(at 123.19 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +6488,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 157.48 0)
+			(at 123.19 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +6497,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 90.17 157.48 0)
+			(at 123.19 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +6522,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 160.02 0)
+		(at 123.19 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3959,7 +6532,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0dc238d-cd5c-4b8e-8ceb-e7d8f3837e59")
 		(property "Reference" "#PWR0961"
-			(at 90.17 166.37 0)
+			(at 123.19 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +6541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 164.1531 0)
+			(at 123.19 164.1531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +6550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 160.02 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +6559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 160.02 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +6568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 160.02 0)
+			(at 123.19 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,33 +6590,34 @@
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 62.23 85.09 0)
+		(at 62.23 167.64 0)
 		(mirror x)
-		(unit 4)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8e8d098-a8b8-4d23-9588-8ff91fe4d23c")
-		(property "Reference" "U107"
-			(at 62.23 78.5325 0)
+		(uuid "a11c844d-8353-4656-9795-6ac3ff517241")
+		(property "Reference" "U14"
+			(at 64.77 166.2317 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "4066"
-			(at 62.23 80.9568 0)
+			(at 64.77 168.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 85.09 0)
+			(at 62.23 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +6626,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 62.23 85.09 0)
+			(at 62.23 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +6635,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 62.23 85.09 0)
+			(at 62.23 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,52 +6643,204 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "00f08061-721a-4c0c-8255-052aff50e8f7")
-		)
-		(pin "1"
-			(uuid "301111c4-ec27-4590-8cd3-e40408f605fb")
-		)
 		(pin "13"
-			(uuid "e88b3e86-902c-439a-9976-fa0896f86b2d")
-		)
-		(pin "11"
-			(uuid "ee8a24e0-67ef-4a3f-b458-9db32287d304")
-		)
-		(pin "12"
-			(uuid "4fe5a942-0347-4e5c-91f0-fc14bc41fc30")
-		)
-		(pin "14"
-			(uuid "48ab3cf0-b1e1-4a29-901f-9b6a291edb6b")
-		)
-		(pin "2"
-			(uuid "d108454f-efa0-4771-9cae-208219ce183d")
-		)
-		(pin "6"
-			(uuid "82b3821f-82e1-4d80-8926-756fbb9a42f2")
-		)
-		(pin "10"
-			(uuid "549e2cf4-cb82-48c1-a759-359d5ea562e9")
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec90")
 		)
 		(pin "9"
-			(uuid "0668bf2c-4dd5-4ae0-afd3-5e03525e472d")
-		)
-		(pin "7"
-			(uuid "851a3c2b-c4a5-4638-afe1-a9ddefbf3962")
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df24")
 		)
 		(pin "5"
-			(uuid "f75b7f19-6c31-434c-809e-b83dab68f0b7")
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3627")
 		)
-		(pin "3"
-			(uuid "469ccd29-69e1-4d5f-84b5-683e76f58e1b")
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574d")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76287")
+		)
+		(pin "14"
+			(uuid "2aeb7537-c560-4464-b69f-4e8949d0d55c")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990dc")
 		)
 		(pin "8"
-			(uuid "6311e160-c4ba-4295-b9e8-5791cf319ad8")
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9d")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f2030")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78e")
+		)
+		(pin "7"
+			(uuid "4309cb94-d928-4378-aae9-c745f612ded4")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb2")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786c")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237cb")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U107")
+					(reference "U14")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6e85e7f-1d5b-454d-af8f-315538039a93")
+		(property "Reference" "RN4"
+			(at 224.282 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3792")
+		)
+		(pin "1"
+			(uuid "e286fd20-71cc-46ab-9424-515aee254480")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a4")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1579")
+		)
+		(pin "2"
+			(uuid "1c742a48-1efc-48dd-a608-12ff2ddef2c3")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 64.77 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a84baa73-11d6-4689-9be0-f00f0dce9119")
+		(property "Reference" "RN1"
+			(at 205.994 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
+		)
+		(pin "1"
+			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b20")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1576")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN1")
 					(unit 4)
 				)
 			)
@@ -4122,17 +6848,17 @@
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 113.03 34.29 0)
+		(at 128.27 43.18 0)
 		(mirror x)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af3c5721-1cc7-45dd-b321-183656e74204")
-		(property "Reference" "U106"
-			(at 113.03 27.7325 0)
+		(uuid "aa26b639-5d64-4b26-9a9d-d0c7918cdc01")
+		(property "Reference" "U11"
+			(at 128.27 36.6225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +6866,7 @@
 			)
 		)
 		(property "Value" "4066"
-			(at 113.03 30.1568 0)
+			(at 128.27 39.0468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +6874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 34.29 0)
+			(at 128.27 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +6883,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 113.03 34.29 0)
+			(at 128.27 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +6892,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 113.03 34.29 0)
+			(at 128.27 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,70 +6900,70 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "aac96c94-f1dc-4188-bdf3-f52f8a1a92d3")
-		)
-		(pin "11"
-			(uuid "14038237-89aa-4a43-bd1b-48169d4eb423")
-		)
-		(pin "10"
-			(uuid "38a6c7d9-d360-47e6-a5c1-e365be796d9b")
-		)
-		(pin "4"
-			(uuid "59f55f4c-f7e8-47dd-a055-da71aab82958")
-		)
-		(pin "3"
-			(uuid "64af9633-ae68-4e81-b2cd-1fd2591a00a3")
-		)
-		(pin "2"
-			(uuid "53bf4f93-2008-4403-a09b-b84e429bca79")
-		)
-		(pin "8"
-			(uuid "a0ec0e91-1ae5-4ede-9a21-fe1208abe043")
-		)
-		(pin "14"
-			(uuid "64455bee-3d1e-4d1f-8c78-68630fd3d0e3")
-		)
-		(pin "12"
-			(uuid "b9a3b43a-4730-43da-ae09-0926fd3229b8")
-		)
-		(pin "6"
-			(uuid "bfd211b5-c1de-4773-8566-ca4d7f57155d")
-		)
-		(pin "1"
-			(uuid "d178bee6-41d7-453e-9295-35c2b74c342a")
-		)
 		(pin "13"
-			(uuid "c24fc02f-1656-4d58-9ba4-7298e31d34d6")
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
 		)
 		(pin "5"
-			(uuid "7610d3c4-b9c6-44ad-a617-43a410599d4e")
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574b")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76285")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78c")
 		)
 		(pin "7"
-			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5ec")
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
 		)
 		(instances
-			(project "Kenwood Microphone Switcher"
+			(project ""
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U106")
-					(unit 3)
+					(reference "U11")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 62.23 110.49 0)
+		(at 128.27 68.58 0)
 		(mirror x)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0fe686b-cc79-415e-a3a1-033cc452c8a2")
-		(property "Reference" "U108"
-			(at 62.23 103.9325 0)
+		(uuid "b2549055-a40b-4560-baf1-b37a5f61af6f")
+		(property "Reference" "U12"
+			(at 128.27 62.0225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +6971,7 @@
 			)
 		)
 		(property "Value" "4066"
-			(at 62.23 106.3568 0)
+			(at 128.27 64.4468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +6979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 110.49 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +6988,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 62.23 110.49 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +6997,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 62.23 110.49 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,60 +7005,60 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
-			(uuid "83358a92-28f8-47ec-8fc5-40d68dd9ae9e")
-		)
-		(pin "11"
-			(uuid "a0e0b550-9066-4df7-92be-f2b3834d29da")
-		)
-		(pin "12"
-			(uuid "58dcbd8c-e524-423a-b158-8047c286f582")
-		)
-		(pin "10"
-			(uuid "bdc6ce4d-14bc-4ada-b700-f79b40548c5a")
-		)
-		(pin "7"
-			(uuid "ed3ce1e9-9e00-4991-abab-ae956f7ec65d")
-		)
-		(pin "5"
-			(uuid "755412a6-0583-4547-a55d-82430a16d29d")
-		)
-		(pin "6"
-			(uuid "7243b9f2-5c05-42dd-9c8c-b8324242612b")
-		)
-		(pin "2"
-			(uuid "5a6c8454-40f7-416a-b6a1-5b7dc7bc37ea")
-		)
 		(pin "13"
-			(uuid "fbdb4791-2be5-43b3-8180-596d051e6107")
-		)
-		(pin "3"
-			(uuid "3f185983-a77f-41c8-bed4-121be5698084")
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
 		)
 		(pin "9"
-			(uuid "fe8fd66c-9cf0-46c3-8e12-5b6c5d2d6c60")
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "c0e488e5-8a7f-49cb-98b7-de99a73921e6")
+		)
+		(pin "12"
+			(uuid "a5942ca5-1aae-4fc9-86a8-b3b215a84ab1")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
 		)
 		(pin "1"
-			(uuid "136538d1-fcea-46a1-b390-2e8f3209a237")
-		)
-		(pin "4"
-			(uuid "cec0ab57-bcde-410b-aa60-f30c1add30d9")
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
 		)
 		(pin "8"
-			(uuid "e5bf8839-f7c3-424e-bab1-b29126eeb478")
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "b42e2e1f-c6dd-42ef-910c-5d0252bb6e3a")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U108")
-					(unit 3)
+					(reference "U12")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 160.02 0)
+		(at 85.09 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4342,7 +7068,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36e2a03-1b02-4cf3-88bd-ff39410f6300")
 		(property "Reference" "#PWR0955"
-			(at 52.07 166.37 0)
+			(at 85.09 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +7077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 164.1531 0)
+			(at 85.09 164.1531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +7086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +7095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +7104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 160.02 0)
+			(at 85.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,8 +7125,113 @@
 		)
 	)
 	(symbol
+		(lib_id "4xxx:4066")
+		(at 77.47 119.38 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b873f212-7826-4816-8857-550074263177")
+		(property "Reference" "U14"
+			(at 77.47 112.8225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 77.47 115.2468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec91")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df25")
+		)
+		(pin "5"
+			(uuid "a8383aca-ba4e-401e-bc59-9a318d9bbb30")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574e")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76288")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201d")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990dd")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9e")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f2031")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78f")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2e0")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb3")
+		)
+		(pin "4"
+			(uuid "0eceb5eb-8140-4495-8a2e-8c1a349e3e4a")
+		)
+		(pin "3"
+			(uuid "363fe338-672e-4be1-91d3-495bb0656c11")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 64.77 190.5 0)
+		(at 97.79 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4408,7 +7239,7 @@
 		(dnp no)
 		(uuid "bca057eb-bd71-4686-a8eb-ad85d15aa032")
 		(property "Reference" "C804"
-			(at 67.0941 189.2941 0)
+			(at 100.1141 189.2941 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +7248,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 67.0941 191.7184 0)
+			(at 100.1141 191.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +7257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 190.5 0)
+			(at 97.79 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +7266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 190.5 0)
+			(at 97.79 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +7275,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 190.5 0)
+			(at 97.79 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,218 +7299,8 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 113.03 59.69 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf577aed-7418-4b91-bd9b-8eeedd582d68")
-		(property "Reference" "U107"
-			(at 113.03 53.1325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4066"
-			(at 113.03 55.5568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6855050a-45e2-4f8a-a20d-cda908127cb7")
-		)
-		(pin "1"
-			(uuid "301111c4-ec27-4590-8cd3-e40408f605fc")
-		)
-		(pin "13"
-			(uuid "e88b3e86-902c-439a-9976-fa0896f86b2e")
-		)
-		(pin "11"
-			(uuid "162cf2f8-873d-4eef-9c05-7d1155fb3411")
-		)
-		(pin "12"
-			(uuid "e69c3b37-3c6d-4959-83f5-b2d2e8182e48")
-		)
-		(pin "14"
-			(uuid "48ab3cf0-b1e1-4a29-901f-9b6a291edb6c")
-		)
-		(pin "2"
-			(uuid "d108454f-efa0-4771-9cae-208219ce183e")
-		)
-		(pin "6"
-			(uuid "82b3821f-82e1-4d80-8926-756fbb9a42f3")
-		)
-		(pin "10"
-			(uuid "92cc5529-4afc-4192-afe7-eed74e85a938")
-		)
-		(pin "9"
-			(uuid "0668bf2c-4dd5-4ae0-afd3-5e03525e472e")
-		)
-		(pin "7"
-			(uuid "851a3c2b-c4a5-4638-afe1-a9ddefbf3963")
-		)
-		(pin "5"
-			(uuid "31de4da6-51cb-42b9-8626-80e560fa03d3")
-		)
-		(pin "3"
-			(uuid "982341ce-b535-4e46-90d2-8c7bfedad53c")
-		)
-		(pin "8"
-			(uuid "6311e160-c4ba-4295-b9e8-5791cf319ad9")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U107")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4066")
-		(at 44.45 167.64 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c206f72b-bae4-45ee-9ddb-60c32dcdb516")
-		(property "Reference" "U55"
-			(at 41.656 166.4857 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4066"
-			(at 41.656 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 44.45 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b28df37b-5ffd-487a-8ba3-7a7722e60307")
-		)
-		(pin "6"
-			(uuid "b41647df-4c01-465d-9c06-42e99672c7f1")
-		)
-		(pin "9"
-			(uuid "fb49b7ce-4fc8-41fa-9f7d-c93b618bcfe8")
-		)
-		(pin "5"
-			(uuid "e8cb48db-4ee6-4d8c-9fd2-c17d11521cd4")
-		)
-		(pin "10"
-			(uuid "7c5ce42b-0e37-40e3-a10b-bdc424ed6cf7")
-		)
-		(pin "13"
-			(uuid "700b74df-342b-47d9-89a7-6e5a5a60775f")
-		)
-		(pin "8"
-			(uuid "d8eb1204-90a3-404b-ba44-08eafb26bc7b")
-		)
-		(pin "12"
-			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd95")
-		)
-		(pin "14"
-			(uuid "e8a78c60-7f85-4873-bd74-f06728aa140f")
-		)
-		(pin "2"
-			(uuid "6e26c495-fe4f-4099-b5b4-651891885480")
-		)
-		(pin "4"
-			(uuid "2ea4d4d8-9853-4306-82c8-5ed3e10afac6")
-		)
-		(pin "1"
-			(uuid "d4b42c2d-1b46-4c6d-afc7-d452c3a75d05")
-		)
-		(pin "11"
-			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce6")
-		)
-		(pin "7"
-			(uuid "1eb21040-bf33-4fae-bcfd-57d2bbeb43f0")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U55")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 77.47 190.5 0)
+		(at 110.49 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4687,7 +7308,7 @@
 		(dnp no)
 		(uuid "c29dc061-60d1-4f8a-a11d-0437ee607839")
 		(property "Reference" "C806"
-			(at 79.7941 189.2941 0)
+			(at 112.8141 189.2941 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +7317,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 79.7941 191.7184 0)
+			(at 112.8141 191.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +7326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 190.5 0)
+			(at 110.49 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +7335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 190.5 0)
+			(at 110.49 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +7344,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 77.47 190.5 0)
+			(at 110.49 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,253 +7368,32 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4066")
-		(at 87.63 110.49 0)
-		(mirror x)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d048f2ff-a108-41a6-924a-38b5e12fcd33")
-		(property "Reference" "U108"
-			(at 87.63 103.9325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4066"
-			(at 87.63 106.3568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 87.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 87.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "83358a92-28f8-47ec-8fc5-40d68dd9ae9f")
-		)
-		(pin "11"
-			(uuid "1f416790-58d7-424d-9b26-b5d78b0f55cb")
-		)
-		(pin "12"
-			(uuid "277230d0-35fa-42af-a082-5612c79787ac")
-		)
-		(pin "10"
-			(uuid "7934f743-bd93-4677-bd51-f1edc248461d")
-		)
-		(pin "7"
-			(uuid "ed3ce1e9-9e00-4991-abab-ae956f7ec65e")
-		)
-		(pin "5"
-			(uuid "755412a6-0583-4547-a55d-82430a16d29e")
-		)
-		(pin "6"
-			(uuid "9d688eef-dba7-48cb-a9e4-230240c5b605")
-		)
-		(pin "2"
-			(uuid "5a6c8454-40f7-416a-b6a1-5b7dc7bc37eb")
-		)
-		(pin "13"
-			(uuid "fbdb4791-2be5-43b3-8180-596d051e6108")
-		)
-		(pin "3"
-			(uuid "3f185983-a77f-41c8-bed4-121be5698085")
-		)
-		(pin "9"
-			(uuid "4f19176f-5c85-4376-ae8c-0edd34a74f39")
-		)
-		(pin "1"
-			(uuid "136538d1-fcea-46a1-b390-2e8f3209a238")
-		)
-		(pin "4"
-			(uuid "cec0ab57-bcde-410b-aa60-f30c1add30da")
-		)
-		(pin "8"
-			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aece")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U108")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4066")
-		(at 87.63 59.69 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d614ba76-1a1f-48e2-8917-1caa32398d69")
-		(property "Reference" "U107"
-			(at 87.63 53.1325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4066"
-			(at 87.63 55.5568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Analog Switches"
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "00f08061-721a-4c0c-8255-052aff50e8f8")
-		)
-		(pin "1"
-			(uuid "7469d677-2fa1-4a1c-b784-922a85a1b464")
-		)
-		(pin "13"
-			(uuid "5bef6515-9576-4a1e-b869-49b55906775b")
-		)
-		(pin "11"
-			(uuid "162cf2f8-873d-4eef-9c05-7d1155fb3412")
-		)
-		(pin "12"
-			(uuid "e69c3b37-3c6d-4959-83f5-b2d2e8182e49")
-		)
-		(pin "14"
-			(uuid "48ab3cf0-b1e1-4a29-901f-9b6a291edb6d")
-		)
-		(pin "2"
-			(uuid "284b282c-3e64-4dbb-905f-49c853c64d0e")
-		)
-		(pin "6"
-			(uuid "82b3821f-82e1-4d80-8926-756fbb9a42f4")
-		)
-		(pin "10"
-			(uuid "92cc5529-4afc-4192-afe7-eed74e85a939")
-		)
-		(pin "9"
-			(uuid "0668bf2c-4dd5-4ae0-afd3-5e03525e472f")
-		)
-		(pin "7"
-			(uuid "851a3c2b-c4a5-4638-afe1-a9ddefbf3964")
-		)
-		(pin "5"
-			(uuid "f75b7f19-6c31-434c-809e-b83dab68f0b8")
-		)
-		(pin "3"
-			(uuid "469ccd29-69e1-4d5f-84b5-683e76f58e1c")
-		)
-		(pin "8"
-			(uuid "6311e160-c4ba-4295-b9e8-5791cf319ada")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4066")
-		(at 87.63 34.29 0)
-		(mirror x)
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 80.01 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db5478f5-3012-47a4-948c-7cd5b6da545d")
-		(property "Reference" "U106"
-			(at 87.63 27.7325 0)
+		(uuid "cee3f0a8-b5c3-42e5-a9c9-904d52cf91f9")
+		(property "Reference" "RN3"
+			(at 218.186 49.1377 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4066"
-			(at 87.63 30.1568 0)
+		(property "Value" "270"
+			(at 212.09 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 87.63 34.29 0)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,8 +7401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Analog Switches"
-			(at 87.63 34.29 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,52 +7410,34 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "b1215be5-0889-4ad5-b77d-29003c0e2fe8")
-		)
-		(pin "11"
-			(uuid "14038237-89aa-4a43-bd1b-48169d4eb425")
-		)
-		(pin "10"
-			(uuid "38a6c7d9-d360-47e6-a5c1-e365be796d9d")
-		)
-		(pin "4"
-			(uuid "b402843d-ecd5-44c0-b574-7a08f385ee7b")
-		)
-		(pin "3"
-			(uuid "ff29a227-f08b-4e40-a17d-3401236a4f77")
-		)
-		(pin "2"
-			(uuid "53bf4f93-2008-4403-a09b-b84e429bca7b")
-		)
-		(pin "8"
-			(uuid "d1bbddf7-3af3-4d59-a912-bfb4f82ef1c3")
-		)
-		(pin "14"
-			(uuid "64455bee-3d1e-4d1f-8c78-68630fd3d0e4")
-		)
-		(pin "12"
-			(uuid "b9a3b43a-4730-43da-ae09-0926fd3229ba")
-		)
-		(pin "6"
-			(uuid "28418c18-786f-4cfa-95e3-c12f3e0a0b35")
-		)
-		(pin "1"
-			(uuid "d178bee6-41d7-453e-9295-35c2b74c342c")
-		)
-		(pin "13"
-			(uuid "c24fc02f-1656-4d58-9ba4-7298e31d34d8")
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "b98e773c-fa59-4f64-aed7-12521a6fe2d2")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
 		)
-		(pin "7"
-			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5ed")
+		(pin "1"
+			(uuid "188e7880-2eb6-45fd-9c1e-f255b862e15a")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
+		)
+		(pin "3"
+			(uuid "4aee0d20-3234-4feb-91c5-75aaf9297989")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U106")
+					(reference "RN3")
 					(unit 2)
 				)
 			)
@@ -5063,33 +7445,33 @@
 	)
 	(symbol
 		(lib_id "4xxx:4066")
-		(at 33.02 167.64 0)
-		(unit 5)
+		(at 77.47 43.18 0)
+		(mirror x)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dff49c6a-4e74-4405-acfa-71717fb66cf7")
-		(property "Reference" "U53"
-			(at 30.226 166.4857 0)
+		(fields_autoplaced yes)
+		(uuid "cf57bcd2-e80b-438d-b7f4-d4ba98c7dcbe")
+		(property "Reference" "U11"
+			(at 77.47 36.6225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "4066"
-			(at 30.226 168.91 0)
+			(at 77.47 39.0468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 167.64 0)
+			(at 77.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +7480,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 33.02 167.64 0)
+			(at 77.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +7489,7 @@
 			)
 		)
 		(property "Description" "Quad Analog Switches"
-			(at 33.02 167.64 0)
+			(at 77.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,60 +7497,270 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b28df37b-5ffd-487a-8ba3-7a7722e60308")
-		)
-		(pin "6"
-			(uuid "b41647df-4c01-465d-9c06-42e99672c7f2")
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
 		)
 		(pin "9"
-			(uuid "fb49b7ce-4fc8-41fa-9f7d-c93b618bcfe9")
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
 		)
 		(pin "5"
-			(uuid "e8cb48db-4ee6-4d8c-9fd2-c17d11521cd5")
-		)
-		(pin "10"
-			(uuid "7c5ce42b-0e37-40e3-a10b-bdc424ed6cf8")
-		)
-		(pin "13"
-			(uuid "700b74df-342b-47d9-89a7-6e5a5a607760")
-		)
-		(pin "8"
-			(uuid "d8eb1204-90a3-404b-ba44-08eafb26bc7c")
-		)
-		(pin "12"
-			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd96")
-		)
-		(pin "14"
-			(uuid "91b82489-c91b-438f-a045-e72288587084")
-		)
-		(pin "2"
-			(uuid "6e26c495-fe4f-4099-b5b4-651891885481")
-		)
-		(pin "4"
-			(uuid "2ea4d4d8-9853-4306-82c8-5ed3e10afac7")
-		)
-		(pin "1"
-			(uuid "d4b42c2d-1b46-4c6d-afc7-d452c3a75d06")
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
 		)
 		(pin "11"
-			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce7")
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574b")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76285")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78c")
 		)
 		(pin "7"
-			(uuid "48b3f9e5-c78f-477a-9c4a-3c834a286960")
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 128.27 119.38 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9fa8c61-f73b-400f-9f11-c1689b392aa0")
+		(property "Reference" "U14"
+			(at 128.27 112.8225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 128.27 115.2468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "dda0bf3c-26e1-455d-b7a5-c02a15555033")
+		)
+		(pin "12"
+			(uuid "05c1e024-52de-4fc3-be2a-235e6b80f135")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "88760e26-ec74-4e06-b981-e1d62a2f7d10")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
-					(reference "U53")
-					(unit 5)
+					(reference "U14")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 102.87 119.38 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4626c0b-817e-4749-a6b4-47f342c84570")
+		(property "Reference" "U14"
+			(at 102.87 112.8225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 102.87 115.2468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8f")
+		)
+		(pin "9"
+			(uuid "cbc443de-0a3c-40b3-a286-3dd8a396c03b")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3626")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574c")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76286")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201b")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990db")
+		)
+		(pin "8"
+			(uuid "849e6949-0e6e-4a5d-bd1d-83f735543baf")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202f")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78d")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2de")
+		)
+		(pin "6"
+			(uuid "4f91797b-9846-4e16-97cd-593943b1158b")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786b")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237ca")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U14")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 160.02 0)
+		(at 110.49 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5178,7 +7770,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4cbc462-3022-4b33-a7a3-a76a7f5f2264")
 		(property "Reference" "#PWR0959"
-			(at 77.47 166.37 0)
+			(at 110.49 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +7779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 164.1531 0)
+			(at 110.49 164.1531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +7788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 160.02 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +7797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 160.02 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +7806,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 160.02 0)
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,8 +7827,410 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 72.39 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e682dd50-1fd9-4a7e-9b6b-011386c5c063")
+		(property "Reference" "RN2"
+			(at 212.09 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3791")
+		)
+		(pin "1"
+			(uuid "45e264a4-729f-4cb7-b9c1-1693a0823ead")
+		)
+		(pin "4"
+			(uuid "1b1a01d1-8edf-46ce-9788-401339047297")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1578")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd428")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 90.17 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea25cf12-26fd-4d4f-ac2b-bfbdccbe7869")
+		(property "Reference" "RN4"
+			(at 224.282 49.1377 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
+		)
+		(pin "1"
+			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffff6")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
+		)
+		(pin "3"
+			(uuid "39435075-6aa0-45e5-8a42-e839dede9a6d")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 73.66 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edc78448-d818-4488-baf7-34e1138aec15")
+		(property "Reference" "C810"
+			(at 75.9841 189.2941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 75.9841 191.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bab73db-50bd-4c09-9f45-7582189799a9")
+		)
+		(pin "2"
+			(uuid "12a5b89c-d4fb-4593-ae63-575c899873cb")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "C810")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 102.87 43.18 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb511c9f-a8ab-4ab1-a507-c6e7001deae5")
+		(property "Reference" "U11"
+			(at 102.87 36.6225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 102.87 39.0468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec8e")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df22")
+		)
+		(pin "5"
+			(uuid "71d982b9-e54b-4e23-b874-0feebfab3625")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574b")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76285")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201a")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990da")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9b")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f202e")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78c")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2dd")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb0")
+		)
+		(pin "4"
+			(uuid "4055b3fc-15d6-45ea-80b5-f0788714786a")
+		)
+		(pin "3"
+			(uuid "b5370cd2-e40b-45e4-9245-c9cede1237c9")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 212.09 85.09 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd7ef12b-09f1-4d38-b652-d28438c6ed86")
+		(property "Reference" "RN3"
+			(at 218.186 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 212.09 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 212.09 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8c25ed48-6f82-4712-9835-c81070fd1298")
+		)
+		(pin "1"
+			(uuid "97cd3d4d-010b-43ae-ac7d-df94d0669802")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a2")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1577")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd427")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "RN3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 90.17 193.04 0)
+		(at 123.19 193.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5246,7 +8240,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff259f7a-a7d8-4be1-ac80-d5ce0566368d")
 		(property "Reference" "#PWR0962"
-			(at 90.17 199.39 0)
+			(at 123.19 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +8249,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 197.1731 0)
+			(at 123.19 197.1731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +8258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 193.04 0)
+			(at 123.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +8267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 193.04 0)
+			(at 123.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +8276,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 193.04 0)
+			(at 123.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,6 +8292,111 @@
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
 					(reference "#PWR0962")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4066")
+		(at 77.47 68.58 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff73ef32-32ca-4bc5-b644-324538626979")
+		(property "Reference" "U12"
+			(at 77.47 62.0225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 77.47 64.4468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "6fe17cf7-be33-4b1f-bd51-da84f5e9ec91")
+		)
+		(pin "9"
+			(uuid "256eaa91-7ccd-43af-9fbb-a0b802b5df25")
+		)
+		(pin "5"
+			(uuid "97fb6b64-b234-4568-8bda-0c9b0a4b38a8")
+		)
+		(pin "11"
+			(uuid "09221dcb-336e-455d-8c76-e67e4435574e")
+		)
+		(pin "12"
+			(uuid "a73d86b8-5cd6-4d90-8cbb-0b1d76b76288")
+		)
+		(pin "14"
+			(uuid "9d45ae3f-2a0b-44f5-abeb-a694e3b6201d")
+		)
+		(pin "1"
+			(uuid "d6db00c3-af80-43bc-8a85-068bea9990dd")
+		)
+		(pin "8"
+			(uuid "926d5cd2-67df-42ad-b62f-778669e99b9e")
+		)
+		(pin "2"
+			(uuid "831d955a-f47b-4275-b5c7-8ca1ac6f2031")
+		)
+		(pin "10"
+			(uuid "d348147b-e747-4b3a-bae8-33dabcd8c78f")
+		)
+		(pin "7"
+			(uuid "4a09ac34-86d6-4217-af59-80a80949d2e0")
+		)
+		(pin "6"
+			(uuid "25531ef7-9632-406c-9cb8-e84922a39cb3")
+		)
+		(pin "4"
+			(uuid "4d209716-c632-433a-b441-ef3205650bf4")
+		)
+		(pin "3"
+			(uuid "82d5b433-c272-4c03-84d2-4b8e68ee74ce")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/08a77cad-86d7-4f50-8517-cb6e2e11f987"
+					(reference "U12")
+					(unit 2)
 				)
 			)
 		)

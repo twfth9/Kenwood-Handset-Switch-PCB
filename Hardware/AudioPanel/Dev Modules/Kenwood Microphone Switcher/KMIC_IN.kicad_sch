@@ -5,6 +5,260 @@
 	(uuid "91ccbe94-6c97-4189-b441-02dad8b18796")
 	(paper "B")
 	(lib_symbols
+		(symbol "Amplifier_Operational:TLV2372"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV2372"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV2372_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV2372_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV2372_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:8P8C_Shielded"
 			(pin_names
 				(offset 1.016)
@@ -1458,293 +1712,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Opamp_Dual"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Opamp_Dual"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp_dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Opamp_Dual_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Opamp_Dual_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Opamp_Dual_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -1877,6 +1844,219 @@
 					(at 0 -2.54 90)
 					(length 0.635)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer_Trim_US"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2032,6 +2212,559 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start -0.762 1.0196)
+					(mid 0 1.2729)
+					(end 0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -3.048 1.016)
+					(mid -1.651 1.4992)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.651 1.4992)
+					(end 3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper_3_Open_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP6"
+				(at 1.2122 2.1341 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at -1.2121 2.1341 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_1_0_0"
+				(circle
+					(center 0 4.572)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_0_1"
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.524)
+					(mid -1.4992 2.921)
+					(end -1.016 4.318)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.651 1.4992)
+					(end 3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2135,8 +2868,32 @@
 		)
 	)
 	(rectangle
-		(start 194.31 140.97)
-		(end 240.03 173.99)
+		(start 300.99 168.91)
+		(end 344.17 224.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1489466a-db06-44bf-80d4-554ea0c9a430)
+	)
+	(rectangle
+		(start 256.54 168.91)
+		(end 298.45 224.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c399abd-1a0d-413c-b2d6-d9e1c7fa9de1)
+	)
+	(rectangle
+		(start 146.05 140.97)
+		(end 191.77 181.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -2148,7 +2905,7 @@
 	)
 	(text "MIC: 14mVp-p"
 		(exclude_from_sim no)
-		(at 117.348 174.498 0)
+		(at 117.348 248.158 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2159,7 +2916,7 @@
 	)
 	(text "RF Suppression"
 		(exclude_from_sim no)
-		(at 211.582 140.716 0)
+		(at 163.322 140.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,9 +2925,19 @@
 		)
 		(uuid "263ff1ae-21cf-4d3c-b758-5b0cd3c76176")
 	)
+	(text "-50x Gain"
+		(exclude_from_sim no)
+		(at 277.622 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2703115e-59da-4ada-b881-128ccc11c51a")
+	)
 	(text "4mVp-p"
 		(exclude_from_sim no)
-		(at 244.348 150.876 0)
+		(at 271.272 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,6 +2945,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a301e8e-158e-4de2-b1de-2bf93ff54424")
+	)
+	(text "-25x Gain"
+		(exclude_from_sim no)
+		(at 323.596 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f09b8fa-f213-41ce-8d79-ebb1a89cd3e5")
 	)
 	(text "Mic In"
 		(exclude_from_sim no)
@@ -2189,9 +2966,19 @@
 		)
 		(uuid "9f39c828-016f-4434-8787-e4ec6a0ed9c4")
 	)
+	(text "0V\n+5V"
+		(exclude_from_sim no)
+		(at 347.98 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b823c5e8-0179-4c55-b8cc-41bb8506c6cd")
+	)
 	(text "8C: 35mA Max"
 		(exclude_from_sim no)
-		(at 117.348 176.784 0)
+		(at 117.348 250.444 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2202,7 +2989,7 @@
 	)
 	(text "2Vp-p"
 		(exclude_from_sim no)
-		(at 335.534 141.478 0)
+		(at 336.804 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2212,16 +2999,34 @@
 		(uuid "f9d4373d-2bf3-4b3a-a555-f4a671a00395")
 	)
 	(junction
+		(at 314.96 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b50878f-250b-482f-9ee0-a8d406cb973c")
+	)
+	(junction
+		(at 176.53 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c37b488-73a5-4261-9f29-81ddc824de76")
+	)
+	(junction
+		(at 349.25 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb366b6-04db-41c0-8809-ea95f03d5343")
+	)
+	(junction
 		(at 271.78 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11cb9d6e-3a1b-447a-b872-d1c83061a3af")
 	)
 	(junction
-		(at 228.6 157.48)
+		(at 255.27 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17e83d48-a0d9-4aa2-a86e-c09d201fe03a")
+		(uuid "11f383c4-13e3-4c7d-a5de-f9040d1daa5c")
 	)
 	(junction
 		(at 255.27 127)
@@ -2236,10 +3041,28 @@
 		(uuid "1a1a6147-83f6-48d9-b1d8-a12585194d6b")
 	)
 	(junction
+		(at 361.95 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa6b1ab-0159-49e1-ba76-2689823a01dd")
+	)
+	(junction
+		(at 267.97 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2510f2fd-f9cd-4004-8692-1eb83c1327b8")
+	)
+	(junction
 		(at 293.37 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2805bcce-6f96-4441-a3d5-79c8ed2555c9")
+	)
+	(junction
+		(at 229.87 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d6ec10b-7e0c-4cc3-ba9a-a8e18e1eec9d")
 	)
 	(junction
 		(at 293.37 119.38)
@@ -2248,10 +3071,64 @@
 		(uuid "2eac8783-aa10-4e7d-ae71-ac4acfc3c9a7")
 	)
 	(junction
+		(at 120.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f910efe-4991-42fd-b60c-e6715aeb2998")
+	)
+	(junction
+		(at 246.38 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "386fc0b9-5a68-4e58-bcd3-ba5c231b477d")
+	)
+	(junction
+		(at 168.91 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3980e47b-dc32-4624-be95-389cd16abefe")
+	)
+	(junction
+		(at 320.04 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a27f924-4e04-4f95-927f-827ff415ef4f")
+	)
+	(junction
+		(at 374.65 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b505e08-1a7f-4a5d-8214-dc23e1b90978")
+	)
+	(junction
 		(at 138.43 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e75d597-94ec-450b-84f2-cb126e6f6d03")
+	)
+	(junction
+		(at 340.36 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4275675e-6ae7-4ab2-8059-3710bd4595a3")
+	)
+	(junction
+		(at 270.51 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42e3614d-46c0-42a5-8a6c-28c63821a700")
+	)
+	(junction
+		(at 180.34 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473662bf-e21d-4cee-8ca5-f36eb4b5ea35")
+	)
+	(junction
+		(at 128.27 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47b4d4f9-178a-44d8-8852-6e0477421dc7")
 	)
 	(junction
 		(at 57.15 154.94)
@@ -2260,7 +3137,7 @@
 		(uuid "4a49b35d-28f1-477b-8b6e-4cbe20e9454e")
 	)
 	(junction
-		(at 207.01 157.48)
+		(at 158.75 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8320a6-a51f-451a-80f2-d60db7ff0be8")
@@ -2270,6 +3147,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cde676b-e1f2-4c8a-a78e-f27e0b6b3897")
+	)
+	(junction
+		(at 135.89 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e50c2e2-6770-4e10-af0a-32ddec883846")
+	)
+	(junction
+		(at 176.53 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50384acc-6f5c-4cb4-bed1-de42ee64b904")
+	)
+	(junction
+		(at 320.04 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59476580-f87f-4998-b103-6bd7a5470f56")
 	)
 	(junction
 		(at 46.99 154.94)
@@ -2284,28 +3179,88 @@
 		(uuid "68474c1a-a868-4f27-8080-1ddef3bf8d6c")
 	)
 	(junction
+		(at 125.73 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75e3cc8c-9ea4-4502-b5aa-5c6c9987764a")
+	)
+	(junction
+		(at 316.23 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "761adbc8-3f9b-4bf4-b574-90fb1ff96296")
+	)
+	(junction
+		(at 290.83 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "776bb19b-23b6-436e-b593-160090b29a10")
+	)
+	(junction
+		(at 335.28 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe589d8-b5c3-4946-b27e-04f9fde7dd81")
+	)
+	(junction
+		(at 240.03 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "808ff605-ed05-41a4-82ff-df5e07b9d941")
+	)
+	(junction
 		(at 151.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f89e64-81fc-4cbc-9153-bbf19ac0b785")
 	)
 	(junction
-		(at 213.36 157.48)
+		(at 270.51 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "891c8dbf-4eb4-4b23-a0b5-0326ad23d690")
+	)
+	(junction
+		(at 165.1 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a179172-5175-40ea-a345-89baf33615f6")
 	)
 	(junction
-		(at 316.23 133.35)
+		(at 290.83 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8edc79ab-8065-468d-af1c-c7ccb1b8fd8b")
+		(uuid "8ae372bc-8ef4-4e41-9763-efe7a4315e53")
+	)
+	(junction
+		(at 165.1 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "955627ee-72d2-48ce-884d-2d28020c606c")
+	)
+	(junction
+		(at 290.83 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97dacb28-c719-46ea-b29d-f265f0966483")
 	)
 	(junction
 		(at 57.15 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c52fd5e-9d6e-4ab2-9892-59c568c3d31e")
+	)
+	(junction
+		(at 172.72 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d795882-e0d2-4130-a294-be19b105a1a7")
+	)
+	(junction
+		(at 133.35 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ffae111-abae-4108-86e9-33c3f4f1c7db")
 	)
 	(junction
 		(at 120.65 57.15)
@@ -2326,22 +3281,40 @@
 		(uuid "a477de12-8b8d-4887-8bef-aa1a55d4ec94")
 	)
 	(junction
-		(at 207.01 144.78)
+		(at 340.36 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dbc0e2-6dee-456d-b7e7-bab71d348ae6")
+	)
+	(junction
+		(at 387.35 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c57859-e0f1-4421-b6a9-9dabb879cce3")
+	)
+	(junction
+		(at 320.04 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad638ad7-9217-41e9-8c76-9f5219a3d1b6")
+	)
+	(junction
+		(at 340.36 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adfc09db-8cf7-4c78-a7fd-9b1565fa1178")
+	)
+	(junction
+		(at 158.75 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aec95ef4-b173-4f59-a0e0-d37ca353448c")
 	)
 	(junction
-		(at 220.98 157.48)
+		(at 172.72 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aefb6a57-ba41-4441-b52e-49a04e19e4c5")
-	)
-	(junction
-		(at 334.01 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af3eb468-68a9-452b-aac0-53f0674ced3e")
 	)
 	(junction
 		(at 140.97 44.45)
@@ -2356,25 +3329,31 @@
 		(uuid "b147840e-4194-4608-9830-988e896f209e")
 	)
 	(junction
+		(at 400.05 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6759258-c3f5-45d5-8382-efa93952693a")
+	)
+	(junction
 		(at 62.23 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6a909d4-3200-4d27-a9a3-541657df64c1")
 	)
 	(junction
-		(at 120.65 43.18)
+		(at 125.73 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bcceb87c-8827-445b-9b43-13d26d7742a9")
+		(uuid "b78e1154-fd89-4ef8-9846-109acff684a0")
 	)
 	(junction
-		(at 130.81 44.45)
+		(at 229.87 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c156651d-7b9a-4a4e-a490-0b0e0dbb9afa")
+		(uuid "bdf79f2d-cbc2-4f3e-a200-8c86341e4435")
 	)
 	(junction
-		(at 213.36 144.78)
+		(at 165.1 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c96d292a-9774-443d-866f-9fd135bb4901")
@@ -2386,22 +3365,16 @@
 		(uuid "cccce579-2d42-49d9-8012-597a221f3798")
 	)
 	(junction
-		(at 125.73 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfaa85ff-26af-403f-9ead-54eca159423c")
-	)
-	(junction
-		(at 224.79 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d154feeb-ae68-42cb-af34-a224cffb13d9")
-	)
-	(junction
 		(at 130.81 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d47756ef-29a2-4731-82f4-830d6ff4465b")
+	)
+	(junction
+		(at 226.06 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9fc9039-f890-4d51-8a05-df82f627852a")
 	)
 	(junction
 		(at 67.31 154.94)
@@ -2410,16 +3383,40 @@
 		(uuid "da75c929-f44e-485e-9c4d-cea1a9d9a066")
 	)
 	(junction
+		(at 270.51 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db300bb4-3311-4659-a8a8-f3115e172b00")
+	)
+	(junction
+		(at 138.43 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf72dfd-1656-4662-b5bd-62753b6ab8ea")
+	)
+	(junction
+		(at 251.46 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de39e083-dea0-45a8-9b99-f640bfa615a5")
+	)
+	(junction
 		(at 52.07 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5930fcf-ef66-4716-8f15-f84ae9c22e2e")
 	)
 	(junction
-		(at 120.65 140.97)
+		(at 120.65 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9a246d9-b37e-4dda-910c-c8028c618139")
+		(uuid "eeb53076-d32e-49eb-8e20-ec7bddca57a2")
+	)
+	(junction
+		(at 334.01 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f0d88f-d7d5-4ae8-916f-2d312a0350e8")
 	)
 	(junction
 		(at 287.02 104.14)
@@ -2439,8 +3436,14 @@
 		(color 0 0 0 0)
 		(uuid "fd711d10-96be-46e2-8107-6c67ea52840a")
 	)
+	(junction
+		(at 130.81 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdeb2373-61b6-4f06-873e-4175165d7b58")
+	)
 	(bus_entry
-		(at 375.92 147.32)
+		(at 398.78 166.37)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2449,7 +3452,7 @@
 		(uuid "40bbe10f-50ad-4f1e-b2fe-3ff86590723b")
 	)
 	(bus_entry
-		(at 375.92 149.86)
+		(at 398.78 168.91)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2458,7 +3461,7 @@
 		(uuid "8186ce25-212f-4857-8528-33a7947a8cfe")
 	)
 	(bus_entry
-		(at 375.92 139.7)
+		(at 398.78 158.75)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2467,7 +3470,7 @@
 		(uuid "99dc3c84-71fd-4f73-b8cc-0cf120d1759a")
 	)
 	(bus_entry
-		(at 375.92 139.7)
+		(at 398.78 158.75)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2476,13 +3479,43 @@
 		(uuid "b357e29b-97fd-4652-9b7e-e84f80931bea")
 	)
 	(bus_entry
-		(at 375.92 137.16)
+		(at 398.78 156.21)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b747d0ec-685a-4f5c-9120-eb4833a1f706")
+	)
+	(wire
+		(pts
+			(xy 278.13 175.26) (xy 270.51 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0197bc82-20f1-4968-97b0-f063fc1b1189")
+	)
+	(wire
+		(pts
+			(xy 374.65 55.88) (xy 387.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053a6a63-d2b1-420d-9306-d577bf257b9c")
+	)
+	(wire
+		(pts
+			(xy 270.51 204.47) (xy 270.51 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058c024f-b15b-4264-b244-27d9be1b3c3a")
 	)
 	(wire
 		(pts
@@ -2496,13 +3529,53 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 175.26) (xy 83.82 180.34)
+			(xy 327.66 177.8) (xy 320.04 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bbb334f-3e77-4787-8e28-b7ed2bc24e14")
+		(uuid "0836a9f9-5ade-4c38-9b25-da579b508bd8")
+	)
+	(wire
+		(pts
+			(xy 172.72 168.91) (xy 176.53 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08815086-ff96-4016-96eb-93430738010a")
+	)
+	(wire
+		(pts
+			(xy 314.96 212.09) (xy 322.58 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae3820b-65bd-484d-8500-b490d41c8c7a")
+	)
+	(wire
+		(pts
+			(xy 363.22 161.29) (xy 396.24 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b36b5a9-88ef-4fe5-82e5-4430e94f5c0c")
+	)
+	(wire
+		(pts
+			(xy 359.41 167.64) (xy 359.41 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc24cdb-8b2d-4429-a2e3-7765795ae19f")
 	)
 	(wire
 		(pts
@@ -2516,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 144.78) (xy 224.79 148.59)
+			(xy 176.53 144.78) (xy 176.53 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +3599,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 161.29) (xy 228.6 157.48)
+			(xy 349.25 55.88) (xy 334.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de3876d-edc8-427d-8cee-2a1d603c1c16")
+	)
+	(wire
+		(pts
+			(xy 180.34 161.29) (xy 180.34 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2546,23 +3629,43 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 144.78) (xy 207.01 144.78)
+			(xy 290.83 222.25) (xy 290.83 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109b65b8-5221-4ecf-8fae-a93841733e0d")
+		(uuid "1055f057-392b-4eb9-a6be-e3001fae4f88")
 	)
 	(wire
 		(pts
-			(xy 207.01 166.37) (xy 207.01 168.91)
+			(xy 246.38 209.55) (xy 267.97 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1058f97a-49e9-4018-911d-b52b75607250")
+	)
+	(wire
+		(pts
+			(xy 158.75 166.37) (xy 158.75 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "10c837f2-fa9f-49c6-8713-f8b3161a9f8b")
+	)
+	(wire
+		(pts
+			(xy 158.75 168.91) (xy 165.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10db5289-5ae8-4577-a437-6b8454d775f4")
 	)
 	(wire
 		(pts
@@ -2586,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 222.25) (xy 290.83 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a02e5d-b3e7-42ab-9edc-a16b7fc955b0")
+	)
+	(wire
+		(pts
 			(xy 52.07 149.86) (xy 52.07 154.94)
 		)
 		(stroke
@@ -2593,6 +3706,16 @@
 			(type default)
 		)
 		(uuid "1474dea5-b630-422a-a986-f560f2881e96")
+	)
+	(wire
+		(pts
+			(xy 226.06 190.5) (xy 236.22 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148d2f79-f82f-479a-9821-acb21341ab3e")
 	)
 	(wire
 		(pts
@@ -2606,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 199.39) (xy 340.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f768c1-6d40-4e38-a9d9-2e0c2336eb13")
+	)
+	(wire
+		(pts
 			(xy 123.19 76.2) (xy 124.46 76.2)
 		)
 		(stroke
@@ -2616,13 +3749,53 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 149.86) (xy 351.79 149.86)
+			(xy 135.89 201.93) (xy 135.89 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1962c314-6cbe-42ca-8d19-f9b6e29af8d5")
+	)
+	(wire
+		(pts
+			(xy 396.24 168.91) (xy 374.65 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1aa009b8-14e8-4418-91ee-925a67af61f8")
+	)
+	(wire
+		(pts
+			(xy 267.97 209.55) (xy 273.05 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc033c5-ec64-4d56-9c76-e645fb8c014d")
+	)
+	(wire
+		(pts
+			(xy 219.71 209.55) (xy 212.09 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9af81f-fb72-4687-bb90-b57f70889d56")
+	)
+	(wire
+		(pts
+			(xy 271.78 157.48) (xy 293.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e611c23-7ebd-44ff-bdf5-0d489d88b16c")
 	)
 	(wire
 		(pts
@@ -2636,6 +3809,36 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 121.92) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d60f67-ee5b-4f09-bd91-4aa42e940502")
+	)
+	(wire
+		(pts
+			(xy 334.01 55.88) (xy 334.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b4b1e7-466e-4f1f-9f9e-d1742b0fe7a1")
+	)
+	(wire
+		(pts
+			(xy 374.65 55.88) (xy 374.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b90dd0-4672-4426-99cb-39a409f70fd4")
+	)
+	(wire
+		(pts
 			(xy 293.37 125.73) (xy 293.37 127)
 		)
 		(stroke
@@ -2643,16 +3846,6 @@
 			(type default)
 		)
 		(uuid "2738b15f-8151-42eb-b7dd-82780edc970d")
-	)
-	(wire
-		(pts
-			(xy 120.65 39.37) (xy 120.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2947c173-167e-453a-b221-31c1899e781a")
 	)
 	(wire
 		(pts
@@ -2666,13 +3859,33 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 137.16) (xy 151.13 109.22)
+			(xy 151.13 137.16) (xy 151.13 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b0a5348-2d20-4c6d-90dc-01977ffba7e4")
+	)
+	(wire
+		(pts
+			(xy 120.65 189.23) (xy 120.65 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b149dd0-7737-4e5d-820e-134450e709c2")
+	)
+	(wire
+		(pts
+			(xy 236.22 204.47) (xy 229.87 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c875cff-6011-4a9b-9a74-94d87a94c231")
 	)
 	(wire
 		(pts
@@ -2686,13 +3899,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 138.43) (xy 135.89 166.37)
+			(xy 229.87 199.39) (xy 229.87 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e36a353-cd44-4fbc-a343-8d73bda14da5")
+		(uuid "2f2c5d82-5611-4baa-aa57-b8ecedcfd88f")
 	)
 	(wire
 		(pts
@@ -2703,16 +3916,6 @@
 			(type default)
 		)
 		(uuid "2f3cf4e2-9494-4d83-8d1a-a0f03cc35fd4")
-	)
-	(wire
-		(pts
-			(xy 138.43 137.16) (xy 138.43 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30071cb5-9d90-44db-898f-ce864c55f66d")
 	)
 	(wire
 		(pts
@@ -2736,6 +3939,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 168.91) (xy 180.34 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a9f585-01b7-4884-9a44-206020650e01")
+	)
+	(wire
+		(pts
 			(xy 306.07 124.46) (xy 302.26 124.46)
 		)
 		(stroke
@@ -2756,13 +3969,33 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 157.48) (xy 220.98 157.48)
+			(xy 349.25 55.88) (xy 361.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354f5482-66eb-43c7-9d2a-c27a10b419dc")
+	)
+	(wire
+		(pts
+			(xy 165.1 157.48) (xy 172.72 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "387b0e8b-51db-49c5-855a-ea511feeb1d3")
+	)
+	(wire
+		(pts
+			(xy 400.05 55.88) (xy 400.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390eeba9-4159-4e03-ad90-34b8c509b768")
 	)
 	(wire
 		(pts
@@ -2786,13 +4019,33 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 144.78) (xy 283.21 144.78)
+			(xy 283.21 175.26) (xy 290.83 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b82cb07-ce7a-43ff-be7b-85c4a70c065a")
+		(uuid "3bf708f8-bfe6-4231-8139-8b0d16f1ad6e")
+	)
+	(wire
+		(pts
+			(xy 270.51 191.77) (xy 270.51 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc3cfb0-422d-4d7b-a48c-a878513a523f")
+	)
+	(wire
+		(pts
+			(xy 307.34 207.01) (xy 312.42 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccdba4d-2dc3-4579-b355-29dba4d1a1bf")
 	)
 	(wire
 		(pts
@@ -2806,6 +4059,26 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 194.31) (xy 162.56 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc6e9d0-5383-4545-be59-e179b703e2e5")
+	)
+	(wire
+		(pts
+			(xy 255.27 121.92) (xy 255.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3aff55-0f45-4e75-be05-82e6129efb53")
+	)
+	(wire
+		(pts
 			(xy 67.31 154.94) (xy 62.23 154.94)
 		)
 		(stroke
@@ -2816,7 +4089,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 142.24) (xy 332.74 142.24)
+			(xy 332.74 142.24) (xy 335.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 153.67) (xy 207.01 157.48)
+			(xy 158.75 153.67) (xy 158.75 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2856,6 +4129,26 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 55.88) (xy 349.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434434f8-ee8b-4638-a8bc-5e82cbe2306b")
+	)
+	(wire
+		(pts
+			(xy 320.04 55.88) (xy 334.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4383bd44-f88c-4ab2-b440-ff046cacf515")
+	)
+	(wire
+		(pts
 			(xy 151.13 66.04) (xy 151.13 68.58)
 		)
 		(stroke
@@ -2866,17 +4159,37 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 140.97) (xy 120.65 166.37)
+			(xy 125.73 144.78) (xy 125.73 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46e6962b-2d8f-4a9b-a45e-2648dceb7d84")
+		(uuid "448b6d1e-3e1f-4215-bd4b-5215e5ff8a0e")
 	)
 	(wire
 		(pts
-			(xy 213.36 144.78) (xy 207.01 144.78)
+			(xy 240.03 210.82) (xy 240.03 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459d31aa-5ab3-4b1f-99d2-91884fec29d3")
+	)
+	(wire
+		(pts
+			(xy 317.5 207.01) (xy 320.04 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4818185c-7606-4590-a2b0-7490f8ecaada")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 158.75 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2906,6 +4219,26 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 209.55) (xy 340.36 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494bf7cf-e641-43b9-9dc1-cef247fc894f")
+	)
+	(wire
+		(pts
+			(xy 151.13 125.73) (xy 151.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac2b8b0-6117-4331-8544-9f6b1d60f4e5")
+	)
+	(wire
+		(pts
 			(xy 120.65 83.82) (xy 120.65 101.6)
 		)
 		(stroke
@@ -2916,13 +4249,63 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 157.48) (xy 213.36 157.48)
+			(xy 120.65 189.23) (xy 160.02 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6c5a8d-441d-4a68-b9eb-1e3e044722a4")
+	)
+	(wire
+		(pts
+			(xy 158.75 157.48) (xy 165.1 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e1e5d2d-cbeb-4b86-9216-6fdf95da2920")
+	)
+	(wire
+		(pts
+			(xy 320.04 177.8) (xy 320.04 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef0288d-f1a7-44c4-8ab6-a0367bd7e644")
+	)
+	(wire
+		(pts
+			(xy 283.21 196.85) (xy 290.83 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6ac02f-b88e-493c-bfd1-f9924a250a56")
+	)
+	(wire
+		(pts
+			(xy 133.35 199.39) (xy 165.1 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501bc684-b080-44d5-baf4-ea79b21f5024")
+	)
+	(wire
+		(pts
+			(xy 284.48 187.96) (xy 290.83 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50597b66-2136-4f6f-8caf-b345fb92d806")
 	)
 	(wire
 		(pts
@@ -2946,7 +4329,7 @@
 	)
 	(bus
 		(pts
-			(xy 375.92 147.32) (xy 375.92 149.86)
+			(xy 398.78 166.37) (xy 398.78 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2956,13 +4339,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 157.48) (xy 293.37 157.48)
+			(xy 359.41 142.24) (xy 335.28 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54a4e192-510c-40bd-b60e-d9a7541978e4")
+		(uuid "55fd1b8a-6c01-4c8c-b8e5-924f8fce4e93")
 	)
 	(wire
 		(pts
@@ -2986,6 +4369,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 201.93) (xy 166.37 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f508eb-e233-480c-9eba-8a0713e1dea5")
+	)
+	(wire
+		(pts
 			(xy 67.31 140.97) (xy 67.31 144.78)
 		)
 		(stroke
@@ -2993,6 +4386,26 @@
 			(type default)
 		)
 		(uuid "582564b8-8e80-46af-a7a0-6a6b0a129c6a")
+	)
+	(wire
+		(pts
+			(xy 246.38 209.55) (xy 246.38 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595db4f4-d059-448e-9637-e59a870e8381")
+	)
+	(wire
+		(pts
+			(xy 320.04 207.01) (xy 322.58 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5995abed-bbde-434d-b0a1-d95b91ec372e")
 	)
 	(wire
 		(pts
@@ -3016,6 +4429,46 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 204.47) (xy 138.43 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfa1aae-249b-4f92-ab4f-907119f18447")
+	)
+	(wire
+		(pts
+			(xy 270.51 204.47) (xy 273.05 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db5dbe3-b200-47b2-9520-ba6c12ca52c8")
+	)
+	(wire
+		(pts
+			(xy 320.04 58.42) (xy 320.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7c8376-76c1-43ca-87db-1d258d188675")
+	)
+	(wire
+		(pts
+			(xy 270.51 196.85) (xy 278.13 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f547f1e-f557-444c-a1ce-6ca93450524b")
+	)
+	(wire
+		(pts
 			(xy 151.13 66.04) (xy 160.02 66.04)
 		)
 		(stroke
@@ -3023,6 +4476,16 @@
 			(type default)
 		)
 		(uuid "5fee89e3-2d77-4b84-a4bb-762d64a646ed")
+	)
+	(wire
+		(pts
+			(xy 125.73 191.77) (xy 125.73 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6008c5ce-8f00-4c9c-8ab0-8eec515eab52")
 	)
 	(wire
 		(pts
@@ -3046,13 +4509,53 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 165.1) (xy 91.44 180.34)
+			(xy 236.22 201.93) (xy 236.22 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ad0c50-3b4d-412c-86be-11701cdea2f3")
+	)
+	(wire
+		(pts
+			(xy 91.44 165.1) (xy 91.44 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6418197d-fc29-44bd-88e6-daad34724228")
+	)
+	(wire
+		(pts
+			(xy 236.22 190.5) (xy 236.22 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65809047-8c31-4080-af89-6e3251b24c0b")
+	)
+	(wire
+		(pts
+			(xy 334.01 190.5) (xy 340.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1c135a-6abf-4a5f-9842-e07de15038d0")
+	)
+	(wire
+		(pts
+			(xy 359.41 209.55) (xy 340.36 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb88877-9ef4-47a7-87a3-4bcdeed55258")
 	)
 	(wire
 		(pts
@@ -3076,7 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 157.48) (xy 133.35 166.37)
+			(xy 133.35 157.48) (xy 133.35 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3096,6 +4599,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 191.77) (xy 270.51 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715a0142-a3d7-436e-802f-bbe7e4d760df")
+	)
+	(wire
+		(pts
 			(xy 123.19 76.2) (xy 123.19 77.47)
 		)
 		(stroke
@@ -3103,6 +4616,46 @@
 			(type default)
 		)
 		(uuid "718f8d01-815d-4b8e-9d12-a713404eec1d")
+	)
+	(wire
+		(pts
+			(xy 125.73 191.77) (xy 161.29 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c9d3f8-b3f3-4b8a-9149-e8711b9329e0")
+	)
+	(wire
+		(pts
+			(xy 130.81 196.85) (xy 163.83 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721f79e0-6ff6-4ba9-857d-84813cabf0a4")
+	)
+	(wire
+		(pts
+			(xy 290.83 196.85) (xy 290.83 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72419d67-4280-498d-bfcd-ba6235b6162d")
+	)
+	(wire
+		(pts
+			(xy 130.81 196.85) (xy 130.81 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7438db98-dbf9-40f0-86a6-f46d71654e8b")
 	)
 	(wire
 		(pts
@@ -3116,7 +4669,27 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 133.35) (xy 316.23 133.35)
+			(xy 130.81 139.7) (xy 130.81 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75322598-0960-48da-9381-47f93ea1552a")
+	)
+	(wire
+		(pts
+			(xy 165.1 168.91) (xy 168.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76285016-5106-44c0-ab50-4f774325a7e0")
+	)
+	(wire
+		(pts
+			(xy 322.58 130.81) (xy 316.23 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3156,6 +4729,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 168.91) (xy 168.91 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79693074-3452-4761-b035-5447bf1b8abd")
+	)
+	(wire
+		(pts
+			(xy 361.95 55.88) (xy 374.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4654d4-da67-47e8-a0dd-d2b194e8fe90")
+	)
+	(wire
+		(pts
 			(xy 57.15 138.43) (xy 135.89 138.43)
 		)
 		(stroke
@@ -3163,16 +4756,6 @@
 			(type default)
 		)
 		(uuid "7cd09a13-ae76-4446-abc1-d43f910d66ee")
-	)
-	(wire
-		(pts
-			(xy 334.01 142.24) (xy 373.38 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dbd9b15-2ba8-4184-a0a0-c48bd3084ce8")
 	)
 	(wire
 		(pts
@@ -3186,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 133.35) (xy 334.01 133.35)
+			(xy 327.66 130.81) (xy 335.28 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3196,13 +4779,43 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 129.54) (xy 323.85 129.54)
+			(xy 229.87 209.55) (xy 229.87 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bdc480-b9f2-4372-8945-030766d38c56")
+	)
+	(wire
+		(pts
+			(xy 316.23 127) (xy 323.85 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8255e782-4ae8-4ee4-a573-d8e79ea60bd0")
+	)
+	(wire
+		(pts
+			(xy 212.09 163.83) (xy 212.09 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8533f24a-4f8d-45aa-bba3-b912c7581c00")
+	)
+	(wire
+		(pts
+			(xy 243.84 204.47) (xy 241.3 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859c44d6-db86-4f21-bf89-bc823a58a7e1")
 	)
 	(wire
 		(pts
@@ -3226,7 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 109.22) (xy 120.65 140.97)
+			(xy 120.65 109.22) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +4849,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 109.22) (xy 130.81 139.7)
+			(xy 267.97 209.55) (xy 267.97 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8784626a-2f47-45dc-88dd-d4048e978cd6")
+	)
+	(wire
+		(pts
+			(xy 130.81 109.22) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +4869,67 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 153.67) (xy 224.79 168.91)
+			(xy 290.83 187.96) (xy 290.83 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a435db-b587-4ed1-bda3-6aed37b4a973")
+	)
+	(wire
+		(pts
+			(xy 261.62 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d6749f-f787-45ad-b00e-f264b62fea53")
+	)
+	(wire
+		(pts
+			(xy 240.03 209.55) (xy 246.38 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4a8f43-554c-4724-a059-278d4ecb150e")
+	)
+	(wire
+		(pts
+			(xy 359.41 154.94) (xy 359.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d362d71-7186-4e79-9926-448dc8df3739")
+	)
+	(wire
+		(pts
+			(xy 361.95 55.88) (xy 361.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d77d269-00ad-458f-b2c4-9b55afdf95b2")
+	)
+	(wire
+		(pts
+			(xy 140.97 125.73) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e15eae0-8054-4b27-b5aa-2cb2dc2e589b")
+	)
+	(wire
+		(pts
+			(xy 176.53 153.67) (xy 176.53 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3264,15 +4947,45 @@
 		)
 		(uuid "8f5ba79a-323e-406e-9140-434c38415699")
 	)
+	(wire
+		(pts
+			(xy 248.92 144.78) (xy 266.7 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5cc3c0-91a4-4ea1-9074-891127172f7b")
+	)
 	(bus
 		(pts
-			(xy 375.92 137.16) (xy 375.92 139.7)
+			(xy 398.78 156.21) (xy 398.78 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "902ff650-ff79-4026-a147-cc043bdd7d71")
+	)
+	(wire
+		(pts
+			(xy 314.96 212.09) (xy 314.96 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904317ef-5dd9-466f-b5fd-e6caef730310")
+	)
+	(wire
+		(pts
+			(xy 176.53 144.78) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912aa3b6-0207-4b3f-8aa7-623849f61971")
 	)
 	(wire
 		(pts
@@ -3286,17 +4999,27 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 133.35) (xy 316.23 139.7)
+			(xy 340.36 199.39) (xy 340.36 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92bb149c-9907-4611-900c-6f787c0cdfb6")
+		(uuid "93724087-fb4c-4137-8a87-c309628dff1e")
 	)
 	(wire
 		(pts
-			(xy 213.36 166.37) (xy 213.36 168.91)
+			(xy 320.04 194.31) (xy 320.04 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94552705-d7d0-4f09-95bc-349e0538dc58")
+	)
+	(wire
+		(pts
+			(xy 165.1 166.37) (xy 165.1 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3306,13 +5029,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 157.48) (xy 231.14 157.48)
+			(xy 261.62 113.03) (xy 261.62 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97c28023-0d45-422c-87e2-d65f083beb2b")
+		(uuid "97daafb0-5374-4246-96a9-f37cd934fafa")
 	)
 	(wire
 		(pts
@@ -3326,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 209.55) (xy 240.03 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dfd6b6-d14a-4de5-8d93-f64ed5ec6d0b")
+	)
+	(wire
+		(pts
 			(xy 293.37 111.76) (xy 321.31 111.76)
 		)
 		(stroke
@@ -3336,6 +5069,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 130.81) (xy 316.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9ae9bc-9b03-47ed-89af-8d488c014928")
+	)
+	(wire
+		(pts
 			(xy 67.31 140.97) (xy 120.65 140.97)
 		)
 		(stroke
@@ -3343,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "9d20afc3-2fd0-42cb-a314-06bc14959f4d")
+	)
+	(wire
+		(pts
+			(xy 248.92 204.47) (xy 262.89 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd5370b-9ddd-4738-8594-a65fda65403c")
 	)
 	(wire
 		(pts
@@ -3366,7 +5119,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 133.35) (xy 316.23 129.54)
+			(xy 316.23 130.81) (xy 316.23 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +5139,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 144.78) (xy 224.79 144.78)
+			(xy 340.36 190.5) (xy 340.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ef9052-8039-4a65-8e9a-7e0aaeddb560")
+	)
+	(wire
+		(pts
+			(xy 173.99 144.78) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +5169,7 @@
 	)
 	(bus
 		(pts
-			(xy 375.92 139.7) (xy 375.92 147.32)
+			(xy 398.78 158.75) (xy 398.78 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3446,23 +5209,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 148.59) (xy 213.36 144.78)
+			(xy 125.73 144.78) (xy 158.75 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad1d340-7e4d-41b8-b3be-ba151ea49365")
+	)
+	(wire
+		(pts
+			(xy 165.1 148.59) (xy 165.1 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af09cfa4-e134-44fc-a6c9-cdeb5ac2f8b9")
-	)
-	(wire
-		(pts
-			(xy 255.27 113.03) (xy 255.27 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7c0ced-d9df-4fa6-b258-52d8f009b35f")
 	)
 	(wire
 		(pts
@@ -3476,16 +5239,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 165.1) (xy 123.19 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe31eb0-2d1c-4904-92de-2a66650ef803")
-	)
-	(wire
-		(pts
 			(xy 151.13 73.66) (xy 151.13 76.2)
 		)
 		(stroke
@@ -3493,6 +5246,16 @@
 			(type default)
 		)
 		(uuid "b019a221-6dd9-472a-ac9f-c98a6a24992d")
+	)
+	(wire
+		(pts
+			(xy 128.27 194.31) (xy 128.27 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30d6c98-a51f-4c63-8318-da2d726c61f1")
 	)
 	(wire
 		(pts
@@ -3506,7 +5269,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 166.37) (xy 228.6 168.91)
+			(xy 180.34 166.37) (xy 180.34 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3516,13 +5279,43 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 152.4) (xy 351.79 152.4)
+			(xy 396.24 171.45) (xy 374.65 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b46d0b67-b54f-4e8a-9971-de314572b6de")
+	)
+	(wire
+		(pts
+			(xy 226.06 190.5) (xy 226.06 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67db9d2-8c6c-4405-a5b6-9f28d9c9e9a9")
+	)
+	(wire
+		(pts
+			(xy 320.04 199.39) (xy 327.66 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b790a16f-cef7-420b-86e4-a5bde131eaa6")
+	)
+	(wire
+		(pts
+			(xy 267.97 204.47) (xy 270.51 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7dcc220-f91e-4044-8fb3-d5628e630795")
 	)
 	(wire
 		(pts
@@ -3536,13 +5329,33 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 124.46) (xy 255.27 127)
+			(xy 340.36 177.8) (xy 340.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0d5965-7204-4f44-968c-b7e9f33ff33b")
+	)
+	(wire
+		(pts
+			(xy 255.27 116.84) (xy 255.27 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bffae2f0-36e7-408e-a566-d0f0e78b491e")
+	)
+	(wire
+		(pts
+			(xy 120.65 130.81) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02c6da9-22e5-45ce-ba8b-d30c9d028ba2")
 	)
 	(wire
 		(pts
@@ -3566,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 157.48) (xy 207.01 161.29)
+			(xy 158.75 157.48) (xy 158.75 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3586,7 +5399,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 133.35) (xy 334.01 142.24)
+			(xy 335.28 130.81) (xy 335.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +5409,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 135.89) (xy 140.97 109.22)
+			(xy 226.06 190.5) (xy 223.52 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5603786-0893-4d42-b0c9-8871ed50af97")
+	)
+	(wire
+		(pts
+			(xy 140.97 135.89) (xy 140.97 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +5429,37 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 144.78) (xy 217.17 144.78)
+			(xy 168.91 168.91) (xy 172.72 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c708b4a6-14d1-463c-b55a-5911baea2de2")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 241.3 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b9af37-63de-4277-bba0-1feb0314fc54")
+	)
+	(wire
+		(pts
+			(xy 332.74 177.8) (xy 340.36 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e4b643-69a0-46ce-a945-bfe0350c027e")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 168.91 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +5469,17 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 129.54) (xy 323.85 101.6)
+			(xy 290.83 207.01) (xy 302.26 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7254a4-4cd0-4ab5-b53e-076d8b652835")
+	)
+	(wire
+		(pts
+			(xy 323.85 127) (xy 323.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3636,6 +5499,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 204.47) (xy 167.64 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb86438-34de-4b88-86cc-f026b277bae2")
+	)
+	(wire
+		(pts
 			(xy 46.99 137.16) (xy 46.99 144.78)
 		)
 		(stroke
@@ -3646,13 +5519,33 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 157.48) (xy 213.36 161.29)
+			(xy 251.46 106.68) (xy 251.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd49da8a-92b9-4417-9439-e3d406918262")
+	)
+	(wire
+		(pts
+			(xy 165.1 157.48) (xy 165.1 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd6e4795-9470-4313-a15a-96d61a37ab35")
+	)
+	(wire
+		(pts
+			(xy 133.35 232.41) (xy 133.35 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb90967-8026-41a7-bbbf-5a050de39174")
 	)
 	(wire
 		(pts
@@ -3663,6 +5556,16 @@
 			(type default)
 		)
 		(uuid "cdc12e4d-8f9a-45d6-afaf-f32c8b49c8cf")
+	)
+	(wire
+		(pts
+			(xy 387.35 55.88) (xy 387.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5461b0-bc02-4b45-ba04-a4a58158bb01")
 	)
 	(wire
 		(pts
@@ -3686,6 +5589,26 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 55.88) (xy 400.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfae786f-6104-4fd1-8c27-4f35005b6667")
+	)
+	(wire
+		(pts
+			(xy 180.34 157.48) (xy 208.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13035dc-3467-4789-9766-421906de44d1")
+	)
+	(wire
+		(pts
 			(xy 283.21 137.16) (xy 283.21 144.78)
 		)
 		(stroke
@@ -3693,6 +5616,46 @@
 			(type default)
 		)
 		(uuid "d21ecbd9-45eb-4673-9272-3e2209d972d5")
+	)
+	(wire
+		(pts
+			(xy 290.83 175.26) (xy 290.83 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35ea22e-16f6-47fd-bc48-a7be599d9986")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 138.43 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c37a46-c96b-47ff-8633-4d32e38f46fd")
+	)
+	(wire
+		(pts
+			(xy 128.27 232.41) (xy 128.27 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6931408-0329-4b5c-aad2-36bd2a2d5b6e")
+	)
+	(wire
+		(pts
+			(xy 229.87 204.47) (xy 229.87 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da18fce5-8345-45d8-9dfb-76e224b92140")
 	)
 	(wire
 		(pts
@@ -3706,7 +5669,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 154.94) (xy 128.27 166.37)
+			(xy 135.89 138.43) (xy 135.89 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb212a3-57ae-4d6f-bdea-f6e50505e1de")
+	)
+	(wire
+		(pts
+			(xy 128.27 154.94) (xy 128.27 194.31)
 		)
 		(stroke
 			(width 0)
@@ -3716,13 +5689,33 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 153.67) (xy 213.36 157.48)
+			(xy 165.1 153.67) (xy 165.1 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc2d64bf-b4c7-4ada-8d04-e3b294f984b6")
+	)
+	(wire
+		(pts
+			(xy 288.29 207.01) (xy 290.83 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc41a1af-9ab3-4bfa-86ef-9e15c003ae50")
+	)
+	(wire
+		(pts
+			(xy 290.83 212.09) (xy 314.96 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb3d4ab-e659-4211-8215-48b1a8412ca6")
 	)
 	(wire
 		(pts
@@ -3736,13 +5729,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 157.48) (xy 220.98 161.29)
+			(xy 172.72 157.48) (xy 172.72 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd8b6171-e2be-4b6b-adda-eaf6449b8c40")
+	)
+	(wire
+		(pts
+			(xy 251.46 106.68) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd975223-722b-46a5-9e03-90f2b5221edf")
 	)
 	(wire
 		(pts
@@ -3766,6 +5769,46 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 144.78) (xy 283.21 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5a209f-6dae-4c29-b99d-2cea29e18d28")
+	)
+	(wire
+		(pts
+			(xy 120.65 140.97) (xy 120.65 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbaf707-8c36-4ffd-a1f2-5838c6ae6171")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e005d200-767a-4035-a027-c03f972cf959")
+	)
+	(wire
+		(pts
+			(xy 224.79 209.55) (xy 229.87 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e020bd12-75fd-4cdc-97cf-f66def18b2bd")
+	)
+	(wire
+		(pts
 			(xy 46.99 149.86) (xy 46.99 154.94)
 		)
 		(stroke
@@ -3786,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 139.7) (xy 351.79 139.7)
+			(xy 396.24 158.75) (xy 374.65 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3803,6 +5846,16 @@
 			(type default)
 		)
 		(uuid "e2d31be0-e4b6-4c4b-bc22-9775d8dd94d3")
+	)
+	(wire
+		(pts
+			(xy 133.35 199.39) (xy 133.35 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f9fac0-ff76-4bd1-996b-fac695976e74")
 	)
 	(wire
 		(pts
@@ -3826,17 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5311d5-7913-44c5-a5db-e635bd4c7208")
-	)
-	(wire
-		(pts
-			(xy 220.98 166.37) (xy 220.98 168.91)
+			(xy 172.72 166.37) (xy 172.72 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3856,6 +5899,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 175.26) (xy 270.51 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7e0dd0-a66c-4b4f-8d29-787d2c22ee1c")
+	)
+	(wire
+		(pts
 			(xy 316.23 139.7) (xy 317.5 139.7)
 		)
 		(stroke
@@ -3866,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 157.48) (xy 207.01 157.48)
+			(xy 133.35 157.48) (xy 158.75 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3876,23 +5929,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 113.03) (xy 256.54 113.03)
+			(xy 219.71 157.48) (xy 266.7 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef30d53b-e205-4778-81e0-f1324cceb623")
-	)
-	(wire
-		(pts
-			(xy 125.73 144.78) (xy 125.73 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9320de-4b99-44a7-bd4b-6685c2463d93")
+		(uuid "edff0199-b94d-495f-b662-cfbaf73b7ed4")
 	)
 	(wire
 		(pts
@@ -3906,13 +5949,43 @@
 	)
 	(bus
 		(pts
-			(xy 383.54 137.16) (xy 375.92 137.16)
+			(xy 406.4 156.21) (xy 398.78 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f303e77c-8faa-44fb-9178-c487e2bf3d58")
+	)
+	(wire
+		(pts
+			(xy 320.04 207.01) (xy 320.04 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ad5ad7-787d-487c-a623-ecf7beff3414")
+	)
+	(wire
+		(pts
+			(xy 330.2 194.31) (xy 320.04 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5de6c24-7d00-4346-87e8-3d5f72e65731")
+	)
+	(wire
+		(pts
+			(xy 261.62 118.11) (xy 261.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0b5b7c-9b29-4223-b20a-94062a464315")
 	)
 	(wire
 		(pts
@@ -3936,27 +6009,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 39.37) (xy 130.81 44.45)
+			(xy 400.05 55.88) (xy 410.21 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb7baac1-60e8-4618-8d19-ca57b4db6eb9")
+		(uuid "fb75a1b1-bcec-4a57-8b8a-ab5a884f2049")
 	)
 	(wire
 		(pts
-			(xy 224.79 144.78) (xy 231.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb8801c4-077b-403f-a09d-04925cde1b65")
-	)
-	(wire
-		(pts
-			(xy 220.98 157.48) (xy 228.6 157.48)
+			(xy 172.72 157.48) (xy 180.34 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3976,7 +6039,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 148.59) (xy 207.01 144.78)
+			(xy 158.75 148.59) (xy 158.75 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3994,8 +6057,18 @@
 		)
 		(uuid "17aecd1e-3e7e-4455-8b84-d72282e36d7a")
 	)
+	(label "2V5"
+		(at 309.88 212.09 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "17bcedbb-4860-4c61-bb92-fc1a7da3311f")
+	)
 	(label "DOWN"
-		(at 351.79 152.4 0)
+		(at 374.65 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4005,7 +6078,7 @@
 		(uuid "1ebba71f-db64-42c6-8630-8b78fa5fd9aa")
 	)
 	(label "DOWN_T"
-		(at 120.65 165.1 90)
+		(at 120.65 240.03 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4035,7 +6108,7 @@
 		(uuid "450d9edf-9d73-426a-b7dc-9bc36ecea290")
 	)
 	(label "UP"
-		(at 351.79 139.7 0)
+		(at 374.65 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4065,7 +6138,7 @@
 		(uuid "744e2f44-d929-434a-a540-793340cd0b85")
 	)
 	(label "MIC"
-		(at 351.79 142.24 0)
+		(at 374.65 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4075,7 +6148,7 @@
 		(uuid "7dba7cc4-cef2-493b-8628-983d49cf5e98")
 	)
 	(label "8VDC_T"
-		(at 135.89 165.1 90)
+		(at 135.89 240.03 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4095,7 +6168,7 @@
 		(uuid "870c4d0a-6951-48a1-bd1b-ecf7bd829e48")
 	)
 	(label "GND_T"
-		(at 133.35 165.1 90)
+		(at 133.35 226.06 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4105,7 +6178,7 @@
 		(uuid "88684516-d930-49b2-83ca-43a93276b6e9")
 	)
 	(label "GND_T"
-		(at 201.93 157.48 180)
+		(at 153.67 157.48 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4115,7 +6188,7 @@
 		(uuid "8b090c6e-4ca6-4911-b559-99abb683cb41")
 	)
 	(label "~{PTT}_T"
-		(at 130.81 165.1 90)
+		(at 130.81 240.03 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4125,7 +6198,7 @@
 		(uuid "99f5c62e-6174-4e1b-8d48-4407507392ec")
 	)
 	(label "MIC_E_T"
-		(at 128.27 165.1 90)
+		(at 128.27 226.06 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4135,7 +6208,7 @@
 		(uuid "a31f8ad9-560b-4726-bff1-7e1dc8cc3742")
 	)
 	(label "UP_T"
-		(at 138.43 165.1 90)
+		(at 138.43 240.03 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4165,7 +6238,7 @@
 		(uuid "a4fa5661-fdbc-43ba-8491-6ffd21ffcd76")
 	)
 	(label "NC"
-		(at 123.19 165.1 90)
+		(at 123.19 240.03 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4173,6 +6246,16 @@
 			(justify left bottom)
 		)
 		(uuid "a599d13b-7c80-45a7-8fdc-207c3042a24b")
+	)
+	(label "2V5"
+		(at 233.68 209.55 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47a26f3-67d7-4861-a981-aa157ff126cd")
 	)
 	(label "MIC_E_T"
 		(at 71.12 154.94 0)
@@ -4215,7 +6298,7 @@
 		(uuid "c6e69da9-cc40-4093-91b2-d00f8a2f5b1b")
 	)
 	(label "MIC_T"
-		(at 125.73 165.1 90)
+		(at 125.73 240.03 90)
 		(effects
 			(font
 				(size 1 1)
@@ -4265,7 +6348,7 @@
 		(uuid "ea4539ab-e75f-4385-853c-feb9df047709")
 	)
 	(label "MIC_T"
-		(at 201.93 144.78 180)
+		(at 153.67 144.78 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4275,7 +6358,7 @@
 		(uuid "f2a68574-fa51-4641-bf76-7103e3665246")
 	)
 	(label "PTT"
-		(at 351.79 149.86 0)
+		(at 374.65 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4286,7 +6369,7 @@
 	)
 	(hierarchical_label "{MIC}"
 		(shape output)
-		(at 383.54 137.16 0)
+		(at 406.4 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4294,6 +6377,28 @@
 			(justify left)
 		)
 		(uuid "21fef206-4682-494b-8645-55cec84edffc")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 247.65 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40b457b4-d493-4d31-bc0d-8f3427d68a4c")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 223.52 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "743d89e1-07c8-4adf-b049-1933403540d3")
 	)
 	(hierarchical_label "+5V"
 		(shape input)
@@ -4319,17 +6424,6 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 256.54 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4110bbe-ceda-4ee0-a43c-2b2f1fe12585")
-	)
-	(hierarchical_label "+5V"
-		(shape input)
 		(at 160.02 66.04 0)
 		(effects
 			(font
@@ -4338,6 +6432,17 @@
 			(justify left)
 		)
 		(uuid "e3065380-c2cc-41b9-88fe-44e7fe299856")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 410.21 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e32e766a-5843-41dd-adb2-e290b0ef034a")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -4413,136 +6518,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 313.69 121.92 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02e2f76f-bf5a-48db-835a-f8080434f222")
-		(property "Reference" "U1"
-			(at 309.118 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 313.69 128.7202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 313.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "eff5dd10-99f9-48cd-a53b-fe0d2a116165")
-		)
-		(pin "8"
-			(uuid "ad4ed0f2-9786-4d4f-a589-3bf5d5d3c4b0")
-		)
-		(pin "3"
-			(uuid "d090cd36-3778-4fa6-b67b-c69a13d185f4")
-		)
-		(pin "7"
-			(uuid "ad066e9e-53ba-4cd5-aa10-d8df2315de7b")
-		)
-		(pin "4"
-			(uuid "8a8b1cb8-6abe-4409-9ea7-01e015a93091")
-		)
-		(pin "1"
-			(uuid "f52d7a71-7215-47b9-84b9-c02968b4e331")
-		)
-		(pin "6"
-			(uuid "0cdf073e-9ff5-46c7-9466-f75035f4f123")
-		)
-		(pin "2"
-			(uuid "237c7d62-23f3-422f-aff1-a77efa1181c2")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 228.6 163.83 0)
+		(at 180.34 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4550,7 +6527,7 @@
 		(dnp no)
 		(uuid "03e80217-eb22-413f-818c-7c0c6ab6acc9")
 		(property "Reference" "R9"
-			(at 230.632 167.132 90)
+			(at 182.372 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +6535,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 230.632 161.036 90)
+			(at 182.372 161.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +6543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 163.83 0)
+			(at 180.34 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +6552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 163.83 0)
+			(at 180.34 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +6561,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 228.6 163.83 0)
+			(at 180.34 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,6 +6738,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 400.05 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08399c76-8b0f-4d41-8f84-e8e043323c34")
+		(property "Reference" "#PWR01003"
+			(at 400.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 400.05 71.4431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 400.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb762a56-cfcf-4fc4-9cdc-8f23835d0408")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR01006")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR01003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 36.83 154.94 270)
 		(unit 1)
@@ -4828,6 +6877,390 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 280.67 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2656a8-1c8d-4fd8-8f60-334f8d0ef582")
+		(property "Reference" "RV7"
+			(at 280.67 182.9265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 280.67 185.3508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 280.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "235103d1-6e19-480c-878e-8a408f79c9d5")
+		)
+		(pin "2"
+			(uuid "a128bd4c-cef4-4300-8f28-8bde239871b4")
+		)
+		(pin "1"
+			(uuid "354b8331-1689-4f66-872a-23cbb1135537")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "RV8")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 336.55 66.04 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e92b09e-6369-494b-8c1d-254d98914cc6")
+		(property "Reference" "U17"
+			(at 334.645 64.8278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 334.645 67.2521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 336.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 336.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1a7e52f-efe0-4674-8f48-effc206d9612")
+		)
+		(pin "7"
+			(uuid "9da7fd1f-8b03-4105-8598-608e36b5d715")
+		)
+		(pin "6"
+			(uuid "d3a8d7fe-e415-48b1-8351-fb2fbccb11e9")
+		)
+		(pin "5"
+			(uuid "10e7b211-1cd3-4426-8015-9d00de416c83")
+		)
+		(pin "2"
+			(uuid "142b00b8-5882-4c5c-a6d4-14992d641fdc")
+		)
+		(pin "8"
+			(uuid "19b10795-8ba2-4efa-9ae7-05cc3a9fe3df")
+		)
+		(pin "4"
+			(uuid "0e217362-723f-42d6-975b-61166a7ea520")
+		)
+		(pin "1"
+			(uuid "1d8d597f-d410-4333-b9bb-d8b0cf77152a")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "U18")
+					(unit 3)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "U17")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 128.27 229.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ee1e308-e3b1-4d44-8e33-61d9fc4b50ed")
+		(property "Reference" "JP65"
+			(at 114.3 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 130.1779 231.0821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 128.27 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d57c380-b774-49e4-b21b-456e1fe16a6f")
+		)
+		(pin "1"
+			(uuid "c26f010c-7b78-4916-8680-0496a045fa49")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP66")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 304.8 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1037263a-a9b1-4c21-8f9f-d61b330c0efa")
+		(property "Reference" "C126"
+			(at 306.832 210.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 304.8 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 304.8 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08a4670-599e-4d43-b955-4641fdb235c6")
+		)
+		(pin "2"
+			(uuid "af55c7de-a983-4d9f-aad3-19af47b0065a")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C127")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 166.37 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "109e60b7-7dfa-4a43-8ae8-bc78586d32e3")
+		(property "Reference" "TP52"
+			(at 167.64 200.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 173.482 201.5603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 166.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72a76389-e73c-4d79-93d3-3785932274a7")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "TP59")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "TP52")
 					(unit 1)
 				)
 			)
@@ -5048,6 +7481,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 314.96 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "19b01b13-40de-432f-b00f-4b44616d21a3")
+		(property "Reference" "C119"
+			(at 311.912 217.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 317.754 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 314.96 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33445306-a7e5-4d80-bbbf-41e9fb251647")
+		)
+		(pin "2"
+			(uuid "ac862190-be1e-4b17-95ff-c89a76c4125d")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C122")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 151.13 81.28 0)
 		(unit 1)
@@ -5120,15 +7626,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 207.01 151.13 180)
+		(at 330.2 177.8 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "29c4321a-772f-47c5-94cb-ee8e18ca215b")
-		(property "Reference" "C8"
-			(at 205.486 156.21 90)
+		(dnp yes)
+		(uuid "22aec977-05c5-4f5e-b904-02ff1500fffe")
+		(property "Reference" "C156"
+			(at 332.232 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,17 +7643,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
-			(at 205.486 150.114 90)
+		(property "Value" "0603"
+			(at 330.2 180.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 151.13 0)
+			(at 330.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +7661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 151.13 0)
+			(at 330.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +7670,80 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 151.13 0)
+			(at 330.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec760828-7aaa-46de-a397-531f4fffc58c")
+		)
+		(pin "2"
+			(uuid "0e84cf27-423b-476d-aef6-a12e6d900d4d")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C157")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29c4321a-772f-47c5-94cb-ee8e18ca215b")
+		(property "Reference" "C8"
+			(at 157.226 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 157.226 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,6 +7765,153 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 387.35 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29c696f8-fb00-4f5c-b327-c8755e414516")
+		(property "Reference" "#PWR01002"
+			(at 387.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.35 71.4431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbf05d08-0c46-406e-85e8-41d8eba32704")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR01005")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 140.97 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e477d1a-4b91-46ef-9ce7-dcbf434bdcb9")
+		(property "Reference" "JP49"
+			(at 142.8779 127.0578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 142.8779 129.4821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aeddeba4-969b-4422-b9f6-5bba934a08e5")
+		)
+		(pin "1"
+			(uuid "5c8b4849-1375-40a7-8e8a-0c558cc62482")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP50")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP49")
 					(unit 1)
 				)
 			)
@@ -5257,6 +7983,555 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 130.81 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329f9ba2-03a9-4f82-832d-62e0ebfe555f")
+		(property "Reference" "JP47"
+			(at 132.7179 127.0578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 132.7179 129.4821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f29d1f81-1dfb-49f5-af77-bd4c8a9c753c")
+		)
+		(pin "1"
+			(uuid "25310fe1-6946-46a3-b2b9-20738d02b7e9")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP48")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 387.35 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3412a07f-8de8-467c-a5a8-20f69c8040ab")
+		(property "Reference" "C828"
+			(at 389.6741 63.5641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 389.6741 65.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b5eb2cb-b660-427b-9bad-b0f0b7dafa67")
+		)
+		(pin "2"
+			(uuid "db36ebd2-a607-4179-b431-3dd3715c7016")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C830")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C828")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 330.2 190.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374267e9-c558-4376-8371-c3be592637fa")
+		(property "Reference" "RV5"
+			(at 330.2 185.4665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50k"
+			(at 330.2 187.8908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 330.2 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e197e96-620e-42ac-8875-92dbe5f8dfb9")
+		)
+		(pin "2"
+			(uuid "3e76ea7a-6248-4dff-a5b0-b19feb8f6a4d")
+		)
+		(pin "1"
+			(uuid "7949fb38-4331-4dfd-b3b8-6d59b6f3bf49")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "RV6")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 322.58 66.04 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38793118-fabb-4eaa-b1c3-d29547d9ae9d")
+		(property "Reference" "U1"
+			(at 320.675 64.8278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 320.675 67.2521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 322.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 322.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb72fa9a-77f5-475c-b236-f921a81d538c")
+		)
+		(pin "5"
+			(uuid "f1c4521b-ac06-4fd6-ba6f-51ff5fc15710")
+		)
+		(pin "4"
+			(uuid "8ec92a3f-8aa7-40f1-a2d0-140df9b67fa0")
+		)
+		(pin "3"
+			(uuid "2704f01f-a8a4-47e0-8241-0716c7c6fd24")
+		)
+		(pin "1"
+			(uuid "19067dce-0b93-4d9b-a644-df37d82acb54")
+		)
+		(pin "6"
+			(uuid "be1be4a0-1213-4a2e-9280-f9bd07afba27")
+		)
+		(pin "7"
+			(uuid "b4d311de-205c-4ac5-9e65-08f37d7f8363")
+		)
+		(pin "8"
+			(uuid "41a5d2b9-6ccf-43e7-b601-214057174b8b")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "U2")
+					(unit 3)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 361.95 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ab67920-069b-4ac3-bdcc-87a1e1bad988")
+		(property "Reference" "#PWR01009"
+			(at 361.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 71.4431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcb5e243-fe95-4a82-9721-a28a417521e8")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR01010")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR01009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 313.69 121.92 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eec548f-bdc8-4219-9c49-971ba961c0f0")
+		(property "Reference" "U17"
+			(at 316.23 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 316.23 115.1777 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 313.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 313.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1a7e52f-efe0-4674-8f48-effc206d9612")
+		)
+		(pin "7"
+			(uuid "9da7fd1f-8b03-4105-8598-608e36b5d715")
+		)
+		(pin "6"
+			(uuid "d3a8d7fe-e415-48b1-8351-fb2fbccb11e9")
+		)
+		(pin "5"
+			(uuid "10e7b211-1cd3-4426-8015-9d00de416c83")
+		)
+		(pin "2"
+			(uuid "142b00b8-5882-4c5c-a6d4-14992d641fdc")
+		)
+		(pin "8"
+			(uuid "19b10795-8ba2-4efa-9ae7-05cc3a9fe3df")
+		)
+		(pin "4"
+			(uuid "0e217362-723f-42d6-975b-61166a7ea520")
+		)
+		(pin "1"
+			(uuid "1d8d597f-d410-4333-b9bb-d8b0cf77152a")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "U18")
+					(unit 2)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "U17")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 349.25 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "427a2ce6-9a1e-4ac9-8a2f-e44b2a5d382a")
+		(property "Reference" "#PWR01001"
+			(at 349.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 71.4431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67139222-4b30-4ecf-bded-43954a6200a6")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR01004")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -5335,7 +8610,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 213.36 151.13 0)
+		(at 165.1 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5343,7 +8618,7 @@
 		(dnp no)
 		(uuid "487ac3d5-b33d-480a-8026-3461052596d2")
 		(property "Reference" "R7"
-			(at 211.074 151.13 90)
+			(at 162.814 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +8626,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 215.9 151.13 90)
+			(at 167.64 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +8634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 151.13 0)
+			(at 165.1 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +8643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 151.13 0)
+			(at 165.1 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +8652,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 213.36 151.13 0)
+			(at 165.1 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +8752,7 @@
 	)
 	(symbol
 		(lib_id "Connector:8P8C_Shielded")
-		(at 130.81 176.53 90)
+		(at 130.81 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5485,7 +8760,7 @@
 		(dnp no)
 		(uuid "4f5797b9-b28c-4199-8f43-7ee630ac12cd")
 		(property "Reference" "J1"
-			(at 129.54 178.308 90)
+			(at 129.54 251.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +8768,7 @@
 			)
 		)
 		(property "Value" "8P8C Jack"
-			(at 129.54 183.134 90)
+			(at 129.54 256.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +8776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.175 176.53 90)
+			(at 130.175 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +8785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.175 176.53 90)
+			(at 130.175 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +8794,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded"
-			(at 130.81 176.53 0)
+			(at 130.81 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +8803,7 @@
 			)
 		)
 		(property "Name" "Kenwood Handset Connector"
-			(at 130.048 190.754 90)
+			(at 130.048 264.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,6 +8918,152 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 52.07 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53080562-27f5-4c47-9a6c-7d72d103e213")
+		(property "Reference" "C121"
+			(at 50.546 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 50.546 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af31c551-b903-4e3a-bdc9-ecb87fb0a034")
+		)
+		(pin "2"
+			(uuid "041b9dbf-8e8c-4fb5-be64-a30862f25946")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C123")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 240.03 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5329b6d5-5d79-4aca-bb27-2f0f36433ba5")
+		(property "Reference" "C116"
+			(at 236.982 215.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 242.824 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 240.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f17de999-c09e-4c5d-9f27-e7938ababb02")
+		)
+		(pin "2"
+			(uuid "bdd86206-851e-4039-a6d1-893af4b93480")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C118")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -5791,35 +9212,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 271.78 130.81 0)
-		(mirror y)
+		(lib_id "Device:C_Small")
+		(at 361.95 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5d80c65d-d2eb-427a-ac3a-9ff2456b546e")
-		(property "Reference" "C15"
-			(at 268.732 129.286 90)
+		(uuid "5bd2295f-7325-456f-9d9a-e6427d95075d")
+		(property "Reference" "C833"
+			(at 364.2741 63.5641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 275.082 129.286 90)
+		(property "Value" "100nF"
+			(at 364.2741 65.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 130.81 0)
+			(at 361.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 130.81 0)
+			(at 361.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +9256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 271.78 130.81 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 361.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,19 +9266,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "742d2a8b-a489-40d2-946e-4c0d354e7b71")
+			(uuid "94123940-f80b-4aef-b8dc-b8f550e2d1a2")
 		)
 		(pin "2"
-			(uuid "972c6ce6-7770-4f2f-9cfa-e00923abb985")
+			(uuid "8aaaf868-4044-479b-9ab5-4b19cab0a8d6")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "C6")
+					(reference "C834")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "C15")
+					(reference "C833")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e8690fe-a6a3-43ee-b719-dcaf285c3730")
+		(property "Reference" "#PWR065"
+			(at 314.96 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 222.5731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51ea533b-eebf-4466-8cb2-9a5708bfdb07")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5930,6 +9421,298 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 160.02 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e55585-1380-4ee0-a593-f1190828fc8a")
+		(property "Reference" "TP47"
+			(at 161.29 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 167.132 188.8603 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 160.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eec2caf4-0ec3-4b1e-b8c6-8c04184a24d5")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "TP54")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 330.2 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e0046a-e715-485d-8132-c26b2d951937")
+		(property "Reference" "R149"
+			(at 330.2 197.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9k"
+			(at 330.2 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 330.2 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e5744b0-e50d-4b28-bc3a-dfa134ca3e2b")
+		)
+		(pin "1"
+			(uuid "a06202ae-2b73-4e24-8eb0-8ee7758811cb")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "R150")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "R149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 251.46 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b1235d0-8592-4360-9c2f-b823ccfeb1a2")
+		(property "Reference" "RV3"
+			(at 249.8091 115.6278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k"
+			(at 249.8091 118.0521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 251.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "66e9e7d3-59f4-4619-9b86-1362ca5a8c21")
+		)
+		(pin "2"
+			(uuid "31363931-3a1d-4490-8d90-e6893f1d1906")
+		)
+		(pin "1"
+			(uuid "3a0a05c4-9fcc-4f39-8d15-d72af31c6a46")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "RV4")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d0fc872-e02c-45a6-9241-7abc7a6e2795")
+		(property "Reference" "C10"
+			(at 171.196 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u16"
+			(at 171.196 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a548ed58-5b53-4fd5-a3b8-ecb81d8916b9")
+		)
+		(pin "2"
+			(uuid "6f648681-0eb2-480a-ae6a-9678afae7e97")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6009,6 +9792,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 374.65 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ede9de4-684e-4c60-8b56-0ecb34418b7a")
+		(property "Reference" "C831"
+			(at 376.9741 63.5641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 376.9741 65.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 374.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b85887-ea3a-4a2f-ad72-2b8faff83a42")
+		)
+		(pin "2"
+			(uuid "fbf7969d-d41c-4a96-8977-0d4d349d2d45")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C832")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C831")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 255.27 130.81 0)
 		(unit 1)
@@ -6074,6 +9930,148 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb313ec-0182-4481-90a7-948f31bd22a8")
+		(property "Reference" "#PWR055"
+			(at 334.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 77.7931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 334.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b3f8cf-a266-4a04-a149-6ea8a910f2b8")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73db3c6b-fd8d-42ff-8a87-07cdd4ef091b")
+		(property "Reference" "#PWR058"
+			(at 267.97 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 220.0331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdb2c10d-546e-457d-8ac9-5d97b3db3c1d")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6153,7 +10151,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 233.68 144.78 270)
+		(at 269.24 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6161,7 +10159,7 @@
 		(dnp no)
 		(uuid "7904864c-c3d3-4ebf-abda-a2028d5a91e0")
 		(property "Reference" "C12"
-			(at 231.648 148.082 90)
+			(at 266.192 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +10167,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 236.22 148.082 90)
+			(at 271.78 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +10175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 144.78 0)
+			(at 269.24 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +10184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 144.78 0)
+			(at 269.24 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +10193,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 233.68 144.78 0)
+			(at 269.24 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,6 +10215,96 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 280.67 207.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4fb498-cbf7-43dd-8c52-078b649d8341")
+		(property "Reference" "U1"
+			(at 280.67 216.2345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 280.67 213.8102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 280.67 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 280.67 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb72fa9a-77f5-475c-b236-f921a81d538c")
+		)
+		(pin "5"
+			(uuid "f1c4521b-ac06-4fd6-ba6f-51ff5fc15710")
+		)
+		(pin "4"
+			(uuid "8ec92a3f-8aa7-40f1-a2d0-140df9b67fa0")
+		)
+		(pin "3"
+			(uuid "2704f01f-a8a4-47e0-8241-0716c7c6fd24")
+		)
+		(pin "1"
+			(uuid "19067dce-0b93-4d9b-a644-df37d82acb54")
+		)
+		(pin "6"
+			(uuid "be1be4a0-1213-4a2e-9280-f9bd07afba27")
+		)
+		(pin "7"
+			(uuid "b4d311de-205c-4ac5-9e65-08f37d7f8363")
+		)
+		(pin "8"
+			(uuid "41a5d2b9-6ccf-43e7-b601-214057174b8b")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6295,7 +10383,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 224.79 151.13 0)
+		(at 176.53 151.13 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6304,7 +10392,7 @@
 		(dnp no)
 		(uuid "7f1cc3a6-fe90-439e-91e3-170029daf75f")
 		(property "Reference" "C11"
-			(at 226.314 156.21 90)
+			(at 178.054 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +10401,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 226.314 150.114 90)
+			(at 178.054 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +10410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 151.13 0)
+			(at 176.53 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +10419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 151.13 0)
+			(at 176.53 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +10428,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 151.13 0)
+			(at 176.53 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,15 +10457,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 130.81 39.37 0)
+		(at 165.1 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "83cd52f4-10cb-41c2-ac6b-62bd535e2f08")
-		(property "Reference" "TP9"
-			(at 132.08 37.592 0)
+		(uuid "7f857533-61bc-4344-91bc-b0193444900a")
+		(property "Reference" "TP51"
+			(at 166.37 197.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,16 +10474,17 @@
 			)
 		)
 		(property "Value" "TestPoint_Flag"
-			(at 137.922 39.0003 0)
+			(at 172.212 199.0203 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 39.37 0)
+			(at 170.18 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +10493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 39.37 0)
+			(at 170.18 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +10502,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 130.81 39.37 0)
+			(at 165.1 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,289 +10511,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f02e409e-5c9c-45cb-bb67-cefea1769a78")
+			(uuid "596e8f66-d715-468b-a680-8198284e6202")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "TP2")
+					(reference "TP58")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 325.12 142.24 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "848edd54-d1ce-4da9-823f-0938b9f136ea")
-		(property "Reference" "U2"
-			(at 320.548 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 325.12 149.0402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 325.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7c358887-12ff-420c-9a24-817c8e6cfc8e")
-		)
-		(pin "8"
-			(uuid "ad4ed0f2-9786-4d4f-a589-3bf5d5d3c4af")
-		)
-		(pin "3"
-			(uuid "bacc5ad6-1577-4ce5-ada1-169fce0f8801")
-		)
-		(pin "7"
-			(uuid "418c3c37-75af-43b9-a33f-ade08ed81fcf")
-		)
-		(pin "4"
-			(uuid "8a8b1cb8-6abe-4409-9ea7-01e015a93090")
-		)
-		(pin "1"
-			(uuid "89a95072-798b-49cb-a67b-fbcf16271f72")
-		)
-		(pin "6"
-			(uuid "d8765436-377a-4cd1-ae93-987f0fe4f282")
-		)
-		(pin "2"
-			(uuid "0e3954a5-349d-4ebc-aca2-bcc200a594d1")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.98 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85d50d86-9bd5-495e-b504-804cd7842d05")
-		(property "Reference" "#PWR012"
-			(at 220.98 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 220.98 173.0431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94f9a7c4-5482-4c7a-9d4a-c8e3ed983258")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "#PWR0222")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 220.98 163.83 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f6feaa1-0fef-496b-b7b6-0f84e19f9294")
-		(property "Reference" "C10"
-			(at 219.202 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u16"
-			(at 219.202 158.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 220.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c04c59a-757b-40e2-a4d6-f4ad3310606f")
-		)
-		(pin "2"
-			(uuid "277473c8-316f-4ede-b732-a5417a2c28d3")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "C84")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "C10")
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -6712,15 +10528,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 207.01 163.83 180)
+		(at 246.38 204.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8fdfcb58-2dde-4681-9876-f91027e5ad29")
-		(property "Reference" "C9"
-			(at 205.486 168.91 90)
+		(uuid "8403ca40-b883-498e-9c47-6f488e53b42a")
+		(property "Reference" "C113"
+			(at 248.412 207.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,17 +10544,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
-			(at 205.486 162.814 90)
+		(property "Value" "1uF"
+			(at 246.38 201.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 163.83 0)
+			(at 246.38 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +10562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 163.83 0)
+			(at 246.38 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +10571,439 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 207.01 163.83 0)
+			(at 246.38 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "125928e7-ec00-4a5c-9481-2b3381380640")
+		)
+		(pin "2"
+			(uuid "9128e256-0cd3-4d5f-9b6a-0123cbdb1b79")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C114")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 163.83 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "863fe7c9-c51b-46cd-8b6c-691b3d61149a")
+		(property "Reference" "TP50"
+			(at 165.1 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 170.942 196.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 163.83 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc2f25d2-5b19-41d3-b6e3-ceb6c96fcd9f")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "TP57")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "TP50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 261.62 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "86d6b3ba-1856-425e-a860-4a079745604c")
+		(property "Reference" "R36"
+			(at 259.334 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 263.906 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5f9fa35-cd43-4202-9b9a-b0a39eadb083")
+		)
+		(pin "1"
+			(uuid "eead17ce-ff22-4cbc-8213-6d752e3e43ec")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "R132")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 168.91 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b27365-9040-4e70-aad6-d72dad3163cf")
+		(property "Reference" "JP53"
+			(at 170.8179 171.5078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 170.8179 173.9321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 168.91 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e797a12a-90d3-4f73-8b67-e0e9285693d0")
+		)
+		(pin "1"
+			(uuid "4a418efa-ae19-41be-99ee-0139d9b62f3e")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP54")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 314.96 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89865140-4e11-448b-a9f1-5df4a2a27118")
+		(property "Reference" "R147"
+			(at 314.96 204.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 314.96 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 314.96 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7a1bb9f-acde-479d-b115-41d94f048cfd")
+		)
+		(pin "1"
+			(uuid "4ca3eff9-d099-4061-9c91-2724d57a6240")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "R148")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "R147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 236.22 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8bfb790a-a74f-42f0-8cde-9eea6781a628")
+		(property "Reference" "R134"
+			(at 233.934 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 238.506 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 236.22 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "954ffe94-918b-4ca4-b162-b40a9c6453c6")
+		)
+		(pin "1"
+			(uuid "6a0b0de0-f157-4dbf-b752-83b3901ba2eb")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "R136")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fdfcb58-2dde-4681-9876-f91027e5ad29")
+		(property "Reference" "C9"
+			(at 157.226 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 157.226 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,6 +11025,80 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 133.35 229.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "903a6932-1afa-40a0-91a6-679ad5e1be2c")
+		(property "Reference" "JP63"
+			(at 139.446 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 135.2579 231.0821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 133.35 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6249e87a-a8e3-4187-b865-739f7ad47f67")
+		)
+		(pin "1"
+			(uuid "37a25577-dede-4f2c-ab2c-73b40acbd3b5")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP64")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP63")
 					(unit 1)
 				)
 			)
@@ -6855,8 +11176,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 229.87 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92e44a43-8016-4a23-a33c-c39376a99d92")
+		(property "Reference" "R133"
+			(at 227.584 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 232.156 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 229.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0abdffa6-8cb4-4ebc-87e7-2a2bc8dd1095")
+		)
+		(pin "1"
+			(uuid "d5d4dae7-5470-4820-b184-769b0e83fd46")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "R135")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 143.51 176.53 90)
+		(at 143.51 250.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6865,7 +11257,7 @@
 		(fields_autoplaced yes)
 		(uuid "95375550-79d5-4916-9081-945205b9e98b")
 		(property "Reference" "#PWR04"
-			(at 149.86 176.53 0)
+			(at 149.86 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +11266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.6431 176.53 0)
+			(at 147.6431 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +11275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 176.53 0)
+			(at 143.51 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +11284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 176.53 0)
+			(at 143.51 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +11293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 176.53 0)
+			(at 143.51 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +11319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 233.68 157.48 270)
+		(at 269.24 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6935,7 +11327,7 @@
 		(dnp no)
 		(uuid "9a4a387c-42f8-4c67-876f-7f023b2a3c9f")
 		(property "Reference" "C13"
-			(at 231.648 154.686 90)
+			(at 266.192 154.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +11335,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 236.22 154.686 90)
+			(at 271.78 154.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +11343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 157.48 0)
+			(at 269.24 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +11352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 157.48 0)
+			(at 269.24 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +11361,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 233.68 157.48 0)
+			(at 269.24 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,35 +11389,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 125.73 34.29 0)
-		(mirror y)
+		(lib_id "Device:R_Small_US")
+		(at 280.67 196.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c832d49-b5c0-4295-b239-40980019bdbe")
-		(property "Reference" "TP8"
-			(at 124.46 32.512 0)
+		(uuid "9bdb9532-6fef-41e1-aca7-1d5b55d327cc")
+		(property "Reference" "R145"
+			(at 280.67 194.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Flag"
-			(at 118.618 33.9203 0)
+		(property "Value" "49.9k"
+			(at 280.67 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 34.29 0)
+			(at 280.67 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +11423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 34.29 0)
+			(at 280.67 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,97 +11431,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 125.73 34.29 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 280.67 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "2fecb4ce-e67a-4afc-aa18-89668dc02dc8")
 		)
 		(pin "1"
-			(uuid "b1d4ddf0-b5dc-4aec-bab4-a9a19a102842")
+			(uuid "b481f4e8-c9ec-46ad-9ff4-83a9afae1da0")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "TP3")
+					(reference "R146")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ea51916-8d4a-41ca-8f2b-3f60c91de211")
-		(property "Reference" "#PWR014"
-			(at 224.79 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 173.0431 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "700d704a-8f12-45f8-ac22-050fb88caa77")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "#PWR0226")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "#PWR014")
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -7210,35 +11531,126 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 52.07 147.32 0)
-		(mirror y)
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 325.12 142.24 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a344c7f9-1b74-4ee5-acae-299f4b8739ab")
-		(property "Reference" "C2"
-			(at 50.292 148.59 90)
+		(uuid "a1a7d1dd-aab1-4076-a5fe-2875fadfd058")
+		(property "Reference" "U17"
+			(at 330.2 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 50.292 141.732 90)
+		(property "Value" "TLV2372"
+			(at 330.2 136.5137 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 147.32 0)
+			(at 325.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 325.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 325.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1a7e52f-efe0-4674-8f48-effc206d9612")
+		)
+		(pin "7"
+			(uuid "9da7fd1f-8b03-4105-8598-608e36b5d715")
+		)
+		(pin "6"
+			(uuid "d3a8d7fe-e415-48b1-8351-fb2fbccb11e9")
+		)
+		(pin "5"
+			(uuid "10e7b211-1cd3-4426-8015-9d00de416c83")
+		)
+		(pin "2"
+			(uuid "142b00b8-5882-4c5c-a6d4-14992d641fdc")
+		)
+		(pin "8"
+			(uuid "19b10795-8ba2-4efa-9ae7-05cc3a9fe3df")
+		)
+		(pin "4"
+			(uuid "0e217362-723f-42d6-975b-61166a7ea520")
+		)
+		(pin "1"
+			(uuid "1d8d597f-d410-4333-b9bb-d8b0cf77152a")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 120.65 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2895a06-f882-4470-b0f6-487469a595af")
+		(property "Reference" "JP45"
+			(at 122.5579 127.0578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 122.5579 129.4821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +11659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 147.32 0)
+			(at 120.65 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,8 +11667,81 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 52.07 147.32 0)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 120.65 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b457413-d147-4889-a9ec-9d7360265008")
+		)
+		(pin "1"
+			(uuid "f52911ab-ac64-439e-8870-51a91c864ea6")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP46")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 271.78 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3791792-3479-4af7-85b0-f7d19bc6a9e0")
+		(property "Reference" "C6"
+			(at 268.732 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 274.574 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 271.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,19 +11750,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "640fb4d1-60cc-45d7-b722-7148e05bb0f1")
+			(uuid "00814ed3-2c29-4e7e-8db9-f60f44cd9a0f")
 		)
 		(pin "2"
-			(uuid "0615d96c-324d-40ed-a556-8c6b0524139f")
+			(uuid "de74187e-f926-4eab-b56a-a71ceea5bd90")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "C74")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7355,8 +11840,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV2372")
+		(at 330.2 209.55 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6046411-b008-4595-9b36-670af15f17c6")
+		(property "Reference" "U1"
+			(at 330.2 218.7745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2372"
+			(at 330.2 216.3502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv2375.pdf"
+			(at 330.2 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"
+			(at 330.2 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb72fa9a-77f5-475c-b236-f921a81d538c")
+		)
+		(pin "5"
+			(uuid "f1c4521b-ac06-4fd6-ba6f-51ff5fc15710")
+		)
+		(pin "4"
+			(uuid "8ec92a3f-8aa7-40f1-a2d0-140df9b67fa0")
+		)
+		(pin "3"
+			(uuid "2704f01f-a8a4-47e0-8241-0716c7c6fd24")
+		)
+		(pin "1"
+			(uuid "19067dce-0b93-4d9b-a644-df37d82acb54")
+		)
+		(pin "6"
+			(uuid "be1be4a0-1213-4a2e-9280-f9bd07afba27")
+		)
+		(pin "7"
+			(uuid "b4d311de-205c-4ac5-9e65-08f37d7f8363")
+		)
+		(pin "8"
+			(uuid "41a5d2b9-6ccf-43e7-b601-214057174b8b")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "U2")
+					(unit 2)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 213.36 168.91 0)
+		(at 168.91 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7365,7 +11940,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6bdb556-e186-43f9-a6df-e62657fd71bf")
 		(property "Reference" "#PWR011"
-			(at 213.36 175.26 0)
+			(at 168.91 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +11949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 173.0431 0)
+			(at 168.91 179.3931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +11958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 168.91 0)
+			(at 168.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +11967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 168.91 0)
+			(at 168.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +11976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 168.91 0)
+			(at 168.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,6 +12073,79 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 349.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a77efe3e-69f2-4d95-a178-7c66448fc452")
+		(property "Reference" "C827"
+			(at 351.5741 63.5641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 351.5741 65.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 349.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f818f8cc-eaf7-4978-b552-0c63ff887344")
+		)
+		(pin "2"
+			(uuid "c00bbaf0-f000-4f95-8a3d-de22f0dcc509")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C829")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C827")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 67.31 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7571,7 +12219,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 219.71 144.78 270)
+		(at 171.45 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7579,7 +12227,7 @@
 		(dnp no)
 		(uuid "ab0f77f5-188b-4485-8ef8-16bcf2083b7d")
 		(property "Reference" "R8"
-			(at 219.71 142.494 90)
+			(at 171.45 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +12235,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 219.71 147.32 90)
+			(at 171.45 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +12243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 144.78 0)
+			(at 171.45 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +12252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 144.78 0)
+			(at 171.45 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +12261,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 219.71 144.78 0)
+			(at 171.45 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,6 +12283,150 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 161.29 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab8f4b99-2914-43f5-ac0e-d5ccab48720c")
+		(property "Reference" "TP48"
+			(at 162.56 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 168.402 191.4003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b3d0409-698b-4bd8-867d-b91b700557cd")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "TP55")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "TP48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 267.97 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb3f7ea-ab86-4e2f-a73c-0396140e520a")
+		(property "Reference" "C115"
+			(at 264.922 215.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 270.764 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 267.97 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "038b18f0-5469-4d24-8e47-4e8e1dc22f72")
+		)
+		(pin "2"
+			(uuid "47993f5f-e783-420b-92f6-a6f2d92e788d")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C117")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -7715,7 +12507,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 213.36 163.83 0)
+		(at 165.1 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7724,7 +12516,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd3f2c4c-9cc1-4474-8526-09438bcb2a71")
 		(property "Reference" "L1"
-			(at 214.5008 162.6178 0)
+			(at 166.2408 162.6178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +12525,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 214.5008 165.0421 0)
+			(at 166.2408 165.0421 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +12534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 163.83 0)
+			(at 165.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +12543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 163.83 0)
+			(at 165.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +12552,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 213.36 163.83 0)
+			(at 165.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,8 +12580,156 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 265.43 204.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c04573aa-a3e3-4c5a-a1ae-d57a6712a953")
+		(property "Reference" "R143"
+			(at 265.43 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 265.43 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 265.43 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8007bf7d-0880-4fca-b0cb-772ed2c74c34")
+		)
+		(pin "1"
+			(uuid "3db13811-7749-47eb-ba9d-f8ad7d778cc9")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "R144")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 226.06 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e594a1-6855-4503-b9ef-83bddaab1046")
+		(property "Reference" "RV1"
+			(at 224.4091 198.1778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 224.4091 200.6021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 226.06 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "701a753f-0c03-4d53-a6ec-f64773c2bd6f")
+		)
+		(pin "2"
+			(uuid "fb9526ec-b8fb-42ea-9a79-1a1b189809b6")
+		)
+		(pin "1"
+			(uuid "edea0f2b-4ea6-40a4-917e-5c3fe1c1fb77")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "RV2")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 83.82 180.34 0)
+		(at 83.82 175.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7799,7 +12739,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3983a73-4a95-4c76-b195-f562d6a77645")
 		(property "Reference" "#PWR05"
-			(at 83.82 186.69 0)
+			(at 83.82 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +12748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 184.4731 0)
+			(at 83.82 179.3931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +12757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 180.34 0)
+			(at 83.82 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +12766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 180.34 0)
+			(at 83.82 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +12775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 180.34 0)
+			(at 83.82 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,6 +12794,151 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e2220e-3b6b-45ee-b146-9fef13c5e82a")
+		(property "Reference" "#PWR069"
+			(at 320.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 77.7931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e570df54-92a4-414b-9bbf-5642d92c46a0")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 400.05 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c57fa2eb-1df7-41e9-a59e-8219254babb8")
+		(property "Reference" "C111"
+			(at 402.3614 63.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 402.3614 65.5503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 400.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 400.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b61ad277-d8e2-4aaa-9599-c76b51af9ae9")
+		)
+		(pin "2"
+			(uuid "01abf3eb-c005-4013-a362-aaaf96ca54d8")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C112")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -7932,16 +13017,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 168.91 0)
+		(at 240.03 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6fdaac3-2020-48f5-bd4d-c654cce90b8a")
-		(property "Reference" "#PWR010"
-			(at 207.01 175.26 0)
+		(uuid "c76aacea-938e-4208-9aaa-8592ad475b7c")
+		(property "Reference" "#PWR061"
+			(at 240.03 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +13035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 173.0431 0)
+			(at 240.03 220.0331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +13044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 168.91 0)
+			(at 240.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +13053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 168.91 0)
+			(at 240.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +13062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 168.91 0)
+			(at 240.03 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,16 +13071,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "d53eafcb-7139-4e8d-9a0c-38fda7154adf")
+			(uuid "b11c46ff-76f4-43d0-8be0-dab2e2df5424")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "#PWR0218")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "#PWR010")
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 280.67 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c8b1f248-5ac4-48ed-896c-df7cf30a874a")
+		(property "Reference" "C152"
+			(at 282.702 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603"
+			(at 280.67 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 280.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af221c4b-e8bd-4ad6-ae7c-cbe9014bc9ad")
+		)
+		(pin "2"
+			(uuid "e1a0f314-5123-4e98-bec4-ef0e9e502525")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C155")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -8074,7 +13232,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 180.34 0)
+		(at 91.44 175.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8084,7 +13242,7 @@
 		(fields_autoplaced yes)
 		(uuid "c91a32d9-cb83-486e-b2f0-2741763c1d32")
 		(property "Reference" "#PWR09"
-			(at 91.44 186.69 0)
+			(at 91.44 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +13251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 184.4731 0)
+			(at 91.44 179.3931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +13260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 180.34 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +13269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 180.34 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +13278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 180.34 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,16 +13304,17 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 168.91 0)
+		(at 374.65 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c96ada79-2e77-4437-973c-ac77d2d59078")
-		(property "Reference" "#PWR015"
-			(at 228.6 175.26 0)
+		(uuid "ca491360-ce67-4c1b-9df9-c85ab5d1143a")
+		(property "Reference" "#PWR01007"
+			(at 374.65 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +13323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 173.0431 0)
+			(at 374.65 71.4431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +13332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 168.91 0)
+			(at 374.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +13341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 168.91 0)
+			(at 374.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +13350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 168.91 0)
+			(at 374.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,16 +13359,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "26cd7ad6-260a-4e5c-9601-261ab06ad01e")
+			(uuid "ce5674be-be9c-4d3b-8b88-fba1923b66cc")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "#PWR0224")
+					(reference "#PWR01008")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "#PWR015")
+					(reference "#PWR01007")
 					(unit 1)
 				)
 			)
@@ -8282,6 +13441,149 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cf44be87-9e8f-4b6c-929d-6ed1ad237cba")
+		(property "Reference" "C124"
+			(at 224.282 212.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 222.25 206.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 222.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1c9f4ec-51b5-4f15-a1c1-e61610b5d901")
+		)
+		(pin "2"
+			(uuid "b15ff84f-6148-48be-9009-6d5677d066a8")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "C125")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfea6b5b-59e3-48de-aa03-9def2c680fe3")
+		(property "Reference" "#PWR057"
+			(at 229.87 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 220.0331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a350f4d0-0d48-4685-948d-e7294c0b1a5a")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8430,77 +13732,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9ebafd2-c141-46d8-b564-6cc6e377109c")
-		(property "Reference" "#PWR03"
-			(at 125.73 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 38.4231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0595c94a-f888-4a0b-bae2-6af7df1fed21")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "#PWR0228")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 120.65 81.28 0)
 		(unit 1)
@@ -8572,88 +13803,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 255.27 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dca23583-f3c5-4ddb-a3b9-32c76479d3e3")
-		(property "Reference" "R36"
-			(at 252.984 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4k7"
-			(at 257.556 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 255.27 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2dd012e6-67dd-47d7-8810-d6ae4e02d3ea")
-		)
-		(pin "1"
-			(uuid "936243b0-d173-4e67-85e5-e9e40266fb5d")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 120.65 39.37 0)
-		(mirror y)
+		(at 162.56 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de620812-3e28-44d5-98ff-8e1c3ad7ef28")
-		(property "Reference" "TP7"
-			(at 119.38 37.592 0)
+		(uuid "dde6d798-8363-42db-b11c-e16ef67c5759")
+		(property "Reference" "TP49"
+			(at 163.83 192.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,16 +13821,17 @@
 			)
 		)
 		(property "Value" "TestPoint_Flag"
-			(at 113.538 39.0003 0)
+			(at 169.672 193.9403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 39.37 0)
+			(at 167.64 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +13840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 39.37 0)
+			(at 167.64 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +13849,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 120.65 39.37 0)
+			(at 162.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,44 +13858,52 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcd9da86-0beb-44d7-8bfb-4297908ff6f5")
+			(uuid "9dd6ee78-6677-44fd-ba17-94c563dab017")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "TP56")
+					(unit 1)
+				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
-					(reference "TP7")
+					(reference "TP49")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 325.12 133.35 270)
+		(lib_name "Jumper_3_Open_1")
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 241.3 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "eba1a6a8-aadc-4eeb-b6d2-081428f40ba9")
-		(property "Reference" "R44"
-			(at 325.12 131.064 90)
+		(uuid "e934efbd-b94e-4599-84eb-dde449cf402b")
+		(property "Reference" "JP7"
+			(at 243.84 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22k"
-			(at 325.12 135.89 90)
+		(property "Value" "Jumper_3_Open"
+			(at 243.4341 143.5679 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 133.35 0)
+			(at 241.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +13912,234 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 325.12 133.35 0)
+			(at 241.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 241.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bed43b89-9fd0-4907-bbca-8e9f6ea012ac")
+		)
+		(pin "2"
+			(uuid "080bdd73-393e-46b4-9493-9ddc43a0427c")
+		)
+		(pin "3"
+			(uuid "81a34822-cb46-42d9-b4d1-8989842ed02c")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 151.13 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eadf0e06-58c8-466b-83dd-f12d2124bcf4")
+		(property "Reference" "JP51"
+			(at 153.0379 127.0578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 153.0379 129.4821 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6b4287c-d68c-4884-88b3-28534e5768ca")
+		)
+		(pin "1"
+			(uuid "ccc105f7-7e0a-4773-9d43-03605b1ce409")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP52")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper_3_Open_1")
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 212.09 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb0ab8ff-eea3-44c0-9a1d-a144491a0f21")
+		(property "Reference" "JP5"
+			(at 214.63 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 214.2241 156.2679 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4e371a-fa87-42d3-a6fa-4cf28e940cd3")
+		)
+		(pin "2"
+			(uuid "9c6e2c74-d1bc-468c-b49e-1f1f8e63569c")
+		)
+		(pin "3"
+			(uuid "ca6aad49-b72a-40cb-96de-307f767aa3ba")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP6")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 325.12 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba1a6a8-aadc-4eeb-b6d2-081428f40ba9")
+		(property "Reference" "R44"
+			(at 325.12 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 325.12 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +14148,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 325.12 133.35 0)
+			(at 325.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,6 +14170,155 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 359.41 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efa2cd3a-8d07-46e2-ab80-26c60bc21c8d")
+		(property "Reference" "JP3"
+			(at 357.2759 160.0778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 357.2759 162.5021 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 359.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e78c181-bf16-466d-a0af-3b751ed225c1")
+		)
+		(pin "2"
+			(uuid "a6032b50-1472-447f-91a3-3f0a6f251c9b")
+		)
+		(pin "3"
+			(uuid "9efe96be-9a73-49c4-a77a-4e8d6b34096b")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP4")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 167.64 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7b14125-33a5-4b9f-a0e6-9ed146b5168a")
+		(property "Reference" "TP53"
+			(at 168.91 202.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 174.752 204.1003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 167.64 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8facb3e3-49c6-4e3f-ac41-a9affdc30205")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "TP60")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "TP53")
 					(unit 1)
 				)
 			)
