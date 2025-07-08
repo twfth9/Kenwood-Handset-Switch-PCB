@@ -1,7 +1,7 @@
 (footprint "Py_QT_SAMD21"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7550a1c9-9edd-4843-aef4-a20868ac5d04")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "36290693-c7f7-4efc-b059-57732b05ce6e")
 		(effects
 			(font
 				(size 1 1)
@@ -113,7 +100,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "0ea43b2c-1334-446a-bd21-433b07506647")
 	)
@@ -168,7 +155,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ab313e59-4460-4eae-b415-2d6a9246a71f")
 	)
@@ -180,9 +167,8 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
-		(net 2)
 		(uuid "2ae97821-eb98-4b06-a8a9-8d79ac0a4ed5")
 	)
 	(fp_poly
@@ -193,9 +179,8 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
-		(net 2)
 		(uuid "9ed61a2c-e15c-437c-84f9-e7de74eeeeb6")
 	)
 	(fp_poly
@@ -206,9 +191,8 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
-		(net 2)
 		(uuid "8582168d-437d-4f7c-b8ac-eb7fd4cd1e1d")
 	)
 	(fp_poly
@@ -219,15 +203,14 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
-		(net 2)
 		(uuid "95041af4-83b0-4273-b591-ab3f54e48a64")
 	)
 	(pad "1" smd oval
 		(at -8.89 -7.66)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "c6e97efe-3e5a-49c8-b8e4-cf9565815c15")
@@ -235,7 +218,7 @@
 	(pad "2" smd oval
 		(at -8.89 -5.12)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "a1bb9e15-9484-4720-b88b-479b374052ea")
@@ -243,7 +226,7 @@
 	(pad "3" smd oval
 		(at -8.89 -2.58)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "07055964-d147-450c-8d08-ace7e7488959")
@@ -251,7 +234,7 @@
 	(pad "4" smd oval
 		(at -8.89 -0.04)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "ddbccf8e-d023-4b7c-8814-c075c952f7dc")
@@ -259,7 +242,7 @@
 	(pad "5" smd oval
 		(at -8.89 2.5)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "3190e757-d83b-483e-98e3-dc2dd3214e0a")
@@ -267,7 +250,7 @@
 	(pad "6" smd oval
 		(at -8.89 5.04)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "82ee92e8-11d0-48c0-90db-6ecde0dc5833")
@@ -275,7 +258,7 @@
 	(pad "7" smd oval
 		(at -8.89 7.58)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "67c409ef-7b74-4e5b-a4ea-9e27034a5555")
@@ -283,7 +266,7 @@
 	(pad "8" smd oval
 		(at 8.89 7.58 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "74700570-89d3-4232-827c-7ea6c56efa53")
@@ -291,7 +274,7 @@
 	(pad "9" smd oval
 		(at 8.89 5.04 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "25d712d4-a427-43f2-a553-5feec479ddcb")
@@ -299,7 +282,7 @@
 	(pad "10" smd oval
 		(at 8.89 2.5 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "5e36f358-8579-4c40-b5ff-3baa65898e3a")
@@ -307,7 +290,7 @@
 	(pad "11" smd oval
 		(at 8.89 -0.04 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "598f057b-472c-49c2-8f60-c445e23911ae")
@@ -315,7 +298,7 @@
 	(pad "12" smd oval
 		(at 8.89 -2.58 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "be9ad1e5-82cb-4a3c-b246-6f70f0e577e3")
@@ -323,7 +306,7 @@
 	(pad "13" smd oval
 		(at 8.89 -5.12 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "81c2b0a1-049f-4364-88a5-dac999d2cbba")
@@ -331,20 +314,21 @@
 	(pad "14" smd oval
 		(at 8.89 -7.66 180)
 		(size 3.556 1.778)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "a9a2adfc-e027-4be7-884a-d9744dcc4ad9")
 	)
-	(model "${KIPRJMOD}/4600 QTPy.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/4600 QTPy.step"
 		(offset
-			(xyz -8.9 -10.3 0)
+			(xyz -9 -10.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
