@@ -9,8 +9,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 1.905 -13.97 0)
+			(property "Reference" "U101"
+				(at 2.1433 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +18,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "74HC164"
-				(at 1.905 -16.51 0)
+			(property "Value" "74LV164BQ"
+				(at 2.1433 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 				(at 22.86 -7.62 0)
 				(effects
 					(font
@@ -36,7 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LV164.pdf"
 				(at 22.86 -7.62 0)
 				(effects
 					(font
@@ -159,16 +159,16 @@
 					)
 				)
 				(pin power_in line
-					(at 0 12.7 270)
+					(at -1.27 12.7 270)
 					(length 2.54)
-					(name "VCC"
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -187,6 +187,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 12.7 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -899,23 +917,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0.762 0)
+			(property "Reference" "U109"
+				(at -1.524 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "MCP47FVB08"
-				(at 6.858 -15.24 0)
+				(at -2.54 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Libraries:QFN-20-5x5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1281,6 +1301,25 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -16.51 90)
+					(length 2.54)
+					(hide yes)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7128,6 +7167,12 @@
 		(uuid "4c537674-4555-4dda-b05d-06a506068240")
 	)
 	(junction
+		(at 43.18 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4717a4-17b0-4d6f-a842-db158c71dbae")
+	)
+	(junction
 		(at 77.47 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8273,6 +8318,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 226.06) (xy 43.18 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0906d806-7eab-4ef8-85f2-dbae9316b92c")
+	)
+	(wire
+		(pts
 			(xy 238.76 179.07) (xy 245.11 179.07)
 		)
 		(stroke
@@ -8543,6 +8598,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 226.06) (xy 41.91 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1772976c-ad08-4d62-a3dc-bd5fa4e6bf8b")
+	)
+	(wire
+		(pts
 			(xy 212.09 196.85) (xy 212.09 198.12)
 		)
 		(stroke
@@ -8800,6 +8865,16 @@
 			(type default)
 		)
 		(uuid "2190a24e-bfbd-4532-a348-cff8c71b4712")
+	)
+	(wire
+		(pts
+			(xy 44.45 227.33) (xy 44.45 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e2530b-0bb8-4bdd-b1dc-3b2e1fdbf6fc")
 	)
 	(wire
 		(pts
@@ -9393,7 +9468,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 210.82) (xy 43.18 227.33)
+			(xy 43.18 210.82) (xy 43.18 226.06)
 		)
 		(stroke
 			(width 0)
@@ -10400,6 +10475,16 @@
 			(type default)
 		)
 		(uuid "6ad18485-72c5-4474-8884-1c8fc91be298")
+	)
+	(wire
+		(pts
+			(xy 43.18 226.06) (xy 41.91 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae7bced-ff0f-477a-8e87-e345508cebaf")
 	)
 	(wire
 		(pts
@@ -20499,7 +20584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cff2491-0969-4c01-928e-ed8a771f15b6")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0147"
 			(at 220.98 77.47 0)
 			(effects
 				(font
@@ -20550,7 +20635,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0148")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -20934,7 +21019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ed93ec-a953-4807-bb4c-13b98f954887")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 198.12 128.27 0)
 			(effects
 				(font
@@ -20985,7 +21070,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -21546,7 +21631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "Libraries:QFN-20-5x5"
 			(at 372.11 209.55 0)
 			(effects
 				(font
@@ -21632,6 +21717,9 @@
 		)
 		(pin "4"
 			(uuid "fba37442-c8a8-4991-b5b6-e43d43d81de8")
+		)
+		(pin "EP"
+			(uuid "60c5e6b8-0cec-4058-a53d-cc68ba8ae4c3")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
@@ -22142,7 +22230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258adb54-b7ca-47cb-b61c-d32ecff293a7")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0134"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -22193,7 +22281,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0135")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -22416,7 +22504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "288e4e1e-7961-4b4e-8d2f-446854254e68")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0138"
 			(at 189.23 180.34 0)
 			(effects
 				(font
@@ -22467,7 +22555,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0137")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -23573,7 +23661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38993a65-a1ca-4c30-a4ac-d0c786a6c91e")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0156"
 			(at 243.84 77.47 0)
 			(effects
 				(font
@@ -23624,7 +23712,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0157")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -24024,7 +24112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43127f0c-28c1-41b4-a93f-6bccb9961a37")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0168"
 			(at 289.56 128.27 0)
 			(effects
 				(font
@@ -24075,7 +24163,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0167")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -25471,12 +25559,11 @@
 			)
 		)
 		(property "Value" "SBAV99LT1G"
-			(at 146.5002 166.3065 0)
+			(at 140.97 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -26987,7 +27074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701184b6-fb15-40dd-a95e-ff7c5265740e")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0144"
 			(at 213.36 52.07 0)
 			(effects
 				(font
@@ -27038,7 +27125,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0143")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -27195,7 +27282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7352dfcf-7225-4105-931b-053d67758b71")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0157"
 			(at 243.84 128.27 0)
 			(effects
 				(font
@@ -27246,7 +27333,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0155")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -27329,7 +27416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ccbae9-b48c-4aad-8ff1-48e67b76c8f7")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0167"
 			(at 289.56 77.47 0)
 			(effects
 				(font
@@ -27380,7 +27467,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0168")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -27396,7 +27483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77bfcef4-3f34-477c-8a3c-c78954068d81")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0162"
 			(at 266.7 77.47 0)
 			(effects
 				(font
@@ -27447,7 +27534,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0163")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -28157,7 +28244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 153.67 231.14 0)
 			(effects
 				(font
@@ -30206,7 +30293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a488275f-8dfa-4766-9ad1-92cc0d9b103e")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0148"
 			(at 220.98 128.27 0)
 			(effects
 				(font
@@ -30257,7 +30344,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0147")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -30691,7 +30778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac48a5c4-ed93-4cf6-8e7e-7f9c62d30c38")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0135"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -30742,7 +30829,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -30983,7 +31070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Libraries:SolderBridge_3L"
 			(at 132.08 21.59 0)
 			(effects
 				(font
@@ -31319,12 +31406,11 @@
 			)
 		)
 		(property "Value" "SBAV99LT1G"
-			(at 99.5102 166.3065 0)
+			(at 93.98 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -31399,7 +31485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 16.51 21.59 0)
 			(effects
 				(font
@@ -31452,7 +31538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38be309-11a1-4204-a205-19af65045044")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0161"
 			(at 257.81 228.6 0)
 			(effects
 				(font
@@ -31503,7 +31589,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0160")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -31630,7 +31716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Libraries:SolderBridge_3L"
 			(at 196.85 172.72 0)
 			(effects
 				(font
@@ -32100,7 +32186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c146b69a-14bc-4f11-b646-1b2211cd8186")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0137"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -32151,7 +32237,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0138")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -32399,7 +32485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c733f2a6-ddba-4cb2-9fa3-d4f572c0c9be")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0143"
 			(at 212.09 91.44 0)
 			(effects
 				(font
@@ -32450,7 +32536,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0144")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -32920,6 +33006,9 @@
 		)
 		(pin "13"
 			(uuid "ab83042b-7142-45ea-8011-4e0c25894c38")
+		)
+		(pin "15"
+			(uuid "4439e53b-73ce-46f1-a272-fa8f7f73f851")
 		)
 		(instances
 			(project ""
@@ -34044,7 +34133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP23017_ML"
+		(property "Value" "MCP23017-E/ML"
 			(at 209.9467 201.4798 0)
 			(effects
 				(font
@@ -34053,7 +34142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Libraries:QFN-20-5x5"
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
 			(at 207.01 251.46 0)
 			(effects
 				(font
@@ -34742,7 +34831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ffb459-8994-4731-a717-cb0e0fad1460")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0155"
 			(at 241.3 248.92 0)
 			(effects
 				(font
@@ -34793,7 +34882,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0156")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -35117,7 +35206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7842baa-18d3-4259-afce-b007b7207b18")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0139"
 			(at 198.12 77.47 0)
 			(effects
 				(font
@@ -35168,7 +35257,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0140")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -35995,7 +36084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f187cb15-2f60-4536-ba0b-14199b0695d9")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0163"
 			(at 266.7 128.27 0)
 			(effects
 				(font
@@ -36046,7 +36135,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0162")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -36602,7 +36691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa97e05b-7beb-4775-b045-4f014215a502")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0160"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -36653,7 +36742,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e"
-					(reference "#PWR0161")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
