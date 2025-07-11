@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "91ccbe94-6c97-4189-b441-02dad8b18796")
 	(paper "B")
+	(title_block
+		(title "Kenwood Handset Switcher - Handset Mic Recepticle")
+		(date "2025-07-11")
+		(rev "A")
+		(company "Thomas Francois - KX∅STL")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TLV2372"
 			(pin_names
@@ -4373,6 +4379,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 170.18) (xy 111.76 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024eee3a-d963-472e-acba-08c74e9f27b6")
+	)
+	(wire
+		(pts
 			(xy 120.65 226.06) (xy 120.65 240.03)
 		)
 		(stroke
@@ -4390,6 +4406,16 @@
 			(type default)
 		)
 		(uuid "053a6a63-d2b1-420d-9306-d577bf257b9c")
+	)
+	(wire
+		(pts
+			(xy 106.68 175.26) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0584f23c-5e16-4dbe-aa1a-c2e5e8e61809")
 	)
 	(wire
 		(pts
@@ -4583,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 170.18) (xy 111.76 170.18)
+			(xy 88.9 170.18) (xy 101.6 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4913,7 +4939,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 175.26) (xy 114.3 175.26)
+			(xy 88.9 175.26) (xy 101.6 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8626,28 +8652,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f69")
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6a")
 		)
 		(pin "7"
-			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2136")
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2137")
 		)
 		(pin "5"
-			(uuid "9a455930-5535-473e-aee5-be70fb663a68")
+			(uuid "9a455930-5535-473e-aee5-be70fb663a69")
 		)
 		(pin "6"
-			(uuid "bbac888d-b68d-455d-af40-c656e8469caa")
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cab")
 		)
 		(pin "4"
-			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fa")
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fb")
 		)
 		(pin "1"
-			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d54")
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d55")
 		)
 		(pin "3"
-			(uuid "472d9308-8314-438f-bbb7-7da7362bc050")
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc051")
 		)
 		(pin "2"
-			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afc")
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afd")
 		)
 		(instances
 			(project ""
@@ -10163,6 +10189,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 104.14 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4388f3ca-2d2d-4042-9e34-52885043e84c")
+		(property "Reference" "JP3"
+			(at 102.362 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 105.3521 173.3521 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 104.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 104.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b03bb0a2-582d-442d-9616-db629e7f083c")
+		)
+		(pin "1"
+			(uuid "5acf8058-3939-437e-8090-65877634c9c4")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP4")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 173.99 101.6 270)
 		(unit 1)
@@ -10358,28 +10458,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f69")
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6b")
 		)
 		(pin "7"
-			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2136")
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2138")
 		)
 		(pin "5"
-			(uuid "9a455930-5535-473e-aee5-be70fb663a68")
+			(uuid "9a455930-5535-473e-aee5-be70fb663a6a")
 		)
 		(pin "6"
-			(uuid "bbac888d-b68d-455d-af40-c656e8469caa")
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cac")
 		)
 		(pin "4"
-			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fa")
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fc")
 		)
 		(pin "1"
-			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d54")
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d56")
 		)
 		(pin "3"
-			(uuid "472d9308-8314-438f-bbb7-7da7362bc050")
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc052")
 		)
 		(pin "2"
-			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afc")
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afe")
 		)
 		(instances
 			(project ""
@@ -11848,28 +11948,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f69")
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6c")
 		)
 		(pin "7"
-			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2136")
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2139")
 		)
 		(pin "5"
-			(uuid "9a455930-5535-473e-aee5-be70fb663a68")
+			(uuid "9a455930-5535-473e-aee5-be70fb663a6b")
 		)
 		(pin "6"
-			(uuid "bbac888d-b68d-455d-af40-c656e8469caa")
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cad")
 		)
 		(pin "4"
-			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fa")
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fd")
 		)
 		(pin "1"
-			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d54")
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d57")
 		)
 		(pin "3"
-			(uuid "472d9308-8314-438f-bbb7-7da7362bc050")
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc053")
 		)
 		(pin "2"
-			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afc")
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0aff")
 		)
 		(instances
 			(project ""
@@ -16508,6 +16608,80 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
 					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 104.14 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e11c5fa8-f6e4-40db-8774-4d9e036c66e3")
+		(property "Reference" "JP1"
+			(at 102.362 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 105.3521 168.2721 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "454265e4-0ec1-466d-b479-e6cd305d104e")
+		)
+		(pin "1"
+			(uuid "550f7707-f2ae-4ff8-b58c-7285c471e9d8")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/d2f6f3be-aa6d-441b-9f5b-7bf6d8989ef7"
+					(reference "JP2")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/fd6d8624-63be-4b7a-b897-ffc1cd215540"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
