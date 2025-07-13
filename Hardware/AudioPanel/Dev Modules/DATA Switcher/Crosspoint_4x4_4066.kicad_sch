@@ -2638,14 +2638,14 @@
 		(lib_id "4xxx:4066")
 		(at 107.95 127 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "034b91f2-295e-47a5-949a-f4b01e4ed3cb")
-		(property "Reference" "U107"
+		(property "Reference" "U10"
 			(at 107.95 120.4425 0)
 			(effects
 				(font
@@ -2710,13 +2710,13 @@
 			(uuid "d108454f-efa0-4771-9cae-208219ce183c")
 		)
 		(pin "6"
-			(uuid "84c45dd8-58c0-459e-a9e4-e3c2d1511d44")
+			(uuid "8360faa7-8d54-4f55-9449-830c2f60ab05")
 		)
 		(pin "10"
 			(uuid "92cc5529-4afc-4192-afe7-eed74e85a937")
 		)
 		(pin "9"
-			(uuid "b68ee883-1bf7-44f3-8b61-3b543449acea")
+			(uuid "f0f01aef-8be5-4dde-b65f-c4b664c5c4ce")
 		)
 		(pin "7"
 			(uuid "851a3c2b-c4a5-4638-afe1-a9ddefbf3961")
@@ -2728,16 +2728,12 @@
 			(uuid "469ccd29-69e1-4d5f-84b5-683e76f58e1a")
 		)
 		(pin "8"
-			(uuid "a2b72fa6-bbf8-492e-9281-921cca1ecab7")
+			(uuid "c020a2ab-4ec2-4536-8da8-b3a06787fd16")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U107")
-					(unit 3)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2752,7 +2748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09ec7b7f-897b-433d-8823-8aabe4eea160")
-		(property "Reference" "C802"
+		(property "Reference" "C53"
 			(at 257.5941 233.7441 0)
 			(effects
 				(font
@@ -2798,19 +2794,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a124d642-f171-4dae-b1e4-318c9a7577d0")
+			(uuid "64bc374b-c141-480d-b08f-efe0763703d2")
 		)
 		(pin "2"
-			(uuid "099e8d59-59ef-4f1f-8a7e-39c20ab6fe87")
+			(uuid "09cb6bc1-1ebb-4fee-a375-dd954c7aad95")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C802")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C786")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -2827,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d54b53d-b3a5-471a-98ce-ebb0bd5d2b0a")
-		(property "Reference" "#PWR0960"
+		(property "Reference" "#PWR079"
 			(at 280.67 243.84 0)
 			(effects
 				(font
@@ -2873,16 +2865,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a221565-960f-4b0d-99ff-5d50f168b67d")
+			(uuid "6226967f-9b1b-4106-8ec3-998d33235548")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0960")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0942")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2897,7 +2885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "126ebb12-ee3e-4f7c-b74a-2edd68e64d3f")
-		(property "Reference" "C801"
+		(property "Reference" "C49"
 			(at 257.5941 175.3241 0)
 			(effects
 				(font
@@ -2943,19 +2931,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8aaca828-2bfa-4649-9ba3-1dcd54a9c3c7")
+			(uuid "e3527a5c-c2b1-4081-aaf0-19073698e6c5")
 		)
 		(pin "2"
-			(uuid "5ab39b97-7f20-4682-8e3d-f950bb9f166d")
+			(uuid "a00fc5fb-dba7-48f4-b46b-253d13a6c1ef")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C801")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C785")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -2972,7 +2956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1805731c-73c5-4fd5-b804-85675e7d7f9f")
-		(property "Reference" "U106"
+		(property "Reference" "U4"
 			(at 133.35 69.6425 0)
 			(effects
 				(font
@@ -3031,7 +3015,7 @@
 			(uuid "64af9633-ae68-4e81-b2cd-1fd2591a00a1")
 		)
 		(pin "2"
-			(uuid "8b6965a6-6a75-4c7d-bf45-2ecd0fba65a8")
+			(uuid "e3f15f2b-4135-4d3c-b52f-f26eb6da6cb4")
 		)
 		(pin "8"
 			(uuid "d1bbddf7-3af3-4d59-a912-bfb4f82ef1c0")
@@ -3046,10 +3030,10 @@
 			(uuid "28418c18-786f-4cfa-95e3-c12f3e0a0b32")
 		)
 		(pin "1"
-			(uuid "6c997d26-4db6-414c-9215-98f76facfc51")
+			(uuid "419065f0-010a-4f57-ba48-c62d4f0c5ec1")
 		)
 		(pin "13"
-			(uuid "8d3e4b42-7b53-4185-a923-21718b0d238f")
+			(uuid "49fdfbd9-a4a6-497e-82f3-a0fc05f9712c")
 		)
 		(pin "5"
 			(uuid "7610d3c4-b9c6-44ad-a617-43a410599d4c")
@@ -3058,13 +3042,9 @@
 			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5ea")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U106")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3081,7 +3061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295b409f-2b14-4880-988f-6d48ac293908")
-		(property "Reference" "U108"
+		(property "Reference" "U12"
 			(at 184.15 120.4425 0)
 			(effects
 				(font
@@ -3146,10 +3126,10 @@
 			(uuid "9d688eef-dba7-48cb-a9e4-230240c5b603")
 		)
 		(pin "2"
-			(uuid "400ab3e7-fc62-4ca7-aa9b-7bcb024a6cc8")
+			(uuid "7ea8ad18-126c-41ee-9d36-bb233ef663c9")
 		)
 		(pin "13"
-			(uuid "a9dd409d-e8b5-45eb-8adc-ac9fa0d4b7cc")
+			(uuid "cb1bec34-4f87-46ac-a217-f5eb96aed84e")
 		)
 		(pin "3"
 			(uuid "3f185983-a77f-41c8-bed4-121be5698083")
@@ -3158,7 +3138,7 @@
 			(uuid "4f19176f-5c85-4376-ae8c-0edd34a74f37")
 		)
 		(pin "1"
-			(uuid "25db9170-9547-4564-be69-2d16aabb557c")
+			(uuid "c0e77a9a-97d1-4b38-bc3f-2a1a76f1703e")
 		)
 		(pin "4"
 			(uuid "cec0ab57-bcde-410b-aa60-f30c1add30d8")
@@ -3167,13 +3147,9 @@
 			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aecc")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U108")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3190,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c2b7b1-c9f4-48f5-8aee-e91eb701ec92")
-		(property "Reference" "#PWR0958"
+		(property "Reference" "#PWR078"
 			(at 267.97 243.84 0)
 			(effects
 				(font
@@ -3236,16 +3212,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ede2fb14-34d3-48c5-949e-a3ab6137e202")
+			(uuid "5f379459-8324-4e36-9c62-0cbedb593ee6")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0958")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0944")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3260,7 +3232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5240424a-08d5-4add-83c3-ca2f2590d2bd")
-		(property "Reference" "C805"
+		(property "Reference" "C51"
 			(at 282.9941 175.3241 0)
 			(effects
 				(font
@@ -3306,19 +3278,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "57c1f672-b89c-444d-951b-dfa508a71203")
+			(uuid "dcada9a8-0091-40a8-a5b5-df875ec65d9b")
 		)
 		(pin "2"
-			(uuid "366941d5-3716-40dd-ad91-0622dda699eb")
+			(uuid "d2664d68-5beb-472e-9c30-c4d924b39eef")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C805")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C787")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57b5087a-9a5a-40a3-a250-ace12604f7e6")
-		(property "Reference" "#PWR0957"
+		(property "Reference" "#PWR074"
 			(at 267.97 185.42 0)
 			(effects
 				(font
@@ -3381,16 +3349,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5fce0bcd-3d0b-46a9-8d1b-4b32cf44cfe1")
+			(uuid "0ea259f6-1ef7-4b4f-8428-fe8a9fb3904e")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0957")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0945")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -3405,7 +3369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "585726b2-abd8-43b5-8e21-48b1240f7f2b")
-		(property "Reference" "U51"
+		(property "Reference" "U4"
 			(at 221.996 198.2357 0)
 			(effects
 				(font
@@ -3475,7 +3439,7 @@
 			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd94")
 		)
 		(pin "14"
-			(uuid "2b5dedec-155a-4bc5-9a56-4a364ce064fb")
+			(uuid "af297f8b-833d-4e9d-b752-a64fd45fd219")
 		)
 		(pin "2"
 			(uuid "6e26c495-fe4f-4099-b5b4-65189188547f")
@@ -3490,16 +3454,12 @@
 			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce5")
 		)
 		(pin "7"
-			(uuid "b6d9259e-5e97-43a8-a71f-e10627571cdc")
+			(uuid "c37e5e7c-e612-45f1-8f3c-94ed4fff711f")
 		)
 		(instances
-			(project ""
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U51")
-					(unit 5)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U52")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U4")
 					(unit 5)
 				)
 			)
@@ -3514,7 +3474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66d86b27-1425-4b01-92bc-458f70b92b26")
-		(property "Reference" "C803"
+		(property "Reference" "C50"
 			(at 270.2941 175.3241 0)
 			(effects
 				(font
@@ -3560,19 +3520,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ff22e44-dc26-4526-8efa-48275923180e")
+			(uuid "587fd068-e3f0-4d30-adb4-2113f61169bb")
 		)
 		(pin "2"
-			(uuid "695fe66b-eaf5-4470-85ce-b2981bf4bd4d")
+			(uuid "7b309136-bef9-46f8-8cd7-89c108fba953")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C803")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C792")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -3589,7 +3545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759f4b0a-db34-433f-8e3b-eca1c124f470")
-		(property "Reference" "#PWR0956"
+		(property "Reference" "#PWR077"
 			(at 255.27 243.84 0)
 			(effects
 				(font
@@ -3635,16 +3591,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf5e8875-2610-4121-b3cb-b8e83425a00b")
+			(uuid "5bcb8b2d-0efd-4f7f-9deb-9efd8f7d3f74")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0956")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0939")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3654,14 +3606,14 @@
 		(lib_id "4xxx:4066")
 		(at 107.95 152.4 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bbe3052-2e55-4735-af78-3f109ae609c1")
-		(property "Reference" "U108"
+		(property "Reference" "U13"
 			(at 107.95 145.8425 0)
 			(effects
 				(font
@@ -3720,7 +3672,7 @@
 			(uuid "ed3ce1e9-9e00-4991-abab-ae956f7ec65c")
 		)
 		(pin "5"
-			(uuid "f24fa5ca-109a-436b-bb61-49055dc542be")
+			(uuid "53415c69-ab16-4e7d-89dd-d48a0216c526")
 		)
 		(pin "6"
 			(uuid "9d688eef-dba7-48cb-a9e4-230240c5b604")
@@ -3732,7 +3684,7 @@
 			(uuid "fbdb4791-2be5-43b3-8180-596d051e6106")
 		)
 		(pin "3"
-			(uuid "426ed8f7-cde4-4d9c-a31e-a8c7bfb3faac")
+			(uuid "46663a97-5d6a-46d7-ae5d-7b3393ce238d")
 		)
 		(pin "9"
 			(uuid "4f19176f-5c85-4376-ae8c-0edd34a74f38")
@@ -3741,19 +3693,15 @@
 			(uuid "136538d1-fcea-46a1-b390-2e8f3209a236")
 		)
 		(pin "4"
-			(uuid "08f7bbe4-c3a2-4bf5-8ffd-c013ce3840bb")
+			(uuid "26c56cd6-019f-486e-8263-d88034190bb3")
 		)
 		(pin "8"
 			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aecd")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U108")
-					(unit 2)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3763,14 +3711,14 @@
 		(lib_id "4xxx:4066")
 		(at 107.95 101.6 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd26b16-e161-4af6-9db6-2ca070b2ca10")
-		(property "Reference" "U106"
+		(property "Reference" "U7"
 			(at 107.95 95.0425 0)
 			(effects
 				(font
@@ -3817,10 +3765,10 @@
 			(uuid "b1215be5-0889-4ad5-b77d-29003c0e2fe6")
 		)
 		(pin "11"
-			(uuid "5aec217a-92bc-464f-a9a7-964fea0464d8")
+			(uuid "145cb546-c9a2-4aac-bb80-0bebdbbafd36")
 		)
 		(pin "10"
-			(uuid "546ce3da-27da-4021-86e9-a8bc05784044")
+			(uuid "432128e8-902e-4545-9ace-e6ae0bec88f4")
 		)
 		(pin "4"
 			(uuid "59f55f4c-f7e8-47dd-a055-da71aab82957")
@@ -3838,7 +3786,7 @@
 			(uuid "64455bee-3d1e-4d1f-8c78-68630fd3d0e2")
 		)
 		(pin "12"
-			(uuid "6890bc72-6b79-4790-b31b-9fc1c69ba24c")
+			(uuid "2041ea64-01e3-4432-84c7-bed033104d44")
 		)
 		(pin "6"
 			(uuid "28418c18-786f-4cfa-95e3-c12f3e0a0b33")
@@ -3856,13 +3804,9 @@
 			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5eb")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U106")
-					(unit 4)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3877,7 +3821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9248b519-0f38-4cd8-b483-8ed47db4406c")
-		(property "Reference" "C808"
+		(property "Reference" "C56"
 			(at 295.6941 233.7441 0)
 			(effects
 				(font
@@ -3923,19 +3867,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "004e98b9-f427-491a-93df-39b9c7a9ce33")
+			(uuid "1d0f2134-b43e-4963-ad71-0be071e63c54")
 		)
 		(pin "2"
-			(uuid "3b75fe46-e3a0-4c89-b6cc-921054fef6a7")
+			(uuid "9403c9db-402e-4b3f-bf15-234801434a1e")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C808")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C790")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3950,7 +3890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99496cdb-0acc-4902-a717-ea29c6fe0c51")
-		(property "Reference" "C807"
+		(property "Reference" "C52"
 			(at 295.6941 175.3241 0)
 			(effects
 				(font
@@ -3996,19 +3936,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a499fc08-ec60-442b-81f8-abcbef8438d2")
+			(uuid "8bd7b981-dd3d-4ce7-9d6e-46562361df6f")
 		)
 		(pin "2"
-			(uuid "d74e2c82-df8d-45e2-8e86-b23eeb3a44bc")
+			(uuid "5fc8f27a-fb7f-4b60-97f5-b53a70c9f16d")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C807")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C788")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -4025,7 +3961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0dc238d-cd5c-4b8e-8ceb-e7d8f3837e59")
-		(property "Reference" "#PWR0961"
+		(property "Reference" "#PWR076"
 			(at 293.37 185.42 0)
 			(effects
 				(font
@@ -4071,16 +4007,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b185218-5783-4840-9e69-ebfc18db9ccb")
+			(uuid "c5ea7d8b-cda2-4d19-a5b5-98f693dd5089")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0961")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0941")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4090,14 +4022,14 @@
 		(lib_id "4xxx:4066")
 		(at 133.35 127 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e8d098-a8b8-4d23-9588-8ff91fe4d23c")
-		(property "Reference" "U107"
+		(property "Reference" "U11"
 			(at 133.35 120.4425 0)
 			(effects
 				(font
@@ -4150,10 +4082,10 @@
 			(uuid "e88b3e86-902c-439a-9976-fa0896f86b2d")
 		)
 		(pin "11"
-			(uuid "ee8a24e0-67ef-4a3f-b458-9db32287d304")
+			(uuid "fa137651-8cb5-4405-b465-cca71b2348eb")
 		)
 		(pin "12"
-			(uuid "4fe5a942-0347-4e5c-91f0-fc14bc41fc30")
+			(uuid "51161ae0-11d4-485e-bc76-8aac3feda33e")
 		)
 		(pin "14"
 			(uuid "48ab3cf0-b1e1-4a29-901f-9b6a291edb6b")
@@ -4165,7 +4097,7 @@
 			(uuid "82b3821f-82e1-4d80-8926-756fbb9a42f2")
 		)
 		(pin "10"
-			(uuid "549e2cf4-cb82-48c1-a759-359d5ea562e9")
+			(uuid "5dc27b78-2994-4170-8ecb-0a35c780f53b")
 		)
 		(pin "9"
 			(uuid "0668bf2c-4dd5-4ae0-afd3-5e03525e472d")
@@ -4183,13 +4115,9 @@
 			(uuid "6311e160-c4ba-4295-b9e8-5791cf319ad8")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U107")
-					(unit 4)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4199,14 +4127,14 @@
 		(lib_id "4xxx:4066")
 		(at 184.15 76.2 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3c5721-1cc7-45dd-b321-183656e74204")
-		(property "Reference" "U106"
+		(property "Reference" "U6"
 			(at 184.15 69.6425 0)
 			(effects
 				(font
@@ -4250,7 +4178,7 @@
 			)
 		)
 		(pin "9"
-			(uuid "aac96c94-f1dc-4188-bdf3-f52f8a1a92d3")
+			(uuid "0a456ba9-84c8-4f0e-9369-36dfe0841b6f")
 		)
 		(pin "11"
 			(uuid "14038237-89aa-4a43-bd1b-48169d4eb423")
@@ -4268,7 +4196,7 @@
 			(uuid "53bf4f93-2008-4403-a09b-b84e429bca79")
 		)
 		(pin "8"
-			(uuid "a0ec0e91-1ae5-4ede-9a21-fe1208abe043")
+			(uuid "b3f97793-23ae-45ac-a043-1589074ddb9e")
 		)
 		(pin "14"
 			(uuid "64455bee-3d1e-4d1f-8c78-68630fd3d0e3")
@@ -4277,7 +4205,7 @@
 			(uuid "b9a3b43a-4730-43da-ae09-0926fd3229b8")
 		)
 		(pin "6"
-			(uuid "bfd211b5-c1de-4773-8566-ca4d7f57155d")
+			(uuid "db84378a-5509-4742-b69a-17a8996aeca6")
 		)
 		(pin "1"
 			(uuid "d178bee6-41d7-453e-9295-35c2b74c342a")
@@ -4292,13 +4220,9 @@
 			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5ec")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U106")
-					(unit 3)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4308,14 +4232,14 @@
 		(lib_id "4xxx:4066")
 		(at 133.35 152.4 0)
 		(mirror x)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0fe686b-cc79-415e-a3a1-033cc452c8a2")
-		(property "Reference" "U108"
+		(property "Reference" "U14"
 			(at 133.35 145.8425 0)
 			(effects
 				(font
@@ -4377,7 +4301,7 @@
 			(uuid "755412a6-0583-4547-a55d-82430a16d29d")
 		)
 		(pin "6"
-			(uuid "7243b9f2-5c05-42dd-9c8c-b8324242612b")
+			(uuid "5907af1d-70ae-4471-8275-dcc48d42fcb6")
 		)
 		(pin "2"
 			(uuid "5a6c8454-40f7-416a-b6a1-5b7dc7bc37ea")
@@ -4389,7 +4313,7 @@
 			(uuid "3f185983-a77f-41c8-bed4-121be5698084")
 		)
 		(pin "9"
-			(uuid "fe8fd66c-9cf0-46c3-8e12-5b6c5d2d6c60")
+			(uuid "e25918e2-aab7-4482-8855-e45aeffb39d2")
 		)
 		(pin "1"
 			(uuid "136538d1-fcea-46a1-b390-2e8f3209a237")
@@ -4398,16 +4322,12 @@
 			(uuid "cec0ab57-bcde-410b-aa60-f30c1add30d9")
 		)
 		(pin "8"
-			(uuid "e5bf8839-f7c3-424e-bab1-b29126eeb478")
+			(uuid "46f4291b-1e28-458c-be75-3b0fcdaf31d8")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U108")
-					(unit 3)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4424,7 +4344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36e2a03-1b02-4cf3-88bd-ff39410f6300")
-		(property "Reference" "#PWR0955"
+		(property "Reference" "#PWR073"
 			(at 255.27 185.42 0)
 			(effects
 				(font
@@ -4470,16 +4390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "257ea417-81de-4824-9616-88a1221edbe3")
+			(uuid "847a94a1-4061-424b-928c-9a9599fdb76c")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0955")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0938")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bca057eb-bd71-4686-a8eb-ad85d15aa032")
-		(property "Reference" "C804"
+		(property "Reference" "C54"
 			(at 270.2941 233.7441 0)
 			(effects
 				(font
@@ -4540,19 +4456,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a6161fb-872f-4d10-acda-3ce743fd26a5")
+			(uuid "84199fc2-f4a4-46b5-987e-97dd9994b586")
 		)
 		(pin "2"
-			(uuid "cd302508-129a-4449-8685-43fa167787d1")
+			(uuid "55c5137a-4236-4c52-b439-ac47b8641c5e")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C804")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C791")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -4562,14 +4474,14 @@
 		(lib_id "4xxx:4066")
 		(at 184.15 101.6 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf577aed-7418-4b91-bd9b-8eeedd582d68")
-		(property "Reference" "U107"
+		(property "Reference" "U9"
 			(at 184.15 95.0425 0)
 			(effects
 				(font
@@ -4613,7 +4525,7 @@
 			)
 		)
 		(pin "4"
-			(uuid "6855050a-45e2-4f8a-a20d-cda908127cb7")
+			(uuid "b62adfe8-811f-4135-b093-5dd4088b4c1c")
 		)
 		(pin "1"
 			(uuid "301111c4-ec27-4590-8cd3-e40408f605fc")
@@ -4646,22 +4558,18 @@
 			(uuid "851a3c2b-c4a5-4638-afe1-a9ddefbf3963")
 		)
 		(pin "5"
-			(uuid "31de4da6-51cb-42b9-8626-80e560fa03d3")
+			(uuid "0f087a8f-159b-4acd-b255-b52fda1c8aa1")
 		)
 		(pin "3"
-			(uuid "982341ce-b535-4e46-90d2-8c7bfedad53c")
+			(uuid "eadbad54-ae01-48f9-b996-e04f33c0452b")
 		)
 		(pin "8"
 			(uuid "6311e160-c4ba-4295-b9e8-5791cf319ad9")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U107")
-					(unit 2)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4676,7 +4584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c206f72b-bae4-45ee-9ddb-60c32dcdb516")
-		(property "Reference" "U55"
+		(property "Reference" "U6"
 			(at 244.856 198.2357 0)
 			(effects
 				(font
@@ -4746,7 +4654,7 @@
 			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd95")
 		)
 		(pin "14"
-			(uuid "e8a78c60-7f85-4873-bd74-f06728aa140f")
+			(uuid "830d0886-6f17-436b-bf86-9bdfbc925b63")
 		)
 		(pin "2"
 			(uuid "6e26c495-fe4f-4099-b5b4-651891885480")
@@ -4761,16 +4669,12 @@
 			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce6")
 		)
 		(pin "7"
-			(uuid "1eb21040-bf33-4fae-bcfd-57d2bbeb43f0")
+			(uuid "8131f017-64a4-4196-a4ac-59351e35027b")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U55")
-					(unit 5)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U56")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U6")
 					(unit 5)
 				)
 			)
@@ -4785,7 +4689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c29dc061-60d1-4f8a-a11d-0437ee607839")
-		(property "Reference" "C806"
+		(property "Reference" "C55"
 			(at 282.9941 233.7441 0)
 			(effects
 				(font
@@ -4831,19 +4735,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcbc2640-dfcf-4d41-992a-15efead42358")
+			(uuid "38683ad7-1f6a-4a4c-86b2-511ad14b007b")
 		)
 		(pin "2"
-			(uuid "ce5e7b74-c6a7-4457-8d06-bf30e3b73be8")
+			(uuid "8d90b62a-4ea9-4b57-b13c-966917790850")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "C806")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "C789")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -4853,14 +4753,14 @@
 		(lib_id "4xxx:4066")
 		(at 158.75 152.4 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d048f2ff-a108-41a6-924a-38b5e12fcd33")
-		(property "Reference" "U108"
+		(property "Reference" "U15"
 			(at 158.75 145.8425 0)
 			(effects
 				(font
@@ -4907,13 +4807,13 @@
 			(uuid "83358a92-28f8-47ec-8fc5-40d68dd9ae9f")
 		)
 		(pin "11"
-			(uuid "1f416790-58d7-424d-9b26-b5d78b0f55cb")
+			(uuid "084a4ff4-687c-40f9-b38e-e0a428cf9e49")
 		)
 		(pin "12"
-			(uuid "277230d0-35fa-42af-a082-5612c79787ac")
+			(uuid "79578e14-a5e3-425e-ab09-1b2405e73bfb")
 		)
 		(pin "10"
-			(uuid "7934f743-bd93-4677-bd51-f1edc248461d")
+			(uuid "26b7974e-243b-4f73-adb6-a549c1ae7403")
 		)
 		(pin "7"
 			(uuid "ed3ce1e9-9e00-4991-abab-ae956f7ec65e")
@@ -4946,13 +4846,9 @@
 			(uuid "354382c5-6d02-49ad-9ae5-8b8409d2aece")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U108")
-					(unit 4)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -4969,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d614ba76-1a1f-48e2-8917-1caa32398d69")
-		(property "Reference" "U107"
+		(property "Reference" "U8"
 			(at 158.75 95.0425 0)
 			(effects
 				(font
@@ -5016,10 +4912,10 @@
 			(uuid "00f08061-721a-4c0c-8255-052aff50e8f8")
 		)
 		(pin "1"
-			(uuid "7469d677-2fa1-4a1c-b784-922a85a1b464")
+			(uuid "8d10038e-99dd-4561-997e-049c751c7a87")
 		)
 		(pin "13"
-			(uuid "5bef6515-9576-4a1e-b869-49b55906775b")
+			(uuid "28aa4c4f-05b7-4e5b-bfa0-5430a1846cc7")
 		)
 		(pin "11"
 			(uuid "162cf2f8-873d-4eef-9c05-7d1155fb3412")
@@ -5031,7 +4927,7 @@
 			(uuid "48ab3cf0-b1e1-4a29-901f-9b6a291edb6d")
 		)
 		(pin "2"
-			(uuid "284b282c-3e64-4dbb-905f-49c853c64d0e")
+			(uuid "1211e7de-32cb-429b-9d6f-c71a7c962d95")
 		)
 		(pin "6"
 			(uuid "82b3821f-82e1-4d80-8926-756fbb9a42f4")
@@ -5055,13 +4951,9 @@
 			(uuid "6311e160-c4ba-4295-b9e8-5791cf319ada")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U107")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5071,14 +4963,14 @@
 		(lib_id "4xxx:4066")
 		(at 158.75 76.2 0)
 		(mirror x)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5478f5-3012-47a4-948c-7cd5b6da545d")
-		(property "Reference" "U106"
+		(property "Reference" "U5"
 			(at 158.75 69.6425 0)
 			(effects
 				(font
@@ -5131,10 +5023,10 @@
 			(uuid "38a6c7d9-d360-47e6-a5c1-e365be796d9d")
 		)
 		(pin "4"
-			(uuid "b402843d-ecd5-44c0-b574-7a08f385ee7b")
+			(uuid "6917cad0-cb80-4696-921e-2c01b1ef52e3")
 		)
 		(pin "3"
-			(uuid "ff29a227-f08b-4e40-a17d-3401236a4f77")
+			(uuid "1b3641a9-3cc7-4054-ad88-c9ae16d9ac8f")
 		)
 		(pin "2"
 			(uuid "53bf4f93-2008-4403-a09b-b84e429bca7b")
@@ -5158,19 +5050,15 @@
 			(uuid "c24fc02f-1656-4d58-9ba4-7298e31d34d8")
 		)
 		(pin "5"
-			(uuid "b98e773c-fa59-4f64-aed7-12521a6fe2d2")
+			(uuid "5a0d9f12-c37e-46c7-b48b-98c4f8272b9e")
 		)
 		(pin "7"
 			(uuid "8d4cdfd2-fdfd-4046-9472-0f80c6b1d5ed")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U106")
-					(unit 2)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U?")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5185,7 +5073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dff49c6a-4e74-4405-acfa-71717fb66cf7")
-		(property "Reference" "U53"
+		(property "Reference" "U5"
 			(at 233.426 198.2357 0)
 			(effects
 				(font
@@ -5255,7 +5143,7 @@
 			(uuid "d8bfde66-a30a-4700-b535-1ba3fdd7dd96")
 		)
 		(pin "14"
-			(uuid "91b82489-c91b-438f-a045-e72288587084")
+			(uuid "f59b28bc-cf70-4063-bb7b-06416ed22bf6")
 		)
 		(pin "2"
 			(uuid "6e26c495-fe4f-4099-b5b4-651891885481")
@@ -5270,16 +5158,12 @@
 			(uuid "8fb76a99-8ae4-4eda-a6b6-c2b0ea6c7ce7")
 		)
 		(pin "7"
-			(uuid "48b3f9e5-c78f-477a-9c4a-3c834a286960")
+			(uuid "94886cb7-3634-48c4-95af-a960555fb8e5")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "U53")
-					(unit 5)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "U54")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "U5")
 					(unit 5)
 				)
 			)
@@ -5296,7 +5180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4cbc462-3022-4b33-a7a3-a76a7f5f2264")
-		(property "Reference" "#PWR0959"
+		(property "Reference" "#PWR075"
 			(at 280.67 185.42 0)
 			(effects
 				(font
@@ -5342,16 +5226,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0551162e-c3a4-4693-9250-c5f03c96b51c")
+			(uuid "e09e8ce4-bd90-4f76-aa16-63953d6dea7a")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0959")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0940")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -5368,7 +5248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff259f7a-a7d8-4be1-ac80-d5ce0566368d")
-		(property "Reference" "#PWR0962"
+		(property "Reference" "#PWR080"
 			(at 293.37 243.84 0)
 			(effects
 				(font
@@ -5414,16 +5294,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "80dbf828-7986-429b-969e-f5304b141a36")
+			(uuid "ee446924-1c40-4951-806c-b5be2e045348")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/00c33178-d9c3-4012-9c6d-b3f9d5ca2d56/c7a454c9-c7bc-4315-b634-291f09f59026"
-					(reference "#PWR0962")
-					(unit 1)
-				)
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/c1ee6588-ede0-4856-ae1d-36ded9da6bf7/10a71b48-333f-48d0-82ec-0e93e9965ad1"
-					(reference "#PWR0943")
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/2666ad66-39c1-4c6c-a040-816db2ef7a59"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
