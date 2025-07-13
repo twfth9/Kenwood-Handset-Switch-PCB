@@ -2005,307 +2005,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Filled"
 			(pin_numbers
 				(hide yes)
@@ -6614,12 +6313,6 @@
 		(uuid "2129620d-9f18-400a-b70f-6e8df08f6c3b")
 	)
 	(junction
-		(at 388.62 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2150c2bc-6d6c-4938-a16e-5339fd7b8bc0")
-	)
-	(junction
 		(at 387.35 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6672,6 +6365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390d0873-f4ac-4cd7-9c42-51c7ec9758ed")
+	)
+	(junction
+		(at 388.62 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cdb639b-c89f-4ae3-9848-1b3991877bba")
 	)
 	(junction
 		(at 189.23 168.91)
@@ -10932,7 +10631,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 220.98) (xy 48.26 220.98)
+			(xy 43.18 220.98) (xy 57.15 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11699,16 +11398,6 @@
 			(type default)
 		)
 		(uuid "b27b468b-4fcc-47e1-b7da-127ed45eecfb")
-	)
-	(wire
-		(pts
-			(xy 53.34 220.98) (xy 57.15 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b29e2c95-297b-4d5c-b927-59a44c14d715")
 	)
 	(wire
 		(pts
@@ -15429,7 +15118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.66 226.06 0)
 			(effects
 				(font
@@ -17612,7 +17301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 325.12 26.67 0)
 			(effects
 				(font
@@ -17813,6 +17502,74 @@
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR0520")
+		(at 373.38 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2532169a-f8f9-420d-97ea-4a734226acdf")
+		(property "Reference" "D6"
+			(at 373.0625 46.6555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0520"
+			(at 373.0625 49.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 373.38 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf"
+			(at 373.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 373.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "809def58-a633-4be3-abac-27ec1bd60346")
+		)
+		(pin "1"
+			(uuid "53bc9cef-23c2-481e-aa67-dc25bf378db7")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -18110,7 +17867,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB-C Recepticle"
+		(property "Value" "USB4135-GF-A"
 			(at 398.78 183.134 0)
 			(effects
 				(font
@@ -18119,7 +17876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 403.86 203.2 0)
 			(effects
 				(font
@@ -18128,7 +17885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
 			(at 403.86 203.2 0)
 			(effects
 				(font
@@ -19982,121 +19739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 403.86 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bdc5286-2a52-4dc1-a784-fc28d4651b18")
-		(property "Reference" "J1"
-			(at 414.782 66.0978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB-C Recepticle"
-			(at 394.97 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 400.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 400.05 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 403.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A9"
-			(uuid "f1534f1a-72bd-49bb-ac85-96558b671ef5")
-		)
-		(pin "B6"
-			(uuid "5a58e640-056a-4837-b728-fbc2a944ceed")
-		)
-		(pin "B1"
-			(uuid "f7f87c4e-92ea-4c9a-b212-4a26e94cbb97")
-		)
-		(pin "B5"
-			(uuid "94b5b86e-f345-4298-91bc-361916307fd0")
-		)
-		(pin "B9"
-			(uuid "7a2125bf-fc91-4eb0-a931-db7e51e519cd")
-		)
-		(pin "S1"
-			(uuid "a50d8cd5-7d55-4a19-a947-3f852a386952")
-		)
-		(pin "A1"
-			(uuid "de35f34b-f5f9-4153-a5f1-38d1be644be5")
-		)
-		(pin "B4"
-			(uuid "d88c856d-0dee-4877-9c3f-43ef6762cf80")
-		)
-		(pin "B7"
-			(uuid "1fead167-df2d-4e12-8f71-3214226ad471")
-		)
-		(pin "A4"
-			(uuid "f4a5d72d-cdf8-4b53-a24e-ac75868b535e")
-		)
-		(pin "A7"
-			(uuid "b95c6c74-92b0-4074-8ad6-6212070653b4")
-		)
-		(pin "A8"
-			(uuid "5dc1d4dc-88b6-4d91-b7c7-c2cf190cbe85")
-		)
-		(pin "A5"
-			(uuid "deffdda9-558a-4abe-bf5d-2d003fec0f76")
-		)
-		(pin "B12"
-			(uuid "0ff58cd9-1f8d-435e-b439-0f972ac003d4")
-		)
-		(pin "A12"
-			(uuid "37875fca-c6da-4789-acf6-5fb8f5a76b78")
-		)
-		(pin "B8"
-			(uuid "eac8794b-dfab-472a-be24-79e45d8c3b5a")
-		)
-		(pin "A6"
-			(uuid "df30f1cb-0c93-4929-aec9-c018bca51229")
-		)
-		(instances
-			(project ""
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Flag")
 		(at 199.39 185.42 0)
 		(unit 1)
@@ -21234,6 +20876,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 403.86 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54f4f6b7-d506-4127-bc35-d06bd32e373c")
+		(property "Reference" "J1"
+			(at 414.782 66.0978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB4135-GF-A"
+			(at 394.97 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 400.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
+			(at 400.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 403.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A9"
+			(uuid "96bb661a-db97-4b99-9601-a53a30c1c09c")
+		)
+		(pin "B6"
+			(uuid "51e2c41d-0217-4b59-aea7-42673bf5294f")
+		)
+		(pin "B1"
+			(uuid "c9dcfe80-e15a-484a-9be1-794db85d4948")
+		)
+		(pin "B5"
+			(uuid "7ddb78cb-5597-4aa5-865c-67dbde3a763e")
+		)
+		(pin "B9"
+			(uuid "b0cb8128-19b4-442f-b999-77171e2f0a28")
+		)
+		(pin "S1"
+			(uuid "d00660f5-8bf1-412c-b9ba-40b9bd1a7b31")
+		)
+		(pin "A1"
+			(uuid "5011efcc-88c6-4297-9f60-968712ec7d44")
+		)
+		(pin "B4"
+			(uuid "227d6a96-e282-4458-897a-d7f23ccf7027")
+		)
+		(pin "B7"
+			(uuid "b2c5c76f-cb88-49c1-a816-e54c62c0e1e2")
+		)
+		(pin "A4"
+			(uuid "de41591b-86ef-4484-bdeb-6b841391d6e5")
+		)
+		(pin "A7"
+			(uuid "123cf1b4-fc82-4e57-a9ab-eb9a7e0ec55d")
+		)
+		(pin "A8"
+			(uuid "a6c6c66d-0c76-4711-b84e-4b7fd26faac1")
+		)
+		(pin "A5"
+			(uuid "aa717640-b464-4f2c-a825-c233ddae0fc1")
+		)
+		(pin "B12"
+			(uuid "ce33c33d-1e3e-4f86-8c13-b87373e716ee")
+		)
+		(pin "A12"
+			(uuid "dfc2f488-0847-41e3-b059-91eed5c9c738")
+		)
+		(pin "B8"
+			(uuid "03d67eaf-c5da-4632-bc7b-5b00f0700b13")
+		)
+		(pin "A6"
+			(uuid "2854f7af-95e1-4a0c-8bb2-f583147117b4")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 260.35 30.48 270)
 		(unit 1)
@@ -22264,7 +22021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 39.37 220.98 0)
 			(effects
 				(font
@@ -25590,73 +25347,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 373.38 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "893d9112-667f-402f-a83f-dd1b79ca98b3")
-		(property "Reference" "D6"
-			(at 373.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 373.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 373.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40c70981-9b89-40b0-a2b6-d5bd185d1a01")
-		)
-		(pin "1"
-			(uuid "117c5caa-c000-4793-933b-1661592606c0")
-		)
-		(instances
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 375.92 66.04 0)
 		(mirror y)
@@ -27808,74 +27498,6 @@
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
 					(reference "RN29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 50.8 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7a550b3-7e51-4e6a-97f5-7f9833088c8f")
-		(property "Reference" "FB1"
-			(at 50.7619 215.1337 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12uH"
-			(at 50.7619 217.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 50.8 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2de24f9e-1f5d-4a3d-8bb7-597b2c8e6ed2")
-		)
-		(pin "2"
-			(uuid "4d7520e3-5f94-4149-aa7d-dc6f7123c5fe")
-		)
-		(instances
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
