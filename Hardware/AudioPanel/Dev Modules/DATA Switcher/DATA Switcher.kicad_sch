@@ -3253,6 +3253,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:QT_Py_SAMD21"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4307,7 +4562,7 @@
 	)
 	(text "0x27"
 		(exclude_from_sim no)
-		(at 160.782 90.424 0)
+		(at 219.202 82.804 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4400,7 +4655,7 @@
 		(uuid "20869b9c-43dd-4d78-81f4-126000b7d194")
 	)
 	(junction
-		(at 172.72 99.06)
+		(at 231.14 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "222c596b-33aa-4123-8086-3c3925b73652")
@@ -4412,7 +4667,7 @@
 		(uuid "24827925-46d1-4e68-8092-db1e227d4058")
 	)
 	(junction
-		(at 172.72 96.52)
+		(at 231.14 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2491ad4e-3249-4660-957b-b99b2ad28706")
@@ -4430,7 +4685,7 @@
 		(uuid "26a4eb24-0f16-444e-b45f-17fd950259ff")
 	)
 	(junction
-		(at 172.72 52.07)
+		(at 231.14 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c8a88ac-684f-436e-bd52-64389227777f")
@@ -4550,13 +4805,13 @@
 		(uuid "76dd5415-47c1-4d4c-b8f5-1316d2c334e5")
 	)
 	(junction
-		(at 163.83 52.07)
+		(at 222.25 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "771fd956-7746-493e-8948-7cc5e034aeea")
 	)
 	(junction
-		(at 187.96 83.82)
+		(at 246.38 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78e5a8aa-2e32-4086-8c50-441536581fac")
@@ -4592,6 +4847,12 @@
 		(uuid "887e5be8-4b9e-4b8c-9100-57cc507ba074")
 	)
 	(junction
+		(at 270.51 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90054aa1-6cad-47d4-97e8-7b8de4bb360e")
+	)
+	(junction
 		(at 220.98 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4604,19 +4865,19 @@
 		(uuid "9df031a9-acfb-4d1c-b0da-d66370ad192a")
 	)
 	(junction
-		(at 180.34 83.82)
+		(at 238.76 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f038e1f-62c6-4a37-9fe4-a54d7e32da6c")
 	)
 	(junction
-		(at 180.34 34.29)
+		(at 238.76 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5c49727-f1b7-4b31-9f88-ea507df3b9b4")
 	)
 	(junction
-		(at 167.64 34.29)
+		(at 226.06 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa6635d1-55e3-49bb-8da4-c85281cbbde2")
@@ -4634,7 +4895,7 @@
 		(uuid "c1b9eed0-0566-471f-b937-f76a7f9bf164")
 	)
 	(junction
-		(at 154.94 110.49)
+		(at 213.36 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4e92cc6-5052-48e5-b02b-a8633470e1cd")
@@ -4652,7 +4913,7 @@
 		(uuid "d42c68af-6345-4dfa-8e48-70b861b87155")
 	)
 	(junction
-		(at 172.72 101.6)
+		(at 231.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4870ef3-4156-4bda-846f-17ac2bbfabdc")
@@ -4664,16 +4925,16 @@
 		(uuid "d8202323-9085-4f6e-ab4a-0a82e79bbbff")
 	)
 	(junction
+		(at 100.33 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd5faba4-2c84-45ef-9397-fd516089e719")
+	)
+	(junction
 		(at 133.35 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebea43fe-fa55-4722-aee1-fb783538a298")
-	)
-	(junction
-		(at 270.51 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3a4e3b6-405d-4675-9465-978dec6bbe9e")
 	)
 	(junction
 		(at 278.13 66.04)
@@ -4694,7 +4955,7 @@
 		(uuid "f9cec88d-18a2-46f7-8c4e-97a808ea2d08")
 	)
 	(junction
-		(at 163.83 34.29)
+		(at 222.25 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fefdb995-a555-433b-9e0d-a80f8043e2aa")
@@ -4959,6 +5220,16 @@
 		)
 		(uuid "030c5ec8-27e4-4b7c-bf62-41c1e064a882")
 	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d0e268-efa8-43b7-b574-1e7596f572d7")
+	)
 	(bus
 		(pts
 			(xy 328.93 113.03) (xy 328.93 115.57)
@@ -5001,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 158.75) (xy 116.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07652a97-175c-479d-8417-ef27cd710d09")
+	)
+	(wire
+		(pts
 			(xy 20.32 64.77) (xy 21.59 64.77)
 		)
 		(stroke
@@ -5011,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 71.12) (xy 135.89 71.12)
+			(xy 179.07 63.5) (xy 194.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5081,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 180.34 38.1)
+			(xy 238.76 26.67) (xy 238.76 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5151,16 +5432,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 168.91) (xy 163.83 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1038ad20-abba-4c83-b1b3-53e05987d297")
-	)
-	(wire
-		(pts
 			(xy 255.27 53.34) (xy 288.29 53.34)
 		)
 		(stroke
@@ -5181,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 135.89 83.82)
+			(xy 179.07 76.2) (xy 194.31 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5198,6 +5469,16 @@
 			(type default)
 		)
 		(uuid "13d11d0e-9a8b-480e-8006-1da84a4ea990")
+	)
+	(wire
+		(pts
+			(xy 110.49 156.21) (xy 107.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f97cc3-0e01-4cb3-b178-ae59a3ed0f51")
 	)
 	(wire
 		(pts
@@ -5241,7 +5522,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 172.72 101.6)
+			(xy 231.14 91.44) (xy 231.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5271,7 +5552,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 34.29) (xy 163.83 34.29)
+			(xy 217.17 26.67) (xy 222.25 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5301,7 +5582,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 171.45 96.52)
+			(xy 231.14 88.9) (xy 229.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5331,6 +5612,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 34.29) (xy 107.95 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f90680-316a-4eec-91e2-a4d03b525de4")
+	)
+	(wire
+		(pts
 			(xy 111.76 223.52) (xy 111.76 227.33)
 		)
 		(stroke
@@ -5341,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 153.67 110.49)
+			(xy 212.09 101.6) (xy 212.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5361,7 +5652,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 135.89 93.98)
+			(xy 92.71 34.29) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2398ae94-303f-49fb-b6be-9f5e5da53d56")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 194.31 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5381,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 34.29) (xy 180.34 34.29)
+			(xy 226.06 26.67) (xy 238.76 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5441,6 +5742,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 74.93) (xy 92.71 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276c743f-4b92-4b9b-a86e-9c70c6682f42")
+	)
+	(wire
+		(pts
 			(xy 234.95 199.39) (xy 248.92 199.39)
 		)
 		(stroke
@@ -5471,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 34.29) (xy 186.69 34.29)
+			(xy 238.76 26.67) (xy 245.11 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5518,6 +5829,16 @@
 			(type default)
 		)
 		(uuid "2a3a6881-e502-4d7d-ae49-9e1c26c92d5f")
+	)
+	(wire
+		(pts
+			(xy 100.33 140.97) (xy 100.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c004fe2-fc91-4ade-b694-fc5f4225c7b6")
 	)
 	(wire
 		(pts
@@ -5571,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 185.42 63.5)
+			(xy 229.87 55.88) (xy 243.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5601,7 +5922,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 180.34 85.09)
+			(xy 238.76 76.2) (xy 238.76 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5661,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 34.29) (xy 191.77 34.29)
+			(xy 251.46 26.67) (xy 250.19 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 171.45 99.06)
+			(xy 231.14 91.44) (xy 229.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5831,6 +6152,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 156.21) (xy 115.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f42e073-de39-446c-a103-b70f3aaa2ea7")
+	)
+	(wire
+		(pts
 			(xy 332.74 40.64) (xy 339.09 40.64)
 		)
 		(stroke
@@ -5861,7 +6192,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 153.67 53.34)
+			(xy 212.09 44.45) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +6212,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 156.21 110.49)
+			(xy 214.63 101.6) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5891,7 +6222,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 135.89 63.5)
+			(xy 179.07 55.88) (xy 194.31 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5961,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 60.96) (xy 185.42 60.96)
+			(xy 229.87 53.34) (xy 243.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6051,7 +6382,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 172.72 99.06)
+			(xy 231.14 88.9) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6201,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 180.34 83.82)
+			(xy 246.38 76.2) (xy 238.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6251,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 52.07) (xy 187.96 52.07)
+			(xy 231.14 44.45) (xy 246.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6311,6 +6642,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 19.05) (xy 100.33 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640ca1f5-b4fb-40b2-8e10-c7ac37507f42")
+	)
+	(wire
+		(pts
 			(xy 81.28 223.52) (xy 81.28 227.33)
 		)
 		(stroke
@@ -6338,6 +6679,16 @@
 			(type default)
 		)
 		(uuid "66c3617c-d347-4133-9378-ae98be5ffd40")
+	)
+	(wire
+		(pts
+			(xy 100.33 140.97) (xy 111.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d49372-cc0e-42e8-818a-0a3b793ecbfa")
 	)
 	(wire
 		(pts
@@ -6371,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 180.34 83.82)
+			(xy 229.87 76.2) (xy 238.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6421,7 +6772,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 135.89 96.52)
+			(xy 179.07 88.9) (xy 194.31 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6521,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 52.07) (xy 172.72 96.52)
+			(xy 231.14 44.45) (xy 231.14 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6591,13 +6942,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 31.75) (xy 193.04 34.29)
+			(xy 251.46 24.13) (xy 251.46 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "791cb0a9-ffe8-49e8-b975-db1de8b6e874")
+	)
+	(wire
+		(pts
+			(xy 100.33 59.69) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79352876-c8cc-4b3e-9006-ca6383f41c24")
 	)
 	(wire
 		(pts
@@ -6951,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 135.89 73.66)
+			(xy 179.07 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6971,7 +7332,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 34.29) (xy 167.64 38.1)
+			(xy 226.06 26.67) (xy 226.06 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7051,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 34.29) (xy 163.83 52.07)
+			(xy 222.25 26.67) (xy 222.25 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7071,7 +7432,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 172.72 104.14)
+			(xy 231.14 93.98) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7088,6 +7449,16 @@
 			(type default)
 		)
 		(uuid "a2c9fc25-cdda-48c4-800c-9be58ce49b67")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3479752-481b-4143-874f-c73eff9ff849")
 	)
 	(wire
 		(pts
@@ -7138,6 +7509,16 @@
 			(type default)
 		)
 		(uuid "a8ae7089-4c86-4830-968b-703847121ffe")
+	)
+	(wire
+		(pts
+			(xy 87.63 16.51) (xy 90.17 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9028195-b0ad-4d35-a43b-2d6222624ab6")
 	)
 	(wire
 		(pts
@@ -7221,7 +7602,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 52.07) (xy 172.72 52.07)
+			(xy 222.25 44.45) (xy 231.14 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7261,7 +7642,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 187.96 52.07)
+			(xy 246.38 67.31) (xy 246.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7381,6 +7762,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 115.57) (xy 87.63 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43527ee-33a4-4056-98a8-3c66ce507219")
+	)
+	(wire
+		(pts
 			(xy 34.29 17.78) (xy 34.29 27.94)
 		)
 		(stroke
@@ -7411,7 +7802,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 76.2) (xy 182.88 76.2)
+			(xy 229.87 68.58) (xy 241.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7438,6 +7829,16 @@
 			(type default)
 		)
 		(uuid "b704831d-6556-42e8-b108-bc5ff5a1a3aa")
+	)
+	(wire
+		(pts
+			(xy 133.35 34.29) (xy 115.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8167571-1eb5-4aa6-bc01-39063e1417ad")
 	)
 	(wire
 		(pts
@@ -7531,7 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 34.29) (xy 158.75 35.56)
+			(xy 217.17 26.67) (xy 217.17 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7571,7 +7972,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 156.21 110.49)
+			(xy 213.36 102.87) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7629,6 +8030,16 @@
 		)
 		(uuid "c42ecfe3-033c-4bf4-972a-d8a6a74de2c7")
 	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52104de-8481-4e91-b415-413e818d0136")
+	)
 	(bus
 		(pts
 			(xy 328.93 63.5) (xy 328.93 66.04)
@@ -7668,6 +8079,16 @@
 			(type default)
 		)
 		(uuid "c5b69c6a-80f1-4f99-9c2f-935ebee9fae4")
+	)
+	(wire
+		(pts
+			(xy 100.33 19.05) (xy 100.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c659dfaa-1915-4841-8071-8936e6d46dab")
 	)
 	(wire
 		(pts
@@ -7771,7 +8192,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 163.83 52.07)
+			(xy 212.09 44.45) (xy 222.25 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7811,7 +8232,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 80.01) (xy 187.96 83.82)
+			(xy 246.38 72.39) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7891,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 60.96) (xy 135.89 60.96)
+			(xy 179.07 53.34) (xy 194.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7918,6 +8339,16 @@
 			(type default)
 		)
 		(uuid "d876193e-e640-4e49-bd64-ed10b5ea1844")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 87.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7af57e-41fd-4f65-9d9b-3015dcbb4fa5")
 	)
 	(wire
 		(pts
@@ -7951,7 +8382,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 78.74) (xy 182.88 78.74)
+			(xy 229.87 71.12) (xy 241.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7988,6 +8419,16 @@
 			(type default)
 		)
 		(uuid "dc74bffc-5b42-4261-9385-bd1b15586955")
+	)
+	(wire
+		(pts
+			(xy 100.33 19.05) (xy 111.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcace67a-c51d-4540-829c-0246465ae008")
 	)
 	(wire
 		(pts
@@ -8061,7 +8502,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 31.75) (xy 193.04 31.75)
+			(xy 107.95 74.93) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d6b100-2b00-4946-afeb-e26c28b00818")
+	)
+	(wire
+		(pts
+			(xy 254 24.13) (xy 251.46 24.13)
 		)
 		(stroke
 			(width 0)
@@ -8111,7 +8562,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 86.36) (xy 135.89 86.36)
+			(xy 179.07 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8151,7 +8602,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 34.29) (xy 163.83 34.29)
+			(xy 226.06 26.67) (xy 222.25 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8211,7 +8662,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 172.72 101.6)
+			(xy 229.87 93.98) (xy 231.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8241,6 +8692,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 19.05) (xy 91.44 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8f3e30-127f-4c97-bec8-935a2b5f565b")
+	)
+	(wire
+		(pts
 			(xy 262.89 215.9) (xy 259.08 215.9)
 		)
 		(stroke
@@ -8251,13 +8712,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 68.58) (xy 270.51 68.58)
+			(xy 87.63 34.29) (xy 87.63 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f14d4719-283f-42d9-aede-fbabe85accd3")
+		(uuid "f169f708-8406-4d59-bc73-ceff2e056240")
 	)
 	(wire
 		(pts
@@ -8278,6 +8739,16 @@
 			(type default)
 		)
 		(uuid "f208642b-5240-490f-a53b-6c8b80dd4a34")
+	)
+	(wire
+		(pts
+			(xy 100.33 59.69) (xy 100.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2212b3e-9e55-49a9-9e17-b7b131c03697")
 	)
 	(wire
 		(pts
@@ -8321,13 +8792,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 154.94 110.49)
+			(xy 212.09 102.87) (xy 213.36 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4b0439d-68bb-4e9c-9462-92497f4c3ca6")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c73de6-ed49-4d06-9db3-2b2c4cc76a7c")
 	)
 	(wire
 		(pts
@@ -8371,7 +8852,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 187.96 92.71)
+			(xy 246.38 76.2) (xy 246.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8411,6 +8892,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 16.51) (xy 90.17 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e7b61a-b4a9-4ccb-8bd9-b02373156170")
+	)
+	(wire
+		(pts
 			(xy 285.75 100.33) (xy 288.29 100.33)
 		)
 		(stroke
@@ -8418,6 +8909,16 @@
 			(type default)
 		)
 		(uuid "fa33b9aa-ec21-4d1f-bfa1-237894626b02")
+	)
+	(wire
+		(pts
+			(xy 87.63 156.21) (xy 92.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2656b8-1724-4d12-bda4-77eaff9fabee")
 	)
 	(wire
 		(pts
@@ -8469,6 +8970,26 @@
 		)
 		(uuid "fd8f025b-6ca7-4b9f-8eb0-055af18eebc2")
 	)
+	(wire
+		(pts
+			(xy 270.51 162.56) (xy 270.51 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde3194d-3d75-4dda-8dc0-6b236c031b1e")
+	)
+	(wire
+		(pts
+			(xy 149.86 168.91) (xy 163.83 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6312a5-ad21-4380-9e90-7fa8f3a7007b")
+	)
 	(bus
 		(pts
 			(xy 328.93 105.41) (xy 328.93 107.95)
@@ -8479,8 +9000,8 @@
 		)
 		(uuid "fe6def96-7d18-40f1-86ff-f8129d81257f")
 	)
-	(label "SAMD_SERIAL_CLK"
-		(at 149.86 163.83 0)
+	(label "SAMD_SERIAL_CLR"
+		(at 149.86 161.29 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -8630,7 +9151,7 @@
 		(uuid "295ef5c7-c7f2-451d-b482-186c879bf194")
 	)
 	(label "480_DATA.PTT"
-		(at 120.65 60.96 0)
+		(at 179.07 53.34 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8650,7 +9171,7 @@
 		(uuid "312c4629-1721-482c-afe5-80736d3a034e")
 	)
 	(label "+5V_MCP23017"
-		(at 167.64 34.29 0)
+		(at 226.06 26.67 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8670,7 +9191,7 @@
 		(uuid "3462aa2d-4c68-400d-bce4-65624f9ffd1e")
 	)
 	(label "710_DATA.PTT"
-		(at 120.65 83.82 0)
+		(at 179.07 76.2 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8729,6 +9250,16 @@
 		)
 		(uuid "405501a3-e4f9-4b2e-9c68-386e56cb3ca3")
 	)
+	(label "SAMD_LED_UPDWN"
+		(at 133.35 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "408ec8a9-ac88-4964-b4b2-be33ba76a5a7")
+	)
 	(label "+5V_SAMD"
 		(at 168.91 146.05 180)
 		(effects
@@ -8750,7 +9281,7 @@
 		(uuid "45160a9c-0f70-4c31-a6d8-09875559f3b0")
 	)
 	(label "INTB0"
-		(at 182.88 76.2 180)
+		(at 241.3 68.58 180)
 		(effects
 			(font
 				(size 1 1)
@@ -8760,7 +9291,7 @@
 		(uuid "45e81f0f-ec4b-4965-9f45-9489205d1b8f")
 	)
 	(label "480_DATA.SQCIN"
-		(at 120.65 63.5 0)
+		(at 179.07 55.88 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8780,7 +9311,7 @@
 		(uuid "4c112605-26c3-4520-9b4e-fbea1e1a7506")
 	)
 	(label "EXTRA_DATA.PTT"
-		(at 120.65 93.98 0)
+		(at 179.07 86.36 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8799,8 +9330,18 @@
 		)
 		(uuid "522e48b1-1de8-4cb5-af5d-eb8d37591390")
 	)
+	(label "+5V_LED"
+		(at 111.76 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "532fa607-c7dd-4f93-9e4d-95bb50ed87db")
+	)
 	(label "700_DATA.PTT"
-		(at 120.65 71.12 0)
+		(at 179.07 63.5 0)
 		(effects
 			(font
 				(size 1 1)
@@ -8818,6 +9359,16 @@
 			(justify right bottom)
 		)
 		(uuid "5c9f13da-8da0-496a-bd9b-f25a4a726cc7")
+	)
+	(label "+5V"
+		(at 87.63 16.51 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ecdb56c-fa29-4bee-95ac-36dbc0dffd0c")
 	)
 	(label "480_DATA.TXOUT"
 		(at 83.82 30.48 180)
@@ -8919,6 +9470,16 @@
 		)
 		(uuid "77747d20-c96d-44c6-8567-28c647a0b512")
 	)
+	(label "+5V_LED"
+		(at 88.9 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77f4e5d3-849b-4e96-a98e-45fbe0bd16bb")
+	)
 	(label "+5V"
 		(at 363.22 39.37 0)
 		(effects
@@ -8948,6 +9509,16 @@
 			(justify right bottom)
 		)
 		(uuid "7d03ef19-2f1d-4f1e-838d-8ad30996cd04")
+	)
+	(label "+5V_LED"
+		(at 111.76 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d52b769-eb55-4582-94b4-de8d5561de1d")
 	)
 	(label "-5V"
 		(at 53.34 137.16 180)
@@ -8989,18 +9560,8 @@
 		)
 		(uuid "87fd3ed0-0de0-4087-bef5-2954dd6a3167")
 	)
-	(label "SAMD_SERIAL_~{OE}"
-		(at 255.27 68.58 0)
-		(effects
-			(font
-				(size 0.9906 0.9906)
-			)
-			(justify left bottom)
-		)
-		(uuid "880300e0-018b-4d79-8dc4-e2d79a23e4e9")
-	)
 	(label "SAMD_SDA"
-		(at 185.42 60.96 180)
+		(at 243.84 53.34 180)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -9018,6 +9579,16 @@
 			(justify left bottom)
 		)
 		(uuid "8af528c6-c8f1-4a55-8bca-947c865ba62c")
+	)
+	(label "SAMD_LED_UPDWN"
+		(at 149.86 168.91 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf2777d-acc0-43b7-ae64-5cb72fc82e19")
 	)
 	(label "INTB0"
 		(at 190.5 163.83 180)
@@ -9060,7 +9631,7 @@
 		(uuid "8e44260d-cfff-497c-a681-4275bebb9e76")
 	)
 	(label "+5V"
-		(at 195.58 31.75 180)
+		(at 254 24.13 180)
 		(effects
 			(font
 				(size 1 1)
@@ -9130,7 +9701,7 @@
 		(uuid "9ba7d5f8-ff78-4162-a2b4-79c6ab7f2e40")
 	)
 	(label "710_DATA.SQCIN"
-		(at 120.65 86.36 0)
+		(at 179.07 78.74 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9160,7 +9731,7 @@
 		(uuid "a1a23ce6-2096-4205-9a9c-3aa3963fa3e2")
 	)
 	(label "SAMD_SERIAL_DIN"
-		(at 149.86 161.29 0)
+		(at 149.86 163.83 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -9180,7 +9751,7 @@
 		(uuid "ab6e47cd-6407-415f-a45c-161b89244cec")
 	)
 	(label "INTA0"
-		(at 182.88 78.74 180)
+		(at 241.3 71.12 180)
 		(effects
 			(font
 				(size 1 1)
@@ -9290,7 +9861,7 @@
 		(uuid "bd7edf2d-7bee-413d-9cea-b15ed83a2b35")
 	)
 	(label "SAMD_SCL"
-		(at 185.42 63.5 180)
+		(at 243.84 55.88 180)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -9338,16 +9909,6 @@
 			(justify left bottom)
 		)
 		(uuid "c71a091b-5347-4e2f-b09b-0369d6264896")
-	)
-	(label "SAMD_SERIAL_~{OE}"
-		(at 149.86 168.91 0)
-		(effects
-			(font
-				(size 0.9906 0.9906)
-			)
-			(justify left bottom)
-		)
-		(uuid "c80835b3-1665-4d50-bb41-762919adac49")
 	)
 	(label "D0"
 		(at 308.61 102.87 0)
@@ -9429,6 +9990,16 @@
 		)
 		(uuid "cf77de0b-f0c1-47e6-aca2-a6e8fa099191")
 	)
+	(label "+5V_LED"
+		(at 111.76 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3aafc59-a116-4e56-aaf4-518dc74089b7")
+	)
 	(label "SAMD_SERIAL_CLR"
 		(at 255.27 58.42 0)
 		(effects
@@ -9460,7 +10031,7 @@
 		(uuid "df028955-0751-4b05-bfa2-3047d788def5")
 	)
 	(label "700_DATA.SQCIN"
-		(at 120.65 73.66 0)
+		(at 179.07 66.04 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9470,7 +10041,7 @@
 		(uuid "df9d631b-27dc-4469-9e37-2b6fb9d88223")
 	)
 	(label "EXTRA_DATA.SQCIN"
-		(at 120.65 96.52 0)
+		(at 179.07 88.9 0)
 		(effects
 			(font
 				(size 1 1)
@@ -9591,7 +10162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 110.49 0)
+		(at 213.36 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9600,8 +10171,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03aa15cc-2bb0-4765-a76e-385290573cb9")
-		(property "Reference" "#PWR0145"
-			(at 154.94 116.84 0)
+		(property "Reference" "#PWR0138"
+			(at 213.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +10181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 114.6231 0)
+			(at 213.36 107.0031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +10190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 110.49 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +10199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 110.49 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +10208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 110.49 0)
+			(at 213.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +10222,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0145")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -9746,6 +10317,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07d70d46-0da2-4e6f-b879-eaa80a879d62")
+		(property "Reference" "#PWR0119"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 28.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b175ede9-8ff8-4b61-ac3a-d247dc2093db")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 220.98 238.76 180)
 		(unit 1)
@@ -9754,7 +10392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07e3694b-a4c1-4b4e-951d-16172bab5788")
-		(property "Reference" "R51"
+		(property "Reference" "R109"
 			(at 223.52 237.4899 0)
 			(effects
 				(font
@@ -9835,7 +10473,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R51")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -9851,7 +10489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a17f38-99bd-4f2e-9005-c51dc20bc4d8")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0118"
 			(at 109.22 266.7 0)
 			(effects
 				(font
@@ -9902,7 +10540,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0113")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9918,7 +10556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09949bf6-718c-48c7-8ae0-f41a0b1bb759")
-		(property "Reference" "U17"
+		(property "Reference" "U108"
 			(at 300.5933 93.6455 0)
 			(effects
 				(font
@@ -10014,7 +10652,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U17")
+					(reference "U108")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a259cf4-7be1-4138-98ac-69a9265ffa13")
-		(property "Reference" "U20"
+		(property "Reference" "U109"
 			(at 300.5933 140.6355 0)
 			(effects
 				(font
@@ -10126,7 +10764,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U20")
+					(reference "U109")
 					(unit 1)
 				)
 			)
@@ -10142,7 +10780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdf21b1-8145-4449-88f3-60a4cb5c305c")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0109"
 			(at 69.85 237.49 0)
 			(effects
 				(font
@@ -10193,7 +10831,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR093")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10209,7 +10847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bdfb725-7213-4771-ad0b-e8eaab2c4e61")
-		(property "Reference" "C67"
+		(property "Reference" "C116"
 			(at 190.246 228.6 90)
 			(effects
 				(font
@@ -10261,7 +10899,77 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C67")
+					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 111.76 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "0c5a1a54-6f05-4193-8c72-24b4fc155449")
+		(property "Reference" "C108"
+			(at 114.0841 61.0241 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0402"
+			(at 114.0841 63.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ffd3422-ee04-4e98-a9c0-c1102bbf506e")
+		)
+		(pin "2"
+			(uuid "b6b6525a-f042-4c21-b50a-0d243becf9a2")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7f6824-60b1-4a99-b9ec-60dc8c77cdd4")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0155"
 			(at 320.04 53.34 0)
 			(effects
 				(font
@@ -10328,7 +11036,78 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0112")
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "0f96fe87-1c21-40fe-b039-17fdf715b4f1")
+		(property "Reference" "C104"
+			(at 86.5759 101.6641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0402"
+			(at 86.5759 104.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b7d60f-f624-4522-993b-cb38b856bec7")
+		)
+		(pin "2"
+			(uuid "0a9bc72c-96c0-4c04-a2ce-d3a983c92a8c")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -10344,7 +11123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13add8fb-53ac-4805-962c-bb585caa70ac")
-		(property "Reference" "D27"
+		(property "Reference" "D101"
 			(at 69.5325 209.2155 0)
 			(effects
 				(font
@@ -10396,7 +11175,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "D27")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -10412,7 +11191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15269d91-18a3-4bb7-9430-901dfd2adefb")
-		(property "Reference" "C64"
+		(property "Reference" "C130"
 			(at 317.7159 138.4941 0)
 			(effects
 				(font
@@ -10466,7 +11245,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C64")
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -10482,7 +11261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "176c6cca-dc35-44f7-b791-b29205a24fba")
-		(property "Reference" "R102"
+		(property "Reference" "R106"
 			(at 147.066 162.56 90)
 			(effects
 				(font
@@ -10534,7 +11313,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R102")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -10550,7 +11329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b5483ed-98f6-4779-bb19-a5ec654cc3c5")
-		(property "Reference" "C123"
+		(property "Reference" "C126"
 			(at 290.6141 219.7741 0)
 			(effects
 				(font
@@ -10604,7 +11383,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C123")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -10621,7 +11400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bae9f36-a33c-4803-a23a-ffcb2d694594")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0117"
 			(at 101.6 238.76 0)
 			(effects
 				(font
@@ -10672,7 +11451,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0103")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -10680,7 +11459,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 43.18 0)
+		(at 226.06 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10689,8 +11468,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c0d48df-71b7-41bd-952a-f7df93d7a8f9")
-		(property "Reference" "#PWR0149"
-			(at 167.64 49.53 0)
+		(property "Reference" "#PWR0142"
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +11478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 47.3131 0)
+			(at 226.06 39.6931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +11487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 43.18 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +11496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 43.18 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +11505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 43.18 0)
+			(at 226.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +11519,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0149")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -10756,7 +11535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2448365e-199b-4274-a068-141db68ef776")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0104"
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -10807,7 +11586,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0138")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -10822,7 +11601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24f20998-75f0-4b01-988e-78dc7d5e3fcf")
-		(property "Reference" "J104"
+		(property "Reference" "J102"
 			(at 231.14 158.75 0)
 			(effects
 				(font
@@ -10886,7 +11665,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "J104")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -10902,7 +11681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25b28df7-04b1-428e-ac91-52215bb61bb2")
-		(property "Reference" "C115"
+		(property "Reference" "C117"
 			(at 199.898 156.972 90)
 			(effects
 				(font
@@ -10956,7 +11735,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C115")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -10972,7 +11751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29eb13e2-d2c0-417b-8179-d6d4862277ba")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0156"
 			(at 320.04 101.6 0)
 			(effects
 				(font
@@ -11023,7 +11802,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR082")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -11039,7 +11818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c465ad6-3610-4f47-9eb1-c7a185bc7296")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0105"
 			(at 41.91 71.12 0)
 			(effects
 				(font
@@ -11090,7 +11869,142 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0139")
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d32bc16-2293-49c9-8d76-e115bc7aad91")
+		(property "Reference" "#PWR0115"
+			(at 100.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 127.3231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0dd914b-2a84-4bcb-8b45-1dc868df0097")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db7c6b4-9356-4f72-ae74-bde9dcb3c3db")
+		(property "Reference" "#PWR0120"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 68.9031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3becff-2e6e-4a83-b004-77e0614b7248")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -11173,7 +12087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "321898ee-2188-4fd1-8564-958b66ac7196")
-		(property "Reference" "TP110"
+		(property "Reference" "TP102"
 			(at 232.41 167.132 0)
 			(effects
 				(font
@@ -11225,7 +12139,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "TP110")
+					(reference "TP102")
 					(unit 1)
 				)
 			)
@@ -11241,7 +12155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3458b91c-0bce-49ee-a8ce-95b31caeea55")
-		(property "Reference" "JP105"
+		(property "Reference" "JP110"
 			(at 175.26 142.494 0)
 			(effects
 				(font
@@ -11294,7 +12208,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP105")
+					(reference "JP110")
 					(unit 1)
 				)
 			)
@@ -11310,7 +12224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a225f0-9855-4543-9630-70cd66f29f2d")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0106"
 			(at 41.91 111.76 0)
 			(effects
 				(font
@@ -11361,7 +12275,83 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0140")
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39b97458-8efe-493e-b90d-b8b3f679d167")
+		(property "Reference" "D103"
+			(at 100.838 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 106.172 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libraries:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 102.87 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231e7f20-a2b3-4f32-87d0-5480afe08736")
+		)
+		(pin "2"
+			(uuid "d275acd0-cbba-42bb-9a5c-7793fd49b6c7")
+		)
+		(pin "3"
+			(uuid "384db67f-0a8c-4d51-83f9-8d52a582f544")
+		)
+		(pin "4"
+			(uuid "21005469-9d9f-4eb9-891f-045f72aa2b9f")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -11376,7 +12366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd11b38-da97-4f60-beeb-d4b1fd5aa67b")
-		(property "Reference" "R49"
+		(property "Reference" "R101"
 			(at 40.64 221.234 90)
 			(effects
 				(font
@@ -11428,7 +12418,74 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R49")
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 113.03 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ce8a72d-7fa3-4dac-9033-31662e625fa8")
+		(property "Reference" "R103"
+			(at 113.03 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 113.03 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8203c7fd-9a9b-4efd-9bda-08ed994a5f20")
+		)
+		(pin "2"
+			(uuid "eb0bab01-3e2e-485b-9470-345519a77d57")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -11444,7 +12501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e395b8d-ee23-44b8-ad75-f1ba8d62725e")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0103"
 			(at 33.02 242.57 0)
 			(effects
 				(font
@@ -11495,7 +12552,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0106")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11511,7 +12568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec8af9c-1c9e-4d6d-a808-75ec06dc9a8b")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0148"
 			(at 248.92 237.49 0)
 			(effects
 				(font
@@ -11562,7 +12619,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0131")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -11578,7 +12635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec98101-b8de-4115-89e8-6ca6590e7d67")
-		(property "Reference" "C105"
+		(property "Reference" "C114"
 			(at 166.5859 151.1941 0)
 			(effects
 				(font
@@ -11632,7 +12689,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C105")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -11647,7 +12704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40e2224e-1040-48b1-9585-8d891aeba6f3")
-		(property "Reference" "U102"
+		(property "Reference" "U103"
 			(at 172.466 167.386 0)
 			(effects
 				(font
@@ -11735,7 +12792,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U102")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -11751,7 +12808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4437f2ac-af9b-41c9-97f2-41c2c73a27d2")
-		(property "Reference" "C107"
+		(property "Reference" "C128"
 			(at 317.7159 43.2441 0)
 			(effects
 				(font
@@ -11805,7 +12862,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C107")
+					(reference "C128")
 					(unit 1)
 				)
 			)
@@ -11821,7 +12878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46bfc252-5520-4d5f-9ac5-dd97b940610e")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0144"
 			(at 234.95 214.63 0)
 			(effects
 				(font
@@ -11872,7 +12929,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0127")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -11888,7 +12945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4931ed3d-dd43-4d20-84b8-a5b10848d3f5")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0130"
 			(at 170.18 237.49 0)
 			(effects
 				(font
@@ -11939,7 +12996,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR095")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11954,7 +13011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ba8f874-530a-47f5-bcda-5c00365367a4")
-		(property "Reference" "C69"
+		(property "Reference" "C119"
 			(at 207.772 230.632 90)
 			(effects
 				(font
@@ -12008,7 +13065,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C69")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -12025,7 +13082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1cd15a-1aff-4c99-9501-79eb8af61de6")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0151"
 			(at 298.45 87.63 0)
 			(effects
 				(font
@@ -12076,7 +13133,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0105")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -12092,7 +13149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50292fa5-3d48-40ca-9f74-3f021a7009f2")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0128"
 			(at 162.56 237.49 0)
 			(effects
 				(font
@@ -12143,7 +13200,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR094")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -12151,15 +13208,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 158.75 38.1 180)
+		(at 217.17 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "507eb963-33eb-4339-9c18-e22c069d747d")
-		(property "Reference" "R114"
-			(at 155.194 36.83 0)
+		(property "Reference" "R108"
+			(at 213.614 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12167,7 +13224,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 155.194 38.608 0)
+			(at 213.614 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +13232,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 38.1 0)
+			(at 217.17 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +13241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 38.1 0)
+			(at 217.17 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +13250,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 158.75 38.1 0)
+			(at 217.17 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12210,7 +13267,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R114")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -12226,7 +13283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "508395ee-3c5c-4261-9a02-92777200748b")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0108"
 			(at 58.42 238.76 0)
 			(effects
 				(font
@@ -12277,7 +13334,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0100")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -12292,7 +13349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51b801cc-ee65-4b5b-8a7a-e96979e6a052")
-		(property "Reference" "C125"
+		(property "Reference" "C127"
 			(at 303.3141 219.7741 0)
 			(effects
 				(font
@@ -12346,7 +13403,75 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C125")
+					(reference "C127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 113.03 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "520504a5-73ca-489d-887a-1783aabb199f")
+		(property "Reference" "R102"
+			(at 113.03 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 113.03 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aff86665-5673-479c-82db-e108b5d17105")
+		)
+		(pin "2"
+			(uuid "5c2d85c7-947b-4c1d-8cfb-006dd03a0a57")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -12354,7 +13479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 43.18 0)
+		(at 238.76 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12363,8 +13488,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "523d31bf-b420-462f-8061-47c22192ea1f")
-		(property "Reference" "#PWR0154"
-			(at 180.34 49.53 0)
+		(property "Reference" "#PWR0145"
+			(at 238.76 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12373,7 +13498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 47.3131 0)
+			(at 238.76 39.6931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,7 +13507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 43.18 0)
+			(at 238.76 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12391,7 +13516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 43.18 0)
+			(at 238.76 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12400,7 +13525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 43.18 0)
+			(at 238.76 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +13539,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0154")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -12431,7 +13556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52db60b5-6129-4bdf-afa4-73bd23addc09")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0158"
 			(at 332.74 53.34 0)
 			(effects
 				(font
@@ -12482,7 +13607,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0109")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -12498,7 +13623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5321e1cb-7734-4606-9f61-e11fbb830527")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0107"
 			(at 41.91 152.4 0)
 			(effects
 				(font
@@ -12549,7 +13674,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0142")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -12565,7 +13690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55f64b6a-097b-4ca9-b52f-6f4a6a383e43")
-		(property "Reference" "D105"
+		(property "Reference" "D107"
 			(at 208.026 159.512 0)
 			(effects
 				(font
@@ -12620,7 +13745,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "D105")
+					(reference "D107")
 					(unit 1)
 				)
 			)
@@ -12636,7 +13761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56788701-2d46-40b0-9f05-b61f0b14ec87")
-		(property "Reference" "JP33"
+		(property "Reference" "JP104"
 			(at 24.13 148.082 0)
 			(effects
 				(font
@@ -12689,7 +13814,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP33")
+					(reference "JP104")
 					(unit 1)
 				)
 			)
@@ -12705,7 +13830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5794fe56-fe40-4fe5-aa33-df3c39c918e8")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0126"
 			(at 143.51 247.65 0)
 			(effects
 				(font
@@ -12756,7 +13881,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0107")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -12771,7 +13896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d48653d-c134-42c5-a65d-b1d866e4731e")
-		(property "Reference" "R50"
+		(property "Reference" "R105"
 			(at 146.05 237.4899 0)
 			(effects
 				(font
@@ -12852,7 +13977,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R50")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -12868,7 +13993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f677375-8e39-494b-9b40-69857842e80a")
-		(property "Reference" "JP26"
+		(property "Reference" "JP105"
 			(at 44.45 20.32 90)
 			(effects
 				(font
@@ -12926,7 +14051,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP26")
+					(reference "JP105")
 					(unit 1)
 				)
 			)
@@ -12941,7 +14066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ff23ad6-8a71-450a-80d9-61fdfcad32f4")
-		(property "Reference" "JP19"
+		(property "Reference" "JP114"
 			(at 341.63 42.672 0)
 			(effects
 				(font
@@ -12994,7 +14119,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP19")
+					(reference "JP114")
 					(unit 1)
 				)
 			)
@@ -13011,7 +14136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6240add6-3c92-46d4-a8fb-359f7a7d7247")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0122"
 			(at 111.76 238.76 0)
 			(effects
 				(font
@@ -13062,7 +14187,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0104")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -13077,7 +14202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "624ac413-2fb2-4d3e-b567-476e0b97b95a")
-		(property "Reference" "C120"
+		(property "Reference" "C125"
 			(at 277.9141 219.7741 0)
 			(effects
 				(font
@@ -13131,7 +14256,143 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C120")
+					(reference "C125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 93.98 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "65299a27-c22a-4946-a73e-e231c5300308")
+		(property "Reference" "JP109"
+			(at 93.98 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 93.98 16.1839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46baf343-5945-49ca-aba0-626d6598cd6c")
+		)
+		(pin "1"
+			(uuid "411d0547-3131-4000-a299-daa5e049e62f")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "JP109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 166.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "660a7425-0fb6-4361-a0de-929ff8c42a4a")
+		(property "Reference" "#PWR0149"
+			(at 270.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 170.5031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1afccc44-8723-4ddb-8cb4-a77e91403080")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -13148,7 +14409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "662101b8-35ca-4a90-a649-43952f94bfdb")
-		(property "Reference" "C75"
+		(property "Reference" "C101"
 			(at 30.7086 232.036 0)
 			(effects
 				(font
@@ -13202,7 +14463,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C75")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -13218,7 +14479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6869fb5d-63ee-45f2-bb67-8d1aba8ae49c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0157"
 			(at 320.04 148.59 0)
 			(effects
 				(font
@@ -13269,7 +14530,84 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR089")
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6945a11b-b2c7-4df4-a02b-00beb745fdd7")
+		(property "Reference" "D102"
+			(at 100.838 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 94.488 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libraries:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 97.79 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaa68e69-9fe9-41fd-9996-8a0254b73e4a")
+		)
+		(pin "2"
+			(uuid "43254ee2-d2ef-40df-b28d-7b138d447c2d")
+		)
+		(pin "3"
+			(uuid "ec85e111-cffc-40f1-b725-a03a7fc6c277")
+		)
+		(pin "4"
+			(uuid "85f65c4f-4088-4d86-86f5-1670fff04159")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -13285,7 +14623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b529ce3-49b0-41ce-8238-70187c299736")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0110"
 			(at 81.28 238.76 0)
 			(effects
 				(font
@@ -13336,7 +14674,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0101")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -13351,7 +14689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bff43bc-c4b7-49d6-9d26-ce76cba494a9")
-		(property "Reference" "C71"
+		(property "Reference" "C103"
 			(at 83.5914 228.226 0)
 			(effects
 				(font
@@ -13405,7 +14743,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C71")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -13413,7 +14751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 104.14 0)
+		(at 231.14 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13422,8 +14760,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c01c2e6-8bf5-44b4-a091-6dffa29256b9")
-		(property "Reference" "#PWR0150"
-			(at 172.72 110.49 0)
+		(property "Reference" "#PWR0143"
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13432,7 +14770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 108.2731 0)
+			(at 231.14 100.6531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13441,7 +14779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 104.14 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13450,7 +14788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 104.14 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +14797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 104.14 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,7 +14811,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0150")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -13489,7 +14827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d13ce5a-d6a4-4940-b3d0-39a6d629d86f")
-		(property "Reference" "D29"
+		(property "Reference" "D109"
 			(at 223.52 230.1874 90)
 			(effects
 				(font
@@ -13570,7 +14908,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "D29")
+					(reference "D109")
 					(unit 1)
 				)
 			)
@@ -13587,7 +14925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701184b6-fb15-40dd-a95e-ff7c5265740e")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0154"
 			(at 300.99 229.87 0)
 			(effects
 				(font
@@ -13638,7 +14976,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0144")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -13646,7 +14984,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 40.64 0)
+		(at 238.76 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13654,8 +14992,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70a6001b-aff8-4157-8f70-fd84eff0c7c8")
-		(property "Reference" "C129"
-			(at 182.6641 39.4341 0)
+		(property "Reference" "C122"
+			(at 241.0841 31.8141 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +15002,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 182.6641 41.8584 0)
+			(at 241.0841 34.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +15011,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 180.34 40.64 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +15020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 40.64 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,7 +15029,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 40.64 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13708,7 +15046,151 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C129")
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72014c90-e6c4-4139-bc0d-135b98d34eb3")
+		(property "Reference" "D105"
+			(at 100.838 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 106.172 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libraries:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 101.6 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 102.87 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e2315de-89d8-4d65-b4f0-e5abea1f80a7")
+		)
+		(pin "2"
+			(uuid "e634952c-cb5f-448e-9dc8-9955a9b8230e")
+		)
+		(pin "3"
+			(uuid "4ab08c43-ac42-4b97-9c7b-086f3bf6ed77")
+		)
+		(pin "4"
+			(uuid "9ab4d341-f441-40fb-96f9-f91dc9731b7d")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73394421-3b54-48d5-846b-4d9e4a707f50")
+		(property "Reference" "#PWR0111"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 109.5431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78cd87c-a12f-4ab1-b49f-dd9fad667bd6")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -13724,7 +15206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7626c1b1-6d85-4ca5-8703-cd33a7b32b40")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0101"
 			(at 25.4 232.41 0)
 			(effects
 				(font
@@ -13775,7 +15257,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR092")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13790,7 +15272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b56b6e8-e91a-4b3f-b0f6-584645c3e582")
-		(property "Reference" "C70"
+		(property "Reference" "C102"
 			(at 56.0959 228.6641 0)
 			(effects
 				(font
@@ -13844,7 +15326,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C70")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -13861,7 +15343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e78ea60-5e7f-49c3-a7e0-de7612733ea8")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0134"
 			(at 196.85 163.83 0)
 			(effects
 				(font
@@ -13912,7 +15394,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0125")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -13920,7 +15402,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 90.17 0)
+		(at 238.76 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13929,8 +15411,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ef5954-2698-460c-82d4-2d5e75f32b4d")
-		(property "Reference" "#PWR0152"
-			(at 180.34 96.52 0)
+		(property "Reference" "#PWR0146"
+			(at 238.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13939,7 +15421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 94.3031 0)
+			(at 238.76 86.6831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +15430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 90.17 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,7 +15439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 90.17 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +15448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 90.17 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,7 +15462,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0152")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -13996,7 +15478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81fdb7f9-a66e-4036-b714-fe57a740c2a5")
-		(property "Reference" "C57"
+		(property "Reference" "C129"
 			(at 317.7159 91.5041 0)
 			(effects
 				(font
@@ -14050,7 +15532,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C57")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -14066,7 +15548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820c1887-fcba-4fee-97b4-fc5f162ff3f8")
-		(property "Reference" "U23"
+		(property "Reference" "U101"
 			(at 69.85 218.6051 0)
 			(effects
 				(font
@@ -14122,7 +15604,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U23")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -14138,7 +15620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82847b29-f9f8-4d8f-bb50-d1d8cea454ee")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0133"
 			(at 193.04 237.49 0)
 			(effects
 				(font
@@ -14189,7 +15671,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR097")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -14197,7 +15679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 48.26 0)
+		(at 217.17 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14205,8 +15687,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "831232c2-97da-4d5b-a7da-092166ca622d")
-		(property "Reference" "#PWR0146"
-			(at 158.75 54.61 0)
+		(property "Reference" "#PWR0140"
+			(at 217.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +15697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 52.3931 0)
+			(at 217.17 44.7731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14224,7 +15706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 48.26 0)
+			(at 217.17 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +15715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 48.26 0)
+			(at 217.17 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +15724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 48.26 0)
+			(at 217.17 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14256,7 +15738,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0146")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -14271,7 +15753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83efed48-209a-46cd-ad12-623cc5faa6a9")
-		(property "Reference" "C74"
+		(property "Reference" "C110"
 			(at 114.0841 228.6641 0)
 			(effects
 				(font
@@ -14325,7 +15807,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C74")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -14340,7 +15822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84bf37fb-9480-4836-9e21-f7ac314af625")
-		(property "Reference" "TP111"
+		(property "Reference" "TP103"
 			(at 232.41 169.672 0)
 			(effects
 				(font
@@ -14392,7 +15874,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "TP111")
+					(reference "TP103")
 					(unit 1)
 				)
 			)
@@ -14408,7 +15890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c86dd33-eaf9-4113-8709-667c47700653")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0135"
 			(at 201.93 237.49 0)
 			(effects
 				(font
@@ -14459,7 +15941,84 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR098")
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 100.33 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ede135d-7ed9-4eef-91d4-a12199cdd08d")
+		(property "Reference" "D104"
+			(at 100.838 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 94.488 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libraries:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 97.79 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df0a5ba-e15a-49a1-be1b-93d12211fd10")
+		)
+		(pin "2"
+			(uuid "2412ec2a-3289-40b8-a119-0df5b9a6cd60")
+		)
+		(pin "3"
+			(uuid "4f35f9cf-81d0-48bb-99e1-f559a09d825f")
+		)
+		(pin "4"
+			(uuid "230a31bd-f6d9-44d0-b93b-f611d338c59f")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -14467,7 +16026,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 187.96 77.47 0)
+		(at 246.38 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14475,8 +16034,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "902370c6-a706-4543-9fe4-aa30be1e9bd3")
-		(property "Reference" "R115"
-			(at 184.912 73.406 0)
+		(property "Reference" "R111"
+			(at 243.332 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +16043,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 185.42 75.184 0)
+			(at 243.84 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,7 +16051,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 187.96 77.47 0)
+			(at 246.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +16060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 77.47 0)
+			(at 246.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +16069,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 187.96 77.47 0)
+			(at 246.38 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +16086,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R115")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -14542,7 +16101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90631171-a4e9-4700-95c2-632b90417c88")
-		(property "Reference" "C106"
+		(property "Reference" "C131"
 			(at 330.4159 43.2441 0)
 			(effects
 				(font
@@ -14596,7 +16155,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C106")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -14611,7 +16170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92c58692-0ebf-488d-b1c7-92a98abcf62b")
-		(property "Reference" "TP109"
+		(property "Reference" "TP101"
 			(at 232.41 164.592 0)
 			(effects
 				(font
@@ -14663,7 +16222,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "TP109")
+					(reference "TP101")
 					(unit 1)
 				)
 			)
@@ -14679,7 +16238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "934d54b5-bc9c-44e1-b17f-986154bc3fb9")
-		(property "Reference" "JP28"
+		(property "Reference" "JP106"
 			(at 44.45 60.96 90)
 			(effects
 				(font
@@ -14737,7 +16296,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP28")
+					(reference "JP106")
 					(unit 1)
 				)
 			)
@@ -14745,7 +16304,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 180.34 87.63 270)
+		(at 238.76 80.01 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14753,8 +16312,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93ebd263-91b4-41d0-80b5-8b6edfa7ab27")
-		(property "Reference" "JP110"
-			(at 178.308 87.63 0)
+		(property "Reference" "JP112"
+			(at 236.728 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +16321,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Open"
-			(at 183.2061 87.63 0)
+			(at 241.6261 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14771,7 +16330,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 180.34 87.63 0)
+			(at 238.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14780,7 +16339,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 87.63 0)
+			(at 238.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14789,7 +16348,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 180.34 87.63 0)
+			(at 238.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14806,7 +16365,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP110")
+					(reference "JP112")
 					(unit 1)
 				)
 			)
@@ -14822,7 +16381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "955d4ff0-e3ec-47fc-a715-f6ce0b5bec07")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0132"
 			(at 181.61 237.49 0)
 			(effects
 				(font
@@ -14873,7 +16432,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR096")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -14889,7 +16448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97d9dbed-25d0-445f-beae-7c7e3f8e5341")
-		(property "Reference" "JP31"
+		(property "Reference" "JP103"
 			(at 24.13 107.442 0)
 			(effects
 				(font
@@ -14942,7 +16501,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP31")
+					(reference "JP103")
 					(unit 1)
 				)
 			)
@@ -14957,7 +16516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f46b6d9-a724-4113-bb4b-a43ff223de14")
-		(property "Reference" "TP112"
+		(property "Reference" "TP104"
 			(at 232.41 172.212 0)
 			(effects
 				(font
@@ -15009,7 +16568,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "TP112")
+					(reference "TP104")
 					(unit 1)
 				)
 			)
@@ -15025,7 +16584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a00f1d7a-4695-42aa-8959-d2ee4c5c9c81")
-		(property "Reference" "C68"
+		(property "Reference" "C118"
 			(at 199.136 228.6 90)
 			(effects
 				(font
@@ -15077,7 +16636,75 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C68")
+					(reference "C118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a72a8343-acbc-4349-ac39-93e89ff46cbf")
+		(property "Reference" "#PWR0114"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 86.6831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c062dc1c-487c-41fa-ad78-05bab322fe59")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -15093,7 +16720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a79c0060-3a21-4b12-a4f2-38fca45fd58d")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0150"
 			(at 288.29 229.87 0)
 			(effects
 				(font
@@ -15144,7 +16771,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0141")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -15160,7 +16787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aab537ef-6928-4110-a430-14f2efa77c33")
-		(property "Reference" "JP29"
+		(property "Reference" "JP102"
 			(at 24.13 66.802 0)
 			(effects
 				(font
@@ -15213,7 +16840,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP29")
+					(reference "JP102")
 					(unit 1)
 				)
 			)
@@ -15229,7 +16856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab19ccd4-51da-4f10-90cc-18c76c13d7ba")
-		(property "Reference" "C118"
+		(property "Reference" "C124"
 			(at 265.2141 219.7741 0)
 			(effects
 				(font
@@ -15283,7 +16910,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C118")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -15299,7 +16926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab5270e1-0f1a-4aa9-b02c-44ec3fbf66f8")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0102"
 			(at 33.02 224.79 0)
 			(effects
 				(font
@@ -15349,7 +16976,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR091")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -15364,7 +16991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abd4002a-3127-49a9-ab46-f388a4e7fc84")
-		(property "Reference" "C116"
+		(property "Reference" "C121"
 			(at 232.6259 204.5341 0)
 			(effects
 				(font
@@ -15418,7 +17045,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C116")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -15434,7 +17061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adab33f4-0e70-4448-a60f-cfbf9089654b")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0112"
 			(at 91.44 238.76 0)
 			(effects
 				(font
@@ -15485,7 +17112,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0102")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -15502,7 +17129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b01d13b9-e94a-4406-9365-c848192b1934")
-		(property "Reference" "JP106"
+		(property "Reference" "JP111"
 			(at 217.17 209.55 90)
 			(effects
 				(font
@@ -15560,7 +17187,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP106")
+					(reference "JP111")
 					(unit 1)
 				)
 			)
@@ -15575,7 +17202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2293904-7d33-4af2-9710-4828cd161df5")
-		(property "Reference" "TP113"
+		(property "Reference" "TP105"
 			(at 232.41 174.752 0)
 			(effects
 				(font
@@ -15627,7 +17254,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "TP113")
+					(reference "TP105")
 					(unit 1)
 				)
 			)
@@ -15643,7 +17270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3271f36-e240-428f-99b9-6aab04cc3f97")
-		(property "Reference" "C76"
+		(property "Reference" "C111"
 			(at 135.6741 240.0941 0)
 			(effects
 				(font
@@ -15697,7 +17324,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C76")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -15713,7 +17340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3bc6e59-b495-4e75-84ac-d0c980c52a74")
-		(property "Reference" "C72"
+		(property "Reference" "C105"
 			(at 93.7641 228.6641 0)
 			(effects
 				(font
@@ -15767,7 +17394,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C72")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -15784,7 +17411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b87c16a3-3784-45cd-bd8e-7b2ef1fe53e1")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0125"
 			(at 133.35 250.19 0)
 			(effects
 				(font
@@ -15835,7 +17462,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0110")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -15851,7 +17478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae56e66-295c-43d3-8c3f-3c95f3cea4d2")
-		(property "Reference" "U16"
+		(property "Reference" "U107"
 			(at 300.5933 46.6555 0)
 			(effects
 				(font
@@ -15947,7 +17574,7 @@
 		(instances
 			(project ""
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U16")
+					(reference "U107")
 					(unit 1)
 				)
 			)
@@ -15963,7 +17590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc1cd008-4d54-4f2a-bca0-1458bca3ae59")
-		(property "Reference" "JP27"
+		(property "Reference" "JP101"
 			(at 24.13 26.162 0)
 			(effects
 				(font
@@ -16016,7 +17643,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP27")
+					(reference "JP101")
 					(unit 1)
 				)
 			)
@@ -16031,7 +17658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc7eed44-d1cf-4538-9f5f-ffe46120ddc8")
-		(property "Reference" "C65"
+		(property "Reference" "C113"
 			(at 160.2359 227.3941 0)
 			(effects
 				(font
@@ -16085,7 +17712,75 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C65")
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be5a0ba9-82dd-4b18-812a-5ca1d81daee6")
+		(property "Reference" "#PWR0123"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 162.8831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a406895-2d60-4288-a21b-a7dce7eec0b4")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -16100,7 +17795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c01e2ceb-8083-4a0c-bbad-d821b47688e5")
-		(property "Reference" "C66"
+		(property "Reference" "C115"
 			(at 167.132 230.632 90)
 			(effects
 				(font
@@ -16154,7 +17849,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C66")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -16162,15 +17857,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 158.75 44.45 90)
+		(at 217.17 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c52c9c84-7946-4d32-a36a-8e2996ea3a21")
-		(property "Reference" "D111"
-			(at 156.972 44.958 90)
+		(property "Reference" "D108"
+			(at 215.392 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,7 +17874,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 158.496 41.91 90)
+			(at 216.916 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +17883,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 158.75 44.45 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +17892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 44.45 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +17901,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 158.75 44.45 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,7 +17910,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "732-5016-ND"
-			(at 158.75 44.45 90)
+			(at 217.17 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16224,7 +17919,7 @@
 			)
 		)
 		(property "DIgiKey Part Number" ""
-			(at 158.75 44.45 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16233,7 +17928,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 158.75 44.45 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16250,7 +17945,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "D111")
+					(reference "D108")
 					(unit 1)
 				)
 			)
@@ -16258,15 +17953,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 40.64 0)
+		(at 226.06 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c60fb086-2bb5-413a-a521-cc3785521878")
-		(property "Reference" "C127"
-			(at 169.9641 39.4341 0)
+		(property "Reference" "C120"
+			(at 228.3841 31.8141 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +17970,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 169.9641 41.8584 0)
+			(at 228.3841 34.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16284,7 +17979,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 40.64 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16293,7 +17988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 40.64 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16302,7 +17997,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 40.64 0)
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16319,7 +18014,75 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C127")
+					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b58b9d-5e11-41f3-ae9e-cd0150031859")
+		(property "Reference" "#PWR0113"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 46.0431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6595c4c1-3a40-4c0f-8d8b-3c950b7d2efd")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -16336,7 +18099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77f42bc-0c06-4698-b4d1-03c267873dab")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0153"
 			(at 298.45 181.61 0)
 			(effects
 				(font
@@ -16387,7 +18150,75 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR090")
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9cc8b2c-d4d2-49e3-a4e2-a6335e9daa24")
+		(property "Reference" "#PWR0116"
+			(at 100.33 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 167.9631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bc1a6d7-61b8-40d7-97a2-318071f4c16f")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -16403,7 +18234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca1701cd-c792-4e7f-afe1-8b8e82434023")
-		(property "Reference" "R101"
+		(property "Reference" "R104"
 			(at 136.906 162.56 90)
 			(effects
 				(font
@@ -16455,7 +18286,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R101")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -16471,7 +18302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca9b5853-2ba4-4924-889b-a14d816e14b6")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0129"
 			(at 168.91 161.29 0)
 			(effects
 				(font
@@ -16522,7 +18353,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0115")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -16538,7 +18369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd231055-bc72-41bc-b345-fe175b6fd4f4")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0141"
 			(at 220.98 247.65 0)
 			(effects
 				(font
@@ -16589,7 +18420,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0108")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -16605,7 +18436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce16c499-c068-4053-b44a-b7e457652ae3")
-		(property "Reference" "F102"
+		(property "Reference" "F101"
 			(at 214.63 179.324 90)
 			(effects
 				(font
@@ -16658,7 +18489,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "F102")
+					(reference "F101")
 					(unit 1)
 				)
 			)
@@ -16674,7 +18505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce1ac15e-1f18-4020-9b8c-36a99513f995")
-		(property "Reference" "JP30"
+		(property "Reference" "JP107"
 			(at 44.45 101.6 90)
 			(effects
 				(font
@@ -16732,7 +18563,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP30")
+					(reference "JP107")
 					(unit 1)
 				)
 			)
@@ -16747,7 +18578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d35bfa37-d277-4ba3-99c0-7890488d25f0")
-		(property "Reference" "R111"
+		(property "Reference" "R107"
 			(at 216.916 154.94 90)
 			(effects
 				(font
@@ -16799,7 +18630,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "R111")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -16816,7 +18647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e89349-f342-408f-ab67-340c599d4a4c")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0127"
 			(at 156.21 161.29 0)
 			(effects
 				(font
@@ -16867,7 +18698,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0114")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -16883,7 +18714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db224d6d-dde2-4ff9-b742-62a41fc090a9")
-		(property "Reference" "U32"
+		(property "Reference" "U104"
 			(at 181.61 217.17 0)
 			(effects
 				(font
@@ -16940,7 +18771,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U32")
+					(reference "U104")
 					(unit 1)
 				)
 			)
@@ -16948,7 +18779,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:MCP23017_ML")
-		(at 153.67 81.28 0)
+		(at 212.09 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16956,8 +18787,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db3f1841-4246-4bda-be83-714e22758f2f")
-		(property "Reference" "U107"
-			(at 151.5267 54.2755 0)
+		(property "Reference" "U105"
+			(at 209.9467 46.6555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16966,7 +18797,7 @@
 			)
 		)
 		(property "Value" "MCP23017-E/ML"
-			(at 151.5267 56.6998 0)
+			(at 209.9467 49.0798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16975,7 +18806,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 148.59 106.68 0)
+			(at 207.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16985,7 +18816,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 148.59 109.22 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16995,7 +18826,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
-			(at 153.67 81.28 0)
+			(at 212.09 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17093,7 +18924,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U107")
+					(reference "U105")
 					(unit 1)
 				)
 			)
@@ -17109,7 +18940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db62adbe-f4ab-4ba0-940a-97822a0cc965")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0136"
 			(at 205.74 184.15 0)
 			(effects
 				(font
@@ -17160,7 +18991,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0126")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -17177,7 +19008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd29917d-b407-4cbd-b0e4-f87f06654788")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0139"
 			(at 214.63 163.83 0)
 			(effects
 				(font
@@ -17228,7 +19059,77 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0129")
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 111.76 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e07f7654-8cd7-4fc0-8c58-33fcc9c369c7")
+		(property "Reference" "C109"
+			(at 114.0841 142.3041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0402"
+			(at 114.0841 144.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 111.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "939ded9c-1a4f-4cd3-af7f-3880ec15f71c")
+		)
+		(pin "2"
+			(uuid "3d7507b6-ab0b-4793-9d3c-0c2e6d2a332a")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -17244,7 +19145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e23829a1-eea9-4862-9b90-50727db0dc32")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0137"
 			(at 210.82 237.49 0)
 			(effects
 				(font
@@ -17295,7 +19196,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR099")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -17311,7 +19212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2d851e1-551f-4374-954d-57c618ea3aab")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0124"
 			(at 120.65 265.43 0)
 			(effects
 				(font
@@ -17362,7 +19263,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0111")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -17370,7 +19271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 97.79 0)
+		(at 246.38 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17379,8 +19280,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ffb459-8994-4731-a717-cb0e0fad1460")
-		(property "Reference" "#PWR0155"
-			(at 187.96 104.14 0)
+		(property "Reference" "#PWR0147"
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17389,7 +19290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 101.9231 0)
+			(at 246.38 94.3031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17398,7 +19299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 97.79 0)
+			(at 246.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,7 +19308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 97.79 0)
+			(at 246.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17416,7 +19317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 97.79 0)
+			(at 246.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17430,7 +19331,74 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0155")
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5db7ab6-c4b8-4002-a715-5bc2ebd3371c")
+		(property "Reference" "#PWR0121"
+			(at 111.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 150.1831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0bfc488-cd9f-4c59-8789-9ea8ae81e261")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -17446,7 +19414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7526d77-9c74-4086-a6e8-d71291a75e87")
-		(property "Reference" "C73"
+		(property "Reference" "C106"
 			(at 103.9241 228.6641 0)
 			(effects
 				(font
@@ -17500,7 +19468,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C73")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -17516,7 +19484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e84b7955-6977-44fa-97d8-07009c637a10")
-		(property "Reference" "D28"
+		(property "Reference" "D106"
 			(at 146.05 230.1874 90)
 			(effects
 				(font
@@ -17597,7 +19565,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "D28")
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -17605,7 +19573,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 187.96 95.25 0)
+		(at 246.38 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17613,8 +19581,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9695c3f-d5fa-4919-b339-1d4e08ec7570")
-		(property "Reference" "C130"
-			(at 185.6359 94.0441 0)
+		(property "Reference" "C123"
+			(at 244.0559 86.4241 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17623,7 +19591,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 185.6359 96.4684 0)
+			(at 244.0559 88.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17632,7 +19600,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.96 95.25 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +19609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 95.25 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17650,7 +19618,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 95.25 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17667,7 +19635,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C130")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -17684,7 +19652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ece6399d-5df8-4dc3-9011-3d2ff3f48173")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0131"
 			(at 172.72 186.69 0)
 			(effects
 				(font
@@ -17735,7 +19703,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0116")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -17750,7 +19718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f08f195b-9daa-43a9-ba6b-679739afd05f")
-		(property "Reference" "C102"
+		(property "Reference" "C112"
 			(at 153.8859 151.1941 0)
 			(effects
 				(font
@@ -17804,7 +19772,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "C102")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -17820,7 +19788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2c3d647-e27b-473f-90d2-0d3e25828f46")
-		(property "Reference" "J7"
+		(property "Reference" "J101"
 			(at 20.32 220.726 0)
 			(effects
 				(font
@@ -17873,7 +19841,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "J7")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -17881,15 +19849,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 189.23 34.29 0)
+		(at 247.65 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4e2b1bb-ba09-4782-99ca-9b1bfcc72f55")
-		(property "Reference" "JP111"
-			(at 189.23 36.322 0)
+		(property "Reference" "JP113"
+			(at 247.65 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17897,7 +19865,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Open"
-			(at 189.23 31.4239 0)
+			(at 247.65 23.8039 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17906,7 +19874,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 189.23 34.29 0)
+			(at 247.65 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17915,7 +19883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 34.29 0)
+			(at 247.65 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17924,7 +19892,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 189.23 34.29 0)
+			(at 247.65 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17941,7 +19909,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP111")
+					(reference "JP113")
 					(unit 1)
 				)
 			)
@@ -17958,7 +19926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8475bd9-1655-46b9-8f94-984d17f1fe47")
-		(property "Reference" "JP21"
+		(property "Reference" "JP115"
 			(at 365.76 31.75 90)
 			(effects
 				(font
@@ -18016,7 +19984,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP21")
+					(reference "JP115")
 					(unit 1)
 				)
 			)
@@ -18032,7 +20000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9f11f3b-2698-4575-b60f-74b9179ea22a")
-		(property "Reference" "JP32"
+		(property "Reference" "JP108"
 			(at 44.45 142.24 90)
 			(effects
 				(font
@@ -18090,7 +20058,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP32")
+					(reference "JP108")
 					(unit 1)
 				)
 			)
@@ -18106,7 +20074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa73a5f7-c8d9-48ed-a50f-e36f1b06c26f")
-		(property "Reference" "JP20"
+		(property "Reference" "JP116"
 			(at 369.57 43.942 0)
 			(effects
 				(font
@@ -18159,7 +20127,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "JP20")
+					(reference "JP116")
 					(unit 1)
 				)
 			)
@@ -18176,7 +20144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa8e355-9344-4f11-8d43-cb2369a7afad")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0159"
 			(at 368.3 41.91 0)
 			(effects
 				(font
@@ -18227,7 +20195,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR0118")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -18243,7 +20211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd25045c-3702-4ce4-92f6-79621621b069")
-		(property "Reference" "U33"
+		(property "Reference" "U102"
 			(at 111.3633 238.4255 0)
 			(effects
 				(font
@@ -18315,7 +20283,7 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "U33")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -18332,7 +20300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdb4cfa7-dfb8-402f-9274-64f96729869f")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0152"
 			(at 298.45 134.62 0)
 			(effects
 				(font
@@ -18383,7 +20351,77 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
-					(reference "#PWR081")
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 111.76 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fe93ca34-d331-4ecd-9684-7c95f236d57c")
+		(property "Reference" "C107"
+			(at 114.0841 20.3841 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0402"
+			(at 114.0841 22.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dafca04-1870-4a55-88da-53ae7217a17e")
+		)
+		(pin "2"
+			(uuid "140d650e-3135-4c7e-9f6b-aab200e62dd2")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0"
+					(reference "C107")
 					(unit 1)
 				)
 			)
