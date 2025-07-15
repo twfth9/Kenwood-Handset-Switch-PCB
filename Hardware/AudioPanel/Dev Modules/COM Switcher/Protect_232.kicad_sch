@@ -3594,7 +3594,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RXD: Serial Data from Transceiver to Computer\nTXD: Serial Data from Computer to Transceiver\n~{RTS}: Used by Computer to inhibit Transceiver from transmitting serial data\n~{CTS}: Used by Transceiver to inhibit Computer from transitting serial data"
+	(text "RXD: Serial Data from Transceiver to Computer\n~{CTS}: Used by Transceiver to inhibit Computer from transitting serial data\nTXD: Serial Data from Computer to Transceiver\n~{RTS}: Used by Computer to inhibit Transceiver from transmitting serial data\n"
 		(exclude_from_sim no)
 		(at 136.144 98.298 0)
 		(effects
@@ -4129,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 114.3) (xy 365.76 114.3)
+			(xy 401.32 114.3) (xy 391.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4409,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 129.54) (xy 358.14 129.54)
+			(xy 355.6 129.54) (xy 383.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4419,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 114.3) (xy 358.14 114.3)
+			(xy 351.79 114.3) (xy 383.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 129.54) (xy 365.76 129.54)
+			(xy 401.32 129.54) (xy 391.16 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4769,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 124.46) (xy 358.14 124.46)
+			(xy 354.33 124.46) (xy 383.54 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4789,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 119.38) (xy 358.14 119.38)
+			(xy 353.06 119.38) (xy 383.54 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4869,7 +4869,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 124.46) (xy 365.76 124.46)
+			(xy 401.32 124.46) (xy 391.16 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4969,7 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 119.38) (xy 365.76 119.38)
+			(xy 401.32 119.38) (xy 391.16 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5540,7 +5540,7 @@
 	)
 	(hierarchical_label "CTS_TTL_OUT"
 		(shape output)
-		(at 375.92 129.54 0)
+		(at 401.32 129.54 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5551,7 +5551,7 @@
 	)
 	(hierarchical_label "RXD_TTL_OUT"
 		(shape output)
-		(at 375.92 124.46 0)
+		(at 401.32 124.46 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5562,7 +5562,7 @@
 	)
 	(hierarchical_label "TXD_TTL_IN"
 		(shape input)
-		(at 375.92 114.3 0)
+		(at 401.32 114.3 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5573,7 +5573,7 @@
 	)
 	(hierarchical_label "RTS_TTL_IN"
 		(shape input)
-		(at 375.92 119.38 0)
+		(at 401.32 119.38 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6646,7 +6646,7 @@
 	)
 	(symbol
 		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 361.95 114.3 90)
+		(at 387.35 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6654,7 +6654,7 @@
 		(dnp no)
 		(uuid "2801fd3d-36ca-4dd1-b10e-c8b7a24d9d19")
 		(property "Reference" "RN33"
-			(at 361.95 104.902 90)
+			(at 387.35 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +6662,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 361.95 114.3 90)
+			(at 387.35 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 361.95 116.332 90)
+			(at 387.35 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 361.95 114.3 0)
+			(at 387.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6688,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 361.95 114.3 0)
+			(at 387.35 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +6841,7 @@
 	)
 	(symbol
 		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 361.95 124.46 90)
+		(at 387.35 124.46 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6849,7 +6849,7 @@
 		(dnp no)
 		(uuid "2c9c9270-3193-4b40-bdc6-7661150d79dd")
 		(property "Reference" "RN33"
-			(at 361.95 108.8503 90)
+			(at 387.35 108.8503 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +6857,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 361.95 124.46 90)
+			(at 387.35 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6865,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 361.95 126.492 90)
+			(at 387.35 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6874,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 361.95 124.46 0)
+			(at 387.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6883,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 361.95 124.46 0)
+			(at 387.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,7 +8091,7 @@
 	)
 	(symbol
 		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 361.95 119.38 90)
+		(at 387.35 119.38 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8099,7 +8099,7 @@
 		(dnp no)
 		(uuid "7ac7698e-a718-451c-bc5c-a809c1b5b5a1")
 		(property "Reference" "RN33"
-			(at 361.95 106.934 90)
+			(at 387.35 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8107,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 361.95 119.38 90)
+			(at 387.35 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8115,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 361.95 121.412 90)
+			(at 387.35 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 361.95 119.38 0)
+			(at 387.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8133,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 361.95 119.38 0)
+			(at 387.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9177,7 @@
 	)
 	(symbol
 		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 361.95 129.54 90)
+		(at 387.35 129.54 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9185,7 +9185,7 @@
 		(dnp no)
 		(uuid "a84baa73-11d6-4689-9be0-f00f0dce9119")
 		(property "Reference" "RN33"
-			(at 361.95 110.6283 90)
+			(at 387.35 110.6283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9193,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 361.95 129.54 90)
+			(at 387.35 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9201,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 361.95 131.572 90)
+			(at 387.35 131.572 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,7 +9210,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 361.95 129.54 0)
+			(at 387.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,7 +9219,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 361.95 129.54 0)
+			(at 387.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
