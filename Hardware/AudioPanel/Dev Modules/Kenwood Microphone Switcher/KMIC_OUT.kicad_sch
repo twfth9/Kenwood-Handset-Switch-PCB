@@ -495,6 +495,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small_US"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2150,6 +2314,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LD1117S50TR_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LD1117S50TR_SOT223"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 5.0V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LD1117S50TR_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LD1117S50TR_SOT223_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2688,6 +2989,12 @@
 		(uuid "12db4a8f-7746-4c26-9045-3389ea33b4f5")
 	)
 	(junction
+		(at 77.47 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "163ce8b8-2cf8-4e80-87a5-03bcb8c72657")
+	)
+	(junction
 		(at 294.64 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2862,6 +3169,12 @@
 		(uuid "82fa3425-3466-4e30-ac62-54093c0059ba")
 	)
 	(junction
+		(at 77.47 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8356d2e2-389f-444d-8560-b70a434fb9b2")
+	)
+	(junction
 		(at 340.36 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2898,6 +3211,12 @@
 		(uuid "9d9aaaac-cacd-4ff7-9cfa-e3f85e51455a")
 	)
 	(junction
+		(at 90.17 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4de12b7-aa5e-480b-9091-a39dd5bb0b8b")
+	)
+	(junction
 		(at 304.8 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2908,6 +3227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9fe99cc-bcb0-48d2-9837-c2eb6caff770")
+	)
+	(junction
+		(at 58.42 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd25d81-c68d-46f7-9ffe-47b59480212e")
 	)
 	(junction
 		(at 284.48 92.71)
@@ -3018,6 +3343,12 @@
 		(uuid "f17d6386-ba6f-4e98-ae10-e97c39753d77")
 	)
 	(junction
+		(at 90.17 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1896680-d39e-4957-81e4-70eba7742d22")
+	)
+	(junction
 		(at 320.04 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3103,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 234.95) (xy 90.17 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029649fc-5fbb-46b1-a85d-38d9d167554c")
+	)
+	(wire
+		(pts
 			(xy 121.92 151.13) (xy 125.73 151.13)
 		)
 		(stroke
@@ -3130,6 +3471,16 @@
 			(type default)
 		)
 		(uuid "0520dc73-5980-4202-8fcd-f88baaa636ca")
+	)
+	(wire
+		(pts
+			(xy 77.47 223.52) (xy 90.17 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0598dcac-9bc9-42ed-9db1-b5213d6b9d39")
 	)
 	(wire
 		(pts
@@ -3313,6 +3664,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 173.99) (xy 90.17 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161025a6-331d-446c-9b78-7a1808c8f874")
+	)
+	(wire
+		(pts
 			(xy 391.16 67.31) (xy 391.16 88.9)
 		)
 		(stroke
@@ -3320,6 +3681,26 @@
 			(type default)
 		)
 		(uuid "161e8c10-c443-4201-a952-2a89655f5cdf")
+	)
+	(wire
+		(pts
+			(xy 90.17 173.99) (xy 90.17 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b162ce-e771-4ed0-be2b-2624e131d4db")
+	)
+	(wire
+		(pts
+			(xy 77.47 223.52) (xy 77.47 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c57f80-16f3-4660-a638-27494d76fe21")
 	)
 	(wire
 		(pts
@@ -3393,6 +3774,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 234.95) (xy 58.42 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244a1a57-7868-4338-8f11-872b601b9845")
+	)
+	(wire
+		(pts
 			(xy 356.87 93.98) (xy 356.87 135.89)
 		)
 		(stroke
@@ -3400,6 +3791,16 @@
 			(type default)
 		)
 		(uuid "247ed0bd-f025-438c-9b7e-8d51f240fb20")
+	)
+	(wire
+		(pts
+			(xy 26.67 123.19) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254437ab-40e7-4835-b00e-7f7109b27633")
 	)
 	(wire
 		(pts
@@ -3483,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 231.14) (xy 38.1 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb5e8ab-e917-441a-b26d-fa1ac441a97d")
+	)
+	(wire
+		(pts
 			(xy 214.63 217.17) (xy 243.84 217.17)
 		)
 		(stroke
@@ -3543,6 +3954,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 200.66) (xy 125.73 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c65d76-d1d7-4cff-a4a3-1361eb08e64d")
+	)
+	(wire
+		(pts
+			(xy 38.1 223.52) (xy 50.8 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1b0332-1f5c-47d2-88ad-a9f7a885a81c")
+	)
+	(wire
+		(pts
 			(xy 259.08 207.01) (xy 259.08 199.39)
 		)
 		(stroke
@@ -3570,6 +4001,16 @@
 			(type default)
 		)
 		(uuid "3bb26ef1-6182-46e1-9f8f-3f55e56d76e1")
+	)
+	(wire
+		(pts
+			(xy 162.56 200.66) (xy 162.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcd48f8-76e6-4cff-8f65-2505409b059b")
 	)
 	(wire
 		(pts
@@ -3620,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "43d01558-8d26-4dc3-87e0-1edc5b0c3f9e")
+	)
+	(wire
+		(pts
+			(xy 90.17 223.52) (xy 102.87 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b47d71-362e-48bf-96d4-3d77381eca0d")
 	)
 	(wire
 		(pts
@@ -3713,6 +4164,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 128.27) (xy 39.37 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8b44a6-793f-4266-b8c9-21f03c645555")
+	)
+	(wire
+		(pts
 			(xy 328.93 135.89) (xy 330.2 135.89)
 		)
 		(stroke
@@ -3763,6 +4224,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 234.95) (xy 58.42 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52854549-c9c4-46fd-980b-700438954ae5")
+	)
+	(wire
+		(pts
 			(xy 294.64 161.29) (xy 320.04 161.29)
 		)
 		(stroke
@@ -3800,6 +4271,26 @@
 			(type default)
 		)
 		(uuid "55acb617-7b62-46d8-a1ef-4d9f05a4f908")
+	)
+	(wire
+		(pts
+			(xy 223.52 167.64) (xy 215.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c16823-f526-434b-8696-ad657ddb5ada")
+	)
+	(wire
+		(pts
+			(xy 77.47 231.14) (xy 77.47 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d5aedb-91e1-4314-9429-7fb27be8f102")
 	)
 	(wire
 		(pts
@@ -4333,6 +4824,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 231.14) (xy 102.87 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a36c037-39eb-418d-b13a-59d4f0663ffa")
+	)
+	(wire
+		(pts
 			(xy 340.36 204.47) (xy 340.36 219.71)
 		)
 		(stroke
@@ -4473,6 +4974,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 251.46) (xy 226.06 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e2abde-1d3e-4664-9424-ae81fa670dbb")
+	)
+	(wire
+		(pts
 			(xy 149.86 138.43) (xy 153.67 138.43)
 		)
 		(stroke
@@ -4531,6 +5042,16 @@
 		)
 		(uuid "9e2f535d-9a41-434c-b3b5-748afe67e23d")
 	)
+	(wire
+		(pts
+			(xy 102.87 223.52) (xy 102.87 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4b9e09-f362-4add-932e-b4286abcf2bf")
+	)
 	(bus
 		(pts
 			(xy 20.32 80.01) (xy 20.32 140.97)
@@ -4570,6 +5091,16 @@
 			(type default)
 		)
 		(uuid "a3cdbac1-ba74-47e9-8abd-d2f2e1096c6b")
+	)
+	(wire
+		(pts
+			(xy 38.1 223.52) (xy 38.1 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4751e6c-4724-4c92-b637-1655422da19e")
 	)
 	(wire
 		(pts
@@ -4653,6 +5184,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 200.66) (xy 125.73 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd67d1c-db5f-4c84-8944-2b49320b005b")
+	)
+	(wire
+		(pts
 			(xy 373.38 170.18) (xy 373.38 161.29)
 		)
 		(stroke
@@ -4700,6 +5241,16 @@
 			(type default)
 		)
 		(uuid "b0840b4f-1fac-4ce5-a827-b80c478dbc40")
+	)
+	(wire
+		(pts
+			(xy 149.86 200.66) (xy 149.86 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f2d293-800c-4790-a012-70b75597d1b0")
 	)
 	(wire
 		(pts
@@ -4773,6 +5324,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 200.66) (xy 113.03 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82f8799-6cfe-4758-a670-9cc46f1a9032")
+	)
+	(wire
+		(pts
 			(xy 367.03 219.71) (xy 374.65 219.71)
 		)
 		(stroke
@@ -4810,6 +5371,16 @@
 			(type default)
 		)
 		(uuid "bcbd79e5-b0dd-49a2-9ad4-d867b42f5196")
+	)
+	(wire
+		(pts
+			(xy 39.37 133.35) (xy 26.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd27177f-2f38-4680-a550-90e843b88916")
 	)
 	(wire
 		(pts
@@ -4853,6 +5424,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 234.95) (xy 102.87 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b74048-5527-4f2c-91d7-6ce2bc087b16")
+	)
+	(wire
+		(pts
 			(xy 276.86 207.01) (xy 276.86 204.47)
 		)
 		(stroke
@@ -4870,6 +5451,16 @@
 			(type default)
 		)
 		(uuid "c1e6339d-654d-41da-b979-0a56a2bbec8e")
+	)
+	(wire
+		(pts
+			(xy 58.42 234.95) (xy 77.47 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22d3069-733a-45b9-86d9-20d6e12f6b2d")
 	)
 	(wire
 		(pts
@@ -5243,6 +5834,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 231.14) (xy 90.17 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cdbb69-03b8-4467-8861-2700733dff9c")
+	)
+	(wire
+		(pts
+			(xy 90.17 223.52) (xy 90.17 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e475eebe-a657-469d-a6fc-61e16c2693e8")
+	)
+	(wire
+		(pts
 			(xy 86.36 147.32) (xy 86.36 151.13)
 		)
 		(stroke
@@ -5270,6 +5881,16 @@
 			(type default)
 		)
 		(uuid "e9bada3d-3f9e-4f8b-887c-338f8f094e4e")
+	)
+	(wire
+		(pts
+			(xy 66.04 223.52) (xy 77.47 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c57823-af0d-4d20-b07d-f4f33c6b4749")
 	)
 	(wire
 		(pts
@@ -5373,6 +5994,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 167.64) (xy 215.9 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fb3db4-d643-41de-bba8-b2fda98a3ee6")
+	)
+	(wire
+		(pts
 			(xy 393.7 219.71) (xy 398.78 219.71)
 		)
 		(stroke
@@ -5440,6 +6071,16 @@
 			(type default)
 		)
 		(uuid "ffd7e189-db29-4814-96e0-a0e768a094fe")
+	)
+	(wire
+		(pts
+			(xy 149.86 200.66) (xy 162.56 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffec8d8a-a056-4005-acc2-235332cfccaa")
 	)
 	(wire
 		(pts
@@ -9163,6 +9804,16 @@
 		)
 		(uuid "001ca9c4-f516-47da-8256-c8104bc694ba")
 	)
+	(label "+5V_RADIO"
+		(at 26.67 128.27 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify left bottom)
+		)
+		(uuid "001cce2d-7fe3-4641-a70b-9198cdb3bb83")
+	)
 	(label "DOWN_OUT_T"
 		(at 248.92 241.3 90)
 		(effects
@@ -9202,6 +9853,16 @@
 			(justify right bottom)
 		)
 		(uuid "19a52722-231a-4093-a0d9-8842f414c272")
+	)
+	(label "8VDC_RADIO_IN"
+		(at 26.67 123.19 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d12bb48-dc0f-4edc-ab6f-c6b23080dfee")
 	)
 	(label "UP"
 		(at 24.13 80.01 0)
@@ -9293,6 +9954,16 @@
 		)
 		(uuid "4dcffaae-39ba-4737-8097-8badbaacc86c")
 	)
+	(label "GND_E"
+		(at 223.52 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55fbadf7-fb6b-428e-8a74-85c4f971a5f7")
+	)
 	(label "MIC_OUT_T"
 		(at 243.84 241.3 90)
 		(effects
@@ -9303,6 +9974,16 @@
 		)
 		(uuid "58bc08a6-6db3-4d4b-b51a-10b42466c14b")
 	)
+	(label "GND_E"
+		(at 218.44 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bcc0e5a-9480-4341-a697-bdf69475e291")
+	)
 	(label "MR"
 		(at 24.13 69.85 0)
 		(effects
@@ -9312,6 +9993,26 @@
 			(justify left bottom)
 		)
 		(uuid "60d31fc7-488e-4926-99cb-74dc1549dcd9")
+	)
+	(label "8VDC_RADIO_IN"
+		(at 38.1 223.52 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6324941c-575c-49f5-8af1-f2e721c15781")
+	)
+	(label "GND_E"
+		(at 26.67 133.35 0)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify left bottom)
+		)
+		(uuid "693d20b4-da78-4725-9c3d-7a0d23f46e6e")
 	)
 	(label "GND_E_T"
 		(at 241.3 241.3 90)
@@ -9332,6 +10033,16 @@
 			(justify left bottom)
 		)
 		(uuid "7c721c59-ce26-48b6-813a-494039d5dc01")
+	)
+	(label "GND_E"
+		(at 157.48 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d3f3625-b15a-44b0-ac44-7f13f33bf2de")
 	)
 	(label "MIC_GND"
 		(at 220.98 151.13 0)
@@ -9394,6 +10105,16 @@
 		(uuid "bebbd066-52a7-4774-a976-81c5fc2901d9")
 	)
 	(label "GND_E"
+		(at 66.04 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9e300c7-f9db-4d62-8351-45ce79120017")
+	)
+	(label "GND_E"
 		(at 251.46 219.71 0)
 		(effects
 			(font
@@ -9453,6 +10174,26 @@
 		)
 		(uuid "eb078533-b6a7-4bd4-84e3-98db9d4f54f3")
 	)
+	(label "GND_E"
+		(at 120.65 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee81e9db-cbd5-45c5-a3c7-718b6b699fe7")
+	)
+	(label "GND_E"
+		(at 97.79 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f19acab2-6f5b-46f5-84a0-f30b62c4dc34")
+	)
 	(label "MIC_OUT"
 		(at 210.82 138.43 0)
 		(effects
@@ -9462,6 +10203,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3ecaf3d-f438-4e44-ad85-7695696180a4")
+	)
+	(label "+5V_RADIO"
+		(at 76.2 223.52 180)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify right bottom)
+		)
+		(uuid "f507914f-a6aa-4ca9-866b-8d22c7991a6e")
 	)
 	(label "PTT"
 		(at 24.13 82.55 0)
@@ -9484,17 +10235,6 @@
 		)
 		(uuid "1bb9e506-fb19-4260-828f-690711053eb1")
 	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 39.37 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0d60052-e584-4ea4-9720-d9769856e7c0")
-	)
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 367.03 201.93 0)
@@ -9505,7 +10245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "055b2026-abaf-4ca2-9be1-09ec1ac3d865")
-		(property "Reference" "R526"
+		(property "Reference" "R525"
 			(at 362.966 200.66 0)
 			(effects
 				(font
@@ -9557,19 +10297,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R526")
+					(reference "R525")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R726")
+					(reference "R725")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R826")
+					(reference "R825")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R626")
+					(reference "R625")
 					(unit 1)
 				)
 			)
@@ -9585,7 +10325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0713a80c-fde1-41bd-b131-646ed97c3321")
-		(property "Reference" "R519"
+		(property "Reference" "R508"
 			(at 119.38 187.198 90)
 			(effects
 				(font
@@ -9637,19 +10377,102 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R519")
+					(reference "R508")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R719")
+					(reference "R708")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R819")
+					(reference "R808")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R619")
+					(reference "R608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LD1117S50TR_SOT223")
+		(at 58.42 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a4bf994-2bd1-4d60-ac4b-e8f074993903")
+		(property "Reference" "U501"
+			(at 58.42 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117S50TR_SOT223"
+			(at 58.42 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 58.42 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(at 60.96 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"
+			(at 58.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f594df20-f14f-4cb9-a158-4265cdf3809f")
+		)
+		(pin "2"
+			(uuid "b4a5af35-1060-4bcd-a399-a745862a9935")
+		)
+		(pin "1"
+			(uuid "656d5e42-8353-42e3-a4de-6142cb4515dc")
+		)
+		(instances
+			(project ""
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "U501")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "U701")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "U801")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "U601")
 					(unit 1)
 				)
 			)
@@ -9665,7 +10488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e334b87-acd3-4345-a627-47888a211b6d")
-		(property "Reference" "R502"
+		(property "Reference" "R519"
 			(at 326.136 90.17 0)
 			(effects
 				(font
@@ -9717,19 +10540,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R502")
+					(reference "R519")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R702")
+					(reference "R719")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R802")
+					(reference "R819")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R602")
+					(reference "R619")
 					(unit 1)
 				)
 			)
@@ -9746,7 +10569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10ff9488-725a-4175-b1d4-6bda0a5bc98c")
-		(property "Reference" "#PWR0514"
+		(property "Reference" "#PWR0508"
 			(at 412.75 227.33 0)
 			(effects
 				(font
@@ -9797,19 +10620,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0514")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0714")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0814")
+					(reference "#PWR0808")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0614")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -9825,7 +10648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13b2fd50-b22e-42a7-8986-512554ab17f5")
-		(property "Reference" "U503"
+		(property "Reference" "U505"
 			(at 374.65 129.54 0)
 			(effects
 				(font
@@ -9895,19 +10718,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "U503")
+					(reference "U505")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "U704")
+					(reference "U707")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "U804")
+					(reference "U807")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "U604")
+					(reference "U607")
 					(unit 1)
 				)
 			)
@@ -9924,7 +10747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "144345cc-65f6-4282-ba3c-eaddca2d49db")
-		(property "Reference" "#PWR0503"
+		(property "Reference" "#PWR0504"
 			(at 356.87 148.59 0)
 			(effects
 				(font
@@ -9975,19 +10798,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0503")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0703")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0803")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0603")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -10002,7 +10825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14dd5f15-efa1-4713-b770-9670ebca3d41")
-		(property "Reference" "R515"
+		(property "Reference" "R516"
 			(at 162.56 136.652 0)
 			(effects
 				(font
@@ -10054,19 +10877,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R515")
+					(reference "R516")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R715")
+					(reference "R716")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R815")
+					(reference "R816")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R615")
+					(reference "R616")
 					(unit 1)
 				)
 			)
@@ -10182,164 +11005,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1abaf220-5be3-4db7-b97a-e292b3424a35")
-		(property "Reference" "#PWR0512"
-			(at 149.86 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 202.2531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d8ebfef-9d9b-4a35-8630-e08622d5e3df")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0512")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0712")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0812")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0612")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dc6efdc-5472-4ae7-ac3f-1715601ba949")
-		(property "Reference" "#PWR0506"
-			(at 90.17 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 175.5831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b4894a2-b890-483a-afc4-ae8bfdc5ef09")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0506")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0706")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0806")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
 		(at 241.3 229.87 270)
 		(unit 1)
@@ -10348,7 +11013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "200aed35-6ee0-4250-b96b-340905622ba1")
-		(property "Reference" "JP512"
+		(property "Reference" "JP510"
 			(at 255.778 229.87 90)
 			(effects
 				(font
@@ -10403,19 +11068,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP512")
+					(reference "JP510")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP712")
+					(reference "JP710")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP812")
+					(reference "JP810")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP612")
+					(reference "JP610")
 					(unit 1)
 				)
 			)
@@ -10502,6 +11167,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 276.86 210.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24e8ac89-0860-4e15-8599-4a7a8897d11e")
+		(property "Reference" "D503"
+			(at 274.8534 209.6078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD05"
+			(at 274.8534 212.0321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 271.78 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 276.86 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 276.86 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/smc-diode-solutions/SD05/15822319"
+			(at 276.86 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "164dccf8-6fc6-4125-8c2f-919a617ffd78")
+		)
+		(pin "2"
+			(uuid "c473b339-e5ab-4563-9ccb-23065d4f2ca6")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "D503")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "D703")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "D803")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "D603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 347.98 210.82 0)
 		(mirror y)
@@ -10511,7 +11267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25e5195b-be58-4602-a0ba-c1c3fac234cc")
-		(property "Reference" "R528"
+		(property "Reference" "R522"
 			(at 343.916 209.55 0)
 			(effects
 				(font
@@ -10563,19 +11319,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R528")
+					(reference "R522")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R728")
+					(reference "R722")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R828")
+					(reference "R822")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R628")
+					(reference "R622")
 					(unit 1)
 				)
 			)
@@ -10591,7 +11347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2953b748-5c9c-435e-b015-9116e1b597af")
-		(property "Reference" "JP505"
+		(property "Reference" "JP502"
 			(at 92.0779 167.6978 90)
 			(effects
 				(font
@@ -10646,19 +11402,19 @@
 		(instances
 			(project ""
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP505")
+					(reference "JP502")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP705")
+					(reference "JP702")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP805")
+					(reference "JP802")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP605")
+					(reference "JP602")
 					(unit 1)
 				)
 			)
@@ -10675,7 +11431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e62bdcc-abef-4120-a46e-c4728bb9ec2d")
-		(property "Reference" "#PWR0507"
+		(property "Reference" "#PWR0503"
 			(at 337.82 182.88 0)
 			(effects
 				(font
@@ -10726,19 +11482,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0507")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0707")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0807")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0607")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -10753,7 +11509,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "2f2be283-7920-4889-86ce-5066a1579c5a")
-		(property "Reference" "C508"
+		(property "Reference" "C512"
 			(at 185.42 192.278 90)
 			(effects
 				(font
@@ -10805,19 +11561,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C508")
+					(reference "C512")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C708")
+					(reference "C712")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C808")
+					(reference "C812")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C608")
+					(reference "C612")
 					(unit 1)
 				)
 			)
@@ -10833,7 +11589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f79036d-30aa-401b-897c-166e34b26acc")
-		(property "Reference" "R510"
+		(property "Reference" "R513"
 			(at 156.21 136.398 90)
 			(effects
 				(font
@@ -10885,19 +11641,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R510")
+					(reference "R513")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R710")
+					(reference "R713")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R810")
+					(reference "R813")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R610")
+					(reference "R613")
 					(unit 1)
 				)
 			)
@@ -10914,7 +11670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "317359c5-7739-43d1-ac21-bffd0b37d8f5")
-		(property "Reference" "#PWR0509"
+		(property "Reference" "#PWR0507"
 			(at 391.16 182.88 0)
 			(effects
 				(font
@@ -10965,19 +11721,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0509")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0709")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0809")
+					(reference "#PWR0807")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0609")
+					(reference "#PWR0607")
 					(unit 1)
 				)
 			)
@@ -10992,7 +11748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33d4fd98-b488-4fdc-87b4-0129380ae74a")
-		(property "Reference" "C509"
+		(property "Reference" "C513"
 			(at 282.956 218.694 90)
 			(effects
 				(font
@@ -11046,19 +11802,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C509")
+					(reference "C513")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C709")
+					(reference "C713")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C809")
+					(reference "C813")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C609")
+					(reference "C613")
 					(unit 1)
 				)
 			)
@@ -11075,7 +11831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "353288a8-1150-433a-a738-8e7a9ee14392")
-		(property "Reference" "#PWR0504"
+		(property "Reference" "#PWR0506"
 			(at 383.54 148.59 0)
 			(effects
 				(font
@@ -11126,98 +11882,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0504")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0704")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0804")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 162.56 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "370f4228-a253-42a4-a0a5-c4d19c14a623")
-		(property "Reference" "#PWR0513"
-			(at 162.56 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 202.2531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6d8355-49c2-4deb-9ed0-0d8df01692d6")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0513")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0713")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0813")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0613")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -11306,88 +11983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 276.86 210.82 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a20aaf4-4686-4c2a-9331-1bab4089e66e")
-		(property "Reference" "D503"
-			(at 274.8534 209.6078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05"
-			(at 274.8534 212.0321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 271.78 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 276.86 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 276.86 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0276bac3-3fc1-410d-9292-3e27fc9c61e6")
-		)
-		(pin "2"
-			(uuid "e65aa9a3-2fe3-4226-8f07-b7f4b6456357")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "D503")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "D703")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "D803")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "D603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 86.36 144.78 0)
 		(unit 1)
@@ -11396,7 +11991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "406bb418-1aba-4899-96b3-0c572b6c9bc7")
-		(property "Reference" "R511"
+		(property "Reference" "R501"
 			(at 84.074 148.59 90)
 			(effects
 				(font
@@ -11448,19 +12043,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R511")
+					(reference "R501")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R711")
+					(reference "R701")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R811")
+					(reference "R801")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R611")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -11556,7 +12151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "444b6c5f-c3cf-4a7d-b08f-c11bf4752457")
-		(property "Reference" "R507"
+		(property "Reference" "R529"
 			(at 387.096 90.17 0)
 			(effects
 				(font
@@ -11608,19 +12203,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R507")
+					(reference "R529")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R707")
+					(reference "R729")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R807")
+					(reference "R829")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R607")
+					(reference "R629")
 					(unit 1)
 				)
 			)
@@ -11636,7 +12231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4920d6ce-52f5-46d5-9972-07276f487ebb")
-		(property "Reference" "JP504"
+		(property "Reference" "JP505"
 			(at 217.8079 161.3478 90)
 			(effects
 				(font
@@ -11691,19 +12286,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP504")
+					(reference "JP505")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP704")
+					(reference "JP705")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP804")
+					(reference "JP805")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP604")
+					(reference "JP605")
 					(unit 1)
 				)
 			)
@@ -11719,7 +12314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49b7a33d-ad40-4596-a252-d57b2e808277")
-		(property "Reference" "R501"
+		(property "Reference" "R518"
 			(at 318.516 90.17 0)
 			(effects
 				(font
@@ -11771,19 +12366,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R501")
+					(reference "R518")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R701")
+					(reference "R718")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R801")
+					(reference "R818")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R601")
+					(reference "R618")
 					(unit 1)
 				)
 			)
@@ -11798,7 +12393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a5bdda3-7152-4617-b305-7f9bd42576c8")
-		(property "Reference" "C504"
+		(property "Reference" "C511"
 			(at 185.42 154.178 90)
 			(effects
 				(font
@@ -11850,19 +12445,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C504")
+					(reference "C511")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C704")
+					(reference "C711")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C804")
+					(reference "C811")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C604")
+					(reference "C611")
 					(unit 1)
 				)
 			)
@@ -11878,7 +12473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f3c219-099f-4ede-bed5-e00f5f6c4b94")
-		(property "Reference" "R525"
+		(property "Reference" "R521"
 			(at 336.296 200.66 0)
 			(effects
 				(font
@@ -11930,19 +12525,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R525")
+					(reference "R521")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R725")
+					(reference "R721")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R825")
+					(reference "R821")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R625")
+					(reference "R621")
 					(unit 1)
 				)
 			)
@@ -11958,7 +12553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53e6e93c-060f-4d5a-90cd-432ea58b8b81")
-		(property "Reference" "R506"
+		(property "Reference" "R528"
 			(at 379.476 90.17 0)
 			(effects
 				(font
@@ -12010,19 +12605,101 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R506")
+					(reference "R528")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R706")
+					(reference "R728")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R806")
+					(reference "R828")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R606")
+					(reference "R628")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 77.47 228.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54cec8a3-c47a-456d-914c-1ef31c94cbaf")
+		(property "Reference" "C502"
+			(at 79.7941 229.8059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 79.7941 227.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49143977-dd2b-46bd-9683-bb20cdec5d33")
+		)
+		(pin "2"
+			(uuid "068c7ed3-c510-48b5-ba97-118bb17baba3")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "C502")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "C702")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "C802")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -12037,7 +12714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "572550d8-3e75-4f68-ba34-a2e26c68e56b")
-		(property "Reference" "R514"
+		(property "Reference" "R511"
 			(at 149.86 136.652 0)
 			(effects
 				(font
@@ -12089,19 +12766,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R514")
+					(reference "R511")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R714")
+					(reference "R711")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R814")
+					(reference "R811")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R614")
+					(reference "R611")
 					(unit 1)
 				)
 			)
@@ -12191,177 +12868,15 @@
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "U705")
+					(reference "U704")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "U805")
+					(reference "U804")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "U605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 165.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58694717-d745-4a01-a768-9724a3140ce0")
-		(property "Reference" "#PWR0505"
-			(at 215.9 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 169.2331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d07249-7bcd-4d90-9422-d666f1dafd02")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0505")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0705")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0805")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 259.08 210.82 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59818d77-630d-436e-bce6-b0908438e07b")
-		(property "Reference" "D501"
-			(at 257.0734 209.6078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05"
-			(at 257.0734 212.0321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 254 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 259.08 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 259.08 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e62143d-c7de-4ba2-9610-64dab67a67a3")
-		)
-		(pin "2"
-			(uuid "b13d4bab-7e41-4770-a968-d09e068aa72f")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "D501")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "D701")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "D801")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "D601")
+					(reference "U604")
 					(unit 1)
 				)
 			)
@@ -12377,7 +12892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d22fd4a-0262-4613-a5e4-fc914af55258")
-		(property "Reference" "JP502"
+		(property "Reference" "JP501"
 			(at 30.734 145.288 90)
 			(effects
 				(font
@@ -12435,19 +12950,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP502")
+					(reference "JP501")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP702")
+					(reference "JP701")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP802")
+					(reference "JP801")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP602")
+					(reference "JP601")
 					(unit 1)
 				)
 			)
@@ -12562,88 +13077,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 267.97 210.82 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6651b503-4166-41be-a704-a8a0dfb5bf15")
-		(property "Reference" "D502"
-			(at 265.9634 209.6078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05"
-			(at 265.9634 212.0321 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 262.89 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 267.97 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 267.97 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2667157b-8895-4bab-8663-38b94694ef0a")
-		)
-		(pin "2"
-			(uuid "8d8b3ffb-63af-45f8-a38c-314485be317b")
-		)
-		(instances
-			(project ""
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "D502")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "D702")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "D802")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "D602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 294.64 212.09 180)
 		(unit 1)
@@ -12652,7 +13085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66fa98cc-8931-45ea-bb0b-14d8e4378046")
-		(property "Reference" "C511"
+		(property "Reference" "C515"
 			(at 293.116 218.694 90)
 			(effects
 				(font
@@ -12706,19 +13139,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C511")
+					(reference "C515")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C711")
+					(reference "C715")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C811")
+					(reference "C815")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C611")
+					(reference "C615")
 					(unit 1)
 				)
 			)
@@ -12733,7 +13166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b27f2e3-6cf5-487c-aa60-b5ddabf6b238")
-		(property "Reference" "R518"
+		(property "Reference" "R503"
 			(at 100.076 161.29 90)
 			(effects
 				(font
@@ -12785,19 +13218,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R518")
+					(reference "R503")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R718")
+					(reference "R703")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R818")
+					(reference "R803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R618")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -12813,7 +13246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "729580e1-3e88-49fc-831b-a899ee8c7a1e")
-		(property "Reference" "U502"
+		(property "Reference" "U503"
 			(at 355.6 163.83 0)
 			(effects
 				(font
@@ -12883,7 +13316,7 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "U502")
+					(reference "U503")
 					(unit 2)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
@@ -12910,7 +13343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7514a72e-f13a-46e9-8d34-9602fbb8d966")
-		(property "Reference" "R523"
+		(property "Reference" "R512"
 			(at 149.86 187.452 0)
 			(effects
 				(font
@@ -12962,19 +13395,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R523")
+					(reference "R512")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R723")
+					(reference "R712")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R823")
+					(reference "R812")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R623")
+					(reference "R612")
 					(unit 1)
 				)
 			)
@@ -13061,6 +13494,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 267.97 210.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7781e64c-6167-4b72-be53-f24382757b17")
+		(property "Reference" "D502"
+			(at 265.9634 209.6078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD05"
+			(at 265.9634 212.0321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 262.89 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 267.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 267.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/smc-diode-solutions/SD05/15822319"
+			(at 267.97 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3d2c447-09a6-4ef3-b2ac-b1d3b77dd281")
+		)
+		(pin "2"
+			(uuid "7ea14c9a-f0c7-41f1-b492-1cd98afdcce1")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "D502")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "D702")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "D802")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "D602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 156.21 151.13 90)
 		(mirror x)
@@ -13070,7 +13594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79f16e8e-b4be-46b7-807e-d815951b34e2")
-		(property "Reference" "R517"
+		(property "Reference" "R514"
 			(at 156.21 149.098 90)
 			(effects
 				(font
@@ -13122,19 +13646,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R517")
+					(reference "R514")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R717")
+					(reference "R714")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R817")
+					(reference "R814")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R617")
+					(reference "R614")
 					(unit 1)
 				)
 			)
@@ -13221,6 +13745,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 228.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a4e1952-2b4b-4393-893c-d0ee27eae5be")
+		(property "Reference" "C501"
+			(at 40.4241 229.8059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 40.4241 227.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ce6ae89-aaaf-463e-bc2e-abf3c8671c37")
+		)
+		(pin "2"
+			(uuid "d9e512b0-8d08-4b87-9c11-10f75e201255")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "C501")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "C701")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "C801")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 337.82 91.44 0)
 		(mirror y)
@@ -13230,7 +13836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ba086cf-65b7-4d37-a16f-f4e0171cf2b8")
-		(property "Reference" "R503"
+		(property "Reference" "R520"
 			(at 333.756 90.17 0)
 			(effects
 				(font
@@ -13282,19 +13888,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R503")
+					(reference "R520")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R703")
+					(reference "R720")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R803")
+					(reference "R820")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R603")
+					(reference "R620")
 					(unit 1)
 				)
 			)
@@ -13310,7 +13916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fc1b440-4309-40ef-88a4-da17ffb3444e")
-		(property "Reference" "TP503"
+		(property "Reference" "TP505"
 			(at 212.09 217.932 0)
 			(effects
 				(font
@@ -13362,19 +13968,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "TP503")
+					(reference "TP505")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "TP703")
+					(reference "TP705")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "TP803")
+					(reference "TP805")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "TP603")
+					(reference "TP605")
 					(unit 1)
 				)
 			)
@@ -13390,7 +13996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80a282b1-a0d7-47a6-bd74-9c7206078c6f")
-		(property "Reference" "R505"
+		(property "Reference" "R524"
 			(at 360.426 90.17 0)
 			(effects
 				(font
@@ -13442,19 +14048,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R505")
+					(reference "R524")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R705")
+					(reference "R724")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R805")
+					(reference "R824")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R605")
+					(reference "R624")
 					(unit 1)
 				)
 			)
@@ -13470,7 +14076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "852bacab-ec8a-4369-a82a-7c58d03cd529")
-		(property "Reference" "TP502"
+		(property "Reference" "TP506"
 			(at 213.36 215.392 0)
 			(effects
 				(font
@@ -13522,19 +14128,101 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "TP502")
+					(reference "TP506")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "TP702")
+					(reference "TP706")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "TP802")
+					(reference "TP806")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "TP602")
+					(reference "TP606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 90.17 228.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a97ecbe-ad1a-46f6-b598-76563fc00c53")
+		(property "Reference" "C505"
+			(at 92.4941 229.8059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 92.4941 227.3816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 90.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 90.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "611ff00a-1282-4996-aebe-a5ee7a193c85")
+		)
+		(pin "2"
+			(uuid "3857fc81-3a52-4397-9cb6-3aa6ba4439dc")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "C505")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "C705")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "C805")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "C605")
 					(unit 1)
 				)
 			)
@@ -13549,7 +14237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c7fd7e7-a640-42d6-a270-7c88e0dd0f8d")
-		(property "Reference" "JP511"
+		(property "Reference" "JP512"
 			(at 229.616 207.01 90)
 			(effects
 				(font
@@ -13604,19 +14292,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP511")
+					(reference "JP512")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP711")
+					(reference "JP712")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP811")
+					(reference "JP812")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP611")
+					(reference "JP612")
 					(unit 1)
 				)
 			)
@@ -13632,7 +14320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f0b87c7-de03-4707-a027-d5a2d0673d80")
-		(property "Reference" "R516"
+		(property "Reference" "R507"
 			(at 119.38 149.098 90)
 			(effects
 				(font
@@ -13684,19 +14372,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R516")
+					(reference "R507")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R716")
+					(reference "R707")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R816")
+					(reference "R807")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R616")
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -13711,7 +14399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "956ef7a1-1f43-49f9-a13e-5bd6b81bdd97")
-		(property "Reference" "R513"
+		(property "Reference" "R509"
 			(at 125.73 136.398 0)
 			(effects
 				(font
@@ -13763,19 +14451,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R513")
+					(reference "R509")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R713")
+					(reference "R709")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R813")
+					(reference "R809")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R613")
+					(reference "R609")
 					(unit 1)
 				)
 			)
@@ -13790,7 +14478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96178925-20b4-4987-a1c8-6a56de9808fe")
-		(property "Reference" "R508"
+		(property "Reference" "R502"
 			(at 92.71 136.144 90)
 			(effects
 				(font
@@ -13842,19 +14530,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R508")
+					(reference "R502")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R708")
+					(reference "R702")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R808")
+					(reference "R802")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R608")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -13870,7 +14558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97dd9533-6c53-4306-bf5e-bbaeef65d213")
-		(property "Reference" "R520"
+		(property "Reference" "R515"
 			(at 156.21 187.198 90)
 			(effects
 				(font
@@ -13922,19 +14610,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R520")
+					(reference "R515")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R720")
+					(reference "R715")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R820")
+					(reference "R815")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R620")
+					(reference "R615")
 					(unit 1)
 				)
 			)
@@ -13950,7 +14638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e26fa77-f58a-4466-bffd-e8a87d1d3fe8")
-		(property "Reference" "TP505"
+		(property "Reference" "TP503"
 			(at 209.55 223.012 0)
 			(effects
 				(font
@@ -14002,19 +14690,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "TP505")
+					(reference "TP503")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "TP705")
+					(reference "TP703")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "TP805")
+					(reference "TP803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "TP605")
+					(reference "TP603")
 					(unit 1)
 				)
 			)
@@ -14030,7 +14718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1c31255-8d7b-4e03-b3c1-71c694a58dd5")
-		(property "Reference" "R504"
+		(property "Reference" "R523"
 			(at 352.806 90.17 0)
 			(effects
 				(font
@@ -14082,19 +14770,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R504")
+					(reference "R523")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R704")
+					(reference "R723")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R804")
+					(reference "R823")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R604")
+					(reference "R623")
 					(unit 1)
 				)
 			)
@@ -14109,7 +14797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a387db49-8db9-4e62-9357-871810334f47")
-		(property "Reference" "C501"
+		(property "Reference" "C510"
 			(at 185.42 141.478 90)
 			(effects
 				(font
@@ -14161,19 +14849,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C501")
+					(reference "C510")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C701")
+					(reference "C710")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C801")
+					(reference "C810")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C601")
+					(reference "C610")
 					(unit 1)
 				)
 			)
@@ -14188,7 +14876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a55863d2-b20c-4add-974b-5e366288fc4e")
-		(property "Reference" "R521"
+		(property "Reference" "R505"
 			(at 113.03 187.198 0)
 			(effects
 				(font
@@ -14240,19 +14928,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R521")
+					(reference "R505")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R721")
+					(reference "R705")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R821")
+					(reference "R805")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R621")
+					(reference "R605")
 					(unit 1)
 				)
 			)
@@ -14267,7 +14955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a686c802-d402-4753-afc4-aa64f5cfd7d4")
-		(property "Reference" "R512"
+		(property "Reference" "R504"
 			(at 113.03 136.398 0)
 			(effects
 				(font
@@ -14319,98 +15007,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R512")
+					(reference "R504")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R712")
+					(reference "R704")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R812")
+					(reference "R804")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R612")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a732146e-d35f-4653-a992-f05eb3268120")
-		(property "Reference" "#PWR0510"
-			(at 113.03 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 202.2531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbafe6d4-3370-42d9-bc28-29f6306929b6")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0510")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0710")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0810")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0610")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -14507,7 +15116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa297216-b4fb-4913-bf39-0809d2d98e73")
-		(property "Reference" "R524"
+		(property "Reference" "R517"
 			(at 162.56 187.452 0)
 			(effects
 				(font
@@ -14559,19 +15168,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R524")
+					(reference "R517")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R724")
+					(reference "R717")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R824")
+					(reference "R817")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R624")
+					(reference "R617")
 					(unit 1)
 				)
 			)
@@ -14588,7 +15197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa2a4dd4-acc7-4470-841a-ddd12a1c5eda")
-		(property "Reference" "JP503"
+		(property "Reference" "JP504"
 			(at 212.852 153.924 90)
 			(effects
 				(font
@@ -14646,19 +15255,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP503")
+					(reference "JP504")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP703")
+					(reference "JP704")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP803")
+					(reference "JP804")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP603")
+					(reference "JP604")
 					(unit 1)
 				)
 			)
@@ -14837,7 +15446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b197fbd0-6fdf-4668-811c-b27ead1fdd96")
-		(property "Reference" "R522"
+		(property "Reference" "R510"
 			(at 125.73 187.198 0)
 			(effects
 				(font
@@ -14889,19 +15498,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R522")
+					(reference "R510")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R722")
+					(reference "R710")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R822")
+					(reference "R810")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R622")
+					(reference "R610")
 					(unit 1)
 				)
 			)
@@ -14916,7 +15525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2d6b616-8f37-48ce-a5ca-c5368cf039b4")
-		(property "Reference" "C510"
+		(property "Reference" "C514"
 			(at 288.036 218.694 90)
 			(effects
 				(font
@@ -14970,19 +15579,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C510")
+					(reference "C514")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C710")
+					(reference "C714")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C810")
+					(reference "C814")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C610")
+					(reference "C614")
 					(unit 1)
 				)
 			)
@@ -14998,7 +15607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b363e04a-55d1-4d98-8ed6-a5af7b96e6fa")
-		(property "Reference" "R529"
+		(property "Reference" "R526"
 			(at 370.586 209.55 0)
 			(effects
 				(font
@@ -15050,19 +15659,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R529")
+					(reference "R526")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R729")
+					(reference "R726")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R829")
+					(reference "R826")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R629")
+					(reference "R626")
 					(unit 1)
 				)
 			)
@@ -15157,7 +15766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b728d44c-3bba-4c0e-96bc-a48be29a9242")
-		(property "Reference" "TP506"
+		(property "Reference" "TP502"
 			(at 208.28 225.552 0)
 			(effects
 				(font
@@ -15209,19 +15818,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "TP506")
+					(reference "TP502")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "TP706")
+					(reference "TP702")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "TP806")
+					(reference "TP802")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "TP606")
+					(reference "TP602")
 					(unit 1)
 				)
 			)
@@ -15236,7 +15845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c021b67a-e3a6-43d5-961d-a4eedb40aa1c")
-		(property "Reference" "C505"
+		(property "Reference" "C504"
 			(at 77.47 161.544 90)
 			(effects
 				(font
@@ -15288,99 +15897,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C505")
+					(reference "C504")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C705")
+					(reference "C704")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C805")
+					(reference "C804")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 251.46 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c19b3cbe-f606-448c-b285-4a07e5528bbc")
-		(property "Reference" "#PWR0515"
-			(at 219.71 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 221.9269 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dd2d932-4b30-43a7-9e22-dfe9e8b5cb08")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0515")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0715")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0815")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0615")
+					(reference "C604")
 					(unit 1)
 				)
 			)
@@ -15396,7 +15925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1ee311c-0476-4414-9e8e-26e1db326b6c")
-		(property "Reference" "U501"
+		(property "Reference" "U502"
 			(at 313.69 95.25 0)
 			(effects
 				(font
@@ -15446,39 +15975,39 @@
 			(uuid "9c4d1525-15d3-4658-a9e4-2cc8dabd3311")
 		)
 		(pin "5"
-			(uuid "a16368b9-2b42-488e-a73c-f93587d06a20")
+			(uuid "a16368b9-2b42-488e-a73c-f93587d06a23")
 		)
 		(pin "1"
 			(uuid "e4fba903-09d6-4675-917f-b51686f85774")
 		)
 		(pin "3"
-			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab8205")
+			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab8208")
 		)
 		(pin "4"
-			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb1")
+			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb4")
 		)
 		(pin "8"
 			(uuid "7d58b062-bbfe-46fa-ba01-b5bce1ac13cd")
 		)
 		(pin "6"
-			(uuid "ab7f3701-5071-42a5-a099-473002f806b8")
+			(uuid "ab7f3701-5071-42a5-a099-473002f806bb")
 		)
 		(instances
 			(project ""
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "U501")
+					(reference "U502")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "U701")
+					(reference "U702")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "U801")
+					(reference "U802")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "U601")
+					(reference "U602")
 					(unit 1)
 				)
 			)
@@ -15494,7 +16023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c254e5f0-ad27-4233-bb74-40d8d49ff341")
-		(property "Reference" "U502"
+		(property "Reference" "U503"
 			(at 321.31 129.54 0)
 			(effects
 				(font
@@ -15544,39 +16073,121 @@
 			(uuid "43376ac2-c407-42ee-a11b-dcd148b845b5")
 		)
 		(pin "5"
-			(uuid "a16368b9-2b42-488e-a73c-f93587d06a22")
+			(uuid "a16368b9-2b42-488e-a73c-f93587d06a24")
 		)
 		(pin "1"
 			(uuid "74aa9a7a-be2d-4b9b-9e50-6c31cb8b6348")
 		)
 		(pin "3"
-			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab8207")
+			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab8209")
 		)
 		(pin "4"
-			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb3")
+			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb5")
 		)
 		(pin "8"
 			(uuid "e40d5e8c-3ef6-469b-befa-57ebf0bd2ae8")
 		)
 		(pin "6"
-			(uuid "ab7f3701-5071-42a5-a099-473002f806ba")
+			(uuid "ab7f3701-5071-42a5-a099-473002f806bc")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "U502")
+					(reference "U503")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "U702")
+					(reference "U703")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "U802")
+					(reference "U803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "U602")
+					(reference "U603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 102.87 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c26ecae4-8927-46dd-9f49-f6b2a9d4165d")
+		(property "Reference" "C509"
+			(at 105.1814 226.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 105.1814 229.3803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+			(at 102.87 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small US symbol"
+			(at 102.87 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1f2046e-88ef-4d30-9a2a-baa38c0e6e84")
+		)
+		(pin "2"
+			(uuid "436efc3a-6b9c-4320-93b3-968723b56b45")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "C509")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "C709")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "C809")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "C609")
 					(unit 1)
 				)
 			)
@@ -15592,7 +16203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c398a663-1933-4fb1-97bd-6e7d9d90de3e")
-		(property "Reference" "U503"
+		(property "Reference" "U505"
 			(at 382.27 163.83 0)
 			(effects
 				(font
@@ -15642,39 +16253,39 @@
 			(uuid "92f5d3b2-74a4-49dc-a507-daa4a9d91266")
 		)
 		(pin "5"
-			(uuid "a16368b9-2b42-488e-a73c-f93587d06a21")
+			(uuid "a16368b9-2b42-488e-a73c-f93587d06a25")
 		)
 		(pin "1"
 			(uuid "9da90761-f159-488f-8547-9cf2b3b5ee53")
 		)
 		(pin "3"
-			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab8206")
+			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab820a")
 		)
 		(pin "4"
-			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb2")
+			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb6")
 		)
 		(pin "8"
 			(uuid "fb71fc2e-dad2-4f73-87bf-bedbeec5d421")
 		)
 		(pin "6"
-			(uuid "ab7f3701-5071-42a5-a099-473002f806b9")
+			(uuid "ab7f3701-5071-42a5-a099-473002f806bd")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "U503")
+					(reference "U505")
 					(unit 2)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "U707")
+					(reference "U708")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "U807")
+					(reference "U808")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "U607")
+					(reference "U608")
 					(unit 1)
 				)
 			)
@@ -15689,7 +16300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c89e3ea3-3a85-496c-86bc-5f6f9948fe25")
-		(property "Reference" "C512"
+		(property "Reference" "C516"
 			(at 387.096 218.694 90)
 			(effects
 				(font
@@ -15743,19 +16354,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C512")
+					(reference "C516")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C712")
+					(reference "C716")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C812")
+					(reference "C816")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C612")
+					(reference "C616")
 					(unit 1)
 				)
 			)
@@ -15770,7 +16381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cca107a2-1d2b-4281-b056-1e4fa030a0be")
-		(property "Reference" "C513"
+		(property "Reference" "C517"
 			(at 392.176 218.694 90)
 			(effects
 				(font
@@ -15824,19 +16435,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C513")
+					(reference "C517")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C713")
+					(reference "C717")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C813")
+					(reference "C817")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C613")
+					(reference "C617")
 					(unit 1)
 				)
 			)
@@ -15852,7 +16463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce3d2913-2f49-4e1f-9c2f-6a5399b3d60e")
-		(property "Reference" "TP501"
+		(property "Reference" "TP507"
 			(at 214.63 212.852 0)
 			(effects
 				(font
@@ -15904,19 +16515,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "TP501")
+					(reference "TP507")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "TP701")
+					(reference "TP707")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "TP801")
+					(reference "TP807")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "TP601")
+					(reference "TP607")
 					(unit 1)
 				)
 			)
@@ -15931,7 +16542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d15008bd-fadd-4e19-bad8-08a6a94608ff")
-		(property "Reference" "C502"
+		(property "Reference" "C503"
 			(at 77.724 148.336 90)
 			(effects
 				(font
@@ -15983,19 +16594,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C502")
+					(reference "C503")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C702")
+					(reference "C703")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C802")
+					(reference "C803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C602")
+					(reference "C603")
 					(unit 1)
 				)
 			)
@@ -16011,7 +16622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3c36ed3-0721-4f50-8d9c-ccb3321ce57d")
-		(property "Reference" "U501"
+		(property "Reference" "U502"
 			(at 347.98 129.54 0)
 			(effects
 				(font
@@ -16061,39 +16672,39 @@
 			(uuid "a2cac58d-596a-4d88-91cb-f2fecee27924")
 		)
 		(pin "5"
-			(uuid "a16368b9-2b42-488e-a73c-f93587d06a20")
+			(uuid "a16368b9-2b42-488e-a73c-f93587d06a26")
 		)
 		(pin "1"
 			(uuid "01003e6b-ad81-4a88-9792-ab16bef63e98")
 		)
 		(pin "3"
-			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab8205")
+			(uuid "79ec6851-dac1-4bbd-8b6a-08e1ceab820b")
 		)
 		(pin "4"
-			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb1")
+			(uuid "90963606-e047-4c14-91f2-d4b7a6a63fb7")
 		)
 		(pin "8"
 			(uuid "78927588-6a85-4a8e-bae7-de4030f5dc8a")
 		)
 		(pin "6"
-			(uuid "ab7f3701-5071-42a5-a099-473002f806b8")
+			(uuid "ab7f3701-5071-42a5-a099-473002f806be")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "U501")
+					(reference "U502")
 					(unit 2)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "U703")
+					(reference "U705")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "U803")
+					(reference "U805")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "U603")
+					(reference "U605")
 					(unit 1)
 				)
 			)
@@ -16109,7 +16720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9f17c40-f44b-4a22-9d64-75a0469a5df9")
-		(property "Reference" "TP507"
+		(property "Reference" "TP501"
 			(at 207.01 228.092 0)
 			(effects
 				(font
@@ -16161,19 +16772,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "TP507")
+					(reference "TP501")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "TP707")
+					(reference "TP701")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "TP807")
+					(reference "TP801")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "TP607")
+					(reference "TP601")
 					(unit 1)
 				)
 			)
@@ -16188,7 +16799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ed5b3f-aecc-4919-89f3-eb164250e0c8")
-		(property "Reference" "JP510"
+		(property "Reference" "JP511"
 			(at 222.504 207.01 90)
 			(effects
 				(font
@@ -16243,19 +16854,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP510")
+					(reference "JP511")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP710")
+					(reference "JP711")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP810")
+					(reference "JP811")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP610")
+					(reference "JP611")
 					(unit 1)
 				)
 			)
@@ -16354,7 +16965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef818aa2-6a3d-4641-bae5-f27bc75b90e0")
-		(property "Reference" "JP501"
+		(property "Reference" "JP503"
 			(at 202.692 141.224 90)
 			(effects
 				(font
@@ -16412,98 +17023,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "JP501")
+					(reference "JP503")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "JP701")
+					(reference "JP703")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "JP801")
+					(reference "JP803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "JP601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1358030-2ff5-42ca-b561-3411548c2863")
-		(property "Reference" "#PWR0511"
-			(at 125.73 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 202.2531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02fa548c-6677-4d31-b2be-8f87930d92ed")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0511")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0711")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0811")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0611")
+					(reference "JP603")
 					(unit 1)
 				)
 			)
@@ -16598,7 +17130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f66c4175-5e07-4aa4-84df-e9b7efeeca9e")
-		(property "Reference" "R509"
+		(property "Reference" "R506"
 			(at 119.38 136.398 90)
 			(effects
 				(font
@@ -16650,19 +17182,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "R509")
+					(reference "R506")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "R709")
+					(reference "R706")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "R809")
+					(reference "R806")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "R609")
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -16678,7 +17210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f81a7880-aec7-45fb-a1bc-34b9f6048e9e")
-		(property "Reference" "C503"
+		(property "Reference" "C508"
 			(at 94.996 144.78 90)
 			(effects
 				(font
@@ -16730,19 +17262,110 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "C503")
+					(reference "C508")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "C703")
+					(reference "C708")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "C803")
+					(reference "C808")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "C603")
+					(reference "C608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 259.08 210.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc51cfa2-3d3d-4509-b556-9181f4094c1a")
+		(property "Reference" "D501"
+			(at 257.0734 209.6078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD05"
+			(at 257.0734 212.0321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 254 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 259.08 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 259.08 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/smc-diode-solutions/SD05/15822319"
+			(at 259.08 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b370794-eb94-45ec-876a-2be49fb74d53")
+		)
+		(pin "2"
+			(uuid "707eb532-4040-42ae-a507-ca75939f39ff")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
+					(reference "D501")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
+					(reference "D701")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
+					(reference "D801")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
+					(reference "D601")
 					(unit 1)
 				)
 			)
@@ -16759,7 +17382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc84eb9-e702-446b-b6f6-34e71b18a8e7")
-		(property "Reference" "#PWR0508"
+		(property "Reference" "#PWR0505"
 			(at 364.49 182.88 0)
 			(effects
 				(font
@@ -16810,19 +17433,19 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "#PWR0508")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "#PWR0708")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
-					(reference "#PWR0808")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "#PWR0608")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -16910,8 +17533,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 132.08)
-		(size 19.05 21.59)
+		(at 39.37 120.65)
+		(size 19.05 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16926,7 +17549,7 @@
 		)
 		(uuid "bc0addc9-e1d6-4a86-b2a1-206781da7598")
 		(property "Sheetname" "Single to Differential"
-			(at 39.37 131.3684 0)
+			(at 39.37 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16945,7 +17568,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 39.37 134.62 180)
+			(at 39.37 128.27 180)
 			(uuid "513d4117-3640-4713-ab99-aa0af90206dd")
 			(effects
 				(font
@@ -16982,6 +17605,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "V+" input
+			(at 39.37 123.19 180)
+			(uuid "a3139d90-d3b0-4240-ab56-3371812d65b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_IN" input
+			(at 39.37 133.35 180)
+			(uuid "d108d963-de20-459c-beca-49584ff7f73c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
