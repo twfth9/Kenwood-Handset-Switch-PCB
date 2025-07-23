@@ -3454,16 +3454,6 @@
 		)
 		(uuid "7e07d9ed-384a-4d7d-addf-cba4831fe02c")
 	)
-	(text "V_bd: 6.2V\nV_clamp: 14.5V"
-		(exclude_from_sim no)
-		(at 275.844 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "84cd569f-fd8c-4f70-a7a4-11e5eec41416")
-	)
 	(text "~600Ω Mic\nImpedance"
 		(exclude_from_sim no)
 		(at 197.612 147.32 0)
@@ -19594,7 +19584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc51cfa2-3d3d-4509-b556-9181f4094c1a")
-		(property "Reference" "D503"
+		(property "Reference" "D803"
 			(at 262.1534 203.2578 90)
 			(effects
 				(font
@@ -19648,6 +19638,42 @@
 				(hide yes)
 			)
 		)
+		(property "V_Standoff" "5V"
+			(at 271.526 178.562 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V_Breakdown" "6V"
+			(at 271.526 180.848 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V_Clamping" "14.5V"
+			(at 271.526 182.88 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I_Pulse" "24A(8/20µs)"
+			(at 271.526 185.166 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b370794-eb94-45ec-876a-2be49fb74d53")
 		)
@@ -19657,11 +19683,11 @@
 		(instances
 			(project "Kenwood Microphone Switcher"
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958"
-					(reference "D503")
+					(reference "D803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5"
-					(reference "D703")
+					(reference "D803")
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d"
@@ -19669,7 +19695,7 @@
 					(unit 1)
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce"
-					(reference "D603")
+					(reference "D803")
 					(unit 1)
 				)
 			)

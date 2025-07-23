@@ -1282,16 +1282,6 @@
 		)
 		(uuid "44f5e1e8-fbae-4104-b22b-9a261be1c6b7")
 	)
-	(text "V_bd: 6.2V\nV_clamp: 14.5V"
-		(exclude_from_sim no)
-		(at 113.792 181.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4a81fea2-cbf2-48df-9f2d-f00d1dd04346")
-	)
 	(text "https://e2e.ti.com/support/amplifiers-group/amplifiers/f/amplifiers-forum/607379/opa2690-single-ended-to-differential-converter"
 		(exclude_from_sim no)
 		(at 212.09 100.584 0)
@@ -4827,8 +4817,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(uuid "128c12ac-5766-408b-bd11-c8fd6753400b")
+		(dnp yes)
+		(uuid "0fb7be3d-44a1-498a-8e3c-641e8b862a68")
 		(property "Reference" "D901"
 			(at 112.2934 170.2378 90)
 			(effects
@@ -4883,11 +4873,47 @@
 				(hide yes)
 			)
 		)
+		(property "V_Standoff" "5V"
+			(at 90.932 165.354 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V_Breakdown" "6V"
+			(at 90.932 167.64 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V_Clamping" "14.5V"
+			(at 90.932 169.672 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I_Pulse" "24A(8/20µs)"
+			(at 90.932 171.958 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "20f46247-da8b-46ae-9e48-83ca2e7283ff")
+			(uuid "949d42f2-3437-4bf9-9104-51e84fba3548")
 		)
 		(pin "2"
-			(uuid "5ac9c5dd-5d69-41e1-9bab-e6cc0163ec35")
+			(uuid "b9511575-6485-4785-aa92-937db746e5cb")
 		)
 		(instances
 			(project "Kenwood Microphone Switcher"
@@ -4905,97 +4931,6 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce/bc0addc9-e1d6-4a86-b2a1-206781da7598"
 					(reference "D901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 127 171.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "215fcd81-983e-4453-8fb1-1efe6a49b104")
-		(property "Reference" "D902"
-			(at 124.9934 170.2378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05"
-			(at 124.9934 172.6621 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 121.92 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 127 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 127 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/smc-diode-solutions/SD05/15822319"
-			(at 127 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a5229e7-2e6d-46b2-afcf-838d19579745")
-		)
-		(pin "2"
-			(uuid "5cddc608-9936-4d5b-baef-11749e0ac87e")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D1302")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D1402")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D1502")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D902")
 					(unit 1)
 				)
 			)
@@ -5078,6 +5013,137 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce/bc0addc9-e1d6-4a86-b2a1-206781da7598"
 					(reference "C906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD05_SOD323")
+		(at 127 171.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3044231d-82c6-48b1-8ba3-771aff1a2a00")
+		(property "Reference" "D902"
+			(at 124.9934 170.2378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD05"
+			(at 124.9934 172.6621 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 121.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/smc-diode-solutions/SD05/15822319"
+			(at 127 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_Standoff" "5V"
+			(at 103.632 165.354 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_Breakdown" "6V"
+			(at 103.632 167.64 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_Clamping" "14.5V"
+			(at 103.632 169.672 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I_Pulse" "24A(8/20µs)"
+			(at 103.632 171.958 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9306e51-922c-4421-ada9-7bbb78de439b")
+		)
+		(pin "2"
+			(uuid "2eb37ae1-132f-490a-bb1c-2475df33a675")
+		)
+		(instances
+			(project "Kenwood Microphone Switcher"
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958/bc0addc9-e1d6-4a86-b2a1-206781da7598"
+					(reference "D1302")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5/bc0addc9-e1d6-4a86-b2a1-206781da7598"
+					(reference "D1402")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d/bc0addc9-e1d6-4a86-b2a1-206781da7598"
+					(reference "D1502")
+					(unit 1)
+				)
+				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce/bc0addc9-e1d6-4a86-b2a1-206781da7598"
+					(reference "D902")
 					(unit 1)
 				)
 			)
