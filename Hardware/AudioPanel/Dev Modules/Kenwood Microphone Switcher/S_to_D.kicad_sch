@@ -1403,12 +1403,6 @@
 		(uuid "2006b127-b56b-4e77-8ad1-761c4f7c8815")
 	)
 	(junction
-		(at 114.3 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dd3e02d-1828-42d4-9d34-d18d93ea2a32")
-	)
-	(junction
 		(at 322.58 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1443,12 +1437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1a80a1-cb2d-4ef5-87d8-d8e273dfa265")
-	)
-	(junction
-		(at 127 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a2fc0ff-b83d-42ff-b9ab-8748cc1b3c98")
 	)
 	(junction
 		(at 161.29 224.79)
@@ -1584,16 +1572,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 156.21) (xy 127 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cea5850-80b8-436a-af99-244baf16c1ce")
-	)
-	(wire
-		(pts
 			(xy 201.93 162.56) (xy 209.55 162.56)
 		)
 		(stroke
@@ -1621,16 +1599,6 @@
 			(type default)
 		)
 		(uuid "1099d0ce-b296-43b4-a5a4-677dfa35ff42")
-	)
-	(wire
-		(pts
-			(xy 114.3 177.8) (xy 127 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d8ea6e-41ad-4eef-9379-759ace6e59d5")
 	)
 	(wire
 		(pts
@@ -1824,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 156.21) (xy 148.59 156.21)
+			(xy 76.2 156.21) (xy 148.59 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2154,16 +2122,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 156.21) (xy 127 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dcf0f51-b47d-4232-8f7c-da9b005c5e9f")
-	)
-	(wire
-		(pts
 			(xy 161.29 224.79) (xy 186.69 224.79)
 		)
 		(stroke
@@ -2251,16 +2209,6 @@
 			(type default)
 		)
 		(uuid "b4097d11-f85c-467e-90b3-49a55d99b050")
-	)
-	(wire
-		(pts
-			(xy 127 177.8) (xy 127 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b668210a-5abf-4b36-a48d-d3f4618e4164")
 	)
 	(wire
 		(pts
@@ -4817,7 +4765,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0fb7be3d-44a1-498a-8e3c-641e8b862a68")
 		(property "Reference" "D901"
 			(at 112.2934 170.2378 90)
@@ -5013,137 +4961,6 @@
 				)
 				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce/bc0addc9-e1d6-4a86-b2a1-206781da7598"
 					(reference "C906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SD05_SOD323")
-		(at 127 171.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "3044231d-82c6-48b1-8ba3-771aff1a2a00")
-		(property "Reference" "D902"
-			(at 124.9934 170.2378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SD05"
-			(at 124.9934 172.6621 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 121.92 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
-			(at 127 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
-			(at 127 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/smc-diode-solutions/SD05/15822319"
-			(at 127 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V_Standoff" "5V"
-			(at 103.632 165.354 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V_Breakdown" "6V"
-			(at 103.632 167.64 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V_Clamping" "14.5V"
-			(at 103.632 169.672 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "I_Pulse" "24A(8/20µs)"
-			(at 103.632 171.958 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9306e51-922c-4421-ada9-7bbb78de439b")
-		)
-		(pin "2"
-			(uuid "2eb37ae1-132f-490a-bb1c-2475df33a675")
-		)
-		(instances
-			(project "Kenwood Microphone Switcher"
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/838be9d9-6cef-484c-9609-0d655b51d958/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D1302")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/9aa45a72-aa44-47c0-818f-a903f1642fe5/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D1402")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/a50b5127-0711-4f74-a318-238d050cc31d/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D1502")
-					(unit 1)
-				)
-				(path "/19b5c763-986e-434c-80ff-b1ac9c189e0e/f04dd619-8140-4e5f-9b9b-47eafa5696ce/bc0addc9-e1d6-4a86-b2a1-206781da7598"
-					(reference "D902")
 					(unit 1)
 				)
 			)
