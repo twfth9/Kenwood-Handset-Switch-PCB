@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "76d2219a-6930-41ef-bb65-53af581de7c6")
 	(paper "B")
+	(title_block
+		(title "Radio COM Port Switcher - Main Page")
+		(date "2025-07-26")
+		(rev "A")
+		(company "Thomas Francois - KX∅STL")
+	)
 	(lib_symbols
 		(symbol "74HC165_2"
 			(exclude_from_sim no)
@@ -7978,6 +7984,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 118.11) (xy 387.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224e13d1-1f10-4c9b-8cf4-74785f9002aa")
+	)
+	(wire
+		(pts
 			(xy 102.87 39.37) (xy 93.98 39.37)
 		)
 		(stroke
@@ -8855,6 +8871,16 @@
 			(type default)
 		)
 		(uuid "50292791-629f-402f-ad4b-b778b66d2638")
+	)
+	(wire
+		(pts
+			(xy 394.97 118.11) (xy 397.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5035dc40-b4df-4434-bba0-e764b78010e9")
 	)
 	(wire
 		(pts
@@ -10518,6 +10544,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 115.57) (xy 397.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9729eec3-cec6-4638-b4a6-013a2654c78f")
+	)
+	(wire
+		(pts
 			(xy 92.71 209.55) (xy 92.71 215.9)
 		)
 		(stroke
@@ -11125,6 +11161,16 @@
 			(type default)
 		)
 		(uuid "bbfb5c10-fb32-432a-9f62-2a2997fd8e0a")
+	)
+	(wire
+		(pts
+			(xy 377.19 118.11) (xy 377.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7a98e0-dd13-451f-882e-95e2c96e3622")
 	)
 	(wire
 		(pts
@@ -11936,6 +11982,16 @@
 		)
 		(uuid "ece41d20-3744-4e21-9c21-089634527c0d")
 	)
+	(wire
+		(pts
+			(xy 397.51 115.57) (xy 397.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed477167-1592-4b05-a4fd-7d6e7633e8d9")
+	)
 	(bus
 		(pts
 			(xy 156.21 35.56) (xy 156.21 38.1)
@@ -12645,6 +12701,16 @@
 			(justify right bottom)
 		)
 		(uuid "3523a468-834c-423b-9925-fba182fa9901")
+	)
+	(label "+3V3"
+		(at 400.05 115.57 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "35ba30a6-8dda-4a7f-a9c9-15aa90961e6e")
 	)
 	(label "SERIAL_DATA_165_T"
 		(at 401.32 125.73 180)
@@ -13886,6 +13952,16 @@
 		)
 		(uuid "eb6055fb-39f8-4aa9-8170-61e01be06bf2")
 	)
+	(label "+3V3_SAMD"
+		(at 387.35 118.11 180)
+		(effects
+			(font
+				(size 0.9906 0.9906)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec2af8ca-ddf0-4734-a0c8-11c273d0ab94")
+	)
 	(label "PARALLEL_LOAD_T"
 		(at 401.32 62.23 180)
 		(effects
@@ -14228,7 +14304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0369690a-5330-4ea9-9b6f-b208e6a9d7cf")
 		(property "Reference" "C130"
 			(at 276.606 233.68 90)
@@ -15367,7 +15443,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1cf91452-886f-4a86-8553-c7afc95fde26")
 		(property "Reference" "D115"
@@ -17493,7 +17569,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3d83436b-4a77-4b67-ab6a-9742d389dd50")
 		(property "Reference" "D116"
 			(at 300.99 235.2674 90)
@@ -18788,7 +18864,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "519c9a47-1556-48c6-bbb6-7f7c0d978e18")
 		(property "Reference" "C129"
 			(at 267.716 233.68 90)
@@ -23878,7 +23954,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b5acaa28-006d-4ec1-a4ae-65b0eaba12ce")
 		(property "Reference" "R108"
 			(at 300.99 242.5699 0)
@@ -25559,7 +25635,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d40677b8-cc93-40d4-9bcc-feb71e9d56ed")
 		(property "Reference" "C126"
 			(at 244.602 235.712 90)
@@ -26495,7 +26571,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e6b440c9-2eeb-494b-87cf-e6099b774bb7")
 		(property "Reference" "U107"
@@ -26562,13 +26638,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MBR0520")
+		(at 391.16 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7fb4889-e707-40fd-aa14-49e456c65a1a")
+		(property "Reference" "D119"
+			(at 391.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0520"
+			(at 391.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 391.16 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr0520lt1-d.pdf"
+			(at 391.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 391.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e69d704-1e21-488b-b3e4-76b530e790e4")
+		)
+		(pin "1"
+			(uuid "7c5a83b7-c9c8-4fae-8cca-8a65c2fe936a")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6"
+					(reference "D119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 288.29 233.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e842e337-1a95-4e30-94d9-77d6a74f69a4")
 		(property "Reference" "C131"
 			(at 285.242 235.712 90)
@@ -27195,7 +27339,7 @@
 		(dnp no)
 		(uuid "fa26f9f8-3f4f-4c55-a534-ba6e5797ad84")
 		(property "Reference" "D118"
-			(at 389.89 110.8597 0)
+			(at 389.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27203,7 +27347,7 @@
 			)
 		)
 		(property "Value" "MBR0520"
-			(at 389.89 113.284 0)
+			(at 389.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27462,7 +27606,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fdf4fcb7-adb2-4124-a171-70534c1062a6")
 		(property "Reference" "C124"
 			(at 237.7059 232.4741 0)
