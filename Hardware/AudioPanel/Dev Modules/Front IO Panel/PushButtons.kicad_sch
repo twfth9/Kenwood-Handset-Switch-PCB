@@ -1339,144 +1339,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_Expansion:MCP23017_ML"
 			(pin_names
 				(offset 1.016)
@@ -2343,6 +2205,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library_MicSwitcher:R_Network04_Split"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:SP0504BAJT"
 			(pin_names
 				(hide yes)
@@ -2899,131 +2997,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3187,7 +3160,7 @@
 		(uuid "1f85cd27-2577-4a74-956f-24ecdfa10018")
 	)
 	(junction
-		(at 81.28 52.07)
+		(at 81.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21afcdee-bff8-4765-badc-a7c67e02b157")
@@ -3223,13 +3196,13 @@
 		(uuid "3be0c61c-0ade-489b-8c0a-3c476303ec37")
 	)
 	(junction
-		(at 78.74 52.07)
+		(at 78.74 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dce4e22-f304-4796-ab6f-7eb34f620c9f")
 	)
 	(junction
-		(at 88.9 52.07)
+		(at 88.9 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44b82809-2710-43e5-a0d0-6724d9352f44")
@@ -3241,7 +3214,7 @@
 		(uuid "4542fa16-0105-460b-b803-932f65883aa5")
 	)
 	(junction
-		(at 101.6 52.07)
+		(at 101.6 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ad313e-a218-4c22-8943-dfb5e2a2110e")
@@ -3343,7 +3316,7 @@
 		(uuid "7e0220e4-5179-416c-899a-8ebae5097e85")
 	)
 	(junction
-		(at 106.68 52.07)
+		(at 106.68 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e4c250e-f9ae-4fac-9770-1564ce9b9cf2")
@@ -3361,7 +3334,7 @@
 		(uuid "90cd12a5-df57-4523-b1f7-10524f14542f")
 	)
 	(junction
-		(at 104.14 52.07)
+		(at 104.14 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96485a35-2660-4b4d-a6a5-85b29da1eadd")
@@ -3379,7 +3352,7 @@
 		(uuid "a9cdb1d2-fe96-4433-86e6-ac5cc8b2ef11")
 	)
 	(junction
-		(at 91.44 52.07)
+		(at 91.44 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af118655-142b-477a-8d67-333a1faea3f1")
@@ -3397,13 +3370,13 @@
 		(uuid "b54b10f6-9f5a-4eaa-8eb9-f8200521059a")
 	)
 	(junction
-		(at 86.36 52.07)
+		(at 86.36 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9f3bb10-9853-4e23-a702-5704def1a1cc")
 	)
 	(junction
-		(at 93.98 52.07)
+		(at 93.98 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c50da978-5a93-4739-9c16-46662371aa58")
@@ -3413,12 +3386,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc6f6160-44bf-449e-a1ea-eb08024c4af9")
-	)
-	(junction
-		(at 118.11 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cedc44c3-3a63-412b-ad83-2c35c9e2f303")
 	)
 	(junction
 		(at 138.43 97.79)
@@ -3433,12 +3400,6 @@
 		(uuid "d03bd07e-796f-41f5-95d9-3c5963bde1a1")
 	)
 	(junction
-		(at 200.66 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d63771b4-762a-4182-b4ce-b850faa14510")
-	)
-	(junction
 		(at 48.26 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3451,13 +3412,13 @@
 		(uuid "dee281ec-3147-4756-acea-9dc537c8b29d")
 	)
 	(junction
-		(at 76.2 52.07)
+		(at 76.2 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e74d26ea-b052-43e9-b2e2-edb04648e2d4")
 	)
 	(junction
-		(at 99.06 52.07)
+		(at 99.06 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebda6046-40bc-41bb-96f6-b13de23236da")
@@ -3489,16 +3450,6 @@
 			(type default)
 		)
 		(uuid "022d014b-4854-4529-82e4-0a9f1fdb0c90")
-	)
-	(wire
-		(pts
-			(xy 118.11 40.64) (xy 118.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0295f33e-e320-4a9b-a816-1efe396a1590")
 	)
 	(wire
 		(pts
@@ -3542,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 93.98 53.34)
+			(xy 93.98 49.53) (xy 93.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3732,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 52.07) (xy 91.44 52.07)
+			(xy 88.9 49.53) (xy 91.44 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3822,7 +3773,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 43.18) (xy 111.76 43.18)
+			(xy 114.3 39.37) (xy 111.76 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3852,7 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 52.07) (xy 101.6 53.34)
+			(xy 101.6 49.53) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3882,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 76.2 53.34)
+			(xy 76.2 49.53) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4312,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 81.28 53.34)
+			(xy 81.28 49.53) (xy 81.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4362,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 52.07) (xy 99.06 52.07)
+			(xy 93.98 49.53) (xy 99.06 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4392,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 52.07) (xy 104.14 52.07)
+			(xy 101.6 49.53) (xy 104.14 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4452,13 +4403,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 52.07) (xy 88.9 52.07)
+			(xy 86.36 49.53) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6038b916-47ca-40b1-ae17-480c281d3315")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608b6915-a775-45b9-a517-0bbd66dfc4f3")
 	)
 	(wire
 		(pts
@@ -4492,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 91.44 53.34)
+			(xy 91.44 49.53) (xy 91.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4502,7 +4463,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 52.07) (xy 86.36 53.34)
+			(xy 86.36 49.53) (xy 86.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4572,7 +4533,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 52.07) (xy 106.68 52.07)
+			(xy 111.76 49.53) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4602,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 101.6 52.07)
+			(xy 99.06 49.53) (xy 101.6 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4692,16 +4653,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 63.5) (xy 200.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79709bbf-b4b3-4fbe-82bb-b82fd7247b09")
-	)
-	(wire
-		(pts
 			(xy 132.08 82.55) (xy 132.08 144.78)
 		)
 		(stroke
@@ -4772,7 +4723,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 43.18) (xy 111.76 43.18)
+			(xy 111.76 43.18) (xy 125.73 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4832,7 +4783,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 99.06 53.34)
+			(xy 99.06 49.53) (xy 99.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4952,7 +4903,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 52.07) (xy 88.9 53.34)
+			(xy 88.9 49.53) (xy 88.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5012,7 +4963,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 78.74 52.07)
+			(xy 76.2 49.53) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5032,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 52.07) (xy 76.2 52.07)
+			(xy 73.66 49.53) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 111.76 52.07)
+			(xy 111.76 43.18) (xy 111.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5239,16 +5190,6 @@
 			(type default)
 		)
 		(uuid "c1697282-aa67-4dab-a8b5-71468160157b")
-	)
-	(wire
-		(pts
-			(xy 125.73 43.18) (xy 118.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1935668-a8f0-4fc2-b542-a4d815f73d75")
 	)
 	(wire
 		(pts
@@ -5352,7 +5293,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 78.74 53.34)
+			(xy 78.74 49.53) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5372,7 +5313,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 52.07) (xy 106.68 53.34)
+			(xy 106.68 49.53) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5482,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 106.68 52.07)
+			(xy 104.14 49.53) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5572,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 52.07) (xy 93.98 52.07)
+			(xy 91.44 49.53) (xy 93.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5582,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 73.66 52.07)
+			(xy 73.66 50.8) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5682,7 +5623,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 86.36 52.07)
+			(xy 81.28 49.53) (xy 86.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5702,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 104.14 53.34)
+			(xy 104.14 49.53) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5722,7 +5663,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 81.28 52.07)
+			(xy 78.74 49.53) (xy 81.28 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6231,12 +6172,12 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 110.49 43.18 180)
+		(at 114.3 39.37 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c3c333f7-1af6-4afe-9a48-f94e54a6692d")
 	)
@@ -6253,82 +6194,6 @@
 		(uuid "f2984aff-9027-4dd4-a8f7-50ed29a7f7cb")
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 99.06 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00001668-4f0b-4525-b4a1-aa986c7bf198")
-		(property "Reference" "R?"
-			(at 95.25 47.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 95.25 49.8066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b0c4ffb-975c-4e12-a4f5-5cd562bea706")
-		)
-		(pin "2"
-			(uuid "bd07aab0-e901-45fe-978a-7b76a99c74b0")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R94")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AudioPanelLibrary:74HC14")
 		(at 139.7 50.8 90)
 		(unit 7)
@@ -6337,7 +6202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0094f56e-cffa-466c-9cd4-d8be399362e1")
-		(property "Reference" "U?"
+		(property "Reference" "U501"
 			(at 137.16 48.006 90)
 			(effects
 				(font
@@ -6433,7 +6298,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U501")
 					(unit 7)
 				)
 			)
@@ -6449,7 +6314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02dd4db7-d738-411b-9925-e80eec929d2b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0511"
 			(at 101.6 161.29 0)
 			(effects
 				(font
@@ -6506,7 +6371,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "057d1510-595d-4e89-9068-e655239bab62")
-		(property "Reference" "D104"
+		(property "Reference" "D507"
 			(at 92.202 204.724 0)
 			(effects
 				(font
@@ -6582,7 +6447,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D104")
+					(reference "D507")
 					(unit 1)
 				)
 			)
@@ -6598,7 +6463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b7da06-6d24-45e2-8ce0-72919e7e5ee3")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0545"
 			(at 260.35 224.79 0)
 			(effects
 				(font
@@ -6649,7 +6514,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0130")
+					(reference "#PWR0545")
 					(unit 1)
 				)
 			)
@@ -6665,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c0c595-2f63-46a2-8023-2a1262452f27")
-		(property "Reference" "U?"
+		(property "Reference" "U505"
 			(at 163.83 83.4855 0)
 			(effects
 				(font
@@ -6761,83 +6626,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 91.44 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0dee5782-990e-44e2-a45d-8b7cc89a6d47")
-		(property "Reference" "R?"
-			(at 84.582 47.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 84.582 49.8066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08de1d62-03ab-4408-b4d2-15680e5ddaf4")
-		)
-		(pin "2"
-			(uuid "97f1e6cf-9941-4f26-a8c5-b17a2a133bc2")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R92")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "U505")
 					(unit 1)
 				)
 			)
@@ -6852,7 +6641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e399d60-d362-4602-bd2d-579e958a6cd9")
-		(property "Reference" "CN?"
+		(property "Reference" "CN503"
 			(at 149.606 155.956 0)
 			(effects
 				(font
@@ -6921,7 +6710,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "CN?")
+					(reference "CN503")
 					(unit 1)
 				)
 			)
@@ -6936,7 +6725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f42277c-1280-4358-9cb5-a47fba724df2")
-		(property "Reference" "D108"
+		(property "Reference" "D508"
 			(at 107.442 204.724 0)
 			(effects
 				(font
@@ -6997,7 +6786,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D108")
+					(reference "D508")
 					(unit 1)
 				)
 			)
@@ -7013,7 +6802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101a11bd-9cc0-42bb-a984-984f75c7417c")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0537"
 			(at 138.43 224.79 0)
 			(effects
 				(font
@@ -7064,7 +6853,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0118")
+					(reference "#PWR0537")
 					(unit 1)
 				)
 			)
@@ -7079,7 +6868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11e8be22-8f39-41aa-a8b1-8565a122c1f7")
-		(property "Reference" "PB?"
+		(property "Reference" "PB511"
 			(at 58.42 131.064 0)
 			(effects
 				(font
@@ -7139,7 +6928,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB511")
 					(unit 1)
 				)
 			)
@@ -7155,7 +6944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1281ab35-bead-4b3b-8931-eb66226bd325")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0535"
 			(at 107.95 224.79 0)
 			(effects
 				(font
@@ -7206,79 +6995,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 200.66 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1337e362-7f0c-45e9-9a9a-f58ff26bd4e2")
-		(property "Reference" "#PWR?"
-			(at 200.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 200.66 59.3669 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fb0a934-3b9c-4e83-ac47-29a0fda7a2f9")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0535")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "139452ed-0a78-415e-9290-c646c1e6af17")
-		(property "Reference" "D109"
+		(property "Reference" "D519"
 			(at 275.082 204.724 0)
 			(effects
 				(font
@@ -7354,7 +7071,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D109")
+					(reference "D519")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15b5ebfc-05b0-4a43-9968-69c69e28c158")
-		(property "Reference" "D?"
+		(property "Reference" "D503"
 			(at 96.774 153.67 0)
 			(effects
 				(font
@@ -7439,7 +7156,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D?")
+					(reference "D503")
 					(unit 1)
 				)
 			)
@@ -7454,7 +7171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16b7039f-ecd2-49a0-9228-5ea0105a6843")
-		(property "Reference" "PB?"
+		(property "Reference" "PB503"
 			(at 58.42 70.104 0)
 			(effects
 				(font
@@ -7515,7 +7232,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB503")
 					(unit 1)
 				)
 			)
@@ -7531,7 +7248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b5dbe6-c67d-47b6-9acd-21fa0a2a2074")
-		(property "Reference" "U?"
+		(property "Reference" "U504"
 			(at 163.83 75.8655 0)
 			(effects
 				(font
@@ -7627,7 +7344,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U504")
 					(unit 1)
 				)
 			)
@@ -7643,7 +7360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2c72ae-ae11-43c1-bcb6-33e775a4b27f")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0520"
 			(at 132.08 207.01 0)
 			(effects
 				(font
@@ -7694,7 +7411,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0126")
+					(reference "#PWR0520")
 					(unit 1)
 				)
 			)
@@ -7710,7 +7427,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1c9a6ea7-4de3-451e-86d7-65219155e0e1")
-		(property "Reference" "C105"
+		(property "Reference" "C511"
 			(at 175.4759 196.9141 0)
 			(effects
 				(font
@@ -7764,7 +7481,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C105")
+					(reference "C511")
 					(unit 1)
 				)
 			)
@@ -7780,7 +7497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0a80f3-4717-4145-b802-af23dbea7914")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0546"
 			(at 275.59 224.79 0)
 			(effects
 				(font
@@ -7831,7 +7548,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0129")
+					(reference "#PWR0546")
 					(unit 1)
 				)
 			)
@@ -7846,7 +7563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20a1ccdf-372d-4e1e-b419-65cc3a71f87f")
-		(property "Reference" "PB?"
+		(property "Reference" "PB507"
 			(at 58.42 100.584 0)
 			(effects
 				(font
@@ -7907,7 +7624,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB507")
 					(unit 1)
 				)
 			)
@@ -7923,7 +7640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e7dd31-d711-48b8-a001-bd6d1556805f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0504"
 			(at 204.47 80.01 0)
 			(effects
 				(font
@@ -7980,7 +7697,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -7996,7 +7713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "232b5284-0bb5-4b18-b633-2bcba441f1ce")
-		(property "Reference" "U?"
+		(property "Reference" "U503"
 			(at 163.83 68.2455 0)
 			(effects
 				(font
@@ -8092,7 +7809,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U503")
 					(unit 1)
 				)
 			)
@@ -8107,7 +7824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a02a8c8-7d5d-49af-997a-61962009dbe8")
-		(property "Reference" "D116"
+		(property "Reference" "D512"
 			(at 168.402 204.724 0)
 			(effects
 				(font
@@ -8168,8 +7885,182 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D116")
+					(reference "D512")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 86.36 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ccc6a37-c793-4871-be4b-a24cba40cf77")
+		(property "Reference" "RN514"
+			(at 87.376 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 86.36 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 88.392 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 86.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 86.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6b")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2138")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a6a")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cac")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fc")
+		)
+		(pin "1"
+			(uuid "065b9307-f475-48ce-ade8-20e6d9c183c0")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc052")
+		)
+		(pin "2"
+			(uuid "5efd521e-bb2b-4fb3-9b5a-a023ba2668f1")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 78.74 54.61 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30a13c1e-f760-49f9-bf4f-5cfb6290263d")
+		(property "Reference" "RN513"
+			(at 78.232 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 78.74 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 80.772 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6c")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2139")
+		)
+		(pin "5"
+			(uuid "855bba55-5234-4bbe-8012-49702ea0b58b")
+		)
+		(pin "6"
+			(uuid "49466bb5-710c-47d6-9887-1c3a50e76b2d")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fd")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d57")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc053")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0aff")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN513")
+					(unit 3)
 				)
 			)
 		)
@@ -8183,7 +8074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30ac3f92-1bbb-4e70-ad96-acd8c2fc4fb4")
-		(property "Reference" "U?"
+		(property "Reference" "U513"
 			(at 163.83 136.8255 0)
 			(effects
 				(font
@@ -8279,7 +8170,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U513")
 					(unit 1)
 				)
 			)
@@ -8295,7 +8186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31d81811-84dd-4d24-9a64-065bb9f73a04")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0505"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -8352,7 +8243,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -8367,7 +8258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32c62949-6334-41e6-90c9-beaf4d321ce2")
-		(property "Reference" "D114"
+		(property "Reference" "D514"
 			(at 198.882 204.724 0)
 			(effects
 				(font
@@ -8428,83 +8319,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 101.6 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35e3ec78-5f90-4eb4-aa1f-b508069ff9e9")
-		(property "Reference" "R?"
-			(at 99.314 47.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.314 49.8066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 101.6 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5f60c83-b04e-4e2c-bc4a-2b226e249e30")
-		)
-		(pin "2"
-			(uuid "89da25c1-b777-4a91-8864-77307f828d60")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R95")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "D514")
 					(unit 1)
 				)
 			)
@@ -8520,7 +8335,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3cde3e0d-bf8f-4a2d-b340-140f875a193a")
-		(property "Reference" "C107"
+		(property "Reference" "C513"
 			(at 205.9559 196.9141 0)
 			(effects
 				(font
@@ -8574,7 +8389,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C107")
+					(reference "C513")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8405,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3dfa5979-7087-4ef1-b231-f70a75237c69")
-		(property "Reference" "C101"
+		(property "Reference" "C518"
 			(at 282.1559 196.9141 0)
 			(effects
 				(font
@@ -8644,7 +8459,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C101")
+					(reference "C518")
 					(unit 1)
 				)
 			)
@@ -8660,7 +8475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e1c4d23-dcc3-4498-9a22-6222c2c80858")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0542"
 			(at 214.63 224.79 0)
 			(effects
 				(font
@@ -8711,7 +8526,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0140")
+					(reference "#PWR0542")
 					(unit 1)
 				)
 			)
@@ -8727,7 +8542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1a9cc1-3cd1-4694-b807-47ede36bb271")
-		(property "Reference" "U?"
+		(property "Reference" "U510"
 			(at 163.83 113.9655 0)
 			(effects
 				(font
@@ -8823,7 +8638,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U510")
 					(unit 1)
 				)
 			)
@@ -8839,7 +8654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fcdd517-43cf-4ce0-ac86-cbf9fd75599e")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0531"
 			(at 46.99 224.79 0)
 			(effects
 				(font
@@ -8890,7 +8705,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0105")
+					(reference "#PWR0531")
 					(unit 1)
 				)
 			)
@@ -8905,7 +8720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "477df7f0-c2cb-4c63-b3b9-127ec8ed339a")
-		(property "Reference" "U?"
+		(property "Reference" "U501"
 			(at 163.83 55.626 0)
 			(effects
 				(font
@@ -9000,7 +8815,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -9016,7 +8831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4905bd7a-eb54-4cb5-acc2-67085e6e96cf")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0534"
 			(at 92.71 224.79 0)
 			(effects
 				(font
@@ -9067,8 +8882,95 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0112")
+					(reference "#PWR0534")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 101.6 54.61 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "496a4fd8-db49-411e-a32e-b38344a78dfd")
+		(property "Reference" "RN515"
+			(at 101.854 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 101.6 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 103.632 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f69")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2136")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a68")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469caa")
+		)
+		(pin "4"
+			(uuid "bbc9f65a-6ce7-4e54-acc3-67debeb84c32")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d54")
+		)
+		(pin "3"
+			(uuid "f6eec182-7e33-443f-bc4a-418f9982a265")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afc")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN515")
+					(unit 2)
 				)
 			)
 		)
@@ -9083,7 +8985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac53449-19ef-4a18-90d2-7265a61d6ec8")
-		(property "Reference" "U?"
+		(property "Reference" "U509"
 			(at 163.83 106.3455 0)
 			(effects
 				(font
@@ -9179,7 +9081,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U509")
 					(unit 1)
 				)
 			)
@@ -9195,7 +9097,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "51e2e25a-cdf5-4277-8aa9-e9bfd678b2f9")
-		(property "Reference" "C110"
+		(property "Reference" "C504"
 			(at 68.7959 196.9141 0)
 			(effects
 				(font
@@ -9249,8 +9151,95 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C110")
+					(reference "C504")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 81.28 54.61 0)
+		(mirror y)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "546c78fa-6e16-4dce-8877-b22452565793")
+		(property "Reference" "RN513"
+			(at 80.01 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 81.28 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 83.312 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "99a32334-f961-4750-989e-d0df1ef9d9c3")
+		)
+		(pin "7"
+			(uuid "dc4989e9-92c5-4512-babc-3a552a1ca6db")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a69")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cab")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fb")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d55")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc051")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afd")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN513")
+					(unit 4)
 				)
 			)
 		)
@@ -9265,7 +9254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d3fa2d-9c2b-4fc1-9a79-2b0cd212d26c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0508"
 			(at 48.26 151.13 0)
 			(effects
 				(font
@@ -9322,7 +9311,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -9337,7 +9326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56de21f8-667a-4a71-bf04-0195cbb77bad")
-		(property "Reference" "D?"
+		(property "Reference" "D501"
 			(at 71.374 153.67 0)
 			(effects
 				(font
@@ -9407,7 +9396,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D?")
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -9422,7 +9411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57105eb8-a658-42c3-9d10-196360f1b9be")
-		(property "Reference" "D107"
+		(property "Reference" "D509"
 			(at 122.682 204.724 0)
 			(effects
 				(font
@@ -9483,7 +9472,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D107")
+					(reference "D509")
 					(unit 1)
 				)
 			)
@@ -9499,7 +9488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574c7b29-a2b5-4406-b86c-6b9e9d870882")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0517"
 			(at 86.36 207.01 0)
 			(effects
 				(font
@@ -9550,7 +9539,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0123")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 			)
@@ -9566,7 +9555,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "579c6831-f04b-4931-b775-5b7221d0d852")
-		(property "Reference" "C103"
+		(property "Reference" "C516"
 			(at 251.6759 196.9141 0)
 			(effects
 				(font
@@ -9620,8 +9609,95 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C103")
+					(reference "C516")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 104.14 54.61 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57b735ad-26f4-41f5-a191-6e2084db8157")
+		(property "Reference" "RN515"
+			(at 103.632 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 104.14 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 106.172 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6c")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2139")
+		)
+		(pin "5"
+			(uuid "1a07cf13-6b1e-474f-9011-b668f5aee69c")
+		)
+		(pin "6"
+			(uuid "fa535b73-22eb-42de-9c07-f448086f807f")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fd")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d57")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc053")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0aff")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN515")
+					(unit 3)
 				)
 			)
 		)
@@ -9636,7 +9712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5908d863-e2e8-43fc-9d49-c9c5e050640d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0506"
 			(at 219.71 129.54 0)
 			(effects
 				(font
@@ -9693,8 +9769,95 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0506")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 93.98 54.61 0)
+		(mirror y)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f682e2c-9580-4b74-8996-340a4b610479")
+		(property "Reference" "RN514"
+			(at 92.71 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 93.98 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 96.012 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e0ba9362-4161-4ef7-a62c-af0eae221717")
+		)
+		(pin "7"
+			(uuid "b51faf0c-eedf-43c1-9544-626f12ca16dd")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a69")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cab")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fb")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d55")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc051")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afd")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN514")
+					(unit 4)
 				)
 			)
 		)
@@ -9709,7 +9872,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "610024f7-2ff4-4d7a-b676-54168298579e")
-		(property "Reference" "C115"
+		(property "Reference" "C509"
 			(at 144.9959 196.9141 0)
 			(effects
 				(font
@@ -9763,7 +9926,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C115")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fecf48-456a-4798-9580-6667fc6aa916")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0530"
 			(at 284.48 207.01 0)
 			(effects
 				(font
@@ -9830,7 +9993,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0104")
+					(reference "#PWR0530")
 					(unit 1)
 				)
 			)
@@ -9845,7 +10008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66ead94b-0baa-4cce-ac81-1e0a243ce956")
-		(property "Reference" "C?"
+		(property "Reference" "C501"
 			(at 206.7941 69.9141 0)
 			(effects
 				(font
@@ -9905,7 +10068,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C?")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -9920,7 +10083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "674391ee-bf20-4984-9803-f2288eb8b07c")
-		(property "Reference" "RN?"
+		(property "Reference" "RN505"
 			(at 115.57 88.138 90)
 			(effects
 				(font
@@ -9987,7 +10150,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN505")
 					(unit 1)
 				)
 			)
@@ -10002,7 +10165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68d76eaa-53ef-426b-8771-25ef61f6464e")
-		(property "Reference" "PB?"
+		(property "Reference" "PB510"
 			(at 58.42 123.444 0)
 			(effects
 				(font
@@ -10063,7 +10226,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB510")
 					(unit 1)
 				)
 			)
@@ -10078,7 +10241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c22d2a0-7896-40c0-9717-c6555680ddac")
-		(property "Reference" "D111"
+		(property "Reference" "D517"
 			(at 244.602 204.724 0)
 			(effects
 				(font
@@ -10139,7 +10302,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D111")
+					(reference "D517")
 					(unit 1)
 				)
 			)
@@ -10155,7 +10318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d40c9f5-2fa7-4f04-bd93-60689de3031d")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0533"
 			(at 77.47 224.79 0)
 			(effects
 				(font
@@ -10206,7 +10369,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0109")
+					(reference "#PWR0533")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed584a9-eb90-4a3f-8a11-ea5375cb9fc4")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0526"
 			(at 223.52 207.01 0)
 			(effects
 				(font
@@ -10273,7 +10436,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0116")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -10289,7 +10452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbbef0e-1187-498a-9b82-00f1be3b23e1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0512"
 			(at 124.46 161.29 0)
 			(effects
 				(font
@@ -10346,7 +10509,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -10362,7 +10525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70534403-6d97-4412-9a8e-2b857b7d5243")
-		(property "Reference" "U?"
+		(property "Reference" "U502"
 			(at 163.83 60.6255 0)
 			(effects
 				(font
@@ -10458,7 +10621,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U502")
 					(unit 1)
 				)
 			)
@@ -10473,7 +10636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70ec87a5-5636-4f76-8254-e10db1188f07")
-		(property "Reference" "U?"
+		(property "Reference" "U506"
 			(at 163.83 91.1055 0)
 			(effects
 				(font
@@ -10568,7 +10731,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U506")
 					(unit 1)
 				)
 			)
@@ -10583,7 +10746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73a7ff1d-6618-4660-ac18-da4b99b9eb73")
-		(property "Reference" "RN?"
+		(property "Reference" "RN504"
 			(at 115.57 80.518 90)
 			(effects
 				(font
@@ -10650,7 +10813,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN504")
 					(unit 1)
 				)
 			)
@@ -10666,7 +10829,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "75321ca5-09cc-4034-9fa8-d6d21b1b8b17")
-		(property "Reference" "C114"
+		(property "Reference" "C508"
 			(at 129.7559 196.9141 0)
 			(effects
 				(font
@@ -10720,159 +10883,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 106.68 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "762d67dd-e874-4dcc-80cb-b4de8d109f1f")
-		(property "Reference" "R?"
-			(at 107.442 47.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 107.442 49.6909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c2dbb47-9f64-4d9e-bc34-16858564b534")
-		)
-		(pin "2"
-			(uuid "26ece67a-412a-4404-b90d-5580de5e798a")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R97")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 76.2 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77955ea2-ca50-4b21-bfd9-e97689915cf5")
-		(property "Reference" "R?"
-			(at 61.722 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 61.722 49.9223 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "507745e2-99bb-4c60-bd6c-c1dc44d68f7d")
-		)
-		(pin "2"
-			(uuid "1f5ba771-7d9f-4387-9518-f7bf405c1ac4")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R87")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -10887,7 +10898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78101a1d-993c-4cee-a842-007ad00b1475")
-		(property "Reference" "RN?"
+		(property "Reference" "RN502"
 			(at 115.57 65.278 90)
 			(effects
 				(font
@@ -10954,7 +10965,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN502")
 					(unit 1)
 				)
 			)
@@ -10969,7 +10980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f07707-e0f1-4207-a39e-d32eaf039268")
-		(property "Reference" "PB?"
+		(property "Reference" "PB506"
 			(at 58.42 92.964 0)
 			(effects
 				(font
@@ -11029,83 +11040,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 81.28 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79891d76-fea7-4d49-ac5c-cdca523a8453")
-		(property "Reference" "R?"
-			(at 69.85 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 49.9223 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8bbee6b-1cab-40b4-92bb-21ef96da5dc8")
-		)
-		(pin "2"
-			(uuid "8c426b44-c03c-4603-ac5a-1194aadf1f24")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R89")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "PB506")
 					(unit 1)
 				)
 			)
@@ -11121,7 +11056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da9b9d0-587b-49cb-8d75-d8b8fe7a6b71")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0521"
 			(at 147.32 207.01 0)
 			(effects
 				(font
@@ -11172,7 +11107,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0127")
+					(reference "#PWR0521")
 					(unit 1)
 				)
 			)
@@ -11188,7 +11123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6bb980-60c9-470a-886d-832a45c8a2d5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0509"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -11245,7 +11180,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -11260,7 +11195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b96a99-605f-40ef-86fa-bec38739de24")
-		(property "Reference" "D101"
+		(property "Reference" "D504"
 			(at 46.482 204.724 0)
 			(effects
 				(font
@@ -11321,7 +11256,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D101")
+					(reference "D504")
 					(unit 1)
 				)
 			)
@@ -11337,7 +11272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "811a762c-777f-4547-8b1a-21ea66cfeee7")
-		(property "Reference" "U?"
+		(property "Reference" "U512"
 			(at 163.83 129.2055 0)
 			(effects
 				(font
@@ -11433,7 +11368,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U512")
 					(unit 1)
 				)
 			)
@@ -11449,7 +11384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81833e45-afd3-45f7-a77a-b51e692339ed")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0519"
 			(at 116.84 207.01 0)
 			(effects
 				(font
@@ -11500,7 +11435,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0125")
+					(reference "#PWR0519")
 					(unit 1)
 				)
 			)
@@ -11516,7 +11451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820dc549-1cf2-4451-b478-f4b9bbc032f6")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0536"
 			(at 123.19 224.79 0)
 			(effects
 				(font
@@ -11567,83 +11502,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 73.66 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85508825-bce0-40ab-a507-76451edd6582")
-		(property "Reference" "R?"
-			(at 57.658 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 57.658 49.9223 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 73.66 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25d2b331-2ab8-48c5-845a-ecd127285d29")
-		)
-		(pin "2"
-			(uuid "25f11ae6-e8a5-438c-bd23-3aba840500d7")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "#PWR0536")
 					(unit 1)
 				)
 			)
@@ -11659,7 +11518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85aef74e-03d3-4dd0-93da-8842453d206c")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0541"
 			(at 199.39 224.79 0)
 			(effects
 				(font
@@ -11710,7 +11569,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0141")
+					(reference "#PWR0541")
 					(unit 1)
 				)
 			)
@@ -11725,7 +11584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85f3c510-c5b7-4051-9969-5ddaaafc7b1f")
-		(property "Reference" "RN?"
+		(property "Reference" "RN508"
 			(at 115.57 110.998 90)
 			(effects
 				(font
@@ -11792,7 +11651,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN508")
 					(unit 1)
 				)
 			)
@@ -11808,7 +11667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88411358-5467-4dd8-8426-c4f22209bc10")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0532"
 			(at 62.23 224.79 0)
 			(effects
 				(font
@@ -11859,7 +11718,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0107")
+					(reference "#PWR0532")
 					(unit 1)
 				)
 			)
@@ -11874,7 +11733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8967f03d-a644-47f6-8643-4949a18147d0")
-		(property "Reference" "D?"
+		(property "Reference" "D502"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -11944,7 +11803,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D?")
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -11959,7 +11818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc2706f-a31f-49e8-a56d-f9a4bd122b27")
-		(property "Reference" "RN?"
+		(property "Reference" "RN512"
 			(at 115.57 141.478 90)
 			(effects
 				(font
@@ -12026,7 +11885,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN512")
 					(unit 1)
 				)
 			)
@@ -12042,7 +11901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5abf27-892c-4222-a250-4add1f553a9f")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0527"
 			(at 238.76 207.01 0)
 			(effects
 				(font
@@ -12093,7 +11952,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0111")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -12109,7 +11968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f4ab9be-84bc-4876-a69a-9a6d48ace07b")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0540"
 			(at 184.15 224.79 0)
 			(effects
 				(font
@@ -12160,7 +12019,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0142")
+					(reference "#PWR0540")
 					(unit 1)
 				)
 			)
@@ -12175,7 +12034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f6a15a5-b7f9-418d-9200-0c1b6b03c369")
-		(property "Reference" "PB?"
+		(property "Reference" "PB508"
 			(at 58.42 108.204 0)
 			(effects
 				(font
@@ -12236,7 +12095,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB508")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12111,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8f89b912-b7f5-4dba-8250-f6c587c8b47b")
-		(property "Reference" "C112"
+		(property "Reference" "C506"
 			(at 99.2759 196.9141 0)
 			(effects
 				(font
@@ -12306,7 +12165,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C112")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -12321,7 +12180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9270190c-bf75-4b03-a723-a7d513e314ad")
-		(property "Reference" "PB?"
+		(property "Reference" "PB505"
 			(at 58.42 85.344 0)
 			(effects
 				(font
@@ -12381,7 +12240,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB505")
 					(unit 1)
 				)
 			)
@@ -12397,7 +12256,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "92767601-c147-4325-8e00-be19ce888bde")
-		(property "Reference" "C102"
+		(property "Reference" "C517"
 			(at 266.9159 196.9141 0)
 			(effects
 				(font
@@ -12451,7 +12310,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C102")
+					(reference "C517")
 					(unit 1)
 				)
 			)
@@ -12467,7 +12326,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "943089ce-9c0d-4222-956a-1824fde7ba54")
-		(property "Reference" "C111"
+		(property "Reference" "C505"
 			(at 84.0359 196.9141 0)
 			(effects
 				(font
@@ -12521,7 +12380,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C111")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -12536,7 +12395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "947b2ce0-8736-41ed-a8d4-974a1ae53221")
-		(property "Reference" "RN?"
+		(property "Reference" "RN507"
 			(at 115.57 103.378 90)
 			(effects
 				(font
@@ -12603,7 +12462,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN507")
 					(unit 1)
 				)
 			)
@@ -12618,7 +12477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9857c686-2bed-4b67-84fe-51010107e6b7")
-		(property "Reference" "C?"
+		(property "Reference" "C502"
 			(at 218.2241 69.9141 0)
 			(effects
 				(font
@@ -12678,7 +12537,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C?")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -12693,7 +12552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98e6f73a-8672-4149-acd2-7af44051fc96")
-		(property "Reference" "PB?"
+		(property "Reference" "PB502"
 			(at 58.42 62.484 0)
 			(effects
 				(font
@@ -12754,7 +12613,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB502")
 					(unit 1)
 				)
 			)
@@ -12770,7 +12629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ab58b8a-1479-4464-bf2a-36be0180c962")
-		(property "Reference" "U?"
+		(property "Reference" "U511"
 			(at 163.83 121.5855 0)
 			(effects
 				(font
@@ -12866,7 +12725,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U511")
 					(unit 1)
 				)
 			)
@@ -12882,7 +12741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9be4f1a6-acd6-4b7a-970f-bf7ce1af41c7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0510"
 			(at 88.9 161.29 0)
 			(effects
 				(font
@@ -12939,7 +12798,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -12954,7 +12813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bea6143-27d2-44e4-b059-f2f75cc8925e")
-		(property "Reference" "PB?"
+		(property "Reference" "PB509"
 			(at 58.42 115.824 0)
 			(effects
 				(font
@@ -13015,7 +12874,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB509")
 					(unit 1)
 				)
 			)
@@ -13030,7 +12889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dc9fa98-139b-4d45-8408-de4752f07fa4")
-		(property "Reference" "PB?"
+		(property "Reference" "PB504"
 			(at 58.42 77.724 0)
 			(effects
 				(font
@@ -13091,8 +12950,95 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB504")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 106.68 54.61 0)
+		(mirror y)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3a2782a-2082-4ee2-bf7b-5673e555c6db")
+		(property "Reference" "RN515"
+			(at 105.41 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 106.68 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 108.712 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "b3d42796-b9df-4ecf-9ec4-3a8507eaf65f")
+		)
+		(pin "7"
+			(uuid "61e54df2-de3e-45bd-882f-03487ece9a65")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a69")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cab")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fb")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d55")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc051")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afd")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN515")
+					(unit 4)
 				)
 			)
 		)
@@ -13106,7 +13052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a94bd3ef-b5fe-46b7-94d3-1b2092123c3d")
-		(property "Reference" "RN?"
+		(property "Reference" "RN511"
 			(at 115.57 133.858 90)
 			(effects
 				(font
@@ -13173,7 +13119,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN511")
 					(unit 1)
 				)
 			)
@@ -13188,7 +13134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad56c642-647e-4708-8464-b7f0b98db20e")
-		(property "Reference" "D110"
+		(property "Reference" "D518"
 			(at 259.842 204.724 0)
 			(effects
 				(font
@@ -13249,7 +13195,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D110")
+					(reference "D518")
 					(unit 1)
 				)
 			)
@@ -13264,7 +13210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad81f243-5197-402e-ab6d-203ec56d98ff")
-		(property "Reference" "CN?"
+		(property "Reference" "CN501"
 			(at 126.746 155.956 0)
 			(effects
 				(font
@@ -13333,7 +13279,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "CN?")
+					(reference "CN501")
 					(unit 1)
 				)
 			)
@@ -13349,7 +13295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae309524-9638-4941-b80c-6f67555050e9")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0529"
 			(at 269.24 207.01 0)
 			(effects
 				(font
@@ -13400,7 +13346,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0106")
+					(reference "#PWR0529")
 					(unit 1)
 				)
 			)
@@ -13416,7 +13362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed6324b-eb53-40ec-a425-1b01c4892a49")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0518"
 			(at 101.6 207.01 0)
 			(effects
 				(font
@@ -13467,7 +13413,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0124")
+					(reference "#PWR0518")
 					(unit 1)
 				)
 			)
@@ -13483,7 +13429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeff24c3-ab23-4153-93da-c2c8766c5e13")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0525"
 			(at 208.28 207.01 0)
 			(effects
 				(font
@@ -13534,7 +13480,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0115")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
@@ -13549,7 +13495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1781ff3-8d47-4ac5-956f-bb6bfde12621")
-		(property "Reference" "D106"
+		(property "Reference" "D510"
 			(at 137.922 204.724 0)
 			(effects
 				(font
@@ -13610,7 +13556,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D106")
+					(reference "D510")
 					(unit 1)
 				)
 			)
@@ -13626,7 +13572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ed659c-0b72-4095-b790-68289913c5e8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0513"
 			(at 135.89 161.29 0)
 			(effects
 				(font
@@ -13683,7 +13629,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -13699,7 +13645,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b2ddcd45-0a39-478f-b74e-a13487ed40d3")
-		(property "Reference" "C104"
+		(property "Reference" "C515"
 			(at 236.4359 196.9141 0)
 			(effects
 				(font
@@ -13753,7 +13699,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C104")
+					(reference "C515")
 					(unit 1)
 				)
 			)
@@ -13769,7 +13715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3157b2d-1414-415b-8bda-07c0cccac802")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0539"
 			(at 168.91 224.79 0)
 			(effects
 				(font
@@ -13820,7 +13766,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0143")
+					(reference "#PWR0539")
 					(unit 1)
 				)
 			)
@@ -13836,7 +13782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b315b045-7153-4100-9d70-62d574ceeac5")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0522"
 			(at 162.56 207.01 0)
 			(effects
 				(font
@@ -13887,7 +13833,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0128")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 			)
@@ -13902,7 +13848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b36999ae-2066-409a-804d-61660b081758")
-		(property "Reference" "CN?"
+		(property "Reference" "CN502"
 			(at 138.176 155.956 0)
 			(effects
 				(font
@@ -13971,7 +13917,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "CN?")
+					(reference "CN502")
 					(unit 1)
 				)
 			)
@@ -13987,7 +13933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41f7e4a-311e-4bee-a401-f954c8c0e91a")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0538"
 			(at 153.67 224.79 0)
 			(effects
 				(font
@@ -14038,7 +13984,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0117")
+					(reference "#PWR0538")
 					(unit 1)
 				)
 			)
@@ -14054,7 +14000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c77fec-a5e3-488f-bd92-7a6461326e6b")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0524"
 			(at 193.04 207.01 0)
 			(effects
 				(font
@@ -14105,7 +14051,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0114")
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
@@ -14120,7 +14066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bab94b6c-545e-4d09-a50a-e026ab10d49b")
-		(property "Reference" "D115"
+		(property "Reference" "D513"
 			(at 183.642 204.724 0)
 			(effects
 				(font
@@ -14181,7 +14127,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D115")
+					(reference "D513")
 					(unit 1)
 				)
 			)
@@ -14197,7 +14143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baeff50b-42b5-4227-95c3-3e293da5413c")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0544"
 			(at 245.11 224.79 0)
 			(effects
 				(font
@@ -14248,7 +14194,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0131")
+					(reference "#PWR0544")
 					(unit 1)
 				)
 			)
@@ -14264,7 +14210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb582572-3b3f-4ae5-94f3-b1aaeabc6bc3")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0523"
 			(at 177.8 207.01 0)
 			(effects
 				(font
@@ -14315,24 +14261,24 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0113")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 93.98 55.88 0)
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 88.9 54.61 0)
 		(mirror y)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bfcb8666-0815-40ab-9bfb-7c9a50b02230")
-		(property "Reference" "R?"
-			(at 88.646 47.5206 0)
+		(uuid "bff5999e-4223-4af5-814b-6c2d9175e882")
+		(property "Reference" "RN514"
+			(at 89.154 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,17 +14286,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 88.646 49.8066 0)
+		(property "Value" "47k"
+			(at 88.9 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 90.932 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,8 +14303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 93.98 55.88 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 88.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,48 +14312,60 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 93.98 55.88 0)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 88.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f69")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2136")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a68")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469caa")
+		)
+		(pin "4"
+			(uuid "241cc635-321b-45e7-bc25-4ebc374c6744")
 		)
 		(pin "1"
-			(uuid "31afb7d3-5ead-4695-b96e-3796fcceb234")
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d54")
+		)
+		(pin "3"
+			(uuid "de0dbf02-0222-45be-aff5-c38c016bafd3")
 		)
 		(pin "2"
-			(uuid "8d9a2b16-918c-4fde-85b0-c817376b4cc5")
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afc")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R93")
-					(unit 1)
-				)
-			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
-					(unit 1)
+					(reference "RN514")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 86.36 55.88 0)
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 73.66 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c05c2aed-67a2-4b9d-816c-cddb86f8c206")
-		(property "Reference" "R?"
-			(at 76.454 47.5206 0)
+		(uuid "c13df6fc-4e69-4531-afc9-dcdb0a26b476")
+		(property "Reference" "RN513"
+			(at 74.676 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,17 +14373,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 76.454 49.8066 0)
+		(property "Value" "47k"
+			(at 73.66 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 75.692 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,8 +14390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 55.88 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14443,107 +14399,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 86.36 55.88 0)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 73.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6b")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2138")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a6a")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cac")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fc")
 		)
 		(pin "1"
-			(uuid "49506ca0-a6fe-4926-954b-b53eafbd56bf")
+			(uuid "f6f81557-b56c-4523-99b7-da6d188c9365")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc052")
 		)
 		(pin "2"
-			(uuid "8b9b4fa7-2c48-4ef2-a293-75d390643200")
+			(uuid "b15fc2af-79b2-47e6-a7fe-ae963a910db6")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R90")
-					(unit 1)
-				)
-			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 104.14 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2e347c9-eba2-45b2-8215-3dcaeffd8fe8")
-		(property "Reference" "R?"
-			(at 103.378 47.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 103.378 49.6909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc8211c4-ff9a-4299-b587-c546b325eb9a")
-		)
-		(pin "2"
-			(uuid "16076279-f817-4c01-afbc-473308f88ace")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R96")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "RN513")
 					(unit 1)
 				)
 			)
@@ -14559,7 +14451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3fa8903-910b-4d78-8f8f-4dba4cbc1091")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0514"
 			(at 147.32 161.29 0)
 			(effects
 				(font
@@ -14616,7 +14508,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)
@@ -14632,7 +14524,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c9ca9be5-beca-4337-ac1d-077a55e34eb0")
-		(property "Reference" "C113"
+		(property "Reference" "C507"
 			(at 114.5159 196.9141 0)
 			(effects
 				(font
@@ -14686,7 +14578,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C113")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -14702,7 +14594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb8adccb-842a-4216-ba45-e356591c92cb")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0543"
 			(at 229.87 224.79 0)
 			(effects
 				(font
@@ -14753,7 +14645,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0139")
+					(reference "#PWR0543")
 					(unit 1)
 				)
 			)
@@ -14768,7 +14660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb8c65ce-36b7-4ab1-8309-d869c2215edd")
-		(property "Reference" "RN?"
+		(property "Reference" "RN510"
 			(at 115.57 126.238 90)
 			(effects
 				(font
@@ -14835,7 +14727,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN510")
 					(unit 1)
 				)
 			)
@@ -14851,7 +14743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8bbbde-3911-4eef-aa76-54917ac7f5f8")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0528"
 			(at 254 207.01 0)
 			(effects
 				(font
@@ -14902,7 +14794,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0108")
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -14917,7 +14809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce5e4468-b67f-4b54-913b-f551cd5b705f")
-		(property "Reference" "D103"
+		(property "Reference" "D506"
 			(at 76.962 204.724 0)
 			(effects
 				(font
@@ -14978,7 +14870,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D103")
+					(reference "D506")
 					(unit 1)
 				)
 			)
@@ -14993,7 +14885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfe8360c-6560-4f0f-a23a-24ec43aa4569")
-		(property "Reference" "RN?"
+		(property "Reference" "RN509"
 			(at 115.57 118.618 90)
 			(effects
 				(font
@@ -15060,7 +14952,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN509")
 					(unit 1)
 				)
 			)
@@ -15075,7 +14967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0ec247c-c298-4de6-be0a-6de096b84b0a")
-		(property "Reference" "RN?"
+		(property "Reference" "RN501"
 			(at 115.57 57.658 90)
 			(effects
 				(font
@@ -15142,7 +15034,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN501")
 					(unit 1)
 				)
 			)
@@ -15158,7 +15050,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d2d1d254-2979-426c-b463-fdac3fe1f5f5")
-		(property "Reference" "C109"
+		(property "Reference" "C503"
 			(at 53.5559 196.9141 0)
 			(effects
 				(font
@@ -15212,7 +15104,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C109")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -15227,7 +15119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3a968b3-2d41-4102-a097-d775919e5237")
-		(property "Reference" "U?"
+		(property "Reference" "U508"
 			(at 163.83 147.32 0)
 			(effects
 				(font
@@ -15322,7 +15214,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U508")
 					(unit 1)
 				)
 			)
@@ -15337,7 +15229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6cc140c-0593-4043-bae2-b25bc611d220")
-		(property "Reference" "D105"
+		(property "Reference" "D511"
 			(at 153.162 204.724 0)
 			(effects
 				(font
@@ -15398,78 +15290,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 118.11 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7a6e5e7-440f-4d4b-9e1c-756494a5874e")
-		(property "Reference" "#PWR?"
-			(at 118.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 118.11 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da543677-d517-4920-b10c-4cf180570606")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "D511")
 					(unit 1)
 				)
 			)
@@ -15484,7 +15305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fe76c4-65b8-47e2-a7f9-9a563e6b59c5")
-		(property "Reference" "D102"
+		(property "Reference" "D505"
 			(at 61.722 204.724 0)
 			(effects
 				(font
@@ -15545,7 +15366,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D102")
+					(reference "D505")
 					(unit 1)
 				)
 			)
@@ -15560,7 +15381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b1df18-4894-4453-87ad-fac97cad78b6")
-		(property "Reference" "RN?"
+		(property "Reference" "RN503"
 			(at 115.57 72.898 90)
 			(effects
 				(font
@@ -15627,7 +15448,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN503")
 					(unit 1)
 				)
 			)
@@ -15643,7 +15464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db55249c-dc9d-4ebb-a54f-de7ad9508307")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0516"
 			(at 71.12 207.01 0)
 			(effects
 				(font
@@ -15694,7 +15515,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0122")
+					(reference "#PWR0516")
 					(unit 1)
 				)
 			)
@@ -15709,7 +15530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd231667-029c-47c4-b433-eeb28cc71273")
-		(property "Reference" "D112"
+		(property "Reference" "D516"
 			(at 229.362 204.724 0)
 			(effects
 				(font
@@ -15770,7 +15591,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D112")
+					(reference "D516")
 					(unit 1)
 				)
 			)
@@ -15785,7 +15606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de445307-c7a7-48e3-a8a5-a03a66e04a74")
-		(property "Reference" "PB?"
+		(property "Reference" "PB512"
 			(at 58.42 138.684 0)
 			(effects
 				(font
@@ -15844,7 +15665,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB?")
+					(reference "PB512")
 					(unit 1)
 				)
 			)
@@ -15860,7 +15681,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "debe236f-4301-49a9-a5cc-45cf3ae637a0")
-		(property "Reference" "C108"
+		(property "Reference" "C514"
 			(at 221.1959 196.9141 0)
 			(effects
 				(font
@@ -15914,7 +15735,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C108")
+					(reference "C514")
 					(unit 1)
 				)
 			)
@@ -15930,7 +15751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e040c648-47be-4fab-ab65-256e943bb376")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0507"
 			(at 201.93 137.16 0)
 			(effects
 				(font
@@ -15987,24 +15808,24 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 88.9 55.88 0)
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 76.2 54.61 0)
 		(mirror y)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "efe4ebe9-2337-40c3-833a-b27246b1dd33")
-		(property "Reference" "R?"
-			(at 80.518 47.5206 0)
+		(uuid "e362f07d-2b65-4e1d-be58-eb8626fc5a6b")
+		(property "Reference" "RN513"
+			(at 76.454 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,17 +15833,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 80.518 49.8066 0)
+		(property "Value" "47k"
+			(at 76.2 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 78.232 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,8 +15850,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 88.9 55.88 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16039,32 +15859,131 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 88.9 55.88 0)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 76.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f69")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2136")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a68")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469caa")
+		)
+		(pin "4"
+			(uuid "7c38e542-7bdb-4231-b9cb-1720283ad3c8")
 		)
 		(pin "1"
-			(uuid "540afb66-3258-4add-a0a7-343eae60423f")
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d54")
+		)
+		(pin "3"
+			(uuid "e542af86-6c98-4c0b-8a79-50c4c07a94a9")
 		)
 		(pin "2"
-			(uuid "b9957f99-334f-42b4-bc54-fb233690f232")
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0afc")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R91")
-					(unit 1)
-				)
-			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
-					(unit 1)
+					(reference "RN513")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 91.44 54.61 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efc86015-c2e7-40e6-a473-f2cd892520a4")
+		(property "Reference" "RN514"
+			(at 90.932 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 91.44 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 93.472 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6c")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2139")
+		)
+		(pin "5"
+			(uuid "9661bd2d-0e83-4819-bcf1-9e600dc748e3")
+		)
+		(pin "6"
+			(uuid "fe021607-76bc-4c31-95fa-8f2e30e53a4a")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fd")
+		)
+		(pin "1"
+			(uuid "3f0e5697-c412-4954-af27-5fd0f0383d57")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc053")
+		)
+		(pin "2"
+			(uuid "98855fb5-ff49-4b3a-b4a0-abee15ec0aff")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "RN514")
+					(unit 3)
 				)
 			)
 		)
@@ -16078,7 +15997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eff096c7-7db5-42c8-9836-c121a61749e6")
-		(property "Reference" "D113"
+		(property "Reference" "D515"
 			(at 214.122 204.724 0)
 			(effects
 				(font
@@ -16139,7 +16058,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D113")
+					(reference "D515")
 					(unit 1)
 				)
 			)
@@ -16155,7 +16074,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f3068e7c-85ad-4372-974a-a3ee68ad603d")
-		(property "Reference" "C106"
+		(property "Reference" "C512"
 			(at 190.7159 196.9141 0)
 			(effects
 				(font
@@ -16209,7 +16128,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C106")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -16224,7 +16143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f31e2cd8-e304-4d0d-91de-fba7c8365677")
-		(property "Reference" "PB1801"
+		(property "Reference" "PB501"
 			(at 58.42 54.864 0)
 			(effects
 				(font
@@ -16279,7 +16198,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB1801")
+					(reference "PB501")
 					(unit 1)
 				)
 			)
@@ -16294,7 +16213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f42f8f57-3c96-4ed8-8080-4e497ce73f1f")
-		(property "Reference" "U?"
+		(property "Reference" "U502"
 			(at 136.652 57.404 90)
 			(effects
 				(font
@@ -16390,7 +16309,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U502")
 					(unit 7)
 				)
 			)
@@ -16406,7 +16325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4dbb472-f8d1-48cc-9caf-35fa06a5503f")
-		(property "Reference" "U?"
+		(property "Reference" "U507"
 			(at 198.5167 74.5955 0)
 			(effects
 				(font
@@ -16549,7 +16468,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "U?")
+					(reference "U507")
 					(unit 1)
 				)
 			)
@@ -16564,7 +16483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5efefb7-6b79-45e3-8e77-f66475cbb243")
-		(property "Reference" "RN?"
+		(property "Reference" "RN506"
 			(at 115.57 95.758 90)
 			(effects
 				(font
@@ -16631,7 +16550,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "RN?")
+					(reference "RN506")
 					(unit 1)
 				)
 			)
@@ -16647,7 +16566,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f6f7f46b-2c61-4f0a-9faa-e91e29db5503")
-		(property "Reference" "C116"
+		(property "Reference" "C510"
 			(at 160.2359 196.9141 0)
 			(effects
 				(font
@@ -16701,24 +16620,24 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C116")
+					(reference "C510")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 78.74 55.88 0)
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 99.06 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9f39818-d5b0-4e02-bd3e-c4469d3d6bcd")
-		(property "Reference" "R?"
-			(at 65.786 47.498 0)
+		(uuid "f9fffbbd-7fb2-4cd5-81d1-553181e0c8f1")
+		(property "Reference" "RN515"
+			(at 100.076 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16726,17 +16645,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 65.786 49.9223 0)
+		(property "Value" "47k"
+			(at 99.06 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 101.092 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16744,8 +16662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 78.74 55.88 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 99.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16753,31 +16671,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 78.74 55.88 0)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 99.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "8"
+			(uuid "58842fe2-6222-41cb-b50e-005bdbf32f6b")
+		)
+		(pin "7"
+			(uuid "69fde8ad-e0d0-4d98-85bd-5f0c639c2138")
+		)
+		(pin "5"
+			(uuid "9a455930-5535-473e-aee5-be70fb663a6a")
+		)
+		(pin "6"
+			(uuid "bbac888d-b68d-455d-af40-c656e8469cac")
+		)
+		(pin "4"
+			(uuid "3f191bb0-bbb6-411f-82dc-14114de7c6fc")
 		)
 		(pin "1"
-			(uuid "459adcb7-b98b-4731-b56f-26775c6ad0b2")
+			(uuid "22fadeaa-9bc6-4eaa-86fc-e384da24b408")
+		)
+		(pin "3"
+			(uuid "472d9308-8314-438f-bbb7-7da7362bc052")
 		)
 		(pin "2"
-			(uuid "d3af2847-6223-412d-b0dc-d0ae17abc551")
+			(uuid "4590fdb9-b65a-44f4-a58b-f92c3aed4d53")
 		)
 		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "R88")
-					(unit 1)
-				)
-			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "R?")
+					(reference "RN515")
 					(unit 1)
 				)
 			)
@@ -16793,7 +16723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc9c84f2-3a83-4e29-8fb6-a54e93e0e977")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0515"
 			(at 55.88 207.01 0)
 			(effects
 				(font
@@ -16844,7 +16774,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0121")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -16860,7 +16790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcddd6da-b1a7-4e36-8a6e-ffa861ec4bee")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0502"
 			(at 153.67 62.23 0)
 			(effects
 				(font
@@ -16917,7 +16847,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR?")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
