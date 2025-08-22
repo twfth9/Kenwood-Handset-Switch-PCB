@@ -5053,7 +5053,7 @@
 		)
 		(uuid "857366fd-1f9a-4faa-a9fa-ae4c3c388cf3")
 	)
-	(text "Left Inner Knob: Driver Radio Audio Volume\nLeft Outer Knob: Drier Music Audio Volume\nLeft Inner Push: Hold to power unit on/off"
+	(text "Left Inner Knob: Driver Radio Audio Volume\nLeft Outer Knob: Driver Music Audio Volume\nLeft Inner Push: Hold to power unit on/off"
 		(exclude_from_sim no)
 		(at 79.756 46.99 0)
 		(effects
@@ -5092,12 +5092,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07e4fb8a-943b-407d-9689-9f0ca0a5b18d")
-	)
-	(junction
-		(at 256.54 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a580d4a-a97f-4013-b6ea-567cf782a86f")
 	)
 	(junction
 		(at 242.57 232.41)
@@ -5224,6 +5218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60e16621-b4bd-4774-bf30-1f4bf4e45d14")
+	)
+	(junction
+		(at 264.16 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a5ca10f-ef9d-491e-9078-781ce632d4e2")
 	)
 	(junction
 		(at 240.03 135.89)
@@ -5432,8 +5432,8 @@
 		(uuid "82045ccd-9fc1-4e39-aed5-3222b10f9b8f")
 	)
 	(no_connect
-		(at 264.16 104.14)
-		(uuid "8b772437-48d5-4482-82d7-1e938ec29997")
+		(at 256.54 104.14)
+		(uuid "bce4907e-e665-4f70-97e5-0921025f3166")
 	)
 	(wire
 		(pts
@@ -5594,16 +5594,6 @@
 			(type default)
 		)
 		(uuid "0c893e79-c43e-488d-ad3b-1b5c59aaa971")
-	)
-	(wire
-		(pts
-			(xy 256.54 96.52) (xy 284.48 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3d1da7-9f59-4ddb-93da-ce628e2c19da")
 	)
 	(wire
 		(pts
@@ -6347,7 +6337,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 96.52) (xy 256.54 96.52)
+			(xy 251.46 96.52) (xy 264.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6827,7 +6817,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 96.52) (xy 256.54 104.14)
+			(xy 264.16 96.52) (xy 264.16 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7194,6 +7184,16 @@
 			(type default)
 		)
 		(uuid "a940e3a6-e406-4fe7-b1a8-2279ea75b856")
+	)
+	(wire
+		(pts
+			(xy 264.16 96.52) (xy 284.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96249f2-287f-4c98-914b-7a794e903189")
 	)
 	(wire
 		(pts
@@ -7567,7 +7567,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 130.81) (xy 110.49 130.81)
+			(xy 92.71 130.81) (xy 113.03 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7717,7 +7717,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 110.49 68.58)
+			(xy 92.71 68.58) (xy 113.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7934,6 +7934,16 @@
 			(type default)
 		)
 		(uuid "fa947e85-6e98-4b63-bb1f-ea539843f776")
+	)
+	(wire
+		(pts
+			(xy 113.03 130.81) (xy 113.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd44cee-0546-4c16-8101-78d7afb15836")
 	)
 	(wire
 		(pts
@@ -17120,7 +17130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/scas218x/scas218x.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NXB0106.pdf"
 			(at 240.03 100.33 0)
 			(effects
 				(font
