@@ -873,6 +873,180 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Filled_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -3415,6 +3589,12 @@
 		(uuid "766fd271-5526-4da4-95b2-bb2f44042adb")
 	)
 	(junction
+		(at 241.3 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78a24661-bdcd-407c-ac08-1925970f1fc0")
+	)
+	(junction
 		(at 77.47 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3815,6 +3995,16 @@
 			(type default)
 		)
 		(uuid "1e9e1cc7-4d83-4673-9998-a99e4db28f71")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a1e9fa-0082-473d-a8e9-8451ce1e9938")
 	)
 	(wire
 		(pts
@@ -4328,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 86.36) (xy 247.65 86.36)
+			(xy 252.73 86.36) (xy 241.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4485,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "88c31b29-56fa-4ab1-8cf0-dd45815a3643")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 241.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dd4354-e129-4590-a5b3-58d57d126976")
 	)
 	(wire
 		(pts
@@ -4665,6 +4865,16 @@
 			(type default)
 		)
 		(uuid "a6434a69-cb04-4fd9-95db-e400b58e66a7")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 241.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa214f34-24c4-4ddc-8222-09a24735c40c")
 	)
 	(wire
 		(pts
@@ -5016,6 +5226,16 @@
 		)
 		(uuid "fd7f79c5-3dc9-43cb-8b3e-e2e3e2340bb0")
 	)
+	(wire
+		(pts
+			(xy 241.3 95.25) (xy 241.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff922b3c-e976-45aa-8875-1efc9b74384c")
+	)
 	(label "RXD_232_FROM_RADIO"
 		(at 218.44 124.46 180)
 		(effects
@@ -5198,7 +5418,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 247.65 86.36 180)
+		(at 228.6 86.36 180)
 		(effects
 			(font
 				(size 1 1)
@@ -5510,6 +5730,114 @@
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "JP506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.3 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d8e3352-d1dc-4832-a087-acc77993013c")
+		(property "Reference" "R201"
+			(at 243.84 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 243.84 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Libraries:Worthington_R_0603"
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "311-510HRCT-ND"
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIgiKey Part Number" ""
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e8d3d6f-b97c-437a-ae5c-1564b482f6fe")
+		)
+		(pin "2"
+			(uuid "6387626a-93cd-40e9-99f7-4b5da29bb721")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "R401")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "R201")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "R301")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -6039,7 +6367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24d77770-f053-48ac-9c9b-04f315166563")
-		(property "Reference" "R204"
+		(property "Reference" "R205"
 			(at 129.794 128.016 90)
 			(effects
 				(font
@@ -6091,19 +6419,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "R404")
+					(reference "R405")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "R204")
+					(reference "R205")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "R304")
+					(reference "R305")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "R504")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -6412,7 +6740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2be0019a-3cf2-4181-984f-a46dbf63cab9")
-		(property "Reference" "D202"
+		(property "Reference" "D203"
 			(at 96.52 144.7799 90)
 			(effects
 				(font
@@ -6506,19 +6834,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "D402")
+					(reference "D403")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "D202")
+					(reference "D203")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "D302")
+					(reference "D303")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "D502")
+					(reference "D503")
 					(unit 1)
 				)
 			)
@@ -7587,7 +7915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63497964-5485-4164-9bc2-dd34725ffa52")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0207"
 			(at 293.37 186.69 0)
 			(effects
 				(font
@@ -7656,19 +7984,19 @@
 			)
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "#PWR0406")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "#PWR0206")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "#PWR0306")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "#PWR0506")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -7683,7 +8011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6852fa81-42a5-4c37-93f1-3913f6986064")
-		(property "Reference" "D201"
+		(property "Reference" "D202"
 			(at 83.82 139.6999 90)
 			(effects
 				(font
@@ -7773,19 +8101,19 @@
 		(instances
 			(project ""
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "D401")
+					(reference "D402")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "D201")
+					(reference "D202")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "D301")
+					(reference "D302")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "D501")
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -8466,6 +8794,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Filled")
+		(at 241.3 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9425cb9e-f496-48a6-894e-586d7527b61e")
+		(property "Reference" "D201"
+			(at 243.84 91.7574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 243.84 94.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, filled shape"
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-5016-ND"
+			(at 241.3 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIgiKey Part Number" ""
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c74b573d-daa0-4047-bb13-eaefab1dd53d")
+		)
+		(pin "1"
+			(uuid "b7c10e7b-a003-4ee1-b76a-9dce1aeb9a16")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "D401")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "D201")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "D301")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Flag")
 		(at 87.63 95.25 0)
 		(unit 1)
@@ -8890,7 +9327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fcbdf4c-1c8d-4d4a-b532-8a4edf93dd8f")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0205"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -8941,19 +9378,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "#PWR0404")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "#PWR0204")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "#PWR0304")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "#PWR0504")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -9309,7 +9746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aacaf3c3-3851-4cfb-8af1-e987931d1c49")
-		(property "Reference" "R201"
+		(property "Reference" "R202"
 			(at 129.794 112.776 90)
 			(effects
 				(font
@@ -9361,19 +9798,19 @@
 		(instances
 			(project ""
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "R401")
+					(reference "R402")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "R201")
+					(reference "R202")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "R301")
+					(reference "R302")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "R501")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -9388,7 +9825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aacaf3c3-3851-4cfb-8af1-e987931d1c4a")
-		(property "Reference" "R202"
+		(property "Reference" "R203"
 			(at 129.794 117.856 90)
 			(effects
 				(font
@@ -9440,19 +9877,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "R402")
+					(reference "R403")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "R202")
+					(reference "R203")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "R302")
+					(reference "R303")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "R502")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -9691,6 +10128,86 @@
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "JP504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d01448-ac9f-43d0-9a1d-824f019fa45a")
+		(property "Reference" "#PWR0204"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 107.0031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7beda05f-9e63-49e5-94fe-cc2b956f304e")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -10047,7 +10564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d19a46ad-835d-4b9f-842c-8731e2785970")
-		(property "Reference" "D203"
+		(property "Reference" "D204"
 			(at 109.22 149.8599 90)
 			(effects
 				(font
@@ -10141,19 +10658,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "D403")
+					(reference "D404")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "D203")
+					(reference "D204")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "D303")
+					(reference "D304")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "D503")
+					(reference "D504")
 					(unit 1)
 				)
 			)
@@ -10250,7 +10767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2b68924-620f-4872-8d0c-cbb066e6dba5")
-		(property "Reference" "R203"
+		(property "Reference" "R204"
 			(at 129.794 122.936 90)
 			(effects
 				(font
@@ -10302,19 +10819,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "R403")
+					(reference "R404")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "R203")
+					(reference "R204")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "R303")
+					(reference "R304")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "R503")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -10329,7 +10846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3c836cb-5cd9-49da-9de1-966d25ee9b39")
-		(property "Reference" "D204"
+		(property "Reference" "D205"
 			(at 121.92 154.9399 90)
 			(effects
 				(font
@@ -10423,19 +10940,19 @@
 		(instances
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "D404")
+					(reference "D405")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "D204")
+					(reference "D205")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "D304")
+					(reference "D305")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "D504")
+					(reference "D505")
 					(unit 1)
 				)
 			)
@@ -10695,7 +11212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f101ff8b-6efe-4579-a8d8-ee426b712628")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0206"
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -10764,19 +11281,19 @@
 			)
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "#PWR0405")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "#PWR0205")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "#PWR0305")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "#PWR0505")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
