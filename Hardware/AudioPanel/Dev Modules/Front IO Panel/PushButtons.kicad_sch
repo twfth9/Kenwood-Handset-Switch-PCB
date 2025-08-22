@@ -7262,7 +7262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02dd4db7-d738-411b-9925-e80eec929d2b")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0427"
 			(at 73.66 200.66 0)
 			(effects
 				(font
@@ -7319,7 +7319,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0408")
+					(reference "#PWR0427")
 					(unit 1)
 				)
 			)
@@ -7440,7 +7440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "039b12c1-f2fe-4014-9eff-6d17fa012513")
-		(property "Reference" "C412"
+		(property "Reference" "C409"
 			(at 161.29 193.802 0)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C412")
+					(reference "C409")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05081053-335f-4f0a-b2b2-e69f31d44529")
-		(property "Reference" "C408"
+		(property "Reference" "C406"
 			(at 144.78 193.802 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C408")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -7672,6 +7672,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "057566ae-316b-4795-b8cd-0d92f3984165")
+		(property "Reference" "PB402"
+			(at 38.1 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05492cc1-5a40-4da4-93cd-84e79b6a3d81")
+		)
+		(pin "1"
+			(uuid "fad21dd6-e49a-4417-bdda-1b0e8c298c8c")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 92.71 250.19 0)
 		(unit 1)
@@ -7757,7 +7827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b7da06-6d24-45e2-8ce0-72919e7e5ee3")
-		(property "Reference" "#PWR0451"
+		(property "Reference" "#PWR0460"
 			(at 260.35 264.16 0)
 			(effects
 				(font
@@ -7808,7 +7878,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0451")
+					(reference "#PWR0460")
 					(unit 1)
 				)
 			)
@@ -7930,7 +8000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09fdea63-0de4-4334-80e2-5ca3a59e04a7")
-		(property "Reference" "#PWR0431"
+		(property "Reference" "#PWR0416"
 			(at 176.53 195.58 0)
 			(effects
 				(font
@@ -7981,7 +8051,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0431")
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -7996,7 +8066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4df9ab-ec37-4aea-a453-004ccf22a2ab")
-		(property "Reference" "C418"
+		(property "Reference" "C413"
 			(at 182.88 193.802 0)
 			(effects
 				(font
@@ -8048,7 +8118,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C418")
+					(reference "C413")
 					(unit 1)
 				)
 			)
@@ -8225,7 +8295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101a11bd-9cc0-42bb-a984-984f75c7417c")
-		(property "Reference" "#PWR0418"
+		(property "Reference" "#PWR0452"
 			(at 138.43 264.16 0)
 			(effects
 				(font
@@ -8276,7 +8346,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0418")
+					(reference "#PWR0452")
 					(unit 1)
 				)
 			)
@@ -8368,81 +8438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "11e8be22-8f39-41aa-a8b1-8565a122c1f7")
-		(property "Reference" "PB411"
-			(at 38.1 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 35.814 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7eb")
-		)
-		(pin "1"
-			(uuid "42874ca6-48f1-4ec0-8a3f-34c387d9f6b1")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB11")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 257.81 0)
 		(unit 1)
@@ -8452,7 +8447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1281ab35-bead-4b3b-8931-eb66226bd325")
-		(property "Reference" "#PWR0414"
+		(property "Reference" "#PWR0450"
 			(at 107.95 264.16 0)
 			(effects
 				(font
@@ -8503,7 +8498,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0414")
+					(reference "#PWR0450")
 					(unit 1)
 				)
 			)
@@ -8594,7 +8589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15b5ebfc-05b0-4a43-9968-69c69e28c158")
-		(property "Reference" "D405"
+		(property "Reference" "D403"
 			(at 65.786 193.04 0)
 			(effects
 				(font
@@ -8664,7 +8659,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D405")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -8770,82 +8765,6 @@
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "U402")
 					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16b7039f-ecd2-49a0-9228-5ea0105a6843")
-		(property "Reference" "PB403"
-			(at 38.1 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7ec")
-		)
-		(pin "1"
-			(uuid "d72f2389-18bc-4d90-be1e-2dc832834053")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB3")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB403")
-					(unit 1)
 				)
 			)
 		)
@@ -8957,6 +8876,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18ef133f-80fb-4f65-af0f-7db32d5e52ab")
+		(property "Reference" "PB411"
+			(at 38.1 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a873a54-7f44-4b3e-ab84-f08f32fa576e")
+		)
+		(pin "1"
+			(uuid "090bf66a-318c-4c9f-9bb7-2a0f6ea562e7")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 240.03 0)
 		(unit 1)
@@ -8966,7 +8955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2c72ae-ae11-43c1-bcb6-33e775a4b27f")
-		(property "Reference" "#PWR0417"
+		(property "Reference" "#PWR0434"
 			(at 132.08 246.38 0)
 			(effects
 				(font
@@ -9017,7 +9006,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0417")
+					(reference "#PWR0434")
 					(unit 1)
 				)
 			)
@@ -9033,7 +9022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c3b5d54-0d8a-4979-8f20-4fce9b822adb")
-		(property "Reference" "#PWR0457"
+		(property "Reference" "#PWR0405"
 			(at 316.23 116.84 0)
 			(effects
 				(font
@@ -9084,7 +9073,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0457")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -9100,7 +9089,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1c9a6ea7-4de3-451e-86d7-65219155e0e1")
-		(property "Reference" "C417"
+		(property "Reference" "C429"
 			(at 175.4759 236.2841 0)
 			(effects
 				(font
@@ -9154,7 +9143,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C417")
+					(reference "C429")
 					(unit 1)
 				)
 			)
@@ -9169,7 +9158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e56ca63-3945-4c81-8f0e-f66ac1215947")
-		(property "Reference" "C414"
+		(property "Reference" "C410"
 			(at 166.37 193.802 0)
 			(effects
 				(font
@@ -9221,7 +9210,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C414")
+					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -9237,7 +9226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0a80f3-4717-4145-b802-af23dbea7914")
-		(property "Reference" "#PWR0453"
+		(property "Reference" "#PWR0461"
 			(at 275.59 264.16 0)
 			(effects
 				(font
@@ -9288,83 +9277,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0453")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20a1ccdf-372d-4e1e-b419-65cc3a71f87f")
-		(property "Reference" "PB407"
-			(at 38.1 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7f0")
-		)
-		(pin "1"
-			(uuid "362b5071-542b-494b-bc4a-295a27dec0f2")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB7")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB407")
+					(reference "#PWR0461")
 					(unit 1)
 				)
 			)
@@ -9380,7 +9293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2194489d-941b-449c-b0c0-1756dc73f44a")
-		(property "Reference" "#PWR0459"
+		(property "Reference" "#PWR0406"
 			(at 321.31 116.84 0)
 			(effects
 				(font
@@ -9431,7 +9344,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0459")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -9446,7 +9359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24fdd590-3a19-44bb-a5bf-8b025c7d85c6")
-		(property "Reference" "C435"
+		(property "Reference" "C402"
 			(at 323.6341 45.7841 0)
 			(effects
 				(font
@@ -9500,7 +9413,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C435")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -10443,7 +10356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "341c7f27-f687-428d-a728-d10431912673")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR0409"
 			(at 139.7 195.58 0)
 			(effects
 				(font
@@ -10494,7 +10407,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0419")
+					(reference "#PWR0409")
 					(unit 1)
 				)
 			)
@@ -10671,6 +10584,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c51f99b-9580-421f-9b19-8937b21f0df1")
+		(property "Reference" "PB414"
+			(at 38.1 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0426d9cc-c762-4f5f-9f3f-a0bfb399ead7")
+		)
+		(pin "1"
+			(uuid "07c62d3f-e8a8-4f63-bdf2-0f8256b30e85")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 237.49 0)
 		(mirror y)
@@ -10680,7 +10663,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3cde3e0d-bf8f-4a2d-b340-140f875a193a")
-		(property "Reference" "C424"
+		(property "Reference" "C431"
 			(at 205.9559 236.2841 0)
 			(effects
 				(font
@@ -10734,7 +10717,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C424")
+					(reference "C431")
 					(unit 1)
 				)
 			)
@@ -10750,7 +10733,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3dfa5979-7087-4ef1-b231-f70a75237c69")
-		(property "Reference" "C432"
+		(property "Reference" "C436"
 			(at 282.1559 236.2841 0)
 			(effects
 				(font
@@ -10804,7 +10787,77 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C432")
+					(reference "C436")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e0aead0-1d31-4563-ab0f-b601d7c13dfb")
+		(property "Reference" "PB410"
+			(at 38.1 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51d1318-bf20-4e61-9c73-487a90b01fb2")
+		)
+		(pin "1"
+			(uuid "2e31c0e0-a8b1-4948-803d-4217f9154ee7")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB410")
 					(unit 1)
 				)
 			)
@@ -10820,7 +10873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e1c4d23-dcc3-4498-9a22-6222c2c80858")
-		(property "Reference" "#PWR0444"
+		(property "Reference" "#PWR0457"
 			(at 214.63 264.16 0)
 			(effects
 				(font
@@ -10871,7 +10924,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0444")
+					(reference "#PWR0457")
 					(unit 1)
 				)
 			)
@@ -10886,7 +10939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e84529a-279c-4278-a59e-4fb24390bfd1")
-		(property "Reference" "C426"
+		(property "Reference" "C419"
 			(at 214.63 193.802 0)
 			(effects
 				(font
@@ -10938,7 +10991,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C426")
+					(reference "C419")
 					(unit 1)
 				)
 			)
@@ -10954,7 +11007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fcdd517-43cf-4ce0-ac86-cbf9fd75599e")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0446"
 			(at 46.99 264.16 0)
 			(effects
 				(font
@@ -11005,7 +11058,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0402")
+					(reference "#PWR0446")
 					(unit 1)
 				)
 			)
@@ -11118,6 +11171,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40c3b181-5de4-48e1-a927-26a4c5df6218")
+		(property "Reference" "PB415"
+			(at 38.1 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0445657-4080-433f-8c86-f4772e90c7d7")
+		)
+		(pin "1"
+			(uuid "1e1d3296-6c1a-40ea-b18b-3790469a90f2")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ef5647-9d02-4f6d-8d2e-ce05a3d7a1ce")
+		(property "Reference" "PB404"
+			(at 38.1 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb764ef3-2495-4f3d-a723-157547297cf1")
+		)
+		(pin "1"
+			(uuid "394267b6-76cc-4a3a-950a-eebe80b4b0f7")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 316.23 46.99 0)
 		(unit 1)
@@ -11126,7 +11319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43042002-bb35-4d69-a990-e40ce204d5fc")
-		(property "Reference" "C433"
+		(property "Reference" "C401"
 			(at 313.9059 45.7841 0)
 			(effects
 				(font
@@ -11180,7 +11373,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C433")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -11301,7 +11494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "474f8058-3560-47a4-a048-ff0be8a9a8cb")
-		(property "Reference" "#PWR0440"
+		(property "Reference" "#PWR0421"
 			(at 204.47 195.58 0)
 			(effects
 				(font
@@ -11352,7 +11545,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0440")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -11454,7 +11647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4856f2ec-6163-4feb-b962-6fb4654d3595")
-		(property "Reference" "#PWR0436"
+		(property "Reference" "#PWR0419"
 			(at 193.04 195.58 0)
 			(effects
 				(font
@@ -11505,7 +11698,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0436")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -11521,7 +11714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4905bd7a-eb54-4cb5-acc2-67085e6e96cf")
-		(property "Reference" "#PWR0412"
+		(property "Reference" "#PWR0449"
 			(at 92.71 264.16 0)
 			(effects
 				(font
@@ -11572,7 +11765,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0412")
+					(reference "#PWR0449")
 					(unit 1)
 				)
 			)
@@ -11666,6 +11859,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0a6041-9844-4d13-8e30-743812bd0be6")
+		(property "Reference" "PB408"
+			(at 38.1 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccfe4ec6-56da-4e4f-9c24-34f89eb74558")
+		)
+		(pin "1"
+			(uuid "09a41e1f-903b-4beb-be3d-9c48e34f0c07")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 321.31 49.53 0)
 		(unit 1)
@@ -11675,7 +11938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bc75160-4748-4651-a23f-28fa94e42469")
-		(property "Reference" "#PWR0458"
+		(property "Reference" "#PWR0403"
 			(at 321.31 55.88 0)
 			(effects
 				(font
@@ -11726,7 +11989,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0458")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -11743,7 +12006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be8e6d7-d788-4310-8cd8-ac97db8651ab")
-		(property "Reference" "#PWR0442"
+		(property "Reference" "#PWR0422"
 			(at 209.55 195.58 0)
 			(effects
 				(font
@@ -11794,7 +12057,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0442")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -11809,7 +12072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4de558ac-682e-4bc8-8fa4-dab6c215cc38")
-		(property "Reference" "C434"
+		(property "Reference" "C403"
 			(at 313.9059 106.7441 0)
 			(effects
 				(font
@@ -11863,7 +12126,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C434")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -11879,7 +12142,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "51e2e25a-cdf5-4277-8aa9-e9bfd678b2f9")
-		(property "Reference" "C402"
+		(property "Reference" "C422"
 			(at 68.7959 236.2841 0)
 			(effects
 				(font
@@ -11933,7 +12196,77 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C402")
+					(reference "C422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52edbc1a-a88a-4c09-9ed1-1468cc48f2d9")
+		(property "Reference" "PB407"
+			(at 38.1 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9a504a4-b029-4e75-a78e-08550e94b804")
+		)
+		(pin "1"
+			(uuid "4eb5e4f5-4ca3-44bd-a0fb-08ca13cb7920")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB407")
 					(unit 1)
 				)
 			)
@@ -12036,7 +12369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d3fa2d-9c2b-4fc1-9a79-2b0cd212d26c")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0408"
 			(at 27.94 194.31 0)
 			(effects
 				(font
@@ -12093,7 +12426,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0401")
+					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -12108,7 +12441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56de21f8-667a-4a71-bf04-0195cbb77bad")
-		(property "Reference" "D402"
+		(property "Reference" "D401"
 			(at 42.926 193.04 0)
 			(effects
 				(font
@@ -12178,7 +12511,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D402")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -12270,7 +12603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574c7b29-a2b5-4406-b86c-6b9e9d870882")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR0431"
 			(at 86.36 246.38 0)
 			(effects
 				(font
@@ -12321,7 +12654,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0411")
+					(reference "#PWR0431")
 					(unit 1)
 				)
 			)
@@ -12337,7 +12670,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "579c6831-f04b-4931-b775-5b7221d0d852")
-		(property "Reference" "C430"
+		(property "Reference" "C434"
 			(at 251.6759 236.2841 0)
 			(effects
 				(font
@@ -12391,7 +12724,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C430")
+					(reference "C434")
 					(unit 1)
 				)
 			)
@@ -12485,6 +12818,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57dbd11c-535b-4e9e-a907-0f6c256fbd5a")
+		(property "Reference" "PB405"
+			(at 38.1 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19b77a95-c014-49b9-a07c-0a10ec2eab48")
+		)
+		(pin "1"
+			(uuid "cdd6a912-65ca-43f9-9220-eaf5ebeb0811")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 193.04 186.69 0)
 		(unit 1)
@@ -12493,7 +12896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5914af43-ce24-4517-bb37-35b30cfcd474")
-		(property "Reference" "C420"
+		(property "Reference" "C415"
 			(at 193.04 193.802 0)
 			(effects
 				(font
@@ -12545,7 +12948,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C420")
+					(reference "C415")
 					(unit 1)
 				)
 			)
@@ -12562,7 +12965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc02067-2b47-4dfb-b61f-57a7acfa8d2d")
-		(property "Reference" "#PWR0445"
+		(property "Reference" "#PWR0424"
 			(at 219.71 195.58 0)
 			(effects
 				(font
@@ -12613,7 +13016,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0445")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -12630,7 +13033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebbf576-301b-434b-8359-28a846cfb6c8")
-		(property "Reference" "#PWR0455"
+		(property "Reference" "#PWR0445"
 			(at 293.37 256.54 0)
 			(effects
 				(font
@@ -12681,7 +13084,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0455")
+					(reference "#PWR0445")
 					(unit 1)
 				)
 			)
@@ -12784,7 +13187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60561e26-a395-4fa4-87fa-644d78ccf54d")
-		(property "Reference" "#PWR0456"
+		(property "Reference" "#PWR0402"
 			(at 316.23 55.88 0)
 			(effects
 				(font
@@ -12835,7 +13238,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0456")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -12851,7 +13254,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "610024f7-2ff4-4d7a-b676-54168298579e")
-		(property "Reference" "C409"
+		(property "Reference" "C427"
 			(at 144.9959 236.2841 0)
 			(effects
 				(font
@@ -12905,77 +13308,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6395692f-6fe0-458b-aa9e-3eb614bf4454")
-		(property "Reference" "PB413"
-			(at 38.1 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e90e94a-8023-4caf-94af-500223452649")
-		)
-		(pin "1"
-			(uuid "2a790272-99ee-4885-856f-0e334bcf4ff9")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB413")
+					(reference "C427")
 					(unit 1)
 				)
 			)
@@ -12991,7 +13324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fecf48-456a-4798-9580-6667fc6aa916")
-		(property "Reference" "#PWR0454"
+		(property "Reference" "#PWR0444"
 			(at 284.48 246.38 0)
 			(effects
 				(font
@@ -13042,7 +13375,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0454")
+					(reference "#PWR0444")
 					(unit 1)
 				)
 			)
@@ -13059,7 +13392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a7fea6-1a75-44fe-81c5-56991151d14b")
-		(property "Reference" "#PWR0443"
+		(property "Reference" "#PWR0423"
 			(at 214.63 195.58 0)
 			(effects
 				(font
@@ -13110,83 +13443,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0443")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68d76eaa-53ef-426b-8771-25ef61f6464e")
-		(property "Reference" "PB410"
-			(at 38.1 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7ed")
-		)
-		(pin "1"
-			(uuid "3e1885be-062a-4a77-ad54-924ccfc6d40e")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB10")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB410")
+					(reference "#PWR0423")
 					(unit 1)
 				)
 			)
@@ -13201,7 +13458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69efd446-88d7-49fe-addd-776553b31b8f")
-		(property "Reference" "C410"
+		(property "Reference" "C407"
 			(at 149.86 193.802 0)
 			(effects
 				(font
@@ -13253,7 +13510,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C410")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -13268,7 +13525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a25d1b4-6699-4d22-a55d-d62fc815666c")
-		(property "Reference" "C427"
+		(property "Reference" "C420"
 			(at 219.71 193.802 0)
 			(effects
 				(font
@@ -13320,7 +13577,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C427")
+					(reference "C420")
 					(unit 1)
 				)
 			)
@@ -13497,7 +13754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d40c9f5-2fa7-4f04-bd93-60689de3031d")
-		(property "Reference" "#PWR0409"
+		(property "Reference" "#PWR0448"
 			(at 77.47 264.16 0)
 			(effects
 				(font
@@ -13548,7 +13805,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0409")
+					(reference "#PWR0448")
 					(unit 1)
 				)
 			)
@@ -13564,7 +13821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ed584a9-eb90-4a3f-8a11-ea5375cb9fc4")
-		(property "Reference" "#PWR0446"
+		(property "Reference" "#PWR0440"
 			(at 223.52 246.38 0)
 			(effects
 				(font
@@ -13615,7 +13872,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0446")
+					(reference "#PWR0440")
 					(unit 1)
 				)
 			)
@@ -13630,7 +13887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7230f443-8787-4bf0-9f8a-c3758648fb7a")
-		(property "Reference" "C436"
+		(property "Reference" "C404"
 			(at 323.6341 106.7441 0)
 			(effects
 				(font
@@ -13684,7 +13941,77 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C436")
+					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "746fb9a8-fe82-4948-b314-390368984e68")
+		(property "Reference" "PB413"
+			(at 38.1 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78f0f715-b708-4912-80c0-e2edf5e2eb03")
+		)
+		(pin "1"
+			(uuid "8bd380ca-9faf-4b7e-a671-c6afc2a5b69d")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB413")
 					(unit 1)
 				)
 			)
@@ -13700,7 +14027,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "75321ca5-09cc-4034-9fa8-d6d21b1b8b17")
-		(property "Reference" "C406"
+		(property "Reference" "C426"
 			(at 129.7559 236.2841 0)
 			(effects
 				(font
@@ -13754,82 +14081,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78f07707-e0f1-4207-a39e-d32eaf039268")
-		(property "Reference" "PB406"
-			(at 38.1 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 35.814 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7ee")
-		)
-		(pin "1"
-			(uuid "c2d30d96-b240-476e-8ced-58a90cb0c957")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB6")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB406")
+					(reference "C426")
 					(unit 1)
 				)
 			)
@@ -13846,7 +14098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7a2907-8c12-40cc-9c4b-55d20d241f1b")
-		(property "Reference" "#PWR0422"
+		(property "Reference" "#PWR0411"
 			(at 149.86 195.58 0)
 			(effects
 				(font
@@ -13897,7 +14149,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0422")
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -13913,7 +14165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da9b9d0-587b-49cb-8d75-d8b8fe7a6b71")
-		(property "Reference" "#PWR0421"
+		(property "Reference" "#PWR0435"
 			(at 147.32 246.38 0)
 			(effects
 				(font
@@ -13964,76 +14216,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0421")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dfbba68-313a-424a-b03f-5290165dec34")
-		(property "Reference" "PB415"
-			(at 38.1 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 35.814 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e197f977-7f3b-4823-ab4d-810542c1c969")
-		)
-		(pin "1"
-			(uuid "7bb6fafb-c792-410a-afb2-f652ddf7d8d3")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB415")
+					(reference "#PWR0435")
 					(unit 1)
 				)
 			)
@@ -14049,7 +14232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e6bb980-60c9-470a-886d-832a45c8a2d5")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0425"
 			(at 50.8 200.66 0)
 			(effects
 				(font
@@ -14106,7 +14289,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0403")
+					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -14121,7 +14304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b96a99-605f-40ef-86fa-bec38739de24")
-		(property "Reference" "D401"
+		(property "Reference" "D405"
 			(at 46.482 244.094 0)
 			(effects
 				(font
@@ -14182,7 +14365,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D401")
+					(reference "D405")
 					(unit 1)
 				)
 			)
@@ -14198,7 +14381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81833e45-afd3-45f7-a77a-b51e692339ed")
-		(property "Reference" "#PWR0415"
+		(property "Reference" "#PWR0433"
 			(at 116.84 246.38 0)
 			(effects
 				(font
@@ -14249,7 +14432,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0415")
+					(reference "#PWR0433")
 					(unit 1)
 				)
 			)
@@ -14265,7 +14448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820dc549-1cf2-4451-b478-f4b9bbc032f6")
-		(property "Reference" "#PWR0416"
+		(property "Reference" "#PWR0451"
 			(at 123.19 264.16 0)
 			(effects
 				(font
@@ -14316,7 +14499,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0416")
+					(reference "#PWR0451")
 					(unit 1)
 				)
 			)
@@ -14332,7 +14515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85aef74e-03d3-4dd0-93da-8842453d206c")
-		(property "Reference" "#PWR0439"
+		(property "Reference" "#PWR0456"
 			(at 199.39 264.16 0)
 			(effects
 				(font
@@ -14383,7 +14566,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0439")
+					(reference "#PWR0456")
 					(unit 1)
 				)
 			)
@@ -14506,7 +14689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878cd954-6d8a-4f62-96fc-6476112a37c1")
-		(property "Reference" "#PWR0435"
+		(property "Reference" "#PWR0418"
 			(at 187.96 195.58 0)
 			(effects
 				(font
@@ -14557,7 +14740,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0435")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -14573,7 +14756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88411358-5467-4dd8-8426-c4f22209bc10")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0447"
 			(at 62.23 264.16 0)
 			(effects
 				(font
@@ -14624,7 +14807,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0406")
+					(reference "#PWR0447")
 					(unit 1)
 				)
 			)
@@ -14724,7 +14907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8967f03d-a644-47f6-8643-4949a18147d0")
-		(property "Reference" "D403"
+		(property "Reference" "D402"
 			(at 54.102 193.04 0)
 			(effects
 				(font
@@ -14794,7 +14977,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D403")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -14811,7 +14994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af4ba06-dd16-4c17-b1fc-067b1ce1a826")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR0410"
 			(at 144.78 195.58 0)
 			(effects
 				(font
@@ -14862,7 +15045,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0420")
+					(reference "#PWR0410")
 					(unit 1)
 				)
 			)
@@ -14878,7 +15061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5abf27-892c-4222-a250-4add1f553a9f")
-		(property "Reference" "#PWR0448"
+		(property "Reference" "#PWR0441"
 			(at 238.76 246.38 0)
 			(effects
 				(font
@@ -14929,7 +15112,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0448")
+					(reference "#PWR0441")
 					(unit 1)
 				)
 			)
@@ -14945,7 +15128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f4ab9be-84bc-4876-a69a-9a6d48ace07b")
-		(property "Reference" "#PWR0434"
+		(property "Reference" "#PWR0455"
 			(at 184.15 264.16 0)
 			(effects
 				(font
@@ -14996,7 +15179,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0434")
+					(reference "#PWR0455")
 					(unit 1)
 				)
 			)
@@ -15011,7 +15194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f6621b7-2a62-43ff-bc47-9231ae0406f7")
-		(property "Reference" "C419"
+		(property "Reference" "C414"
 			(at 187.96 193.802 0)
 			(effects
 				(font
@@ -15063,83 +15246,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C419")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f6a15a5-b7f9-418d-9200-0c1b6b03c369")
-		(property "Reference" "PB408"
-			(at 38.1 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7ef")
-		)
-		(pin "1"
-			(uuid "00dadf5d-ded5-49d2-ac92-c8e35e5dfef2")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB8")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB408")
+					(reference "C414")
 					(unit 1)
 				)
 			)
@@ -15155,7 +15262,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "8f89b912-b7f5-4dba-8250-f6c587c8b47b")
-		(property "Reference" "C404"
+		(property "Reference" "C424"
 			(at 99.2759 236.2841 0)
 			(effects
 				(font
@@ -15209,7 +15316,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C404")
+					(reference "C424")
 					(unit 1)
 				)
 			)
@@ -15407,81 +15514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9270190c-bf75-4b03-a723-a7d513e314ad")
-		(property "Reference" "PB405"
-			(at 38.1 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 35.814 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7f2")
-		)
-		(pin "1"
-			(uuid "625246d1-818f-4247-aca9-3b6cddb62b57")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB5")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 269.24 237.49 0)
 		(mirror y)
@@ -15491,7 +15523,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "92767601-c147-4325-8e00-be19ce888bde")
-		(property "Reference" "C431"
+		(property "Reference" "C435"
 			(at 266.9159 236.2841 0)
 			(effects
 				(font
@@ -15545,7 +15577,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C431")
+					(reference "C435")
 					(unit 1)
 				)
 			)
@@ -15668,7 +15700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e2aac9-cd7f-47b9-bf3f-eff3492959d9")
-		(property "Reference" "#PWR0428"
+		(property "Reference" "#PWR0414"
 			(at 166.37 195.58 0)
 			(effects
 				(font
@@ -15719,7 +15751,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0428")
+					(reference "#PWR0414")
 					(unit 1)
 				)
 			)
@@ -15735,7 +15767,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "943089ce-9c0d-4222-956a-1824fde7ba54")
-		(property "Reference" "C403"
+		(property "Reference" "C423"
 			(at 84.0359 236.2841 0)
 			(effects
 				(font
@@ -15789,7 +15821,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C403")
+					(reference "C423")
 					(unit 1)
 				)
 			)
@@ -15916,7 +15948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "951a5744-1967-438d-8762-3d3fdfb85d55")
-		(property "Reference" "D407"
+		(property "Reference" "D404"
 			(at 77.216 193.04 0)
 			(effects
 				(font
@@ -15980,7 +16012,77 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D407")
+					(reference "D404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "956e148c-8220-4bd4-993d-dfb9a42d5ec3")
+		(property "Reference" "PB412"
+			(at 38.1 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23730836-11a6-452c-902e-221675a5c8fe")
+		)
+		(pin "1"
+			(uuid "adb97916-ebb7-4387-8871-3cef38b38a52")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB412")
 					(unit 1)
 				)
 			)
@@ -16072,82 +16174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98e6f73a-8672-4149-acd2-7af44051fc96")
-		(property "Reference" "PB402"
-			(at 38.1 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7f3")
-		)
-		(pin "1"
-			(uuid "0459b03d-c9ec-4acc-a4b8-e4c694cb3287")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB2")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 289.56 250.19 90)
 		(unit 1)
@@ -16215,6 +16241,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b4b6489-8e48-4cb2-b7ab-f34fdca9446d")
+		(property "Reference" "PB406"
+			(at 38.1 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00d2aeb6-e0e6-42da-8a1f-9f669773bab8")
+		)
+		(pin "1"
+			(uuid "0cc72c1c-a37c-46d5-885f-ae5a9f502270")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 194.31 0)
 		(unit 1)
@@ -16224,7 +16320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9be4f1a6-acd6-4b7a-970f-bf7ce1af41c7")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0426"
 			(at 62.23 200.66 0)
 			(effects
 				(font
@@ -16281,229 +16377,7 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bea6143-27d2-44e4-b059-f2f75cc8925e")
-		(property "Reference" "PB409"
-			(at 38.1 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7f4")
-		)
-		(pin "1"
-			(uuid "743f4982-1e32-48a5-9526-adfb63f359a6")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB9")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9dc9fa98-139b-4d45-8408-de4752f07fa4")
-		(property "Reference" "PB404"
-			(at 38.1 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7f5")
-		)
-		(pin "1"
-			(uuid "1c037ff2-16a3-4648-9c31-be92ea3727d3")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB4")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a12999f4-da0e-4f2a-a0c0-404efb98dc61")
-		(property "Reference" "PB414"
-			(at 38.1 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 30.988 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94dbfb43-a32b-46fa-b864-9a48f10e4321")
-		)
-		(pin "1"
-			(uuid "e7a599e2-776b-488b-934f-b7b64d37ff99")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB414")
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)
@@ -16605,7 +16479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3afb529-2758-47f5-8dc2-a249ee1f01a4")
-		(property "Reference" "C416"
+		(property "Reference" "C412"
 			(at 176.53 193.802 0)
 			(effects
 				(font
@@ -16657,7 +16531,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C416")
+					(reference "C412")
 					(unit 1)
 				)
 			)
@@ -16672,7 +16546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a53d6643-9f58-42d5-b6db-687751134bfd")
-		(property "Reference" "C411"
+		(property "Reference" "C408"
 			(at 154.94 193.802 0)
 			(effects
 				(font
@@ -16724,7 +16598,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C411")
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -16998,74 +16872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adc64467-c57e-4efe-bd16-0f9ebe32c100")
-		(property "Reference" "PB416"
-			(at 38.1 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 33.02 206.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0a956f4-acb5-4774-8104-6697a5459e40")
-		)
-		(pin "1"
-			(uuid "3368f371-3318-477a-a439-e9c868870cc5")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB416")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 269.24 240.03 0)
 		(unit 1)
@@ -17075,7 +16881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae309524-9638-4941-b80c-6f67555050e9")
-		(property "Reference" "#PWR0452"
+		(property "Reference" "#PWR0443"
 			(at 269.24 246.38 0)
 			(effects
 				(font
@@ -17126,7 +16932,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0452")
+					(reference "#PWR0443")
 					(unit 1)
 				)
 			)
@@ -17142,7 +16948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed6324b-eb53-40ec-a425-1b01c4892a49")
-		(property "Reference" "#PWR0413"
+		(property "Reference" "#PWR0432"
 			(at 101.6 246.38 0)
 			(effects
 				(font
@@ -17193,7 +16999,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0413")
+					(reference "#PWR0432")
 					(unit 1)
 				)
 			)
@@ -17209,7 +17015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeff24c3-ab23-4153-93da-c2c8766c5e13")
-		(property "Reference" "#PWR0441"
+		(property "Reference" "#PWR0439"
 			(at 208.28 246.38 0)
 			(effects
 				(font
@@ -17260,7 +17066,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0441")
+					(reference "#PWR0439")
 					(unit 1)
 				)
 			)
@@ -17352,7 +17158,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b2ddcd45-0a39-478f-b74e-a13487ed40d3")
-		(property "Reference" "C429"
+		(property "Reference" "C433"
 			(at 236.4359 236.2841 0)
 			(effects
 				(font
@@ -17406,7 +17212,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C429")
+					(reference "C433")
 					(unit 1)
 				)
 			)
@@ -17422,7 +17228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3157b2d-1414-415b-8bda-07c0cccac802")
-		(property "Reference" "#PWR0429"
+		(property "Reference" "#PWR0454"
 			(at 168.91 264.16 0)
 			(effects
 				(font
@@ -17473,7 +17279,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0429")
+					(reference "#PWR0454")
 					(unit 1)
 				)
 			)
@@ -17489,7 +17295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b315b045-7153-4100-9d70-62d574ceeac5")
-		(property "Reference" "#PWR0427"
+		(property "Reference" "#PWR0436"
 			(at 162.56 246.38 0)
 			(effects
 				(font
@@ -17540,7 +17346,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0427")
+					(reference "#PWR0436")
 					(unit 1)
 				)
 			)
@@ -17556,7 +17362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41f7e4a-311e-4bee-a401-f954c8c0e91a")
-		(property "Reference" "#PWR0424"
+		(property "Reference" "#PWR0453"
 			(at 153.67 264.16 0)
 			(effects
 				(font
@@ -17607,7 +17413,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0424")
+					(reference "#PWR0453")
 					(unit 1)
 				)
 			)
@@ -17691,7 +17497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7aef1b9-e27d-4ec5-a7f9-36081886fceb")
-		(property "Reference" "#PWR0461"
+		(property "Reference" "#PWR0407"
 			(at 332.74 154.94 0)
 			(effects
 				(font
@@ -17742,7 +17548,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0461")
+					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
@@ -17845,7 +17651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c77fec-a5e3-488f-bd92-7a6461326e6b")
-		(property "Reference" "#PWR0437"
+		(property "Reference" "#PWR0438"
 			(at 193.04 246.38 0)
 			(effects
 				(font
@@ -17896,7 +17702,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0437")
+					(reference "#PWR0438")
 					(unit 1)
 				)
 			)
@@ -18073,7 +17879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baeff50b-42b5-4227-95c3-3e293da5413c")
-		(property "Reference" "#PWR0449"
+		(property "Reference" "#PWR0459"
 			(at 245.11 264.16 0)
 			(effects
 				(font
@@ -18124,7 +17930,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0449")
+					(reference "#PWR0459")
 					(unit 1)
 				)
 			)
@@ -18140,7 +17946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb582572-3b3f-4ae5-94f3-b1aaeabc6bc3")
-		(property "Reference" "#PWR0432"
+		(property "Reference" "#PWR0437"
 			(at 177.8 246.38 0)
 			(effects
 				(font
@@ -18191,7 +17997,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0432")
+					(reference "#PWR0437")
 					(unit 1)
 				)
 			)
@@ -18291,7 +18097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc7b0f64-49b1-4676-9a3f-92a1ba8c4b31")
-		(property "Reference" "C415"
+		(property "Reference" "C411"
 			(at 171.45 193.802 0)
 			(effects
 				(font
@@ -18343,7 +18149,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C415")
+					(reference "C411")
 					(unit 1)
 				)
 			)
@@ -18359,7 +18165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd092436-40c2-4eca-935b-63d3628885df")
-		(property "Reference" "#PWR0410"
+		(property "Reference" "#PWR0428"
 			(at 85.09 200.66 0)
 			(effects
 				(font
@@ -18410,7 +18216,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0410")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -18528,7 +18334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfdd887c-86af-4a35-9b50-9cbdb57f5b08")
-		(property "Reference" "C422"
+		(property "Reference" "C416"
 			(at 198.12 193.802 0)
 			(effects
 				(font
@@ -18580,7 +18386,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C422")
+					(reference "C416")
 					(unit 1)
 				)
 			)
@@ -18771,7 +18577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c573ef84-9b63-42b8-9281-193a19dc0e2c")
-		(property "Reference" "#PWR0433"
+		(property "Reference" "#PWR0417"
 			(at 182.88 195.58 0)
 			(effects
 				(font
@@ -18822,7 +18628,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0433")
+					(reference "#PWR0417")
 					(unit 1)
 				)
 			)
@@ -18837,7 +18643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c715ceef-458c-44e8-b07b-3a06146cdf30")
-		(property "Reference" "C425"
+		(property "Reference" "C418"
 			(at 209.55 193.802 0)
 			(effects
 				(font
@@ -18889,7 +18695,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C425")
+					(reference "C418")
 					(unit 1)
 				)
 			)
@@ -19096,7 +18902,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c9ca9be5-beca-4337-ac1d-077a55e34eb0")
-		(property "Reference" "C405"
+		(property "Reference" "C425"
 			(at 114.5159 236.2841 0)
 			(effects
 				(font
@@ -19150,7 +18956,77 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C405")
+					(reference "C425")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca6a2dbe-eb16-4b0d-af25-f6259ccc6967")
+		(property "Reference" "PB409"
+			(at 38.1 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0202d286-fa1c-4905-972d-8413006928a2")
+		)
+		(pin "1"
+			(uuid "7fd0a460-bc14-4609-8174-6e2d3784ca7a")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB409")
 					(unit 1)
 				)
 			)
@@ -19167,7 +19043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caa4bf5a-7263-411b-a832-ff695bce1679")
-		(property "Reference" "#PWR0426"
+		(property "Reference" "#PWR0413"
 			(at 161.29 195.58 0)
 			(effects
 				(font
@@ -19218,7 +19094,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0426")
+					(reference "#PWR0413")
 					(unit 1)
 				)
 			)
@@ -19339,7 +19215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb8adccb-842a-4216-ba45-e356591c92cb")
-		(property "Reference" "#PWR0447"
+		(property "Reference" "#PWR0458"
 			(at 229.87 264.16 0)
 			(effects
 				(font
@@ -19390,7 +19266,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0447")
+					(reference "#PWR0458")
 					(unit 1)
 				)
 			)
@@ -19406,7 +19282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8bbbde-3911-4eef-aa76-54917ac7f5f8")
-		(property "Reference" "#PWR0450"
+		(property "Reference" "#PWR0442"
 			(at 254 246.38 0)
 			(effects
 				(font
@@ -19457,7 +19333,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0450")
+					(reference "#PWR0442")
 					(unit 1)
 				)
 			)
@@ -19472,7 +19348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce5e4468-b67f-4b54-913b-f551cd5b705f")
-		(property "Reference" "D406"
+		(property "Reference" "D407"
 			(at 76.962 244.094 0)
 			(effects
 				(font
@@ -19533,7 +19409,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D406")
+					(reference "D407")
 					(unit 1)
 				)
 			)
@@ -19549,7 +19425,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d2d1d254-2979-426c-b463-fdac3fe1f5f5")
-		(property "Reference" "C401"
+		(property "Reference" "C421"
 			(at 53.5559 236.2841 0)
 			(effects
 				(font
@@ -19603,7 +19479,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C401")
+					(reference "C421")
 					(unit 1)
 				)
 			)
@@ -19618,7 +19494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d412af13-ec41-45ee-9e02-370640c07b11")
-		(property "Reference" "C407"
+		(property "Reference" "C405"
 			(at 139.7 193.802 0)
 			(effects
 				(font
@@ -19670,7 +19546,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C407")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -19866,7 +19742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fe76c4-65b8-47e2-a7f9-9a563e6b59c5")
-		(property "Reference" "D404"
+		(property "Reference" "D406"
 			(at 61.722 244.094 0)
 			(effects
 				(font
@@ -19927,7 +19803,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "D404")
+					(reference "D406")
 					(unit 1)
 				)
 			)
@@ -20021,6 +19897,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da0a592c-3ea1-4c20-8f42-c88f6084e8a5")
+		(property "Reference" "PB403"
+			(at 38.1 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b494527-2e4b-4553-9083-5fb79943f0ab")
+		)
+		(pin "1"
+			(uuid "87326166-0597-4524-9304-5d69a7f9fc58")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 240.03 0)
 		(unit 1)
@@ -20030,7 +19976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db55249c-dc9d-4ebb-a54f-de7ad9508307")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0430"
 			(at 71.12 246.38 0)
 			(effects
 				(font
@@ -20081,7 +20027,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0407")
+					(reference "#PWR0430")
 					(unit 1)
 				)
 			)
@@ -20249,81 +20195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de445307-c7a7-48e3-a8a5-a03a66e04a74")
-		(property "Reference" "PB412"
-			(at 38.1 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "KP_Switch"
-			(at 33.02 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5ad24e7-6c20-4dee-b5fc-51cecbd7c7f6")
-		)
-		(pin "1"
-			(uuid "0252759e-9742-4b71-a635-079630510919")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/a5cce8a2-fa1f-45df-8605-c295d18be7f1/292d3d4d-f17c-45e8-bc8b-f5444b88eee7"
-					(reference "PB12")
-					(unit 2)
-				)
-			)
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB412")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 223.52 237.49 0)
 		(mirror y)
@@ -20333,7 +20204,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "debe236f-4301-49a9-a5cc-45cf3ae637a0")
-		(property "Reference" "C428"
+		(property "Reference" "C432"
 			(at 221.1959 236.2841 0)
 			(effects
 				(font
@@ -20387,7 +20258,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C428")
+					(reference "C432")
 					(unit 1)
 				)
 			)
@@ -20404,7 +20275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1104351-81d4-4eeb-977b-1ecb738ed7c2")
-		(property "Reference" "#PWR0425"
+		(property "Reference" "#PWR0412"
 			(at 154.94 195.58 0)
 			(effects
 				(font
@@ -20455,7 +20326,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0425")
+					(reference "#PWR0412")
 					(unit 1)
 				)
 			)
@@ -20559,7 +20430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e38d28d0-6716-432e-9c07-eedc5efc5258")
-		(property "Reference" "#PWR0460"
+		(property "Reference" "#PWR0404"
 			(at 332.74 93.98 0)
 			(effects
 				(font
@@ -20610,7 +20481,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0460")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -20790,7 +20661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e3eded-f8c8-4fb1-b8d5-94a468afa0e8")
-		(property "Reference" "#PWR0430"
+		(property "Reference" "#PWR0415"
 			(at 171.45 195.58 0)
 			(effects
 				(font
@@ -20841,7 +20712,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0430")
+					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -20857,7 +20728,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f3068e7c-85ad-4372-974a-a3ee68ad603d")
-		(property "Reference" "C421"
+		(property "Reference" "C430"
 			(at 190.7159 236.2841 0)
 			(effects
 				(font
@@ -20911,7 +20782,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C421")
+					(reference "C430")
 					(unit 1)
 				)
 			)
@@ -20935,7 +20806,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KP_Switch"
+		(property "Value" "TS04-66-95-BK-260-SMT"
 			(at 30.988 57.15 0)
 			(effects
 				(font
@@ -20945,7 +20816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -20954,7 +20825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
 			(at 35.56 54.61 0)
 			(effects
 				(font
@@ -21109,7 +20980,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f6f7f46b-2c61-4f0a-9faa-e91e29db5503")
-		(property "Reference" "C413"
+		(property "Reference" "C428"
 			(at 160.2359 236.2841 0)
 			(effects
 				(font
@@ -21163,7 +21034,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C413")
+					(reference "C428")
 					(unit 1)
 				)
 			)
@@ -21265,7 +21136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7487f45-35e6-4c2a-aed2-9206e8748c33")
-		(property "Reference" "C423"
+		(property "Reference" "C417"
 			(at 204.47 193.802 0)
 			(effects
 				(font
@@ -21317,7 +21188,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "C423")
+					(reference "C417")
 					(unit 1)
 				)
 			)
@@ -21613,7 +21484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fab05f66-d3df-4a87-b606-981ff47a555b")
-		(property "Reference" "#PWR0438"
+		(property "Reference" "#PWR0420"
 			(at 198.12 195.58 0)
 			(effects
 				(font
@@ -21664,7 +21535,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0438")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -21680,7 +21551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc9c84f2-3a83-4e29-8fb6-a54e93e0e977")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0429"
 			(at 55.88 246.38 0)
 			(effects
 				(font
@@ -21731,7 +21602,7 @@
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0404")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -21747,7 +21618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcddd6da-b1a7-4e36-8a6e-ffa861ec4bee")
-		(property "Reference" "#PWR0423"
+		(property "Reference" "#PWR0401"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -21804,7 +21675,77 @@
 			)
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "#PWR0423")
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 35.56 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff29d22d-9638-4af0-ab7a-7833116c1284")
+		(property "Reference" "PB416"
+			(at 38.1 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7b09b67-844a-43c2-a235-d88d23eb45f0")
+		)
+		(pin "1"
+			(uuid "96c94362-a799-4b32-baa3-b48fbcaa6242")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB416")
 					(unit 1)
 				)
 			)
