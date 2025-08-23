@@ -2478,7 +2478,25 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "1"
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2486,6 +2504,26 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2512,9 +2550,27 @@
 					)
 				)
 			)
-			(symbol "R_Network04_Split_2_1"
+			(symbol "R_Network04_Split_3_1"
 				(pin passive line
 					(at 0 3.81 270)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -2531,26 +2587,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "R_Network04_Split_3_1"
+			(symbol "R_Network04_Split_4_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2572,52 +2610,14 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "6"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_4_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6537,103 +6537,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 387.35 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2801fd3d-36ca-4dd1-b10e-c8b7a24d9d19")
-		(property "Reference" "RN201"
-			(at 387.35 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 387.35 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 387.35 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 387.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 387.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd378f")
-		)
-		(pin "1"
-			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b20")
-		)
-		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a1")
-		)
-		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1576")
-		)
-		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd426")
-		)
-		(pin "6"
-			(uuid "43bcd56f-6289-412b-9e90-f44095f68be1")
-		)
-		(pin "8"
-			(uuid "e7aeebab-e2ff-426d-81ce-4fbdc5d3e020")
-		)
-		(pin "7"
-			(uuid "9477dc69-5bf4-40a8-9b2c-582aaf642126")
-		)
-		(instances
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "RN401")
-					(unit 1)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "RN201")
-					(unit 1)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "RN301")
-					(unit 1)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "RN501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 262.89 92.71 0)
 		(mirror y)
@@ -6847,103 +6750,6 @@
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "D503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 387.35 124.46 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c9c9270-3193-4b40-bdc6-7661150d79dd")
-		(property "Reference" "RN201"
-			(at 387.35 108.8503 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 387.35 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 387.35 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 387.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 387.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3790")
-		)
-		(pin "1"
-			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b21")
-		)
-		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a2")
-		)
-		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1577")
-		)
-		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd427")
-		)
-		(pin "8"
-			(uuid "ae2ff1ac-55ea-48bc-be2d-6791691f0ac6")
-		)
-		(pin "7"
-			(uuid "5fedfb0a-694c-4983-914c-830008fb2ff1")
-		)
-		(pin "6"
-			(uuid "bdefa461-e886-4ed7-ba0b-d830cb2bd924")
-		)
-		(instances
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "RN401")
-					(unit 3)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "RN201")
-					(unit 3)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "RN301")
-					(unit 3)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "RN503")
 					(unit 1)
 				)
 			)
@@ -7288,6 +7094,104 @@
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "TP510")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 387.35 124.46 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48760e54-9492-43b1-8dc7-3ca475b1cd52")
+		(property "Reference" "RN201"
+			(at 387.35 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 387.35 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 387.35 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 387.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 387.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a0")
+		)
+		(pin "1"
+			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffffb")
+		)
+		(pin "4"
+			(uuid "9e8f10c9-8bff-4f69-aa44-63cb3819cd03")
+		)
+		(pin "3"
+			(uuid "bffd6753-38f7-43a3-9c62-fde052be9b26")
+		)
+		(pin "2"
+			(uuid "0531b383-e2f7-44a8-baf8-7ca84efbe57e")
+		)
+		(pin "7"
+			(uuid "97afdc16-3f54-4c95-8156-027cfb320fcf")
+		)
+		(pin "6"
+			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f47")
+		)
+		(pin "8"
+			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc771")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "RN401")
+					(unit 2)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "RN201")
+					(unit 2)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "RN301")
+					(unit 2)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "RN501")
+					(unit 2)
 				)
 			)
 		)
@@ -8220,103 +8124,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 387.35 119.38 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ac7698e-a718-451c-bc5c-a809c1b5b5a1")
-		(property "Reference" "RN201"
-			(at 387.35 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 387.35 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 387.35 121.412 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 387.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 387.35 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3796")
-		)
-		(pin "1"
-			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b22")
-		)
-		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1a8")
-		)
-		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a157e")
-		)
-		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd42d")
-		)
-		(pin "6"
-			(uuid "6fba794c-61e7-4974-a38a-787288527ab0")
-		)
-		(pin "7"
-			(uuid "2f39d63f-de6b-4362-a533-557906d9402b")
-		)
-		(pin "8"
-			(uuid "d94ea2f9-fac0-4b3b-a824-ea31919c6b42")
-		)
-		(instances
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "RN401")
-					(unit 2)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "RN201")
-					(unit 2)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "RN301")
-					(unit 2)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "RN502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Flag")
 		(at 389.89 91.44 0)
 		(unit 1)
@@ -8715,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -9421,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 384.81 88.9 0)
 			(effects
 				(font
@@ -9557,103 +9364,6 @@
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "TP501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
-		(at 387.35 129.54 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a84baa73-11d6-4689-9be0-f00f0dce9119")
-		(property "Reference" "RN201"
-			(at 387.35 110.6283 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 387.35 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-			(at 387.35 131.572 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 387.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 387.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3798")
-		)
-		(pin "1"
-			(uuid "bb0b74c7-f703-4588-b011-bed7184b6b23")
-		)
-		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1aa")
-		)
-		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1580")
-		)
-		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd42e")
-		)
-		(pin "8"
-			(uuid "b85844c3-527e-4c2b-acc4-652857025e69")
-		)
-		(pin "6"
-			(uuid "ce268add-d643-406d-8eee-79b22bafcca7")
-		)
-		(pin "7"
-			(uuid "6bee6a67-45fd-4809-9508-feb4be24cf87")
-		)
-		(instances
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "RN401")
-					(unit 4)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "RN201")
-					(unit 4)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "RN301")
-					(unit 4)
-				)
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "RN504")
 					(unit 1)
 				)
 			)
@@ -10296,6 +10006,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 387.35 114.3 270)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf16341b-fbd4-4a86-ae42-a959417b7926")
+		(property "Reference" "RN201"
+			(at 387.35 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 387.35 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 387.35 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 387.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 387.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "47323fb5-fe88-4f3e-b7f4-f8f966bf22d3")
+		)
+		(pin "1"
+			(uuid "9d110263-b475-4e80-83cd-662a321957e8")
+		)
+		(pin "4"
+			(uuid "5c16a311-38d9-4a04-a65a-0abef30dfefd")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158d")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd43c")
+		)
+		(pin "8"
+			(uuid "36c95a78-74ad-469d-8d54-e8e4369e9500")
+		)
+		(pin "6"
+			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e7")
+		)
+		(pin "7"
+			(uuid "1edd2b25-7c78-4657-bc17-53bd306e063b")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "RN401")
+					(unit 4)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "RN201")
+					(unit 4)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "RN301")
+					(unit 4)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "RN501")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 270.51 105.41 0)
 		(unit 1)
@@ -10550,6 +10358,103 @@
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "TP506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 387.35 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cefdfb6f-b81d-4016-b96f-44b3a4c6204c")
+		(property "Reference" "RN201"
+			(at 387.35 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 387.35 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 387.35 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd3798")
+		)
+		(pin "1"
+			(uuid "c67a6ad7-c894-4184-91d8-532876abeab2")
+		)
+		(pin "4"
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1ad")
+		)
+		(pin "3"
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1585")
+		)
+		(pin "2"
+			(uuid "a61ea9c0-4a6d-4bab-bac6-1f71af25ad92")
+		)
+		(pin "6"
+			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a16")
+		)
+		(pin "8"
+			(uuid "0aaa228b-3b5b-45ba-b144-781e9c3cc93b")
+		)
+		(pin "7"
+			(uuid "b924bbbd-5729-4523-825c-04f1fb839f33")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "RN401")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "RN201")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "RN301")
+					(unit 1)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "RN501")
 					(unit 1)
 				)
 			)
@@ -10969,22 +10874,20 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ef893e-62e1-4849-b260-4625288e9a7c")
-		(property "Reference" "Ur201"
-			(at 309.0067 78.74 0)
+		(property "Reference" "U201"
+			(at 311.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "ADM202E"
-			(at 309.0067 81.28 0)
+			(at 311.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
@@ -11084,19 +10987,19 @@
 			)
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
-					(reference "Ur401")
+					(reference "U401")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
-					(reference "Ur201")
+					(reference "U201")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
-					(reference "Ur301")
+					(reference "U301")
 					(unit 1)
 				)
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
-					(reference "Ur501")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -11295,6 +11198,104 @@
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
 					(reference "#PWR0506")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(at 387.35 119.38 270)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4636efb-db9a-492f-b4b1-499a347f6b1a")
+		(property "Reference" "RN201"
+			(at 387.35 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 387.35 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+			(at 387.35 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 387.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 387.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c37a44c7-2b8b-43cd-8385-1db48cbe3100")
+		)
+		(pin "1"
+			(uuid "fba51997-5308-436d-89e5-1f356b685c4d")
+		)
+		(pin "4"
+			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072a")
+		)
+		(pin "3"
+			(uuid "3c0b3738-cde9-41d7-a9ac-0d19c6fada93")
+		)
+		(pin "2"
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd430")
+		)
+		(pin "6"
+			(uuid "c8dc0a34-4ce3-40c4-865c-b60bf43047b8")
+		)
+		(pin "8"
+			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f0")
+		)
+		(pin "7"
+			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3edf")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/426dbb2c-2fdb-420a-a902-df79d865552a"
+					(reference "RN401")
+					(unit 3)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/6ea1f90b-2d13-4d56-af49-7501515925d9"
+					(reference "RN201")
+					(unit 3)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/71417f18-7196-4e6a-b2f6-ada110dd6a7e"
+					(reference "RN301")
+					(unit 3)
+				)
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/bf36b9cb-89ed-4c42-8543-8110e5c1b419"
+					(reference "RN501")
+					(unit 3)
 				)
 			)
 		)

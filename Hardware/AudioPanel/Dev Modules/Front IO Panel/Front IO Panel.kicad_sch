@@ -4220,7 +4220,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U113"
+			(property "Reference" "U101"
 				(at 3.81 16.764 0)
 				(effects
 					(font
@@ -4307,7 +4307,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4433,7 +4433,26 @@
 							)
 						)
 					)
-					(number "20"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4451,7 +4470,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4469,7 +4488,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17034,118 +17053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library_symbols:NXB0106BQX")
-		(at 238.76 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3aaa3c5-f259-4e7a-8c50-155bd3ec3ffe")
-		(property "Reference" "U101"
-			(at 234.95 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NXB0106BQX"
-			(at 238.76 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Libraries:RGY16_2P55X2P05"
-			(at 215.9 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NXB0106.pdf"
-			(at 240.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6-Bit Dual supply translating transceiver; auto direction sensing; 3-state"
-			(at 238.76 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67ed6a05-aa5b-419d-8daf-23128c78994b")
-		)
-		(pin "10"
-			(uuid "eaa8c786-8696-4ef2-b2a0-5208facb4ff7")
-		)
-		(pin "11"
-			(uuid "5859e444-4fa8-4409-a7d3-a026f7894d1c")
-		)
-		(pin "20"
-			(uuid "ea929f0c-47dd-48ca-a60a-a98bb8bb6b45")
-		)
-		(pin "14"
-			(uuid "016171f2-096e-4d57-84b7-8ddca1e887cc")
-		)
-		(pin "5"
-			(uuid "21935bdf-d9cf-4651-ba91-30a394550466")
-		)
-		(pin "10"
-			(uuid "2b82157d-5637-4d76-8841-c41a0c5de187")
-		)
-		(pin "6"
-			(uuid "7da8f0e9-54f3-45bc-a006-2b2a62055397")
-		)
-		(pin "16"
-			(uuid "07e729d4-7ed6-4deb-a5a8-61cb06804fbc")
-		)
-		(pin "20"
-			(uuid "7a422b98-ba47-4701-98ae-2a3130841088")
-		)
-		(pin "13"
-			(uuid "c540de65-dadd-4e55-a8de-6b8c1dabccff")
-		)
-		(pin "3"
-			(uuid "b3597cad-db7b-448a-92f6-63ba978967f6")
-		)
-		(pin "7"
-			(uuid "7f7e3cd1-a62f-4223-8c8f-02eb818aabdd")
-		)
-		(pin "4"
-			(uuid "7db5c526-a7a0-4690-b2fa-ebb717c28479")
-		)
-		(pin "19"
-			(uuid "6930ac73-df1d-4393-bbc4-f330a1d60cc6")
-		)
-		(pin "12"
-			(uuid "695f6e1a-83a0-4720-8d07-7bb96e06b22e")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f"
-					(reference "U101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 271.78 80.01 0)
 		(unit 1)
@@ -18055,6 +17962,121 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library_symbols:NXB0106BQX")
+		(at 238.76 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc0c5c1c-0f2d-4b19-a766-d77b91d1086f")
+		(property "Reference" "U101"
+			(at 234.95 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NXB0106BQX"
+			(at 238.76 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Libraries:RGY16_2P55X2P05"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scas218x/scas218x.pdf"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6-Bit Dual supply translating transceiver; auto direction sensing; 3-state"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "cdeb31e8-38a3-4d22-9871-5ccf9f8451b0")
+		)
+		(pin "10"
+			(uuid "798d85df-e623-4ad4-830a-37f6ab419fd9")
+		)
+		(pin "11"
+			(uuid "5eb906db-ef3c-4f48-a597-9d957e8a784a")
+		)
+		(pin "2"
+			(uuid "f8558b39-2174-4b7d-97b4-8bae60a2690b")
+		)
+		(pin "14"
+			(uuid "a8524e2c-e3b0-43b4-895f-054feb20931f")
+		)
+		(pin "5"
+			(uuid "5d72def5-3018-4d74-8360-41430c19ca48")
+		)
+		(pin "9"
+			(uuid "2f3031fd-e8b7-42f7-bbef-510aab86a9d8")
+		)
+		(pin "6"
+			(uuid "20ccb4a6-a8b9-40ba-a996-8c36ac4048f4")
+		)
+		(pin "16"
+			(uuid "4e6ed078-201c-4fc0-89cf-2fe20f7cd3ee")
+		)
+		(pin "8"
+			(uuid "a9d75ee1-4d53-4270-a632-d3a5a7f8b631")
+		)
+		(pin "13"
+			(uuid "c3ba2f87-f424-40a3-9d54-95c073499353")
+		)
+		(pin "3"
+			(uuid "a78d4ad2-a891-412d-aff9-7dd70053ec09")
+		)
+		(pin "7"
+			(uuid "0f37e610-28d1-404f-a41c-4bdcdb93807d")
+		)
+		(pin "4"
+			(uuid "14662ff2-71ed-446d-a35b-7b70397b546a")
+		)
+		(pin "15"
+			(uuid "8d0d4176-44f9-4ad1-b9ed-400e2daef5b0")
+		)
+		(pin "12"
+			(uuid "e1e4af8e-0288-4a36-89fb-3f53bf2aa3e5")
+		)
+		(pin "1"
+			(uuid "858bf187-cc51-4252-876c-ec0093680da4")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f"
+					(reference "U101")
 					(unit 1)
 				)
 			)

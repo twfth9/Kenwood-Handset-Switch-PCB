@@ -9,7 +9,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U12"
+			(property "Reference" "U601"
 				(at 2.1433 22.86 0)
 				(effects
 					(font
@@ -19,12 +19,12 @@
 				)
 			)
 			(property "Value" "SN74LV165ARGYR"
-				(at 2.1433 20.32 0)
+				(at -1.524 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Libraries:RGY16_2P55X2P05"
@@ -238,6 +238,25 @@
 				(pin power_in line
 					(at 0 -12.7 90)
 					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -381,8 +400,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U110"
-				(at -1.27 16.51 0)
+			(property "Reference" "U604"
+				(at -2.54 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -391,12 +410,12 @@
 				)
 			)
 			(property "Value" "SN74LV595ARGYR"
-				(at -1.27 14.0857 0)
+				(at 1.016 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Libraries:RGY16_2P55X2P05"
@@ -583,6 +602,25 @@
 				(pin power_in line
 					(at 0 -17.78 90)
 					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -744,6 +782,806 @@
 				)
 			)
 			(symbol "74HC595_1_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74HC595_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U602"
+				(at -2.54 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SN74LV595ARGYR"
+				(at 1.016 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Libraries:RGY16_2P55X2P05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV595ARGYR/521526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_2_1_0"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_2_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74HC595_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U603"
+				(at -2.54 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SN74LV595ARGYR"
+				(at 1.016 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Libraries:RGY16_2P55X2P05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LV595ARGYR/521526"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_3_1_0"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_3_1_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -15.24)
@@ -1072,7 +1910,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library_MicSwitcher:R_Network04_Split"
+		(symbol "Libraries:R_Network04_Split"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1158,7 +1996,25 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "1"
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1166,6 +2022,26 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1192,9 +2068,27 @@
 					)
 				)
 			)
-			(symbol "R_Network04_Split_2_1"
+			(symbol "R_Network04_Split_3_1"
 				(pin passive line
 					(at 0 3.81 270)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -1211,26 +2105,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "R_Network04_Split_3_1"
+			(symbol "R_Network04_Split_4_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1252,52 +2128,14 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "6"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_4_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1703,6 +2541,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe77703b-b85f-40dc-9740-ff51bb687766")
+	)
+	(no_connect
+		(at 40.64 50.8)
+		(uuid "bebff143-6bcd-45ff-80bf-82f096458dfe")
 	)
 	(bus_entry
 		(at 360.68 133.35)
@@ -5070,7 +5912,7 @@
 		(uuid "fbf255dc-50a5-4944-b9a9-9f24148ee118")
 	)
 	(symbol
-		(lib_name "74HC595_1")
+		(lib_name "74HC595_3")
 		(lib_id "74xx:74HC595")
 		(at 50.8 157.48 0)
 		(unit 1)
@@ -5180,6 +6022,9 @@
 		)
 		(pin "16"
 			(uuid "b54f8701-78cc-4fdf-9cd3-e238e0eaf016")
+		)
+		(pin "17"
+			(uuid "47137573-c879-4218-8f16-95786070c6ea")
 		)
 		(instances
 			(project "DATA Switcher"
@@ -5357,7 +6202,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 90.17 121.92 0)
 		(mirror y)
 		(unit 3)
@@ -5608,7 +6453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 144.78 58.42 0)
 		(mirror y)
 		(unit 2)
@@ -5791,7 +6636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 99.06 270)
 		(mirror x)
 		(unit 3)
@@ -6012,7 +6857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 127 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6097,7 +6942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 107.95 152.4 270)
 		(mirror x)
 		(unit 3)
@@ -6184,7 +7029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 147.32 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6500,7 +7345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 92.71 176.53 0)
 		(mirror y)
 		(unit 2)
@@ -6586,7 +7431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 86.36 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -6769,7 +7614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 95.25 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7018,7 +7863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 147.32 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7238,7 +8083,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7323,7 +8168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 96.52 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7409,7 +8254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 121.92 123.19 0)
 		(mirror y)
 		(unit 3)
@@ -7786,7 +8631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 90.17 176.53 0)
 		(mirror y)
 		(unit 3)
@@ -7872,7 +8717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 124.46 123.19 0)
 		(mirror y)
 		(unit 2)
@@ -8055,7 +8900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 119.38 123.19 0)
 		(mirror y)
 		(unit 4)
@@ -8141,7 +8986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8293,7 +9138,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 127 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8489,6 +9334,9 @@
 		(pin "16"
 			(uuid "e4f5acfa-fc6a-484d-a8d2-2ed329b29455")
 		)
+		(pin "17"
+			(uuid "c9126b05-bbe7-4344-8a17-9c42636f7324")
+		)
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/40c58ec3-1e61-4d0e-9eb6-78add36d507c"
@@ -8499,7 +9347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 142.24 58.42 0)
 		(mirror y)
 		(unit 3)
@@ -8585,7 +9433,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 121.92 58.42 0)
 		(mirror y)
 		(unit 3)
@@ -8671,7 +9519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 107.95 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8756,7 +9604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 139.7 58.42 0)
 		(mirror y)
 		(unit 4)
@@ -8842,7 +9690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 107.95 154.94 270)
 		(unit 4)
 		(exclude_from_sim no)
@@ -9262,7 +10110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 87.63 176.53 0)
 		(mirror y)
 		(unit 4)
@@ -9348,7 +10196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 95.25 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9530,7 +10378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 92.71 121.92 0)
 		(mirror y)
 		(unit 2)
@@ -9616,7 +10464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 107.95 149.86 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -9799,7 +10647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 139.7 123.19 0)
 		(mirror y)
 		(unit 4)
@@ -9885,7 +10733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 142.24 123.19 0)
 		(mirror y)
 		(unit 3)
@@ -10330,7 +11178,7 @@
 		)
 	)
 	(symbol
-		(lib_name "74HC595_1")
+		(lib_name "74HC595_2")
 		(lib_id "74xx:74HC595")
 		(at 50.8 93.98 0)
 		(unit 1)
@@ -10441,6 +11289,9 @@
 		(pin "16"
 			(uuid "182445f6-fae9-4e71-8872-cc27f080d0da")
 		)
+		(pin "17"
+			(uuid "e7e9ea47-7e34-40c4-8e40-d94cf038651f")
+		)
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/40c58ec3-1e61-4d0e-9eb6-78add36d507c"
@@ -10451,7 +11302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 144.78 123.19 0)
 		(mirror y)
 		(unit 2)
@@ -10898,7 +11749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 101.6 270)
 		(unit 4)
 		(exclude_from_sim no)
@@ -11616,7 +12467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 91.44 270)
 		(unit 4)
 		(exclude_from_sim no)
@@ -11702,7 +12553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 160.02 88.9 270)
 		(mirror x)
 		(unit 3)
@@ -11789,7 +12640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 124.46 58.42 0)
 		(mirror y)
 		(unit 2)
@@ -11978,6 +12829,9 @@
 		(pin "9"
 			(uuid "956c791b-2288-4c84-85a4-77f85dac7ac5")
 		)
+		(pin "17"
+			(uuid "43ed591d-b8b8-4806-8b54-5e40e150c6a0")
+		)
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/40c58ec3-1e61-4d0e-9eb6-78add36d507c"
@@ -12085,7 +12939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 119.38 58.42 0)
 		(mirror y)
 		(unit 4)
@@ -12171,7 +13025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 87.63 121.92 0)
 		(mirror y)
 		(unit 4)

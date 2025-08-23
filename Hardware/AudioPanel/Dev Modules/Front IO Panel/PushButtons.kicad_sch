@@ -5,30 +5,29 @@
 	(uuid "2e6d438c-0d33-42a5-82d0-7c027bfd59dc")
 	(paper "B")
 	(lib_symbols
-		(symbol "AudioPanelLibrary:74HC14"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "74HC165_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 3.302 0)
+			(property "Reference" "U404"
+				(at -3.1181 21.9245 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "74HC14"
-				(at 0 -1.27 0)
+			(property "Value" "SN74LV165ARGYR"
+				(at -3.1181 19.5002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Libraries:RGY16_2P55X2P05"
 				(at 0 0 0)
 				(effects
 					(font
@@ -37,33 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-				(at 0 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Hex inverter schmitt trigger"
-				(at -0.508 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "HCMOS not inverter"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "Description" "Shift Register, 8-bit, Parallel Load"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,327 +54,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "74HC14_1_0"
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+			(property "ki_keywords" "8 bit shift register parallel load cmos"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
+					(hide yes)
 				)
+			)
+			(property "ki_fp_filters" "DIP?16* SO*16*3.9x9.9mm*P1.27mm* SSOP*16*5.3x6.2mm*P0.65mm* TSSOP*16*4.4x5mm*P0.65*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC165_1_1_0"
 				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC14_1_1"
-				(polyline
-					(pts
-						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74HC14_2_0"
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC14_2_1"
-				(polyline
-					(pts
-						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74HC14_3_0"
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC14_3_1"
-				(polyline
-					(pts
-						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74HC14_4_0"
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC14_4_1"
-				(polyline
-					(pts
-						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74HC14_5_0"
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -416,86 +91,10 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC14_5_1"
-				(polyline
-					(pts
-						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74HC14_6_0"
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -510,38 +109,28 @@
 						)
 					)
 				)
-			)
-			(symbol "74HC14_6_1"
-				(polyline
-					(pts
-						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-			)
-			(symbol "74HC14_7_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,10 +145,209 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 20.32 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -12.7 90)
-					(length 5.08)
+					(length 2.54)
+					(hide yes)
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "SH/~{LD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{Q}H"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -574,11 +362,29 @@
 						)
 					)
 				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~{CE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "74HC14_7_1"
+			(symbol "74HC165_1_1_1"
 				(rectangle
-					(start -1.524 7.62)
-					(end 1.524 -7.62)
+					(start -7.62 17.78)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1127,17 +933,17 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U601"
-				(at 2.1433 22.86 0)
+			(property "Reference" "U405"
+				(at -3.1181 21.9245 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "SN74LV165ARGYR"
-				(at -1.524 19.05 0)
+				(at -3.1181 19.5002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1356,6 +1162,25 @@
 				(pin power_in line
 					(at 0 -12.7 90)
 					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -1484,6 +1309,612 @@
 				(rectangle
 					(start -7.62 17.78)
 					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Libraries:SN74AHC14RGYR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U401"
+				(at 0 6.6845 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SN74AHC14RGYR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Libraries:RGY14_2P05X2P05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex inverter schmitt trigger"
+				(at -0.508 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "HCMOS not inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AHC14RGYR_1_0"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_1_1"
+				(polyline
+					(pts
+						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_2_0"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_2_1"
+				(polyline
+					(pts
+						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_3_0"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_3_1"
+				(polyline
+					(pts
+						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_4_0"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_4_1"
+				(polyline
+					(pts
+						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_5_0"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_5_1"
+				(polyline
+					(pts
+						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_6_0"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 3.81 0) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_6_1"
+				(polyline
+					(pts
+						(xy -2.3194 -0.7675) (xy -1.016 -0.7686) (xy -1.0159 0.7686) (xy -0.106 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.6512 -0.7626) (xy -1.6536 0.7675) (xy -0.3836 0.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AHC14RGYR_7_1"
+				(rectangle
+					(start -1.524 7.62)
+					(end 1.524 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2137,7 +2568,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
+		(symbol "SW_Push_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2148,24 +2579,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "PB401"
+				(at 2.54 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "TS04-66-95-BK-260-SMT"
+				(at -4.572 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2174,7 +2607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2201,7 +2634,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "SW_Push_1_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2277,6 +2710,45 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7141,7 +7613,7 @@
 		(uuid "cb3c5ff5-86f8-431c-b9f4-9fc586fa9d30")
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 139.7 38.1 90)
 		(unit 7)
 		(exclude_from_sim no)
@@ -7150,21 +7622,20 @@
 		(dnp no)
 		(uuid "0094f56e-cffa-466c-9cd4-d8be399362e1")
 		(property "Reference" "U401"
-			(at 142.494 30.988 90)
+			(at 133.0155 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "SN74AHC14RGYR"
-			(at 147.574 35.306 90)
+			(at 143.51 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7177,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 144.272 38.1 0)
 			(effects
 				(font
@@ -7236,6 +7707,9 @@
 		)
 		(pin "6"
 			(uuid "4f03b51b-0129-43fc-9fa8-d40967cbc8a2")
+		)
+		(pin "15"
+			(uuid "aac612f6-2267-4f50-83aa-13b4c09f6273")
 		)
 		(instances
 			(project "PilotAudioPanel"
@@ -7326,7 +7800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 128.27 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -7362,7 +7836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 132.842 0)
 			(effects
 				(font
@@ -7421,6 +7895,9 @@
 		)
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3de")
+		)
+		(pin "15"
+			(uuid "48446848-a528-4c18-9f23-0c74514515b3")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -7566,7 +8043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 120.65 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -7602,7 +8079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 125.222 0)
 			(effects
 				(font
@@ -7662,81 +8139,14 @@
 		(pin "4"
 			(uuid "9625e319-98d8-435a-8b2e-bb3e6525c3db")
 		)
+		(pin "15"
+			(uuid "4e2c72d3-dc74-4d95-a958-71c51f91dcee")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "U402")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "057566ae-316b-4795-b8cd-0d92f3984165")
-		(property "Reference" "PB402"
-			(at 38.1 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05492cc1-5a40-4da4-93cd-84e79b6a3d81")
-		)
-		(pin "1"
-			(uuid "fad21dd6-e49a-4417-bdda-1b0e8c298c8c")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB402")
-					(unit 1)
 				)
 			)
 		)
@@ -7885,7 +8295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 139.7 48.26 90)
 		(unit 7)
 		(exclude_from_sim no)
@@ -7920,7 +8330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 144.272 48.26 0)
 			(effects
 				(font
@@ -7979,6 +8389,9 @@
 		)
 		(pin "6"
 			(uuid "4f03b51b-0129-43fc-9fa8-d40967cbc8b0")
+		)
+		(pin "15"
+			(uuid "e2d35759-479c-4018-bbac-18160f312d4f")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -8052,6 +8465,83 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "#PWR0416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b5a373c-d21c-488b-8233-bdcf3375f41c")
+		(property "Reference" "PB405"
+			(at 38.1 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4375902c-b160-4e22-ad58-20799830266e")
+		)
+		(pin "1"
+			(uuid "ca6ed4bf-df18-464d-a49b-7ab975dfdca6")
+		)
+		(pin "4"
+			(uuid "5db903cd-00d7-41b3-ba3e-974bb7198aae")
+		)
+		(pin "3"
+			(uuid "78e68f50-f1f1-461b-8beb-c4f9df9610c4")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB405")
 					(unit 1)
 				)
 			)
@@ -8281,6 +8771,83 @@
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "RN408")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fcf928f-3c9f-4aa2-9f5b-e82b3470ea25")
+		(property "Reference" "PB414"
+			(at 38.1 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcded7da-5c73-4c60-9d9f-d8287b60b28a")
+		)
+		(pin "1"
+			(uuid "182e7fbe-245f-4b0f-8a47-52eedd58a8b2")
+		)
+		(pin "4"
+			(uuid "d3e4bc75-e260-4f93-af09-6506e2d755cb")
+		)
+		(pin "3"
+			(uuid "71286c47-d685-4e29-b515-a4608201b390")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB414")
+					(unit 1)
 				)
 			)
 		)
@@ -8666,7 +9233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 143.51 0)
 		(unit 6)
 		(exclude_from_sim no)
@@ -8700,7 +9267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 148.082 0)
 			(effects
 				(font
@@ -8760,6 +9327,9 @@
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3db")
 		)
+		(pin "15"
+			(uuid "cc1e5b90-8ef4-4c13-8687-f5ad2756d0b1")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
@@ -8770,7 +9340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 67.31 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -8780,7 +9350,7 @@
 		(fields_autoplaced yes)
 		(uuid "17c87eb6-9851-462d-bf1f-c8a6e66806bb")
 		(property "Reference" "U401"
-			(at 257.81 64.008 0)
+			(at 257.81 60.6255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +9359,7 @@
 			)
 		)
 		(property "Value" "SN74AHC14RGYR"
-			(at 257.81 68.58 0)
+			(at 257.81 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8806,7 +9376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 71.882 0)
 			(effects
 				(font
@@ -8866,81 +9436,14 @@
 		(pin "4"
 			(uuid "21537df1-1f58-43c2-a367-2e9d1eac13d0")
 		)
+		(pin "15"
+			(uuid "628f4c11-2572-404d-a287-28d280844f4f")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "U401")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18ef133f-80fb-4f65-af0f-7db32d5e52ab")
-		(property "Reference" "PB411"
-			(at 38.1 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a873a54-7f44-4b3e-ab84-f08f32fa576e")
-		)
-		(pin "1"
-			(uuid "090bf66a-318c-4c9f-9bb7-2a0f6ea562e7")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB411")
-					(unit 1)
 				)
 			)
 		)
@@ -9351,6 +9854,83 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2280a3f8-482b-43e1-b775-e9570db33bda")
+		(property "Reference" "PB408"
+			(at 38.1 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fdd89cf-1fef-40aa-a217-9e5e6c25aa8e")
+		)
+		(pin "1"
+			(uuid "e0c04e01-1f41-4c57-829c-10e213799325")
+		)
+		(pin "4"
+			(uuid "a1103408-78e9-495d-be78-f4cade9fa3be")
+		)
+		(pin "3"
+			(uuid "dcbc9202-dda7-44f2-bc10-0fda540a1bc0")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 321.31 46.99 0)
 		(unit 1)
@@ -9420,7 +10000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 82.55 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -9430,7 +10010,7 @@
 		(fields_autoplaced yes)
 		(uuid "27658409-2d5f-41d4-921e-061c8fbe3876")
 		(property "Reference" "U401"
-			(at 257.81 79.248 0)
+			(at 257.81 75.8655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +10019,7 @@
 			)
 		)
 		(property "Value" "SN74AHC14RGYR"
-			(at 257.81 83.82 0)
+			(at 257.81 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9456,7 +10036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 87.122 0)
 			(effects
 				(font
@@ -9515,6 +10095,9 @@
 		)
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3df")
+		)
+		(pin "15"
+			(uuid "1ce7890a-2d33-442f-8e52-45b62d03a140")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -9611,7 +10194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 135.89 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -9647,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 140.462 0)
 			(effects
 				(font
@@ -9706,6 +10289,9 @@
 		)
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3dc")
+		)
+		(pin "15"
+			(uuid "8eef35b1-8611-4a41-871c-b16bd84f89c1")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -9880,7 +10466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 74.93 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -9890,7 +10476,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dfa5a24-0afd-48d7-89f7-c89da6d5b1b8")
 		(property "Reference" "U401"
-			(at 257.81 71.628 0)
+			(at 257.81 68.2455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +10485,7 @@
 			)
 		)
 		(property "Value" "SN74AHC14RGYR"
-			(at 257.81 76.2 0)
+			(at 257.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 79.502 0)
 			(effects
 				(font
@@ -9975,6 +10561,9 @@
 		)
 		(pin "4"
 			(uuid "9625e319-98d8-435a-8b2e-bb3e6525c3dc")
+		)
+		(pin "15"
+			(uuid "dd8cdcd4-7749-421d-89f6-c4dbe9dc80af")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -10071,6 +10660,7 @@
 		)
 	)
 	(symbol
+		(lib_name "74HC165_1")
 		(lib_id "Libraries:74HC165")
 		(at 332.74 74.93 0)
 		(unit 1)
@@ -10172,6 +10762,9 @@
 		)
 		(pin "4"
 			(uuid "97665a54-9627-4822-a96b-920135b69ac2")
+		)
+		(pin "17"
+			(uuid "814c844d-12a1-4f76-a9e1-5799018d323f")
 		)
 		(instances
 			(project ""
@@ -10584,76 +11177,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c51f99b-9580-421f-9b19-8937b21f0df1")
-		(property "Reference" "PB414"
-			(at 38.1 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0426d9cc-c762-4f5f-9f3f-a0bfb399ead7")
-		)
-		(pin "1"
-			(uuid "07c62d3f-e8a8-4f63-bdf2-0f8256b30e85")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB414")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 237.49 0)
 		(mirror y)
@@ -10788,76 +11311,6 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "C436")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e0aead0-1d31-4563-ab0f-b601d7c13dfb")
-		(property "Reference" "PB410"
-			(at 38.1 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b51d1318-bf20-4e61-9c73-487a90b01fb2")
-		)
-		(pin "1"
-			(uuid "2e31c0e0-a8b1-4948-803d-4217f9154ee7")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB410")
 					(unit 1)
 				)
 			)
@@ -11065,7 +11518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 181.61 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -11101,7 +11554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 186.182 0)
 			(effects
 				(font
@@ -11161,151 +11614,14 @@
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3dd")
 		)
+		(pin "15"
+			(uuid "6c2e6d7a-23cd-4098-a2aa-7e27c6ddedab")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "U403")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40c3b181-5de4-48e1-a927-26a4c5df6218")
-		(property "Reference" "PB415"
-			(at 38.1 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0445657-4080-433f-8c86-f4772e90c7d7")
-		)
-		(pin "1"
-			(uuid "1e1d3296-6c1a-40ea-b18b-3790469a90f2")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB415")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40ef5647-9d02-4f6d-8d2e-ce05a3d7a1ce")
-		(property "Reference" "PB404"
-			(at 38.1 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb764ef3-2495-4f3d-a723-157547297cf1")
-		)
-		(pin "1"
-			(uuid "394267b6-76cc-4a3a-950a-eebe80b4b0f7")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB404")
-					(unit 1)
 				)
 			)
 		)
@@ -11380,7 +11696,84 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4343d717-3252-45a7-ad5b-e3c7e5938151")
+		(property "Reference" "PB416"
+			(at 38.1 169.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcdda749-b077-4a5d-89e1-821794ebd2d1")
+		)
+		(pin "1"
+			(uuid "18433911-325f-4b6b-b323-c691fa5a6a26")
+		)
+		(pin "4"
+			(uuid "66bd3863-0dbd-4a40-97f8-d559d79f2f4b")
+		)
+		(pin "3"
+			(uuid "d3a54a20-3843-4a31-a364-448d31bb0c2e")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 97.79 0)
 		(unit 6)
 		(exclude_from_sim no)
@@ -11389,11 +11782,12 @@
 		(dnp no)
 		(uuid "4388e2bd-9340-4a90-b5b4-890e8c5e32c1")
 		(property "Reference" "U401"
-			(at 257.81 55.626 0)
+			(at 257.81 91.1055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "SN74AHC14RGYR"
@@ -11414,7 +11808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 102.362 0)
 			(effects
 				(font
@@ -11474,11 +11868,91 @@
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3e0")
 		)
+		(pin "15"
+			(uuid "a8210d91-2a33-409f-beb5-1580d9db00c6")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "U401")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "464a9912-03d9-4d68-82f3-f912d32a6688")
+		(property "Reference" "PB403"
+			(at 38.1 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b8fa029-18c2-4b39-a5be-ba715fa1dda1")
+		)
+		(pin "1"
+			(uuid "8ab220d1-f0e3-4df2-91c7-c3aa6e67c0c2")
+		)
+		(pin "4"
+			(uuid "42e28b97-5d9e-44e5-bc73-3fbc8b27ee00")
+		)
+		(pin "3"
+			(uuid "75aafa16-af04-49ba-a631-4ca7ec0bc1f9")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB403")
+					(unit 1)
 				)
 			)
 		)
@@ -11859,76 +12333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a0a6041-9844-4d13-8e30-743812bd0be6")
-		(property "Reference" "PB408"
-			(at 38.1 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccfe4ec6-56da-4e4f-9c24-34f89eb74558")
-		)
-		(pin "1"
-			(uuid "09a41e1f-903b-4beb-be3d-9c48e34f0c07")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 321.31 49.53 0)
 		(unit 1)
@@ -12133,6 +12537,83 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "501c73d9-5206-4a8a-a454-1d1a19014e3c")
+		(property "Reference" "PB407"
+			(at 38.1 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cb5b7da-5ab7-4b76-8076-173049ba3a03")
+		)
+		(pin "1"
+			(uuid "80edf5c3-e15c-4b43-a327-5f85740cc59b")
+		)
+		(pin "4"
+			(uuid "3a56951e-bbf7-4fd5-9ff6-b4bfa8e61aeb")
+		)
+		(pin "3"
+			(uuid "3364d7ac-4e1b-4bda-ada1-65724c61bfb9")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 71.12 237.49 0)
 		(mirror y)
@@ -12197,76 +12678,6 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "C422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52edbc1a-a88a-4c09-9ed1-1468cc48f2d9")
-		(property "Reference" "PB407"
-			(at 38.1 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9a504a4-b029-4e75-a78e-08550e94b804")
-		)
-		(pin "1"
-			(uuid "4eb5e4f5-4ca3-44bd-a0fb-08ca13cb7920")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB407")
 					(unit 1)
 				)
 			)
@@ -12813,76 +13224,6 @@
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "RN403")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57dbd11c-535b-4e9e-a907-0f6c256fbd5a")
-		(property "Reference" "PB405"
-			(at 38.1 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19b77a95-c014-49b9-a07c-0a10ec2eab48")
-		)
-		(pin "1"
-			(uuid "cdd6a912-65ca-43f9-9220-eaf5ebeb0811")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB405")
-					(unit 1)
 				)
 			)
 		)
@@ -13948,76 +14289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "746fb9a8-fe82-4948-b314-390368984e68")
-		(property "Reference" "PB413"
-			(at 38.1 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78f0f715-b708-4912-80c0-e2edf5e2eb03")
-		)
-		(pin "1"
-			(uuid "8bd380ca-9faf-4b7e-a671-c6afc2a5b69d")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 132.08 237.49 0)
 		(mirror y)
@@ -14296,6 +14567,83 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "805f4364-6039-4fc0-b2c4-428661cafd89")
+		(property "Reference" "PB412"
+			(at 38.1 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98abcfd9-44c4-4d21-9679-081dfb0d9e62")
+		)
+		(pin "1"
+			(uuid "892c26e1-f917-4337-8018-0b8fe66d5c53")
+		)
+		(pin "4"
+			(uuid "df568c64-6a1c-4109-aee6-4e9693d3aa6a")
+		)
+		(pin "3"
+			(uuid "6c000dbe-f660-4b19-88a6-e18db08e16a3")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 46.99 250.19 0)
 		(unit 1)
@@ -14366,6 +14714,83 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "D405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "811a9e92-06f7-42bb-8251-9b65694b9b37")
+		(property "Reference" "PB406"
+			(at 38.1 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0aaa9db-81f2-4ac6-9514-cbb8b2272854")
+		)
+		(pin "1"
+			(uuid "04083dcf-d2f1-4f5c-b09e-ff2997052bcd")
+		)
+		(pin "4"
+			(uuid "93274c6f-7756-4b6f-a1da-c906a77db7a9")
+		)
+		(pin "3"
+			(uuid "74c7fc4b-df48-488c-a286-5958f4405e7a")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB406")
 					(unit 1)
 				)
 			)
@@ -14573,7 +14998,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 113.03 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -14609,7 +15034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 117.602 0)
 			(effects
 				(font
@@ -14668,6 +15093,9 @@
 		)
 		(pin "4"
 			(uuid "b0cf55de-f8b9-4498-bc5c-900d7002d0e3")
+		)
+		(pin "15"
+			(uuid "323b70eb-2366-4302-9e2f-eee19c310f66")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -15323,7 +15751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 90.17 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -15333,7 +15761,7 @@
 		(fields_autoplaced yes)
 		(uuid "90454007-72f8-4d37-8a26-8fe3387f66af")
 		(property "Reference" "U401"
-			(at 257.81 86.868 0)
+			(at 257.81 83.4855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15342,7 +15770,7 @@
 			)
 		)
 		(property "Value" "SN74AHC14RGYR"
-			(at 257.81 91.44 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15359,7 +15787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 94.742 0)
 			(effects
 				(font
@@ -15418,6 +15846,9 @@
 		)
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3e1")
+		)
+		(pin "15"
+			(uuid "17e05865-f55a-4eaf-a70f-b87daa99fdc5")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -15584,7 +16015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 173.99 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -15620,7 +16051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 178.562 0)
 			(effects
 				(font
@@ -15679,6 +16110,9 @@
 		)
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3e2")
+		)
+		(pin "15"
+			(uuid "7ad735dc-6d2f-41be-99da-f63d78bb8d4f")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -15930,6 +16364,9 @@
 		(pin "4"
 			(uuid "9baa0e39-6a19-4ded-834f-36c2697f4f17")
 		)
+		(pin "17"
+			(uuid "9ebb4edb-2333-458a-b3a2-ac2f9dfa1527")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
@@ -16013,76 +16450,6 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "D404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "956e148c-8220-4bd4-993d-dfb9a42d5ec3")
-		(property "Reference" "PB412"
-			(at 38.1 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23730836-11a6-452c-902e-221675a5c8fe")
-		)
-		(pin "1"
-			(uuid "adb97916-ebb7-4387-8871-3cef38b38a52")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB412")
 					(unit 1)
 				)
 			)
@@ -16235,76 +16602,6 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b4b6489-8e48-4cb2-b7ab-f34fdca9446d")
-		(property "Reference" "PB406"
-			(at 38.1 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "00d2aeb6-e0e6-42da-8a1f-9f669773bab8")
-		)
-		(pin "1"
-			(uuid "0cc72c1c-a37c-46d5-885f-ae5a9f502270")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB406")
 					(unit 1)
 				)
 			)
@@ -16605,7 +16902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 158.75 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -16641,7 +16938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 163.322 0)
 			(effects
 				(font
@@ -16700,6 +16997,9 @@
 		)
 		(pin "4"
 			(uuid "7375c642-e6fb-4167-9948-369eb71a6fee")
+		)
+		(pin "15"
+			(uuid "5ad3720e-2ec5-439c-8839-e39b16538a75")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -17414,6 +17714,83 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "#PWR0453")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b69cb391-344d-47bc-b105-eeff43c08747")
+		(property "Reference" "PB402"
+			(at 38.1 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f24f41d7-4d1e-42ae-8f72-00c99fc85d0a")
+		)
+		(pin "1"
+			(uuid "172ba896-31be-4abc-9f3f-624b67ec69fd")
+		)
+		(pin "4"
+			(uuid "3d4b24e7-fc29-4f68-bec2-47ac50dd4728")
+		)
+		(pin "3"
+			(uuid "583bac87-b3f7-4606-a02e-e109f4b4493b")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB402")
 					(unit 1)
 				)
 			)
@@ -18223,7 +18600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 189.23 0)
 		(unit 6)
 		(exclude_from_sim no)
@@ -18256,7 +18633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 193.802 0)
 			(effects
 				(font
@@ -18315,6 +18692,9 @@
 		)
 		(pin "4"
 			(uuid "b77e74d0-fac8-40ce-95c0-c6f1716ae3e3")
+		)
+		(pin "15"
+			(uuid "5a19ec76-b296-42dc-96dd-eb6094946939")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -18567,6 +18947,160 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1dac042-ec52-4b7c-a32b-bb9716903735")
+		(property "Reference" "PB413"
+			(at 38.1 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9d11ba5-5606-405e-88cb-74cbe5b787bd")
+		)
+		(pin "1"
+			(uuid "3f6b63c2-0801-4e91-b7b9-744480655c63")
+		)
+		(pin "4"
+			(uuid "fb944e76-ae2a-4fdd-86cf-f6a8f6ac4397")
+		)
+		(pin "3"
+			(uuid "84fe1341-c0d2-4fd3-b0db-d26b51b00c5e")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c271730c-bc89-4914-9b50-af5e9d302df6")
+		(property "Reference" "PB409"
+			(at 38.1 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3823130e-1bf1-4d25-90d5-7791fcbe88b8")
+		)
+		(pin "1"
+			(uuid "905bbc12-593d-4fd9-b030-6c31186c63d8")
+		)
+		(pin "4"
+			(uuid "981e8315-fb99-47f4-8023-448c3e748e92")
+		)
+		(pin "3"
+			(uuid "aa7ad180-63bc-47d8-8793-4bc0908be81f")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 189.23 0)
 		(mirror y)
@@ -18787,7 +19321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 166.37 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -18823,7 +19357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 170.942 0)
 			(effects
 				(font
@@ -18882,6 +19416,9 @@
 		)
 		(pin "4"
 			(uuid "9625e319-98d8-435a-8b2e-bb3e6525c3dd")
+		)
+		(pin "15"
+			(uuid "48713784-69c2-40b0-ac7b-cb48110bb673")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -18963,16 +19500,17 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
-		(at 35.56 120.65 0)
+		(at 35.56 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ca6a2dbe-eb16-4b0d-af25-f6259ccc6967")
-		(property "Reference" "PB409"
-			(at 38.1 115.824 0)
+		(uuid "ca532e78-3777-4ff1-8a6e-3b63d862525f")
+		(property "Reference" "PB404"
+			(at 38.1 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18981,7 +19519,7 @@
 			)
 		)
 		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 118.11 0)
+			(at 30.988 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18991,7 +19529,7 @@
 			)
 		)
 		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 115.57 0)
+			(at 35.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19000,7 +19538,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 115.57 0)
+			(at 35.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19009,7 +19547,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 120.65 0)
+			(at 35.56 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,15 +19556,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "0202d286-fa1c-4905-972d-8413006928a2")
+			(uuid "dfd3d82d-ba4d-454b-baae-69002e417b10")
 		)
 		(pin "1"
-			(uuid "7fd0a460-bc14-4609-8174-6e2d3784ca7a")
+			(uuid "94c22feb-8259-45e4-82f4-9218af2c126d")
+		)
+		(pin "4"
+			(uuid "c8d765d1-7605-470d-804d-f840e33bf7c9")
+		)
+		(pin "3"
+			(uuid "fe2c4d3f-d456-4401-8f32-1540c12a5d2f")
 		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB409")
+					(reference "PB404")
 					(unit 1)
 				)
 			)
@@ -19101,7 +19645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19136,7 +19680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 109.982 0)
 			(effects
 				(font
@@ -19195,6 +19739,9 @@
 		)
 		(pin "6"
 			(uuid "4f03b51b-0129-43fc-9fa8-d40967cbc8a4")
+		)
+		(pin "15"
+			(uuid "c01bbe51-8e69-4029-b99c-b7ba1d7b815c")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -19267,6 +19814,83 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "#PWR0458")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc83868c-2430-4bd6-af73-183b082a203f")
+		(property "Reference" "PB410"
+			(at 38.1 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9174605b-446a-431a-b045-6936ac31da65")
+		)
+		(pin "1"
+			(uuid "75750ffe-f7f4-47e7-8298-3b819aa31cd4")
+		)
+		(pin "4"
+			(uuid "26975069-b3e8-4906-9ce4-f6b4a413a114")
+		)
+		(pin "3"
+			(uuid "8ea5b97d-3080-45c8-9be1-1baffd2a570d")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB410")
 					(unit 1)
 				)
 			)
@@ -19629,7 +20253,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19664,7 +20288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 155.702 0)
 			(effects
 				(font
@@ -19723,6 +20347,9 @@
 		)
 		(pin "6"
 			(uuid "4f03b51b-0129-43fc-9fa8-d40967cbc8a5")
+		)
+		(pin "15"
+			(uuid "a7a1dc4d-457d-4c44-93d3-863800335ec7")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -19897,16 +20524,17 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
-		(at 35.56 74.93 0)
+		(at 35.56 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da0a592c-3ea1-4c20-8f42-c88f6084e8a5")
-		(property "Reference" "PB403"
-			(at 38.1 70.104 0)
+		(uuid "d9b731be-b9dd-4ff1-b4fc-743888ce2f68")
+		(property "Reference" "PB415"
+			(at 38.1 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +20543,7 @@
 			)
 		)
 		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 72.39 0)
+			(at 30.988 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19925,7 +20553,7 @@
 			)
 		)
 		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 69.85 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19934,7 +20562,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 69.85 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19943,7 +20571,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 74.93 0)
+			(at 35.56 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19952,15 +20580,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b494527-2e4b-4553-9083-5fb79943f0ab")
+			(uuid "ec3fabef-08b4-437c-94e5-f082753bb65b")
 		)
 		(pin "1"
-			(uuid "87326166-0597-4524-9304-5d69a7f9fc58")
+			(uuid "0388c010-f1fc-4413-ac4c-549e3e714e93")
+		)
+		(pin "4"
+			(uuid "f47efca6-5f9f-4958-9cfc-d401b0f41b05")
+		)
+		(pin "3"
+			(uuid "90c230f4-ad5a-4c25-a1d0-f10930e308e0")
 		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB403")
+					(reference "PB415")
 					(unit 1)
 				)
 			)
@@ -20488,6 +21122,83 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 35.56 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaff1f63-d404-4c28-a971-a3391cbb63dc")
+		(property "Reference" "PB411"
+			(at 38.1 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS04-66-95-BK-260-SMT"
+			(at 30.988 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
+			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e665de1f-e1af-4433-b3f3-4813c8427071")
+		)
+		(pin "1"
+			(uuid "dd8371f2-669a-4348-b167-f31d4a757d88")
+		)
+		(pin "4"
+			(uuid "2f85bf42-cb7f-4c72-b421-9e4b7aa79118")
+		)
+		(pin "3"
+			(uuid "fdc439ca-ba8b-4d3e-b8c0-34fee95e4cd3")
+		)
+		(instances
+			(project "Front IO Panel"
+				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
+					(reference "PB411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_MicSwitcher:R_Network04_Split")
 		(at 73.66 41.91 0)
 		(mirror y)
@@ -20789,6 +21500,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
 		(at 35.56 59.69 0)
 		(unit 1)
@@ -20849,6 +21561,12 @@
 		(pin "1"
 			(uuid "af577dc0-bcda-4ce9-b864-6b9f97e38e22")
 		)
+		(pin "4"
+			(uuid "e99ee560-e41e-4884-9156-844d410c7549")
+		)
+		(pin "3"
+			(uuid "6553e122-f64b-41fd-8d0e-b10422a78e1f")
+		)
 		(instances
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
@@ -20859,7 +21577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 139.7 41.91 90)
 		(unit 7)
 		(exclude_from_sim no)
@@ -20895,7 +21613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 144.272 41.91 0)
 			(effects
 				(font
@@ -20954,6 +21672,9 @@
 		)
 		(pin "6"
 			(uuid "4f03b51b-0129-43fc-9fa8-d40967cbc8b5")
+		)
+		(pin "15"
+			(uuid "fb0d42ed-ba62-437f-95b6-6e778e0455eb")
 		)
 		(instances
 			(project "PilotAudioPanel"
@@ -21195,7 +21916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "AudioPanelLibrary:74HC14")
+		(lib_id "Libraries:SN74AHC14RGYR")
 		(at 257.81 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21230,7 +21951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc14.pdf"
 			(at 257.81 64.262 0)
 			(effects
 				(font
@@ -21289,6 +22010,9 @@
 		)
 		(pin "6"
 			(uuid "4f03b51b-0129-43fc-9fa8-d40967cbc8a6")
+		)
+		(pin "15"
+			(uuid "dc1b1277-d86e-4449-8f67-46439161a383")
 		)
 		(instances
 			(project "Front IO Panel"
@@ -21676,76 +22400,6 @@
 			(project "Front IO Panel"
 				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
 					(reference "#PWR0401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 35.56 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff29d22d-9638-4af0-ab7a-7833116c1284")
-		(property "Reference" "PB416"
-			(at 38.1 169.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS04-66-95-BK-260-SMT"
-			(at 30.988 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Libraries:SW_TS04-66-95-BK-260-SMT"
-			(at 35.56 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts04.pdf"
-			(at 35.56 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 35.56 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c7b09b67-844a-43c2-a235-d88d23eb45f0")
-		)
-		(pin "1"
-			(uuid "96c94362-a799-4b32-baa3-b48fbcaa6242")
-		)
-		(instances
-			(project "Front IO Panel"
-				(path "/5115d310-a9f7-4cd2-bb07-2c33745c004f/3173186d-0f19-475d-a106-20b0c16c7867"
-					(reference "PB416")
 					(unit 1)
 				)
 			)
