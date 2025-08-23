@@ -151,10 +151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Crystal_GND2"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -162,7 +159,15 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
+			(property "Reference" "Y601"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12MHz"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -170,15 +175,7 @@
 					)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -196,7 +193,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Three pin crystal, GND on pin 2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -223,10 +220,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND2_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -248,6 +257,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -261,7 +282,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
+						(xy 1.27 -3.81) (xy 1.27 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -273,7 +306,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 1.905 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -284,7 +317,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND2_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -304,7 +337,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -1.27 -5.08 90)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -314,6 +347,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1873,6 +1942,12 @@
 		(uuid "e7749fc1-f5a9-4d59-8443-9b3e434d0fed")
 	)
 	(junction
+		(at 198.12 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82d9d7a-546b-411b-ab67-a29ddae71669")
+	)
+	(junction
 		(at 153.67 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2242,6 +2317,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 151.13) (xy 198.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cc33aa-826b-431c-9825-af48c4411a7d")
+	)
+	(wire
+		(pts
 			(xy 177.8 166.37) (xy 177.8 168.91)
 		)
 		(stroke
@@ -2309,6 +2394,16 @@
 			(type default)
 		)
 		(uuid "0d651cb7-8d5b-4d01-a863-7fca59ab080c")
+	)
+	(wire
+		(pts
+			(xy 199.39 149.86) (xy 199.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d657586-282b-4988-8051-2a625c73929d")
 	)
 	(wire
 		(pts
@@ -2559,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "3d0e14f1-fd75-4afb-8c7b-4284e6cf309f")
+	)
+	(wire
+		(pts
+			(xy 196.85 151.13) (xy 196.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40484c10-1a8d-4006-8985-5fd2b3b4fd8d")
 	)
 	(wire
 		(pts
@@ -3359,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "c4820ac9-02f9-4d3b-a8ee-474a25eae399")
+	)
+	(wire
+		(pts
+			(xy 198.12 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7264775-76d4-4bdb-8f75-659f41f175b1")
 	)
 	(wire
 		(pts
@@ -7013,80 +7128,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 198.12 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8666220a-9c27-4075-bb12-5d2b3a9c2179")
-		(property "Reference" "Y701"
-			(at 198.12 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ABS07"
-			(at 198.12 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering"
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 198.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95f4a55f-a180-49bd-95c8-78795d06da5f")
-		)
-		(pin "1"
-			(uuid "2d58726e-69b9-47eb-9fcd-e2f1d4176929")
-		)
-		(instances
-			(project "PilotAudioPanel"
-				(path "/2de36a1b-eee5-458c-8325-256a7162eff5/851f2487-a12d-4cfb-ad5a-aea342ff1ae9"
-					(reference "Y8")
-					(unit 1)
-				)
-			)
-			(project "COM Switcher"
-				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/840400fb-ee96-49c2-8837-fecbae702e50"
-					(reference "Y701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 203.2 181.61 180)
 		(unit 1)
@@ -7716,6 +7757,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND2")
+		(at 198.12 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e64e01f-2101-488e-8ded-17b7bd239fe1")
+		(property "Reference" "Y701"
+			(at 198.12 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 198.12 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libraries:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Three pin crystal, GND on pin 2"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81e9c4c1-266f-4c2c-86f6-afa8095ec387")
+		)
+		(pin "1"
+			(uuid "73ee7133-8322-42f0-ad10-fb1e683d137f")
+		)
+		(pin "3"
+			(uuid "5dcc86a3-7e8a-432a-8f88-bc8aeda88f2a")
+		)
+		(pin "4"
+			(uuid "0b389d3e-bb31-464a-a27f-bc9698261f18")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/840400fb-ee96-49c2-8837-fecbae702e50"
+					(reference "Y701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 318.77 97.79 0)
 		(unit 1)
@@ -7859,6 +7973,74 @@
 			(project "COM Switcher"
 				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/840400fb-ee96-49c2-8837-fecbae702e50"
 					(reference "R722")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 151.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a677100a-9cbd-4d0b-b028-e22fd145f5b6")
+		(property "Reference" "#PWR0728"
+			(at 198.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 155.2631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f61829b7-c64f-4618-a7f4-1be04b274b59")
+		)
+		(instances
+			(project "COM Switcher"
+				(path "/76d2219a-6930-41ef-bb65-53af581de7c6/840400fb-ee96-49c2-8837-fecbae702e50"
+					(reference "#PWR0728")
 					(unit 1)
 				)
 			)
