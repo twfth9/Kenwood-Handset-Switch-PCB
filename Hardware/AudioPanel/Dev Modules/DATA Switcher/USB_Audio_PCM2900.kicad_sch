@@ -1470,10 +1470,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Crystal_GND2"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1481,7 +1478,15 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
+			(property "Reference" "Y601"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12MHz"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -1489,15 +1494,7 @@
 					)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1515,7 +1512,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Three pin crystal, GND on pin 2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1542,10 +1539,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND2_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -1567,6 +1576,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1580,7 +1601,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
+						(xy 1.27 -3.81) (xy 1.27 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1592,7 +1625,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 1.905 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1603,7 +1636,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND2_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1623,7 +1656,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -1.27 -5.08 90)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -1633,6 +1666,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3387,6 +3456,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e85151a1-f9ed-49a6-8962-75caeecbd3fd")
+	)
+	(junction
+		(at 392.43 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9836902-1e87-4c05-a1f0-8ed6e6d99224")
 	)
 	(junction
 		(at 86.36 34.29)
@@ -5478,6 +5553,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 189.23) (xy 391.16 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35a8b4b-8b67-419c-8baf-3b6d879d296c")
+	)
+	(wire
+		(pts
 			(xy 166.37 34.29) (xy 167.64 34.29)
 		)
 		(stroke
@@ -5545,6 +5630,16 @@
 			(type default)
 		)
 		(uuid "b9d669cf-be05-4d46-a3a7-ba5be953420b")
+	)
+	(wire
+		(pts
+			(xy 391.16 189.23) (xy 391.16 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6c484d-204b-4cab-82c0-736ebbfc0784")
 	)
 	(wire
 		(pts
@@ -5735,6 +5830,16 @@
 			(type default)
 		)
 		(uuid "cd530bb9-e184-4131-84fa-8efe1ded9040")
+	)
+	(wire
+		(pts
+			(xy 393.7 189.23) (xy 392.43 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2e1667-fdc4-479a-be0d-f3b1f335fd7d")
 	)
 	(wire
 		(pts
@@ -6891,7 +6996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "094c7f5c-35f3-4a0b-81a6-82a986faa101")
-		(property "Reference" "#PWR0749"
+		(property "Reference" "#PWR0750"
 			(at 140.97 254 0)
 			(effects
 				(font
@@ -6942,11 +7047,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0749")
+					(reference "#PWR0750")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0849")
+					(reference "#PWR0850")
 					(unit 1)
 				)
 			)
@@ -7033,7 +7138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d7c2156-4748-4734-9114-42d9bd0d92f4")
-		(property "Reference" "#PWR0742"
+		(property "Reference" "#PWR0743"
 			(at 250.19 207.01 0)
 			(effects
 				(font
@@ -7084,11 +7189,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0742")
+					(reference "#PWR0743")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0842")
+					(reference "#PWR0843")
 					(unit 1)
 				)
 			)
@@ -7393,7 +7498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15e602c8-5342-4e9e-9cc4-96d20d0a0f07")
-		(property "Reference" "#PWR0746"
+		(property "Reference" "#PWR0747"
 			(at 99.06 254 0)
 			(effects
 				(font
@@ -7444,11 +7549,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0746")
+					(reference "#PWR0747")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0846")
+					(reference "#PWR0847")
 					(unit 1)
 				)
 			)
@@ -7536,7 +7641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a25416e-68ba-412e-b5d7-0f06cdb99c33")
-		(property "Reference" "#PWR0756"
+		(property "Reference" "#PWR0757"
 			(at 81.28 260.35 0)
 			(effects
 				(font
@@ -7587,11 +7692,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0756")
+					(reference "#PWR0757")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0856")
+					(reference "#PWR0857")
 					(unit 1)
 				)
 			)
@@ -8950,7 +9055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a2f3a49-dcb4-443d-afaa-cf714e326016")
-		(property "Reference" "#PWR0737"
+		(property "Reference" "#PWR0738"
 			(at 300.99 205.74 0)
 			(effects
 				(font
@@ -9001,11 +9106,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0737")
+					(reference "#PWR0738")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0837")
+					(reference "#PWR0838")
 					(unit 1)
 				)
 			)
@@ -9642,7 +9747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "407864c0-e047-46eb-8357-02c6e8ec7307")
-		(property "Reference" "#PWR0755"
+		(property "Reference" "#PWR0756"
 			(at 63.5 260.35 0)
 			(effects
 				(font
@@ -9693,11 +9798,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0755")
+					(reference "#PWR0756")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0855")
+					(reference "#PWR0856")
 					(unit 1)
 				)
 			)
@@ -9855,7 +9960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d9b044-65cc-49f5-bd6a-447149906f20")
-		(property "Reference" "#PWR0750"
+		(property "Reference" "#PWR0751"
 			(at 153.67 254 0)
 			(effects
 				(font
@@ -9906,11 +10011,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0750")
+					(reference "#PWR0751")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0850")
+					(reference "#PWR0851")
 					(unit 1)
 				)
 			)
@@ -10101,7 +10206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437d273b-d83a-4010-8693-d56cb4b9d08f")
-		(property "Reference" "#PWR0747"
+		(property "Reference" "#PWR0748"
 			(at 113.03 254 0)
 			(effects
 				(font
@@ -10152,11 +10257,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0747")
+					(reference "#PWR0748")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0847")
+					(reference "#PWR0848")
 					(unit 1)
 				)
 			)
@@ -10607,7 +10712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a34cb04-bdc7-4bf5-8a5f-05fd52e8a837")
-		(property "Reference" "#PWR0738"
+		(property "Reference" "#PWR0739"
 			(at 313.69 205.74 0)
 			(effects
 				(font
@@ -10658,11 +10763,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0738")
+					(reference "#PWR0739")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0838")
+					(reference "#PWR0839")
 					(unit 1)
 				)
 			)
@@ -10987,7 +11092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "521993c1-faf8-43f7-a278-47b1699f0828")
-		(property "Reference" "#PWR0754"
+		(property "Reference" "#PWR0755"
 			(at 45.72 260.35 0)
 			(effects
 				(font
@@ -11038,11 +11143,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0754")
+					(reference "#PWR0755")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0854")
+					(reference "#PWR0855")
 					(unit 1)
 				)
 			)
@@ -11683,7 +11788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f94b008-02f4-4f32-8e83-291d59c35ba9")
-		(property "Reference" "#PWR0740"
+		(property "Reference" "#PWR0741"
 			(at 339.09 205.74 0)
 			(effects
 				(font
@@ -11734,11 +11839,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0740")
+					(reference "#PWR0741")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0840")
+					(reference "#PWR0841")
 					(unit 1)
 				)
 			)
@@ -11885,6 +11990,78 @@
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
 					(reference "C809")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 392.43 189.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672c606f-ddc6-4ecc-b9bf-7326d74e8392")
+		(property "Reference" "#PWR0734"
+			(at 392.43 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.43 193.3631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 392.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 392.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e89504d-2b66-482d-add6-32cec47abd64")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
+					(reference "#PWR0734")
+					(unit 1)
+				)
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
+					(reference "#PWR0834")
 					(unit 1)
 				)
 			)
@@ -12336,7 +12513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf1efe7-1b71-4520-8b7a-7cf23be0d1ae")
-		(property "Reference" "#PWR0752"
+		(property "Reference" "#PWR0753"
 			(at 179.016 254 0)
 			(effects
 				(font
@@ -12387,11 +12564,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0752")
+					(reference "#PWR0753")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0852")
+					(reference "#PWR0853")
 					(unit 1)
 				)
 			)
@@ -12552,7 +12729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "718da1ce-5080-44a8-ad50-528e9edea780")
-		(property "Reference" "#PWR0744"
+		(property "Reference" "#PWR0745"
 			(at 105.41 227.33 0)
 			(effects
 				(font
@@ -12603,11 +12780,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0744")
+					(reference "#PWR0745")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0844")
+					(reference "#PWR0845")
 					(unit 1)
 				)
 			)
@@ -12696,7 +12873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74c434f5-df6b-43fe-be50-c133d8066c5a")
-		(property "Reference" "#PWR0748"
+		(property "Reference" "#PWR0749"
 			(at 127 254 0)
 			(effects
 				(font
@@ -12747,11 +12924,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0748")
+					(reference "#PWR0749")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0848")
+					(reference "#PWR0849")
 					(unit 1)
 				)
 			)
@@ -13020,7 +13197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a83a37c-15ba-495e-949a-890910803517")
-		(property "Reference" "#PWR0739"
+		(property "Reference" "#PWR0740"
 			(at 326.39 205.74 0)
 			(effects
 				(font
@@ -13071,11 +13248,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0739")
+					(reference "#PWR0740")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0839")
+					(reference "#PWR0840")
 					(unit 1)
 				)
 			)
@@ -13404,7 +13581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "830483d9-be10-4413-bf86-e1e85a8b8ac5")
-		(property "Reference" "#PWR0751"
+		(property "Reference" "#PWR0752"
 			(at 166.316 254 0)
 			(effects
 				(font
@@ -13455,11 +13632,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0751")
+					(reference "#PWR0752")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0851")
+					(reference "#PWR0852")
 					(unit 1)
 				)
 			)
@@ -13707,77 +13884,6 @@
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
 					(reference "C848")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 392.43 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8666220a-9c27-4075-bb12-5d2b3a9c2179")
-		(property "Reference" "Y701"
-			(at 392.43 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 392.43 186.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering"
-			(at 392.43 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
-			(at 392.43 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 392.43 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5db611a5-4241-4b03-a317-0cc33033be5e")
-		)
-		(pin "1"
-			(uuid "b8343c4b-fb8f-4e16-9c28-fd2e4d0de3b1")
-		)
-		(instances
-			(project "DATA Switcher"
-				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "Y701")
-					(unit 1)
-				)
-				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "Y801")
 					(unit 1)
 				)
 			)
@@ -14553,7 +14659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b6ff71c-df55-44d1-97e3-6b8dbb1178c6")
-		(property "Reference" "#PWR0743"
+		(property "Reference" "#PWR0744"
 			(at 256.54 207.01 0)
 			(effects
 				(font
@@ -14604,11 +14710,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0743")
+					(reference "#PWR0744")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0843")
+					(reference "#PWR0844")
 					(unit 1)
 				)
 			)
@@ -14680,6 +14786,83 @@
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
 					(reference "#PWR0825")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND2")
+		(at 392.43 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e64e01f-2101-488e-8ded-17b7bd239fe1")
+		(property "Reference" "Y701"
+			(at 392.43 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 392.43 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Libraries:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Three pin crystal, GND on pin 2"
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81e9c4c1-266f-4c2c-86f6-afa8095ec387")
+		)
+		(pin "1"
+			(uuid "73ee7133-8322-42f0-ad10-fb1e683d137f")
+		)
+		(pin "3"
+			(uuid "5dcc86a3-7e8a-432a-8f88-bc8aeda88f2a")
+		)
+		(pin "4"
+			(uuid "0b389d3e-bb31-464a-a27f-bc9698261f18")
+		)
+		(instances
+			(project "DATA Switcher"
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
+					(reference "Y701")
+					(unit 1)
+				)
+				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
+					(reference "Y801")
 					(unit 1)
 				)
 			)
@@ -15414,7 +15597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af6634b3-fd7c-4006-b8ca-f68c987bc2b3")
-		(property "Reference" "#PWR0745"
+		(property "Reference" "#PWR0746"
 			(at 118.11 227.33 0)
 			(effects
 				(font
@@ -15465,11 +15648,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0745")
+					(reference "#PWR0746")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0845")
+					(reference "#PWR0846")
 					(unit 1)
 				)
 			)
@@ -16292,7 +16475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c9c5f2-744e-44a4-9815-6fc059e16f27")
-		(property "Reference" "#PWR0753"
+		(property "Reference" "#PWR0754"
 			(at 27.94 260.35 0)
 			(effects
 				(font
@@ -16343,11 +16526,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0753")
+					(reference "#PWR0754")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0853")
+					(reference "#PWR0854")
 					(unit 1)
 				)
 			)
@@ -17490,7 +17673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddf0922b-d140-4307-9d6a-97567faffcd5")
-		(property "Reference" "#PWR0741"
+		(property "Reference" "#PWR0742"
 			(at 351.79 205.74 0)
 			(effects
 				(font
@@ -17541,11 +17724,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0741")
+					(reference "#PWR0742")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0841")
+					(reference "#PWR0842")
 					(unit 1)
 				)
 			)
@@ -17641,7 +17824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfd0bb8b-fc81-4a23-91b2-6d07b3d16d09")
-		(property "Reference" "#PWR0734"
+		(property "Reference" "#PWR0735"
 			(at 397.51 195.58 0)
 			(effects
 				(font
@@ -17692,11 +17875,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0734")
+					(reference "#PWR0735")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0834")
+					(reference "#PWR0835")
 					(unit 1)
 				)
 			)
@@ -18020,7 +18203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46732d2-3b41-4584-9177-64626d5cb97e")
-		(property "Reference" "#PWR0736"
+		(property "Reference" "#PWR0737"
 			(at 288.29 205.74 0)
 			(effects
 				(font
@@ -18071,11 +18254,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0736")
+					(reference "#PWR0737")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0836")
+					(reference "#PWR0837")
 					(unit 1)
 				)
 			)
@@ -18524,7 +18707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec7a70b4-18bd-4833-9005-4147f8f56c27")
-		(property "Reference" "#PWR0735"
+		(property "Reference" "#PWR0736"
 			(at 275.59 205.74 0)
 			(effects
 				(font
@@ -18575,11 +18758,11 @@
 		(instances
 			(project "DATA Switcher"
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/bfe5bb95-71a2-4940-af37-3a6cd65cb3a2"
-					(reference "#PWR0735")
+					(reference "#PWR0736")
 					(unit 1)
 				)
 				(path "/f4364825-c4d0-42ed-9bb3-69baf38bc2d0/c4b5b968-16ad-4445-912c-5300cddcdf60"
-					(reference "#PWR0835")
+					(reference "#PWR0836")
 					(unit 1)
 				)
 			)
