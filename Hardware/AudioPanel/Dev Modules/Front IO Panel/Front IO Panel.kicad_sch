@@ -2674,7 +2674,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library_MicSwitcher:R_Network04_Split"
+		(symbol "Libraries:R_Network04_Split"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2760,7 +2760,25 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "1"
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2768,6 +2786,26 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2794,9 +2832,27 @@
 					)
 				)
 			)
-			(symbol "R_Network04_Split_2_1"
+			(symbol "R_Network04_Split_3_1"
 				(pin passive line
 					(at 0 3.81 270)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -2813,26 +2869,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "R_Network04_Split_3_1"
+			(symbol "R_Network04_Split_4_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2854,52 +2892,14 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "6"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_4_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9033,7 +9033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Libraries:Worthington_LED_0603"
 			(at 40.64 167.64 0)
 			(effects
 				(font
@@ -9242,7 +9242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 264.16 107.95 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -9266,7 +9266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 262.128 107.95 90)
 			(effects
 				(font
@@ -9625,7 +9625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:Worthington_R_0603"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 40.64 176.53 0)
 			(effects
 				(font
@@ -9720,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 269.24 158.75 0)
 			(effects
 				(font
@@ -10408,7 +10408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 210.82 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10432,7 +10432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 208.788 168.91 90)
 			(effects
 				(font
@@ -10604,7 +10604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 260.35 232.41 0)
 			(effects
 				(font
@@ -10682,7 +10682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Libraries:Worthington_LED_0603"
 			(at 40.64 111.76 0)
 			(effects
 				(font
@@ -11574,7 +11574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 210.82 107.95 0)
 		(mirror y)
 		(unit 1)
@@ -11599,7 +11599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 212.852 107.95 90)
 			(effects
 				(font
@@ -12506,7 +12506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 218.44 107.95 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12530,7 +12530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 216.408 107.95 90)
 			(effects
 				(font
@@ -12862,7 +12862,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 256.54 107.95 0)
 		(mirror y)
 		(unit 3)
@@ -12887,7 +12887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 258.572 107.95 90)
 			(effects
 				(font
@@ -13892,7 +13892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:Worthington_R_0603"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 40.64 74.93 0)
 			(effects
 				(font
@@ -14056,7 +14056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:Worthington_R_0603"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 289.56 247.65 0)
 			(effects
 				(font
@@ -14881,7 +14881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 208.28 168.91 0)
 		(mirror y)
 		(unit 2)
@@ -14906,7 +14906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 210.312 168.91 90)
 			(effects
 				(font
@@ -15127,7 +15127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 275.59 166.37 0)
 			(effects
 				(font
@@ -15604,7 +15604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:Worthington_R_0603"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 40.64 120.65 0)
 			(effects
 				(font
@@ -15835,7 +15835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:Worthington_R_0603"
+		(property "Footprint" "Libraries:Worthington_R_0402"
 			(at 133.35 242.57 0)
 			(effects
 				(font
@@ -16693,7 +16693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 205.74 168.91 0)
 		(mirror y)
 		(unit 3)
@@ -16718,7 +16718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 207.772 168.91 90)
 			(effects
 				(font
@@ -17219,7 +17219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 203.2 168.91 0)
 		(mirror y)
 		(unit 4)
@@ -17244,7 +17244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 205.232 168.91 90)
 			(effects
 				(font
@@ -17696,7 +17696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Libraries:Worthington_LED_0603"
 			(at 40.64 66.04 0)
 			(effects
 				(font

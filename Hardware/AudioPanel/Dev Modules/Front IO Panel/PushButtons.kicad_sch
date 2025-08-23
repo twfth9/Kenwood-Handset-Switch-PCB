@@ -1320,6 +1320,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Libraries:R_Network04_Split"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Libraries:SN74AHC14RGYR"
 			(pin_names
 				(offset 1.016)
@@ -1921,242 +2157,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Library_MicSwitcher:R_Network04_Split"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "47k"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, star topology, bussed resistors, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network star-topology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R?Array?SIP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Network04_Split_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_2_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_3_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Network04_Split_4_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -8691,7 +8691,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 158.75 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -8715,7 +8715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 160.782 90)
 			(effects
 				(font
@@ -8920,7 +8920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 97.79 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -8944,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 99.822 90)
 			(effects
 				(font
@@ -10109,7 +10109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 135.89 90)
 		(unit 3)
 		(exclude_from_sim no)
@@ -10133,7 +10133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 137.922 90)
 			(effects
 				(font
@@ -10379,7 +10379,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 68.58 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -10405,7 +10405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 70.612 41.91 90)
 			(effects
 				(font
@@ -10575,7 +10575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 82.55 90)
 		(unit 4)
 		(exclude_from_sim no)
@@ -10599,7 +10599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 84.582 90)
 			(effects
 				(font
@@ -10776,7 +10776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 60.96 41.91 0)
 		(mirror y)
 		(unit 3)
@@ -10802,7 +10802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 62.992 41.91 90)
 			(effects
 				(font
@@ -11007,7 +11007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 128.27 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -11031,7 +11031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 130.302 90)
 			(effects
 				(font
@@ -11092,7 +11092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11116,7 +11116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 61.722 90)
 			(effects
 				(font
@@ -12026,7 +12026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 166.37 90)
 		(unit 3)
 		(exclude_from_sim no)
@@ -12050,7 +12050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 168.402 90)
 			(effects
 				(font
@@ -12246,7 +12246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 83.82 41.91 0)
 		(mirror y)
 		(unit 2)
@@ -12272,7 +12272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 85.852 41.91 90)
 			(effects
 				(font
@@ -12684,7 +12684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 63.5 41.91 0)
 		(mirror y)
 		(unit 4)
@@ -12710,7 +12710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 65.532 41.91 90)
 			(effects
 				(font
@@ -13142,7 +13142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 86.36 41.91 0)
 		(mirror y)
 		(unit 3)
@@ -13168,7 +13168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 88.392 41.91 90)
 			(effects
 				(font
@@ -13432,7 +13432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 76.2 41.91 0)
 		(mirror y)
 		(unit 4)
@@ -13458,7 +13458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 78.232 41.91 90)
 			(effects
 				(font
@@ -13925,7 +13925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 74.93 90)
 		(unit 3)
 		(exclude_from_sim no)
@@ -13949,7 +13949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 76.962 90)
 			(effects
 				(font
@@ -15242,7 +15242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 113.03 90)
 		(unit 4)
 		(exclude_from_sim no)
@@ -15266,7 +15266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 115.062 90)
 			(effects
 				(font
@@ -15860,7 +15860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 67.31 90)
 		(unit 2)
 		(exclude_from_sim no)
@@ -15884,7 +15884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 69.342 90)
 			(effects
 				(font
@@ -16456,7 +16456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 143.51 90)
 		(unit 4)
 		(exclude_from_sim no)
@@ -16480,7 +16480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 145.542 90)
 			(effects
 				(font
@@ -16681,7 +16681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 88.9 41.91 0)
 		(mirror y)
 		(unit 4)
@@ -16707,7 +16707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 90.932 41.91 90)
 			(effects
 				(font
@@ -17011,7 +17011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17035,7 +17035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 153.162 90)
 			(effects
 				(font
@@ -17932,7 +17932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 101.6 41.91 0)
 		(mirror y)
 		(unit 4)
@@ -17958,7 +17958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 103.632 41.91 90)
 			(effects
 				(font
@@ -18086,7 +18086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 173.99 90)
 		(unit 4)
 		(exclude_from_sim no)
@@ -18110,7 +18110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 176.022 90)
 			(effects
 				(font
@@ -18381,7 +18381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18405,7 +18405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 122.682 90)
 			(effects
 				(font
@@ -18773,7 +18773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 71.12 41.91 0)
 		(mirror y)
 		(unit 2)
@@ -18799,7 +18799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 73.152 41.91 90)
 			(effects
 				(font
@@ -18860,7 +18860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 55.88 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -18886,7 +18886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 57.912 41.91 90)
 			(effects
 				(font
@@ -19236,7 +19236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19260,7 +19260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 92.202 90)
 			(effects
 				(font
@@ -20437,7 +20437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 93.98 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -20463,7 +20463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 96.012 41.91 90)
 			(effects
 				(font
@@ -20744,7 +20744,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 113.03 105.41 90)
 		(unit 3)
 		(exclude_from_sim no)
@@ -20768,7 +20768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 113.03 107.442 90)
 			(effects
 				(font
@@ -20967,7 +20967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 58.42 41.91 0)
 		(mirror y)
 		(unit 2)
@@ -20993,7 +20993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 60.452 41.91 90)
 			(effects
 				(font
@@ -21199,7 +21199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 73.66 41.91 0)
 		(mirror y)
 		(unit 3)
@@ -21225,7 +21225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 75.692 41.91 90)
 			(effects
 				(font
@@ -21762,7 +21762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 96.52 41.91 0)
 		(mirror y)
 		(unit 2)
@@ -21788,7 +21788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 98.552 41.91 90)
 			(effects
 				(font
@@ -22024,7 +22024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 99.06 41.91 0)
 		(mirror y)
 		(unit 3)
@@ -22050,7 +22050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 101.092 41.91 90)
 			(effects
 				(font
@@ -22111,7 +22111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_MicSwitcher:R_Network04_Split")
+		(lib_id "Libraries:R_Network04_Split")
 		(at 81.28 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -22137,7 +22137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x1206"
+		(property "Footprint" "Libraries:RES_ARRAY_4RES_0804"
 			(at 83.312 41.91 90)
 			(effects
 				(font

@@ -2831,15 +2831,15 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "RN301"
-			(at -10.16 0 90)
+		(property "Reference" "RN"
+			(at 2.032 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 0 0 90)
 			(effects
 				(font
@@ -2909,7 +2909,25 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
-				(name "1"
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2917,6 +2935,26 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Network04_Split_2_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2943,9 +2981,27 @@
 				)
 			)
 		)
-		(symbol "R_Network04_Split_2_1"
+		(symbol "R_Network04_Split_3_1"
 			(pin passive line
 				(at 0 3.81 270)
+				(length 1.27)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
 				(length 1.27)
 				(name "3"
 					(effects
@@ -2962,26 +3018,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(symbol "R_Network04_Split_3_1"
+		(symbol "R_Network04_Split_4_1"
 			(pin passive line
 				(at 0 3.81 270)
 				(length 1.27)
@@ -3003,52 +3041,14 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 1.27)
-				(name "6"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R_Network04_Split_4_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
